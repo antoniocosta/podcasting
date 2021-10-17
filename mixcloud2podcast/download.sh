@@ -46,9 +46,6 @@ echo "starting..."
 # count the number of files in archive dir
 archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
 
-echo $archive_file_count
-echo $MIXCLOUD_URL
-
 # Download and upload each file
 #youtube-dl \
 youtube-dl --simulate \
@@ -60,7 +57,7 @@ $MIXCLOUD_URL
 
 # --exec "./upload.sh $1 {}" \
 
-# Generate rss (expensive) but only if there are new files
+# Generate rss (expensive) but only if there are new files. Also pushes to git.
 if [ "$archive_file_count" != $(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g') ] ; then
 	echo "Nmber of files in archive dir changed. Regenerating RSS..."
 	./rss.sh "$1"
