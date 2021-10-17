@@ -33,9 +33,6 @@ requirements
 
 source $1 # Include the config file passed as argument
 
-echo "exiting"
-exit
-
 # Don't edit below this line unless you know what you are doing.
 # ------------------------------------------------------------------------
 
@@ -44,18 +41,24 @@ exit
 #   2. upload each file to the Internet Archive
 #   3. generate rss 
 
+echo "starting..."
+
 # count the number of files in archive dir
 archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
 
+echo $archive_file_count
+echo $MIXCLOUD_URL
+
 # Download and upload each file
-#youtube-dl --simulate \
-youtube-dl \
+#youtube-dl \
+youtube-dl --simulate \
 --audio-format best \
 --download-archive $ARCHIVE_FILE \
 -o $ARCHIVE_DIR/'%(id)s.%(ext)s' --write-info-json \
 --add-metadata \
---exec "./upload.sh $1 {}" \
 $MIXCLOUD_URL
+
+# --exec "./upload.sh $1 {}" \
 
 # Generate rss (expensive) but only if there are new files
 if [ "$archive_file_count" != $(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g') ] ; then
