@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Just A Blip</title>
+    <link rel="alternate" type="application/rss+xml" title="Just A Blip" href="http://feeds.feedburner.com/just-a-blip" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+    <script>
+      jQuery(function($) {
+        $("#rss-feeds").rss("http://feeds.feedburner.com/just-a-blip",
+        {
+          // how many entries do you want?
+          // default: 4
+          // valid values: any integer
+          limit: 1000,          
+          // will request the API via https
+          // default: false
+          // valid values: false, true
+          ssl: true,
+          // option to seldomly render ads
+          // ads help covering the costs for the feedrapp server hosting and future improvements
+          // default: true
+          // valid values: false, true
+          support: false,
+          // outer template for the html transformation
+          // default: "<ul>{entries}</ul>"
+          // valid values: any string
+          layoutTemplate: "<ul>{entries}</ul>",
+
+          // inner template for each entry
+          // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
+          // valid values: any string
+          entryTemplate: '<li><a href="{url}">{title}</a></li>',
+        })
+      })
+    </script>
+    <style>
+      html,body{
+        font-family: sans-serif;;
+        background-color:black;
+        color:#ccc;
+        margin:1.5em;
+      }
+      h1,h2,h3,h4 {
+        font-weight: normal;
+      }
+      a { 
+        color: #fff;
+        text-decoration: none;
+      }
+      ul{
+        padding-left: 0em 
+      }
+      li{
+        margin:1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Just A Blip</h2>
+    <h4><a href="http://feeds.feedburner.com/just-a-blip">Feedburner</a> &middot; <a href="https://www.mixcloud.com/DublinDigitalRadio/playlists/just-a-blip/">Mixcloud</a> &middot; <a href="https://listen.dublindigitalradio.com/resident/just-a-blip">DDR</a> &middot; <a href="https://archive.org/details/@abmc?&and[]=subject%3A%22justablip%22">Internet Archive</a> &middot; <a href="https://podcasts.apple.com/us/podcast/just-a-blip/id1565531309">Apple Podcasts</a>
+
+    </h4>
+    <p><img src="justablip.jpg" width="300px"></p>
+    <div id="rss-feeds"></div>
+  </body>
+</html>

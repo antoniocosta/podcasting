@@ -1,0 +1,14 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+# spotdl
+.spotdl-cache
+# mac
+.DS_Store
+# media
+*.m4a
+*.mp3
+*.mp4
+*.mpg
