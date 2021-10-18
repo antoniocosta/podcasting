@@ -67,6 +67,9 @@ fi
 
 # Notes:
 
+# To only list formats:
+# --list-formats 
+
 # Removed because this would force expensive rss regeneration for every download 
 # --exec "./upload.sh $1 {} && ./rss.sh $1" \
 
