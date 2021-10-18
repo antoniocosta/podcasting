@@ -127,7 +127,11 @@ for json in "${arr_json[@]}"; do
         # add data to json (so we dont need the m4a anymore)
         if [ "$(jq --raw-output '.length' $json)" = null ]; then # if var is empty
                 echo 'Adding length to $json'
-                length=$(stat -f%z $m4a) # get m4a file size in bytes
+                if [ "$(uname)" == "Darwin" ]; then # Mac OS X platform
+                        length=$(stat -f%z $m4a) # get m4a file size in bytes
+                elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # GNU/Linux platform
+                        length=$(stat -c%s $m4a) # get m4a file size in bytes
+                fi
                 cat $json | jq --arg length $length '. + {length: $length}' > $json.tmp # Add file size to a json.tmp file
                 mv $json.tmp $json # overwite original json with new json.tmp file
         fi
