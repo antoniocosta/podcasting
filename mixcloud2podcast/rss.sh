@@ -35,7 +35,7 @@ source $1 # Include the config file passed as argument
 # ------------------------------------------------------------------------
 
 # The copyright: © 2021 FirstName LastName
-COPYRIGHT="&#xA9; $(date +"%Y") $AUTHOR"
+RSS_COPYRIGHT="&#xA9; $(date +"%Y") $RSS_AUTHOR"
 
 RSS_DATE=$(date -R) # now
 
@@ -44,31 +44,31 @@ echo """<?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom='http://www.w3.org/2005/Atom' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:googleplay='http://www.google.com/schemas/play-podcasts/1.0' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd' version='2.0'>
 """ > ./feedtop
 echo """<channel>
-        <atom:link href='$RSS_LINK' rel='self' type='application/rss+xml' />
-        <title>$TITLE</title>
-        <link>$LINK</link>
-        <description>$DESCRIPTION</description>
+        <atom:link href='$RSS_LINK_SELF' rel='self' type='application/rss+xml' />
+        <title>$RSS_TITLE</title>
+        <link>$RSS_LINK</link>
+        <description>$RSS_DESCRIPTION</description>
         <lastBuildDate>$RSS_DATE</lastBuildDate>
-        <language>$LANGUAGE</language>
-        <copyright>$COPYRIGHT</copyright>
+        <language>$RSS_LANGUAGE</language>
+        <copyright>$RSS_COPYRIGHT</copyright>
         <ttl>60</ttl>
         <image>
-                <link>$LINK</link>
-                <url>$IMAGE</url>
-                <title>$TITLE</title>
+                <link>$RSS_LINK</link>
+                <url>$RSS_IMAGE</url>
+                <title>$RSS_TITLE</title>
         </image>
-        <itunes:image href='$IMAGE' />
-        <itunes:subtitle>$SUBTITLE</itunes:subtitle>
-        <itunes:summary>$DESCRIPTION</itunes:summary>        
-        <itunes:category text='$CATEGORY' />
-        <itunes:keywords>$KEYWORDS</itunes:keywords>
-        <itunes:author>$AUTHOR</itunes:author>
+        <itunes:image href='$RSS_IMAGE' />
+        <itunes:subtitle>$RSS_SUBTITLE</itunes:subtitle>
+        <itunes:summary>$RSS_DESCRIPTION</itunes:summary>        
+        <itunes:category text='$RSS_CATEGORY' />
+        <itunes:keywords>$RSS_KEYWORDS</itunes:keywords>
+        <itunes:author>$RSS_AUTHOR</itunes:author>
         <itunes:owner>
-                <itunes:name>$AUTHOR</itunes:name>
-                <itunes:email>$EMAIL</itunes:email>
+                <itunes:name>$RSS_AUTHOR</itunes:name>
+                <itunes:email>$RSS_EMAIL</itunes:email>
         </itunes:owner>
-        <itunes:explicit>$EXPLICIT</itunes:explicit>
-        <itunes:type>$TYPE</itunes:type>
+        <itunes:explicit>$RSS_EXPLICIT</itunes:explicit>
+        <itunes:type>$RSS_TYPE</itunes:type>
 
 """ >> ./feedtop
 echo "Adding the header"
