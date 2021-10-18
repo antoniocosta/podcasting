@@ -24,11 +24,13 @@ Heavily adapted from https://github.com/maxhebditch/rss-roller
 Utility to batch upload multiple mixcloud .m4a files to the Internet Archive
 
 _Requirements_:  
-brew install youtube-dl (to download files from mixcloud)  
-brew install ffmpeg  
-brew install internetarchive (Internet Archive's command line interface)  
-ia configure (configure ia with your credentials)  
+
+    brew install youtube-dl (to download files from mixcloud)  
+    brew install ffmpeg  
+    brew install internetarchive (Internet Archive's command line interface)  
+    ia configure (configure ia with your credentials)  
 
 # spotify2podcast
 
 _Work in progress... come back later!_
+
