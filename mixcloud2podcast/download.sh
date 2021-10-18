@@ -8,7 +8,9 @@
 # Usage: ./download.sh [mixcloud2podcast.conf]
 # Requires:
 # brew install youtube-dl (to download files from mixcloud)
-# brew install atomicparsley (so thumbnail can be embedded into m4a file)
+# brew install ffmpeg
+# brew install internetarchive (Internet Archive's command line interface)
+# ia configure (configure ia with your credentials)
 # ------------------------------------------------------------------------
 
 function print_usage {
@@ -70,4 +72,6 @@ fi
 
 # disabled because not working on linux for some reason
 # --embed-thumbnail \ 
+# Requires:
+# brew install atomicparsley (if you want thumbnail to be embedded into m4a file)
 

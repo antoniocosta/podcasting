@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Utility to batch upload multiple mixcloud .m4a files to the internet archive
+# Utility to batch upload multiple mixcloud .m4a files to the Internet Archive
 #
 # Usage: ./upload_batch.sh [../full/path/m4adir]
 # Requires:

@@ -5,6 +5,7 @@
 # Usage: ./upload.sh [mixcloud2podcast.conf] [./full/path/file.m4a]
 # Requires:
 # brew install internetarchive (Internet Archive's command line interface)
+# ia configure (configure ia with your credentials)
 # ------------------------------------------------------------------------
 
 function print_usage {
