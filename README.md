@@ -8,10 +8,10 @@ Some of my favorite music shows, like *Just a Blip* by my mate Glenn (links: [Fe
 mixcloud2podcast is my answer to that annoyance. These (shell) scripts download all audio files for Mixcloud playlist (or user) using youtube-dl, upload the audio files to the Internet Archive and generate an RSS podcast file which gets uploaded right here. It is now free from the walled garden of Mixcloud, and is published to multiple podcast platforms allover the web.
 
 ### download.sh
-Downloads all m4a and json metadata for a mixcloud playlist or user
-1. Downloads all m4a and json metadata for a mixcloud playlist or user
-2. uploads mp4a to the internet archive 
-3. Generates podcast rss file
+1. Downloads all m4a and json metadata for a mixcloud playlist or user  
+2. Uploads mp4a to the internet archive (see upload.sh)  
+3. Generates podcast rss file and pushes to this repo (see rss.sh)  
+Requires a configuration file to be passed as argument.
 
 ### upload.sh
 Uploads a mixcloud .m4a file to the Internet Archive
