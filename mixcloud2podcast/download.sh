@@ -43,25 +43,27 @@ source $1 # Include the config file passed as argument
 
 echo "starting..."
 
-# count the number of files in archive dir
+# Count the number of files in archive dir
 archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
 
 # Download and upload each file
-#youtube-dl \
-youtube-dl --simulate \
+#youtube-dl --simulate \
+youtube-dl \
 --audio-format best \
 --download-archive $ARCHIVE_FILE \
 -o $ARCHIVE_DIR/'%(id)s.%(ext)s' --write-info-json \
 --add-metadata \
+--exec "./upload.sh $1 {}" \
 $MIXCLOUD_URL
-
-# --exec "./upload.sh $1 {}" \
 
 # Generate rss (expensive) but only if there are new files. Also pushes to git.
 if [ "$archive_file_count" != $(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g') ] ; then
 	echo "Nmber of files in archive dir changed. Regenerating RSS..."
 	./rss.sh "$1"
 fi
+
+
+# Notes:
 
 # Removed because this would force expensive rss regeneration for every download 
 # --exec "./upload.sh $1 {} && ./rss.sh $1" \
