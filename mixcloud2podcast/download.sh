@@ -35,7 +35,6 @@ requirements
 
 source $1 # Include the config file passed as argument
 
-# Don't edit below this line unless you know what you are doing.
 # ------------------------------------------------------------------------
 
 # If there are new files on mixcloud it will...
@@ -43,7 +42,7 @@ source $1 # Include the config file passed as argument
 #   2. upload each file to the Internet Archive
 #   3. generate rss 
 
-echo "starting..."
+echo "Starting..."
 
 # Count the number of files in archive dir
 archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')

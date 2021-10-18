@@ -1,36 +1,47 @@
 #!/bin/bash
 
-# Generates a podcast episode mp3 from a Spotify playlist
-# Downloads all mp3s using Spotdl, converts m3u playlist to one big mp3, adds an intro and outro and mp3 metadata too
+# Generates a podcast mp3 episode from a Spotify playlist
+#   1. Downloads all mp3s using Spotdl
+#   2. converts m3u playlist to one big mp3
+#   3. Adds an intro and outro and mp3 id3 metadata too
 #
-# Usage: 
+# Usage: ./download.sh [spotify2podcast.conf]
 # Requires: 
+# python3 -m pip install --user pipx && python3 -m pipx ensurepath
+# brew install ffmpeg
+# brew install internetarchive (Internet Archive's command line interface)
+# ia configure (configure ia with your credentials)
+#
 # TODO: 
 # - Add path to spotdl with -o option
 # - Add external config file (see https://github.com/Flowm/spotify-api-bash/blob/master/create_playlist_from_artists_list.sh)
+# ------------------------------------------------------------------------
 
-# Configure the access_token in config.cfg
-# source ./config.cfg
+function print_usage {
+    local msg="Generates a podcast mp3 episode from a Spotify playlist.
+Usage: ./download.sh [spotify2podcast.conf]
+Requires: 'pipx run spotdl' ffmpeg jq ia"
+    printf "%s\n" "$msg"
+    exit 127
+}
 
-SPOTIFY_PLAYLIST_URL='https://open.spotify.com/playlist/1THAmDIAPYkW2YurvltIDz'
+function requirements {
+    for p in 'pipx run spotdl' ffmpeg jq ia; do 
+        if [[ -z $(command -v $p) ]]; then
+            echo "$p is not installed"
+            exit 1
+        fi
+    done 
+}
 
-M3U_RENAME=false # rename playlist?
-M3U_FILE='_playlist.m3u' # m3u playlist filename to rename to
+[[ $# = 0 ]] && print_usage
+requirements
 
-MP3_FILE='allmyfavoritesongs_001_weezer.mp3' # merged podcast mp3 filename
+source $1 # Include the config file passed as argument
 
-META_TITLE='#001 - Weezer: All My Favorite Songs' # Episode id3 title
-META_ARTIST='All My Favorite Songs' # Episode id3 artist
-META_DESC='allmyfavoritesongs.com' # Episode id3 description
-META_DATE='2021' # Episode id3 date
+# ------------------------------------------------------------------------
 
-INTRO_MP3='_intro.mp3' # intro mp3 filename
-OUTRO_MP3='_outro.mp3' # outro mp3 filename
-
-TTS_GENERATE=true
-TTS_INTRO="Have you ever been curious, as to what others are listening to? <break time="0.4s"/>All My Favorite Songs is a podcast of hidden music gems dug up from unexpected places, and exclusively curated by others.<break time="1s"/>This is episode number 1.<break time="0.4s"/>8 songs, for 28 minutes and 36 seconds, of uninterrupted music, curated by the American rock band, Weezer." # ttsmp3.com intro speech
-TTS_OUTRO='Thank you for listening! Good bye for now.' # ttsmp3.com outro speech
-TTS_LANG='Brian' # US/en voices: Salli | Joey | Kimberly | Justin | Joanna | Kendra | Ivy | Matthew
+echo "Starting..."
 
 function get_tts { # generate ttsmp3.com mp3 file from text
     local opts=( 
@@ -52,8 +63,10 @@ function get_tts { # generate ttsmp3.com mp3 file from text
 
 # Download all mp3s from a Spotify playlist
 echo "Downloading all playlist's songs with spotdl"
-pipx run spotdl $SPOTIFY_PLAYLIST_URL --m3u
+pipx run spotdl $SPOTIFY_PLAYLIST_URL -o "$ARCHIVE_DIR" --m3u
 #pipx run spotdl $SPOTIFY_PLAYLIST_URL -o "mp3" --m3u
+
+cd "$ARCHIVE_DIR" # every command fromhere forward is relative to this
 
 if [ "$M3U_RENAME" = true ] ; then
     echo "Renaming playlist to $M3U_FILE"
@@ -94,10 +107,11 @@ done < "$M3U_FILE" > tmp.txt
 # Concat with ffmpeg using tmp txt file as input and then get rid of txt file
 echo "Concatenating all playlist's songs as $MP3_FILE with ffmpeg..."
 ffmpeg -hide_banner -y -f concat -safe 0 -i tmp.txt -b:a 256k -ar 48000 \
--metadata title="$META_TITLE" \
--metadata artist="$META_ARTIST" \
--metadata description="$META_DESC" \
--metadata date="$META_DATE" \
-"$MP3_FILE" && rm tmp.txt
+-metadata title="$ID3_TITLE" \
+-metadata artist="$ID3_ARTIST" \
+-metadata description="$ID3_DESC" \
+-metadata date="$ID3_DATE" \
+"$MP3_FILE" 
+# && rm tmp.txt
 
 echo 'All done.'

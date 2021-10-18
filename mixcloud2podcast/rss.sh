@@ -34,7 +34,6 @@ source $1 # Include the config file passed as argument
 
 # ------------------------------------------------------------------------
 
-
 # The copyright: © 2021 FirstName LastName
 COPYRIGHT="&#xA9; $(date +"%Y") $AUTHOR"
 
