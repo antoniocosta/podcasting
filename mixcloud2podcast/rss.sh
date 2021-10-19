@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Creates a podcast rss file from a folder of mixcloud m4a and metadata json files 
-# downloaded from mixcloud using youtube-dl. Also pushes to a git repository.
+# Creates a podcast rss file from a folder of m4a (or mp3) and metadata json files 
+# (downloaded from mixcloud using youtube-dl or generated). Also pushes to a git repository.
 #
 # Heavily adapted from https://github.com/maxhebditch/rss-roller
 #
-# Usage: ./rss.sh [mixcloud2podcast.conf]
+# Usage: ./rss.sh [mixcloud2podcast.conf or spotify2podcast.conf]
 # Requires:
 # brew install jq (command-line JSON processor)
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Creates a podcast rss file from a folder of mixcloud m4a and metadata json files 
-Usage: ./rss.sh [mixcloud2podcast.conf]
+    local msg="Creates a podcast rss file from a folder of m4a (or mp3) files and metadata json files 
+Usage: ./rss.sh [mixcloud2podcast.conf or spotify2podcast.conf]
 Requires: jq"
     printf "%s\n" "$msg"
     exit 127
@@ -121,27 +121,27 @@ for json in "${arr_json[@]}"; do
         let item_num+=1
         echo -ne "Checking item $item_num/$items_total"\\r
 
-        m4a=${json%.info.json}.m4a # full path to m4a file (from json file path)
+        audio_file=${json%.info.json}.$RSS_AUDIO_FORMAT # full path to audio file (from json file path)
 
-        # add data to json (so we dont need the m4a anymore)
+        # add data to json (so we dont need the audio file anymore)
         if [ "$(jq --raw-output '.length' $json)" = null ]; then # if var is empty
                 echo 'Adding length to $json'
                 if [ "$(uname)" == "Darwin" ]; then # Mac OS X platform
-                        length=$(stat -f%z $m4a) # get m4a file size in bytes
+                        length=$(stat -f%z $audio_file) # get audio file size in bytes
                 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # GNU/Linux platform
-                        length=$(stat -c%s $m4a) # get m4a file size in bytes
+                        length=$(stat -c%s $audio_file) # get audio file size in bytes
                 fi
                 cat $json | jq --arg length $length '. + {length: $length}' > $json.tmp # Add file size to a json.tmp file
                 mv $json.tmp $json # overwite original json with new json.tmp file
         fi
 
-        # fix timestamps: make m4a and json file have timestamp when it was published
+        # fix timestamps: make audio file and json file have timestamp when it was published
         file_timestamp=$(date -r $json "+%s") # system date of file as timestamp
         pub_timestamp=$(jq --raw-output '.timestamp' $json) # real timestamp when file was published
 
         if [ $file_timestamp != $pub_timestamp ]; then
                 echo "Fixing file creation time for $json"
-                echo "Fixing file creation time for $m4a"
+                echo "Fixing file creation time for $audio_file"
                 if [ "$(uname)" == "Darwin" ]; then # Mac OS X platform 
                         touch_time_str=$(date -j -f "%s" $pub_timestamp "+%Y%m%d%H%M.%S") # time string in format used by touch command
                 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # GNU/Linux platform
@@ -149,7 +149,7 @@ for json in "${arr_json[@]}"; do
                 fi
                 # echo "touch -t $touch_time_str [file]"
                 touch -t $touch_time_str $json
-                touch -t $touch_time_str $m4a
+                touch -t $touch_time_str $audio_file
         fi
 done
 
@@ -159,7 +159,7 @@ for json in "${arr_json[@]}"; do
         let item_num+=1
         echo -ne "Adding item $item_num/$items_total"\\r
 
-        m4a=${json%.info.json}.m4a # full path to m4a file (from json file path)
+        audio_file=${json%.info.json}.$RSS_AUDIO_FORMAT # full path to audio file (from json file path)
 
         item_id=$(jq --raw-output '.id' $json) # the item's id from json file
         item_title=$(jq --raw-output '.title' $json) # get data from json
@@ -171,10 +171,14 @@ for json in "${arr_json[@]}"; do
         fi
         item_link=$(jq --raw-output '.webpage_url' $json) # mixcloud link
         item_guid='http://archive.org/details/'$item_id 
-        item_enclosure='http://archive.org/download/'$item_id'/'$item_id'.m4a'
-        #item_enclosure_length=$(stat -f%z $m4a) # get file size in bytes
+        item_enclosure='http://archive.org/download/'$item_id'/'$item_id'.$RSS_AUDIO_FORMAT'
+        #item_enclosure_length=$(stat -f%z $audio_file) # get file size in bytes
         item_enclosure_length=$(jq --raw-output '.length' $json) # get file size in bytes (we added this data to the json above)
-        item_enclosure_type='audio/x-m4a'
+        if [ "$RSS_AUDIO_FORMAT" == "m4a" ]; then 
+                item_enclosure_type='audio/x-m4a'
+        elif [ "$RSS_AUDIO_FORMAT" == "mp3" ]; then  
+                item_enclosure_type='audio/mpeg'
+        fi
         item_description=$(jq --raw-output '.description' $json) # get data from json
         item_description=${item_description//$'\n'/ <br />} # convert newlines /n to html <br />
         item_description=$(echo $item_description | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g') # convert special characters to HTML entities

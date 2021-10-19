@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Creates a podcast rss file from a folder of m4a (or mp3) and metadata json files 
-# downloaded from mixcloud using youtube-dl. Also pushes to a git repository.
+# (downloaded from mixcloud using youtube-dl or generated). Also pushes to a git repository.
 #
 # Heavily adapted from https://github.com/maxhebditch/rss-roller
 #
