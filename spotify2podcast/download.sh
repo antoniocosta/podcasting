@@ -138,7 +138,7 @@ function merge_audio {
     --comment "$ID3_DESC" \
     --release-year "$ID3_YEAR"
 }
-### merge_audio
+merge_audio
 
 function print_json {
     local id=${EP_FILE%.mp3}
