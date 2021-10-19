@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Uploads a file to the Internet Archive
+# Uploads audio file and corresponding json to the Internet Archive
 #
-# Usage: ./upload.sh [config.conf] [./full/path/file.ext]
+# Usage: ./upload.sh [config.conf] [./full/path/audio_file.ext]
 # Requires:
 # brew install internetarchive (Internet Archive's command line interface)
 # ia configure (configure ia with your credentials)
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Uploads a file to the Internet Archive
-Usage: ./upload.sh [config.conf] [./full/path/file.ext]
+    local msg="Uploads audio file and corresponding json to the Internet Archive
+Usage: ./upload.sh [config.conf] [./full/path/audio_file.ext]
 Requires: ia"
     printf "%s\n" "$msg"
     exit 127
