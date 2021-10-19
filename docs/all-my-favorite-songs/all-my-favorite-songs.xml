@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Wed, 20 Oct 2021 00:56:18 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 20 Oct 2021 00:56:28 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 abmc</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,16 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 002 by Dinosaur Jr. - 80's Inspirations</title>
+                <link>https://allmyfavoritesongs.com/episode/002</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-002-dinosaur-jr</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs-002-dinosaur-jr.mp3" length="87193193" type="audio/mpeg" />
+                <description>Wipers / The Dream Syndicate / True West / The Jesus and Mary Chain / The Birthday Party / Throbbing Gristle / Venom / Accept / Saint Vitus / The Eastern Dark / The Neats / Green On Red / Meat Puppets</description>
+                <pubDate>Tue, 19 Oct 2021 05:10:51 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 001 by Weezer - All My Favorite Songs</title>
