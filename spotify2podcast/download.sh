@@ -144,7 +144,7 @@ print_json > $JSON_FILE
 # Cleanup
 echo "Cleaning up..."
 rm -rf '.spotdl-cache' # spot-dl auth file
-rm 'tmp.txt' # The ffmpeg temp merge file
+#rm 'tmp.txt' # The ffmpeg temp merge file
 rm '_cover.jpg' # The id3 cover image
 mv $EP_FILE '../' # Move ep mp3 file one dir up (to the main download folder)
 mv $JSON_FILE '../' # Move json file one dir up (to the main download folder)
