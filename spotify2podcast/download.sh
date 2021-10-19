@@ -96,6 +96,19 @@ grep -qxF "$INTRO_MP3" "$M3U_FILE" || (echo "$INTRO_MP3" | cat - "$M3U_FILE" > t
 # Append outro mp3 to end of m3u but only if it's not there already. Ref: https://stackoverflow.com/questions/3557037/appending-a-line-to-a-file-only-if-it-does-not-already-exist
 grep -qxF "$OUTRO_MP3" "$M3U_FILE" || echo "$OUTRO_MP3" >> "$M3U_FILE"  
 
+function normalize_all_names {
+    echo "Normalizing all names..."
+    # Replaces anything that isn't a letter, number, space, period, underscore, or dash with nothing
+    # See: https://stackoverflow.com/questions/27232839/how-to-rename-a-bunch-of-files-to-eliminate-quote-marks
+    # See: https://serverfault.com/questions/348482/how-to-remove-invalid-characters-from-filenames
+    # Rename all mp3 files
+    for f in *.mp3; do mv --force -i "$f" "${f//[^A-Za-z0-9[:space:]._-]}"; done
+    # Rename all string in m3u
+    sed -i 's/[^A-Za-z0-9[:space:]._-]//g' "$M3U_FILE"
+}
+# BUGGY... disabled
+#normalize_all_names
+
 function merge_audio {
     # Create txt file from m3u in format ffmpeg concat expects
     while read -r line; do 
