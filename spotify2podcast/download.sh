@@ -21,13 +21,13 @@
 function print_usage {
     local msg="Generates a podcast mp3 episode from a Spotify playlist.
 Usage: ./download.sh [podcast.conf] [episode.conf]
-Requires: 'pipx run spotdl' ffmpeg eyed3 jq ia"
+Requires: 'pipx run spotdl' ffmpeg eyeD3 jq ia"
     printf "%s\n" "$msg"
     exit 127
 }
 
 function requirements {
-    for p in 'pipx run spotdl' ffmpeg eyed3 jq ia; do 
+    for p in 'pipx run spotdl' ffmpeg eyeD3 jq ia; do 
         if [[ -z $(command -v $p) ]]; then
             echo "$p is not installed"
             exit 1
@@ -57,7 +57,7 @@ function get_tts { # generate ttsmp3.com mp3 file from text
     )
     local tts_url=$(curl "${opts[@]}" 'https://ttsmp3.com/makemp3_new.php' | jq -r '.URL' ) # mp3 file url
     echo "Downloading tts from $tts_url as $2 with curl" 
-    curl --silent --output "$2" $tts_url # download mp3
+    curl --silent -L --output "$2" $tts_url # download mp3
     echo "Converting $INTRO_MP3 to higher quality with ffmpeg..."
     # convert to higher frequency, bitrate and (from mono) to stereo
     ffmpeg -hide_banner -loglevel error -i "$2" -b:a 256k -ar 48000 -af "pan=stereo|c0=c0|c1=c0" tmp.mp3 && mv tmp.mp3 "$2"
@@ -104,30 +104,29 @@ while read -r line; do
     # ref: https://askubuntu.com/questions/648759/replace-with-sed-a-character-with-backslash-and-use-this-in-a-variable
     line=$(echo $line | sed 's/'\''/&\\&&/g')
     echo "file '$line'"; 
-done < "$M3U_FILE" > ./tmp.txt 
+done < "$M3U_FILE" > tmp.txt 
 
 # Merge (same codec) mp3 files using ffmpeg concat using tmp txt file as input and then get rid of txt file
 # ref: https://superuser.com/questions/314239/how-to-join-merge-many-mp3-files
 # ref: https://trac.ffmpeg.org/wiki/Concatenate#samecodec
-echo "Concatenating all playlist's songs as $MP3_EP_FILE with ffmpeg..."
+echo "Merging all playlist's songs as $MP3_EP_FILE with ffmpeg..."
 ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a 256k -ar 48000 \
-"$MP3_EP_FILE" && rm ./tmp.txt
+"$MP3_EP_FILE"
 
-#-metadata title="$ID3_TITLE" \
-#-metadata artist="$ID3_ARTIST" \
-#-metadata description="$ID3_DESC" \
-#-metadata date="$ID3_DATE" \
-
-if [[ ! -e '_cover.jpg' ]]; then # cover.jpg does not exist?
-    curl -o '_cover.jpg' $COVER_JPG_URL # download it
+# get the cover art
+if [[ ! -e '_cover.jpg' ]]; then # _cover.jpg does not exist?
+    curl --silent -L -o '_cover.jpg' $ID3_COVER # download it
 fi
 # add cover art and other id3 data
-eyed3 --add-image '_cover.jpg:FRONT_COVER' "$MP3_EP_FILE" \
+eyeD3 --add-image '_cover.jpg:FRONT_COVER' "$MP3_EP_FILE" \
 --title "$ID3_TITLE" \
 --artist "$ID3_ARTIST" \
 --comment "$ID3_DESC" \
 --release-year "$ID3_YEAR"
 
+# Cleanup
+rm tmp.txt # The ffmpeg temp merge file
+rm '_cover.jpg' # The id3 cover image
 mv $MP3_EP_FILE '../' # Move ep mp3 file one dir up (to the main download folder)
 
 echo 'All done.'
