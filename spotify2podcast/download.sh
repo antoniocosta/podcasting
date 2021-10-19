@@ -64,10 +64,10 @@ function get_tts { # generate ttsmp3.com mp3 file from text
 }
 
 cd "$ARCHIVE_DIR" # every command from here forward is relative to this
-if [ ! -d "$MP3S_SUBDIR" ]; then # create dir (to hold all downloaded mp3s) if it doesn't exist already
-  mkdir -p "$MP3S_SUBDIR"
+if [ ! -d "$EP_SUBDIR" ]; then # create dir (to hold all downloaded mp3s) if it doesn't exist already
+  mkdir -p "$EP_SUBDIR"
 fi
-cd "$MP3S_SUBDIR" # every command from here forward is relative to this
+cd "$EP_SUBDIR" # every command from here forward is relative to this
 
 # Download all mp3s from a Spotify playlist
 echo "Downloading all playlist's songs with spotdl"
@@ -96,39 +96,59 @@ grep -qxF "$INTRO_MP3" "$M3U_FILE" || (echo "$INTRO_MP3" | cat - "$M3U_FILE" > t
 # Append outro mp3 to end of m3u but only if it's not there already. Ref: https://stackoverflow.com/questions/3557037/appending-a-line-to-a-file-only-if-it-does-not-already-exist
 grep -qxF "$OUTRO_MP3" "$M3U_FILE" || echo "$OUTRO_MP3" >> "$M3U_FILE"  
 
+function merge_audio {
+    # Create txt file from m3u in format ffmpeg concat expects
+    while read -r line; do 
+        # replace single quote (ex: O'Connor with O'\''Connor) so ffmpeg doesn't fail 
+        # ref: https://ffmpeg.org/ffmpeg-formats.html#Examples
+        # ref: https://askubuntu.com/questions/648759/replace-with-sed-a-character-with-backslash-and-use-this-in-a-variable
+        line=$(echo $line | sed 's/'\''/&\\&&/g')
+        echo "file '$line'"; 
+    done < "$M3U_FILE" > tmp.txt 
 
-# Create txt file from m3u in format ffmpeg concat expects
-while read -r line; do 
-    # replace single quote (ex: O'Connor with O'\''Connor) so ffmpeg doesn't fail 
-    # ref: https://ffmpeg.org/ffmpeg-formats.html#Examples
-    # ref: https://askubuntu.com/questions/648759/replace-with-sed-a-character-with-backslash-and-use-this-in-a-variable
-    line=$(echo $line | sed 's/'\''/&\\&&/g')
-    echo "file '$line'"; 
-done < "$M3U_FILE" > tmp.txt 
+    # Merge (same codec) mp3 files using ffmpeg concat using tmp txt file as input and then get rid of txt file
+    # ref: https://superuser.com/questions/314239/how-to-join-merge-many-mp3-files
+    # ref: https://trac.ffmpeg.org/wiki/Concatenate#samecodec
+    echo "Merging all playlist's songs as $EP_FILE with ffmpeg..."
+    ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a 256k -ar 48000 \
+    "$EP_FILE"    
 
-# Merge (same codec) mp3 files using ffmpeg concat using tmp txt file as input and then get rid of txt file
-# ref: https://superuser.com/questions/314239/how-to-join-merge-many-mp3-files
-# ref: https://trac.ffmpeg.org/wiki/Concatenate#samecodec
-echo "Merging all playlist's songs as $MP3_EP_FILE with ffmpeg..."
-ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a 256k -ar 48000 \
-"$MP3_EP_FILE"
+    # get the cover art
+    if [[ ! -e '_cover.jpg' ]]; then # _cover.jpg does not exist?
+        curl --silent -L -o '_cover.jpg' $ID3_COVER # download it
+    fi
+    # add cover art and other id3 data
+    eyeD3 --add-image '_cover.jpg:FRONT_COVER' "$EP_FILE" \
+    --title "$ID3_TITLE" \
+    --artist "$ID3_ARTIST" \
+    --comment "$ID3_DESC" \
+    --release-year "$ID3_YEAR"
+}
 
-# get the cover art
-if [[ ! -e '_cover.jpg' ]]; then # _cover.jpg does not exist?
-    curl --silent -L -o '_cover.jpg' $ID3_COVER # download it
-fi
-# add cover art and other id3 data
-eyeD3 --add-image '_cover.jpg:FRONT_COVER' "$MP3_EP_FILE" \
---title "$ID3_TITLE" \
---artist "$ID3_ARTIST" \
---comment "$ID3_DESC" \
---release-year "$ID3_YEAR"
+# merge_audio
+
+function print_json {
+    echo "Generating JSON..."
+    local id=${EP_FILE%.mp3}
+    local title="$RSS_TITLE $ID3_TITLE"
+    local timestamp=$(date -r "$EP_FILE" "+%s")
+    local webpage_url=$RSS_LINK'/episode/'$EP_NUM
+    local description=''
+
+    local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url":"%s", "description":"%s"}\n'
+    printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description"
+}
+
+JSON_FILE=${EP_FILE%.mp3}.info.json # json filename from mp3 file
+print_json > $JSON_FILE
 
 # Cleanup
+echo "Cleaning up..."
 rm -rf '.spotdl-cache' # spot-dl auth file
 rm 'tmp.txt' # The ffmpeg temp merge file
 rm '_cover.jpg' # The id3 cover image
-mv $MP3_EP_FILE '../' # Move ep mp3 file one dir up (to the main download folder)
+mv $EP_FILE '../' # Move ep mp3 file one dir up (to the main download folder)
+mv $JSON_FILE '../' # Move json file one dir up (to the main download folder)
 
 echo 'All done.'
 
