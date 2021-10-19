@@ -125,8 +125,10 @@ eyeD3 --add-image '_cover.jpg:FRONT_COVER' "$MP3_EP_FILE" \
 --release-year "$ID3_YEAR"
 
 # Cleanup
-rm tmp.txt # The ffmpeg temp merge file
+rm -rf '.spotdl-cache' # spot-dl auth file
+rm 'tmp.txt' # The ffmpeg temp merge file
 rm '_cover.jpg' # The id3 cover image
 mv $MP3_EP_FILE '../' # Move ep mp3 file one dir up (to the main download folder)
 
 echo 'All done.'
+
