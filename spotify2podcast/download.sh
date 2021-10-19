@@ -14,6 +14,7 @@
 # ia configure (configure ia with your credentials)
 #
 # TODO: 
+# - 
 # - Upload to IA. Should be done manually as separate action so we can check and listen to the the mp3 before doing it.
 # - Don't generate rss right after download. Because it pushes to git it should be done only after upload to IA.
 # ------------------------------------------------------------------------
@@ -137,15 +138,15 @@ function merge_audio {
     --comment "$ID3_DESC" \
     --release-year "$ID3_YEAR"
 }
-merge_audio
+### merge_audio
 
 function print_json {
     local id=${EP_FILE%.mp3}
     local title="$RSS_TITLE $ID3_TITLE"
     local timestamp=$(date -r "$EP_FILE" "+%s")
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
-    local description=''
-
+     # convert band names from m3u to / delimited single line. ignore intro and outro.
+    local description=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
     local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url": "%s", "description": "%s"}\n'
     printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description"
 }
