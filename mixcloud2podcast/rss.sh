@@ -5,14 +5,14 @@
 #
 # Heavily adapted from https://github.com/maxhebditch/rss-roller
 #
-# Usage: ./rss.sh [mixcloud2podcast.conf or spotify2podcast.conf]
+# Usage: ./rss.sh [config.conf]]
 # Requires:
 # brew install jq (command-line JSON processor)
 # ------------------------------------------------------------------------
 
 function print_usage {
     local msg="Creates a podcast rss file from a folder of m4a (or mp3) files and metadata json files 
-Usage: ./rss.sh [mixcloud2podcast.conf or spotify2podcast.conf]
+Usage: ./rss.sh [config.conf]]
 Requires: jq"
     printf "%s\n" "$msg"
     exit 127

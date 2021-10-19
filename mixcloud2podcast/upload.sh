@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Uploads a mixcloud .m4a file to the Internet Archive
+# Uploads a file to the Internet Archive
 #
-# Usage: ./upload.sh [mixcloud2podcast.conf] [./full/path/file.m4a]
+# Usage: ./upload.sh [config.conf] [./full/path/file.ext]
 # Requires:
 # brew install internetarchive (Internet Archive's command line interface)
 # ia configure (configure ia with your credentials)
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Uploads a mixcloud .m4a file to the Internet Archive
-Usage: ./upload.sh [mixcloud2podcast.conf] [./full/path/file.m4a]
+    local msg="Uploads a file to the Internet Archive
+Usage: ./upload.sh [config.conf] [./full/path/file.ext]
 Requires: ia"
     printf "%s\n" "$msg"
     exit 127
@@ -25,7 +25,7 @@ function requirements {
         done 
 }
 
-[[ $# = 0 ]] && print_usage
+[[ $# -lt 2 ]] && print_usage
 requirements
 
 source $1 # Include the config file passed as 1st argument
@@ -33,14 +33,9 @@ source $1 # Include the config file passed as 1st argument
 
 # ------------------------------------------------------------------------
 
-if [ $# -eq 0 ]; then
-	echo "Uploads a mixcloud m4a file to the Internet Archive"
-	echo "usage: ./upload.sh [./full/path/file.m4a]"
-	exit 1
-fi
-
-m4a=$2 # 2nd argument is the m4a file to upload
-json=${m4a%.m4a}.info.json # the metadata json file (full path)
+audio_file=$2 # 2nd argument is the file to upload
+audio_file_ext="${audio_file##*.}" # just the extension (without dot)
+json=${audio_file%'.'$audio_file_ext}.info.json # the metadata json file (full path)
 IA_IDENTIFIER=$(jq --raw-output '.id' $json) # get data from json
 IA_TITLE=$(jq --raw-output '.title' $json) # get data from json
 IA_DESCRIPTION=$(jq --raw-output '.description' $json) # get data from json
@@ -66,8 +61,8 @@ then # empty
       IA_ARTIST=$IA_ARTIST' '
 fi
 
-#ia --debug upload $IA_IDENTIFIER "$m4a" "$json" --retries 100 \
-ia upload $IA_IDENTIFIER "$m4a" "$json" --retries 100 \
+#ia --debug upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
+ia upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
 --metadata="mediatype:$IA_MEDIATYPE" \
 --metadata="title:$IA_TITLE" \
 --metadata="collection:$IA_COLLECTION" \

@@ -35,7 +35,7 @@ function requirements {
     done 
 }
 
-[[ $# != 2 ]] && print_usage
+[[ $# -lt 2 ]] && print_usage
 requirements
 
 source $1 # Include the podcast config file passed as argument

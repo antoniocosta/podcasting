@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Utility to batch upload multiple mixcloud .m4a files to the Internet Archive
+# Utility to batch upload multiple files to the Internet Archive
 #
-# Usage: ./upload_batch.sh [../full/path/m4adir]
+# Usage: ./upload_batch.sh [../path/to/dir]
 # Requires:
 # upload.sh (uploads a single file)
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Utility to batch upload multiple mixcloud .m4a files to the internet archive
-Usage: ./upload_batch.sh [../full/path/m4adir]
+    local msg="Utility to batch upload multiple files to the internet archive
+Usage: ./upload_batch.sh [../path/to/dir]
 Requires: ia"
     printf "%s\n" "$msg"
     exit 127
