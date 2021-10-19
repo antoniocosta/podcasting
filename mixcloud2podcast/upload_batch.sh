@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Utility to batch upload multiple files to the Internet Archive
+# Utility to batch upload multiple files (audio+json pairs) to the Internet Archive
 #
 # Usage: ./upload_batch.sh [../path/to/dir]
 # Requires:
@@ -8,7 +8,7 @@
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Utility to batch upload multiple files to the internet archive
+    local msg="Utility to batch upload multiple files (audio+json pairs) to the internet archive
 Usage: ./upload_batch.sh [../path/to/dir]
 Requires: ia"
     printf "%s\n" "$msg"
