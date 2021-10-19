@@ -197,6 +197,6 @@ gitpush () {
         git push
 }
 gitpush
-echo "All done!"
+echo "All done."
 exit
 
