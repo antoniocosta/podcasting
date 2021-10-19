@@ -150,5 +150,10 @@ rm '_cover.jpg' # The id3 cover image
 mv $EP_FILE '../' # Move ep mp3 file one dir up (to the main download folder)
 mv $JSON_FILE '../' # Move json file one dir up (to the main download folder)
 
+# Change back from episode subdir to our project main dir
+cd ../../../../spotify2podcast
+# Generate RSS. This project shares rss.sh with mixcloud2podcast as a symlink
+./rss.sh "$1"
+
 echo 'All done.'
 
