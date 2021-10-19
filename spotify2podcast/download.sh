@@ -14,8 +14,8 @@
 # ia configure (configure ia with your credentials)
 #
 # TODO: 
-# - Add path to spotdl with -o option
-# - Add external config file (see https://github.com/Flowm/spotify-api-bash/blob/master/create_playlist_from_artists_list.sh)
+# - Upload to IA. Should be done manually as separate action so we can check and listen to the the mp3 before doing it.
+# - Don't generate rss right after download. Because it pushes to git it should be done only after upload to IA.
 # ------------------------------------------------------------------------
 
 function print_usage {
