@@ -103,7 +103,7 @@ function merge_audio {
         # ref: https://ffmpeg.org/ffmpeg-formats.html#Examples
         # ref: https://askubuntu.com/questions/648759/replace-with-sed-a-character-with-backslash-and-use-this-in-a-variable
         line=$(echo $line | sed 's/'\''/&\\&&/g')
-        line=$(echo $line | sed 's/'\"'/'\\&'/g')
+        line=$(echo $line | sed 's/'\"'/'\''\\&'\''/g')
         echo "file '$line'"; 
     done < "$M3U_FILE" > tmp.txt 
 
