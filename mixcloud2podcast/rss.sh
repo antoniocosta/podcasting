@@ -136,10 +136,10 @@ for json in "${arr_json[@]}"; do
         fi
 
         # fix timestamps: make audio file and json file have timestamp when it was published
-        file_timestamp=$(date -r $json "+%s") # system date of file as timestamp
+        file_timestamp=$(date -r "$json" "+%s") # system date of file as timestamp
         pub_timestamp=$(jq --raw-output '.timestamp' $json) # real timestamp when file was published
 
-        if [ $file_timestamp != $pub_timestamp ]; then
+        if [ "$file_timestamp" != "$pub_timestamp" ]; then
                 echo "Fixing file creation time for $json"
                 echo "Fixing file creation time for $audio_file"
                 if [ "$(uname)" == "Darwin" ]; then # Mac OS X platform 
