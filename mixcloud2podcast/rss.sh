@@ -171,7 +171,7 @@ for json in "${arr_json[@]}"; do
         fi
         item_link=$(jq --raw-output '.webpage_url' $json) # mixcloud link
         item_guid='http://archive.org/details/'$item_id 
-        item_enclosure='http://archive.org/download/'$item_id'/'$item_id'.$RSS_AUDIO_FORMAT'
+        item_enclosure='http://archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
         #item_enclosure_length=$(stat -f%z $audio_file) # get file size in bytes
         item_enclosure_length=$(jq --raw-output '.length' $json) # get file size in bytes (we added this data to the json above)
         if [ "$RSS_AUDIO_FORMAT" == "m4a" ]; then 
