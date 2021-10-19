@@ -1,2 +1,8 @@
-Generating JSON...
-{"id": "all-my-favorite-songs-001-weezer", "title": "All My Favorite Songs 001 by Weezer - All My Favorite Songs", "timestamp": 1634617404, "webpage_url":"https://allmyfavoritesongs.com/episode/001", "description":""}
+{
+  "id": "all-my-favorite-songs-001-weezer",
+  "title": "All My Favorite Songs 001 by Weezer - All My Favorite Songs",
+  "timestamp": 1634618499,
+  "webpage_url": "https://allmyfavoritesongs.com/episode/001",
+  "description": "",
+  "length": "55474791"
+}

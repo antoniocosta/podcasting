@@ -140,17 +140,17 @@ function merge_audio {
 merge_audio
 
 function print_json {
-    echo "Generating JSON..."
     local id=${EP_FILE%.mp3}
     local title="$RSS_TITLE $ID3_TITLE"
     local timestamp=$(date -r "$EP_FILE" "+%s")
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
     local description=''
 
-    local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url":"%s", "description":"%s"}\n'
+    local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url": "%s", "description": "%s"}\n'
     printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description"
 }
 
+echo "Generating JSON..."
 JSON_FILE=${EP_FILE%.mp3}.info.json # json filename from mp3 file
 print_json > $JSON_FILE
 
