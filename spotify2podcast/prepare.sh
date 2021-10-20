@@ -26,6 +26,12 @@ source $2 # Include the episode config file passed as argument
 
 echo "Starting..."
 
+if [ ! -f $ARCHIVE_DIR'/'$EP_FILE ]; then
+    echo "Mp3 episode file $EP_FILE not found in $ARCHIVE_DIR"
+    echo "Exiting!"
+    exit;
+fi
+
 # 1. Move merged mp3 from download subdir to one dir up
 mv $ARCHIVE_DIR'/'$EP_FILE $ARCHIVE_DIR # Move ep mp3 file one dir up (to the main download folder)
 
@@ -33,7 +39,6 @@ mv $ARCHIVE_DIR'/'$EP_FILE $ARCHIVE_DIR # Move ep mp3 file one dir up (to the ma
 echo "Cleaning up..."
 rm $ARCHIVE_DIR'/.spotdl-cache' # spot-dl auth file
 rm $ARCHIVE_DIR'/tmp.txt' # The ffmpeg temp merge file
-rm $ARCHIVE_DIR'/_cover.jpg' # The id3 cover image
 
 # 3. Generate json from merged mp3 and episode config file
 function print_json {

@@ -127,16 +127,13 @@ function merge_audio {
     # ref: https://superuser.com/questions/314239/how-to-join-merge-many-mp3-files
     # ref: https://trac.ffmpeg.org/wiki/Concatenate#samecodec
     echo "Merging all playlist's songs as $EP_FILE with ffmpeg..."
-    ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a 256k -ar 48000 \
-    "$EP_FILE"
-
+    ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a 256k -ar 48000 "$EP_FILE"
 }
 merge_audio
 
 # 4. Add id3 metadata to merged mp3
 
 function add_id3 {
-
     # get the cover art
     if [[ ! -e '_cover.jpg' ]]; then # _cover.jpg does not exist?
         curl --silent -L -o '_cover.jpg' $ID3_COVER # download it
