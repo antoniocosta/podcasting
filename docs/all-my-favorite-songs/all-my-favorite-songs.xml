@@ -6,9 +6,9 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Wed, 20 Oct 2021 18:11:24 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 20 Oct 2021 18:12:47 +0200</lastBuildDate>
         <language>en-us</language>
-        <copyright>&#xA9; 2021 abmc</copyright>
+        <copyright>&#xA9; 2021 AB MC</copyright>
         <ttl>60</ttl>
         <image>
                 <link>https://allmyfavoritesongs.com</link>
@@ -20,10 +20,10 @@
         <itunes:summary>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:summary>        
         <itunes:category text='Music' />
         <itunes:keywords>all, favorite, songs, podcast, music</itunes:keywords>
-        <itunes:author>abmc</itunes:author>
+        <itunes:author>AB MC</itunes:author>
         <itunes:owner>
-                <itunes:name>abmc</itunes:name>
-                <itunes:email>abmc@gmx.net</itunes:email>
+                <itunes:name>AB MC</itunes:name>
+                <itunes:email>abmc@protonmail.com</itunes:email>
         </itunes:owner>
         <itunes:explicit>no</itunes:explicit>
         <itunes:type>episodic</itunes:type>
