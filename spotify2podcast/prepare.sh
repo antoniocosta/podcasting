@@ -12,7 +12,7 @@
 
 function print_usage {
     local msg="Generates a podcast mp3 episode from a Spotify playlist.
-Usage: ./download.sh [podcast.conf] [episode.conf]
+Usage: ./download.sh [podcast.conf] [episode.conf]"
     printf "%s\n" "$msg"
     exit 127
 }
@@ -56,6 +56,6 @@ JSON_FILE=${EP_FILE%.mp3}.info.json # json filename from mp3 file
 print_json > $ARCHIVE_DIR'/'$JSON_FILE
 
 # Generate RSS. This project shares rss.sh with mixcloud2podcast as a symlink
-###./rss.sh "$1"
+# ./rss.sh "$1"
 
 echo 'All done.'
