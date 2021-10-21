@@ -28,7 +28,7 @@ echo "Starting..."
 
 if [ -f $ARCHIVE_DIR'/'$EP_FILE ]; then
     EP_FULLPATH=$ARCHIVE_DIR'/'$EP_FILE
-elif [ ! -f $ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE ]; then
+elif [ -f $ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE ]; then
     EP_FULLPATH=$ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE
 
     # 1. Move merged mp3 from download subdir to one dir up
