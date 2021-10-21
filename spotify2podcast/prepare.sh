@@ -35,7 +35,7 @@ elif [ -f $ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE ]; then
     mv $EP_FULLPATH $ARCHIVE_DIR # Move ep mp3 file one dir up (to the main download folder)
     EP_FULLPATH=$ARCHIVE_DIR'/'$EP_FILE
 else
-    echo "Mp3 episode file $EP_FILE not found in $ARCHIVE_DIR or $EP_SUBDIR subdir"
+    echo "ERROR: Mp3 episode file $EP_FILE not found in $ARCHIVE_DIR or $EP_SUBDIR subdir"
     echo "Exiting!"
     exit
 fi
@@ -50,7 +50,12 @@ rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/tmp.txt' # Remove ffmpeg temp merge file (dont 
 function print_json {
     local id=${EP_FILE%'.'$RSS_AUDIO_FORMAT} # Same as mp3 filename (minus extension)
     local title="$RSS_TITLE $ID3_TITLE"
-    local timestamp=$(date -r "$EP_FULLPATH" "+%s")
+    #local timestamp=$(date -r "$EP_FULLPATH" "+%s") # Use file timestamp
+    if [ "$(uname)" == "Darwin" ]; then # Mac OS X platform 
+        local timestamp=$(date -j -u -f "%Y/%m/%d %H:%M:%S" "2021/10/20 12:34:56" "+%s")
+    elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # GNU/Linux platform
+        local timestamp=$(date -d '2021/10/20 12:34:56' +"%s")
+    fi
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
     # convert band names from m3u to / delimited single line. Ignore intro and outro (any line without ' -')
     local description=$EP_DESCRIPTION" <br /> <br /> Lineup:<br /> "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
