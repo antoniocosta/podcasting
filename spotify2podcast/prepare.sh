@@ -53,7 +53,7 @@ function print_json {
     local timestamp=$(date -r "$EP_FULLPATH" "+%s")
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
     # convert band names from m3u to / delimited single line. Ignore intro and outro (any line without ' -')
-    local description=$EP_DESCRIPTION" <br /> <br /> In this episode: "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
+    local description=$EP_DESCRIPTION" <br /> <br /> Lineup:<br /> "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
     local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url": "%s", "description": "%s"}\n'
     printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description"
 }
