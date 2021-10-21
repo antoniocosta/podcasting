@@ -53,7 +53,7 @@ if [ ! -d "$EP_SUBDIR" ]; then # create dir (to hold all downloaded mp3s) if it 
 fi
 cd "$EP_SUBDIR" # every command from here forward is relative to this
 
-echo "Downloading all playlist's songs with spotdl"
+echo "Downloading all playlist's songs with spotdl..."
 pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
 #pipx run spotdl $SPOTIFY_PLAYLIST_URL -o "mp3" --m3u
 

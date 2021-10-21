@@ -5,8 +5,8 @@
         <atom:link href='http://feeds.feedburner.com/all-my-favorite-songs' rel='self' type='application/rss+xml' />
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
-        <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 21 Oct 2021 14:34:07 +0200</lastBuildDate>
+        <description><break time=2s/>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
+        <lastBuildDate>Thu, 21 Oct 2021 17:00:26 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 abmc</copyright>
         <ttl>60</ttl>
@@ -16,8 +16,8 @@
                 <title>All My Favorite Songs</title>
         </image>
         <itunes:image href='http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg' />
-        <itunes:subtitle>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:subtitle>
-        <itunes:summary>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:summary>        
+        <itunes:subtitle><break time=2s/>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:subtitle>
+        <itunes:summary><break time=2s/>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:summary>        
         <itunes:category text='Music' />
         <itunes:keywords>all, favorite, songs, podcast, music</itunes:keywords>
         <itunes:author>abmc</itunes:author>
@@ -29,6 +29,16 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 003 by Drive Like Jehu - All Tomorrow's Parties 2.0</title>
+                <link>https://allmyfavoritesongs.com/episode/003</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-003-drive-like-jehu</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.mp3" length="141221237" type="audio/mpeg" />
+                <description>Drive Like Jehu was an American post-hardcore band from San Diego active from 1990 to 1995. It was formed by rhythm guitarist and vocalist Rick Froberg and lead guitarist John Reis, ex-members of Pitchfork, along with bassist Mike Kennedy and drummer Mark Trombino, both from Night Soil Man, after their two bands disbanded in 1990. Drive Like Jehu&#39;s music was characterized by passionate singing, unusual song structure, indirect melodic themes, intricate guitar playing, and calculated use of tension, resulting in a distinctive sound amongst other post-hardcore acts and helped to catalyze the evolution of hardcore punk into emo. &lt;br/&gt; &lt;br/&gt; In this episode all songs by bands selected by Drive Like Jehu to play All Tomorrow&#39;s Parties 2.0 April 22-24, 2016. &lt;br /&gt; &lt;br /&gt; Lineup:&lt;br /&gt; Hot Snakes / The Blind Shake / Mrs. Magician / Flamin&#39; Groovies / The King Khan &amp; BBQ Show / The Schizophonics / Metz / Mission Of Burma / The Gories / King Khan and the Shrines / The Spits / Rocket From The Crypt / Betunizer / The Monkeywrench / Holly Golightly / Dan Sartain / Martin Rev / Tortoise, The Ex / PyPy / Gary Wilson / Claw Hammer / Wau y Los Arrrghs</description>
+                <pubDate>Wed, 20 Oct 2021 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 001 by Weezer - All My Favorite Songs</title>
@@ -46,16 +56,6 @@
                 <guid>http://archive.org/details/all-my-favorite-songs-002-dinosaur-jr</guid>
                 <enclosure url="http://archive.org/download/all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs-002-dinosaur-jr.mp3" length="87193193" type="audio/mpeg" />
                 <description>Dinosaur Jr. is an American rock band formed in Amherst, Massachusetts, in 1984, originally simply called Dinosaur until legal issues forced a change in name. The band was founded by J Mascis (guitar, vocals, primary songwriter), Lou Barlow (bass, vocals), and Murph (drums). After three albums on independent labels, the band earned a reputation as one of the formative influences on American alternative rock. Mascis&#39;s drawling vocals and distinct guitar sound, hearkening back to 1960s and 1970s classic rock and characterized by extensive use of feedback and distortion, were highly influential in the alternative rock movement of the 1990s. &lt;br /&gt; &lt;br /&gt; Lineup:&lt;br /&gt; Wipers / The Dream Syndicate / True West / The Jesus and Mary Chain / The Birthday Party / Throbbing Gristle / Venom / Accept / Saint Vitus / The Eastern Dark / The Neats / Green On Red / Meat Puppets</description>
-                <pubDate>Wed, 20 Oct 2021 14:34:56 +0200</pubDate>
-        </item>
-        
-
-        <item>
-                <title>All My Favorite Songs 003 by Drive Like Jehu - All Tomorrow's Parties 2.0</title>
-                <link>https://allmyfavoritesongs.com/episode/003</link>
-                <guid>http://archive.org/details/all-my-favorite-songs-003-drive-like-jehu</guid>
-                <enclosure url="http://archive.org/download/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.mp3" length="141216629" type="audio/mpeg" />
-                <description>Drive Like Jehu was an American post-hardcore band from San Diego active from 1990 to 1995. It was formed by rhythm guitarist and vocalist Rick Froberg and lead guitarist John Reis, ex-members of Pitchfork, along with bassist Mike Kennedy and drummer Mark Trombino, both from Night Soil Man, after their two bands disbanded in 1990. Drive Like Jehu&#39;s music was characterized by passionate singing, unusual song structure, indirect melodic themes, intricate guitar playing, and calculated use of tension, resulting in a distinctive sound amongst other post-hardcore acts and helped to catalyze the evolution of hardcore punk into emo. &lt;br/&gt; &lt;br/&gt; In this episode all songs by bands selected by Drive Like Jehu to play All Tomorrow&#39;s Parties 2.0 April 22-24, 2016. &lt;br /&gt; &lt;br /&gt; Lineup:&lt;br /&gt; Hot Snakes / The Blind Shake / Mrs. Magician / Flamin&#39; Groovies / The King Khan &amp; BBQ Show / The Schizophonics / Metz / Mission Of Burma / The Gories / King Khan and the Shrines / The Spits / Rocket From The Crypt / Betunizer / The Monkeywrench / Holly Golightly / Dan Sartain / Martin Rev / Tortoise, The Ex / PyPy / Gary Wilson / Claw Hammer / Wau y Los Arrrghs</description>
                 <pubDate>Wed, 20 Oct 2021 14:34:56 +0200</pubDate>
         </item>
         
