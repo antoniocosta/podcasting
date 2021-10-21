@@ -33,7 +33,7 @@ elif [ -f $ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE ]; then
 
     # 1. Move merged mp3 from download subdir to one dir up
     mv $EP_FULLPATH $ARCHIVE_DIR # Move ep mp3 file one dir up (to the main download folder)
-
+    EP_FULLPATH=$ARCHIVE_DIR'/'$EP_FILE
 else
     echo "Mp3 episode file $EP_FILE not found in $ARCHIVE_DIR or $EP_SUBDIR subdir"
     echo "Exiting!"
