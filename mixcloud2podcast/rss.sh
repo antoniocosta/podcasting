@@ -33,7 +33,7 @@ requirements
 source $1 # Include the config file passed as argument
 
 # ------------------------------------------------------------------------
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 # The copyright: © 2021 FirstName LastName
 RSS_COPYRIGHT="&#xA9; $(date +"%Y") $RSS_AUTHOR"
@@ -198,6 +198,6 @@ gitpush () {
         git push
 }
 gitpush
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 exit
 

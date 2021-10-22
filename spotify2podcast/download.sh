@@ -42,7 +42,7 @@ source $1 # Include the podcast config file passed as argument
 source $2 # Include the episode config file passed as argument
 
 # ------------------------------------------------------------------------
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 # 1. Downloads all mp3s using Spotdl
 
@@ -151,6 +151,6 @@ add_id3
 # Change back from episode subdir to our project main dir (just for completeness)
 cd '../../../../spotify2podcast'
 
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 
 

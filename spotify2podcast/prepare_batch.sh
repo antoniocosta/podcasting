@@ -20,7 +20,7 @@ Requires: ia"
 source $1 # Include the podcast config file passed as argument
 
 # ------------------------------------------------------------------------
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 IFS=$'\n' # newline as the delimiter
 arr_audio_files=( $(ls -r "$ARCHIVE_DIR"/*."$RSS_AUDIO_FORMAT") )
@@ -34,5 +34,5 @@ for audio_file in "${arr_audio_files[@]}"; do
 #        echo "Prepare $audio_file"
         ./prepare.sh $1 $audio_file
 done
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 exit

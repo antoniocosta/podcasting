@@ -21,7 +21,7 @@ Usage: ./prepare.sh podcast.conf ./full/path/audio_file.ext"
 source $1 # Include the podcast config file passed as argument
 
 # ------------------------------------------------------------------------
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 # Calculate necessary variables just from audio filename
 
@@ -89,5 +89,5 @@ print_json > $ARCHIVE_DIR'/'$JSON_FILE
 # Generate RSS. This project shares rss.sh with mixcloud2podcast as a symlink
 # ./rss.sh "$1"
 
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 

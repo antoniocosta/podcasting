@@ -42,7 +42,7 @@ source $1 # Include the config file passed as argument
 #   2. upload each file to the Internet Archive
 #   3. generate rss 
 
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 # Count the number of files in archive dir
 archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
@@ -77,5 +77,5 @@ fi
 # Requires:
 # brew install atomicparsley (if you want thumbnail to be embedded into m4a file)
 
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 

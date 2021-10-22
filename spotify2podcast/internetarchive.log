@@ -467,3 +467,96 @@
 2021-10-22 16:50:56,015 - urllib3.connectionpool - DEBUG - https://archive.org:443 "POST /metadata/all-my-favorite-songs-001-weezer HTTP/1.1" 200 None
 2021-10-22 16:50:56,022 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
 2021-10-22 16:50:56,716 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-001-weezer HTTP/1.1" 200 None
+2021-10-22 17:09:49,082 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 17:09:49,121 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 17:09:49,956 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 17:09:49,959 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-003-drive-like-jehu", retrieving now.
+2021-10-22 17:09:49,966 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 17:09:50,683 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-003-drive-like-jehu HTTP/1.1" 200 None
+2021-10-22 17:09:51,185 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
+2021-10-22 17:09:55,101 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 411
+2021-10-22 17:09:55,142 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:11:17,812 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.mp3 HTTP/1.1" 200 0
+2021-10-22 17:11:17,815 - internetarchive.item - INFO - uploaded all-my-favorite-songs-003-drive-like-jehu.mp3 to https://s3.us.archive.org/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.mp3
+2021-10-22 17:11:17,824 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:11:18,572 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:11:18,578 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:11:20,576 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.info.json HTTP/1.1" 200 0
+2021-10-22 17:11:20,578 - internetarchive.item - INFO - uploaded all-my-favorite-songs-003-drive-like-jehu.info.json to https://s3.us.archive.org/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.info.json
+2021-10-22 17:11:20,584 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:11:21,499 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:11:21,505 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:11:23,341 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs.jpg HTTP/1.1" 200 0
+2021-10-22 17:11:23,342 - internetarchive.item - INFO - uploaded all-my-favorite-songs.jpg to https://s3.us.archive.org/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs.jpg
+2021-10-22 17:11:24,376 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 17:11:24,390 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 17:11:25,067 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 17:11:25,069 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-002-dinosaur-jr", retrieving now.
+2021-10-22 17:11:25,073 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 17:11:25,787 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-002-dinosaur-jr HTTP/1.1" 200 None
+2021-10-22 17:11:25,796 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
+2021-10-22 17:11:26,548 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:11:26,583 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:14:28,130 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 17:14:28,167 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 17:14:28,852 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 17:14:28,854 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-003-drive-like-jehu", retrieving now.
+2021-10-22 17:14:28,859 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 17:14:29,537 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-003-drive-like-jehu HTTP/1.1" 200 None
+2021-10-22 17:14:29,544 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
+2021-10-22 17:14:30,427 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:14:30,465 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:15:52,632 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.mp3 HTTP/1.1" 200 0
+2021-10-22 17:15:52,633 - internetarchive.item - INFO - uploaded all-my-favorite-songs-003-drive-like-jehu.mp3 to https://s3.us.archive.org/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.mp3
+2021-10-22 17:15:52,639 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:15:53,600 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:15:53,610 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:15:55,450 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.info.json HTTP/1.1" 200 0
+2021-10-22 17:15:55,451 - internetarchive.item - INFO - uploaded all-my-favorite-songs-003-drive-like-jehu.info.json to https://s3.us.archive.org/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs-003-drive-like-jehu.info.json
+2021-10-22 17:15:55,458 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:15:56,405 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:15:56,413 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:15:58,344 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs.jpg HTTP/1.1" 200 0
+2021-10-22 17:15:58,345 - internetarchive.item - INFO - uploaded all-my-favorite-songs.jpg to https://s3.us.archive.org/all-my-favorite-songs-003-drive-like-jehu/all-my-favorite-songs.jpg
+2021-10-22 17:15:59,195 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 17:15:59,209 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 17:15:59,903 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 17:15:59,904 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-002-dinosaur-jr", retrieving now.
+2021-10-22 17:15:59,909 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 17:16:00,575 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-002-dinosaur-jr HTTP/1.1" 200 None
+2021-10-22 17:16:00,584 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
+2021-10-22 17:16:01,362 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:16:01,393 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:16:52,755 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs-002-dinosaur-jr.mp3 HTTP/1.1" 200 0
+2021-10-22 17:16:52,756 - internetarchive.item - INFO - uploaded all-my-favorite-songs-002-dinosaur-jr.mp3 to https://s3.us.archive.org/all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs-002-dinosaur-jr.mp3
+2021-10-22 17:16:52,767 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:16:53,587 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 411
+2021-10-22 17:16:53,596 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:16:55,608 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs-002-dinosaur-jr.info.json HTTP/1.1" 200 0
+2021-10-22 17:16:55,608 - internetarchive.item - INFO - uploaded all-my-favorite-songs-002-dinosaur-jr.info.json to https://s3.us.archive.org/all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs-002-dinosaur-jr.info.json
+2021-10-22 17:16:55,616 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:16:56,362 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 411
+2021-10-22 17:16:56,367 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:16:58,502 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs.jpg HTTP/1.1" 200 0
+2021-10-22 17:16:58,502 - internetarchive.item - INFO - uploaded all-my-favorite-songs.jpg to https://s3.us.archive.org/all-my-favorite-songs-002-dinosaur-jr/all-my-favorite-songs.jpg
+2021-10-22 17:16:59,493 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 17:16:59,532 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 17:17:00,210 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 17:17:00,213 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-001-weezer", retrieving now.
+2021-10-22 17:17:00,221 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 17:17:00,910 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-001-weezer HTTP/1.1" 200 None
+2021-10-22 17:17:00,917 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
+2021-10-22 17:17:01,882 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 411
+2021-10-22 17:17:01,999 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:17:35,982 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-001-weezer/all-my-favorite-songs-001-weezer.mp3 HTTP/1.1" 200 0
+2021-10-22 17:17:35,985 - internetarchive.item - INFO - uploaded all-my-favorite-songs-001-weezer.mp3 to https://s3.us.archive.org/all-my-favorite-songs-001-weezer/all-my-favorite-songs-001-weezer.mp3
+2021-10-22 17:17:35,995 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:17:36,901 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:17:36,908 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:17:38,746 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-001-weezer/all-my-favorite-songs-001-weezer.info.json HTTP/1.1" 200 0
+2021-10-22 17:17:38,747 - internetarchive.item - INFO - uploaded all-my-favorite-songs-001-weezer.info.json to https://s3.us.archive.org/all-my-favorite-songs-001-weezer/all-my-favorite-songs-001-weezer.info.json
+2021-10-22 17:17:38,754 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:17:39,669 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 17:17:39,675 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 17:17:42,739 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "PUT /all-my-favorite-songs-001-weezer/all-my-favorite-songs.jpg HTTP/1.1" 200 0
+2021-10-22 17:17:42,740 - internetarchive.item - INFO - uploaded all-my-favorite-songs.jpg to https://s3.us.archive.org/all-my-favorite-songs-001-weezer/all-my-favorite-songs.jpg

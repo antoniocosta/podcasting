@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Uploads audio file and corresponding json to the Internet Archive
+# Uploads audio file, corresponding json and a cover jpg to the Internet Archive
 #
 # Usage: ./upload.sh podcast.conf ./full/path/audio_file.ext
 # Requires:
@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Uploads audio file and corresponding json to the Internet Archive
+    local msg="Uploads audio file, corresponding json and a cover jpg to the Internet Archive
 Usage: ./upload.sh podcast.conf ./full/path/audio_file.ext
 Requires: ia"
     printf "%s\n" "$msg"
@@ -31,11 +31,11 @@ requirements
 source $1 # Include the podcast config file passed as 1st argument
 
 # ------------------------------------------------------------------------
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 audio_file=$2 # 2nd argument is the file to upload
 audio_file_ext="${audio_file##*.}" # just the extension (without dot)
-json=${audio_file%'.'$audio_file_ext}.info.json # the metadata json file (full path)
+json=${audio_file%'.'$audio_file_ext}.info.json # the metadata json file to upload (full path)
 IA_IDENTIFIER=$(jq --raw-output '.id' $json) # get data from json
 IA_TITLE=$(jq --raw-output '.title' $json) # get data from json
 IA_DESCRIPTION=$(jq --raw-output '.description' $json) # get data from json
@@ -67,7 +67,7 @@ fi
 function ia_upload {
     #ia \
     ia --debug \
-    upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
+    upload $IA_IDENTIFIER "$audio_file" "$json" "$IA_COVER_IMG" --retries 100 \
     --metadata="mediatype:$IA_MEDIATYPE" \
     --metadata="collection:$IA_COLLECTION" \
     --metadata="title:$IA_TITLE" \
@@ -102,8 +102,8 @@ function ia_metadata {
     --modify="licenseurl:$IA_LICENSEURL"    
 }
 
-#ia_upload
-ia_metadata
+ia_upload
+#ia_metadata
 
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 

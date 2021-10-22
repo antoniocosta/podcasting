@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Utility to batch upload multiple files (audio+json pairs) to the Internet Archive
+# Utility to batch upload multiple files (audio+json+jpg) to the Internet Archive
 #
 # Usage: ./upload_batch.sh podcast.conf ../path/to/audio/file/dir
 # Requires:
@@ -11,7 +11,7 @@
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Utility to batch upload multiple files (audio+json pairs) to the internet archive
+    local msg="Utility to batch upload multiple files (audio+json+cover) to the internet archive
 Usage: ./upload_batch.sh podcast.conf ../path/to/audio/file/dir
 Requires: ia"
     printf "%s\n" "$msg"
@@ -34,7 +34,7 @@ source $1 # Include the podcast config file passed as argument
 
 
 # ------------------------------------------------------------------------
-echo "Starting `basename "$0"`..."
+echo "Starting `basename $0`..."
 
 IFS=$'\n' # newline as the delimiter
 arr_audio_files=( $(ls -r "$ARCHIVE_DIR"/*."$RSS_AUDIO_FORMAT") )
@@ -48,5 +48,5 @@ for audio_file in "${arr_audio_files[@]}"; do
 #        echo "upload $m4a"
         ./upload.sh $1 $audio_file
 done
-echo "All done with `basename "$0"`."
+echo "All done with `basename $0`."
 exit
