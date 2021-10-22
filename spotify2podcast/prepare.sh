@@ -21,8 +21,7 @@ Usage: ./prepare.sh podcast.conf ./full/path/audio_file.ext"
 source $1 # Include the podcast config file passed as argument
 
 # ------------------------------------------------------------------------
-
-echo "Starting..."
+echo "Starting `basename "$0"`..."
 
 # Calculate necessary variables just from audio filename
 

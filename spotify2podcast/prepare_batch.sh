@@ -20,6 +20,7 @@ Requires: ia"
 source $1 # Include the podcast config file passed as argument
 
 # ------------------------------------------------------------------------
+echo "Starting `basename "$0"`..."
 
 IFS=$'\n' # newline as the delimiter
 arr_audio_files=( $(ls -r "$ARCHIVE_DIR"/*."$RSS_AUDIO_FORMAT") )

@@ -42,8 +42,7 @@ source $1 # Include the podcast config file passed as argument
 source $2 # Include the episode config file passed as argument
 
 # ------------------------------------------------------------------------
-
-echo "Starting..."
+echo "Starting `basename "$0"`..."
 
 # 1. Downloads all mp3s using Spotdl
 
