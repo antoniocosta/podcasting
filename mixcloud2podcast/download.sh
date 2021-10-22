@@ -5,7 +5,7 @@
 #	2. uploads mp4a to the internet archive 
 #	3. Generates podcast rss file
 #
-# Usage: ./download.sh [podcast.conf]
+# Usage: ./download.sh podcast.conf
 # Requires:
 # brew install youtube-dl (to download files from mixcloud)
 # brew install ffmpeg
@@ -15,7 +15,7 @@
 
 function print_usage {
     local msg="Converts closed mixcloud to open podcast format.
-Usage: ./download.sh [mixcloud2podcast.conf]
+Usage: ./download.sh podcast.conf
 Requires: youtube-dl ffmpeg jq ia"
     printf "%s\n" "$msg"
     exit 127
@@ -42,7 +42,7 @@ source $1 # Include the config file passed as argument
 #   2. upload each file to the Internet Archive
 #   3. generate rss 
 
-echo "Starting..."
+echo "Starting `basename "$0"`..."
 
 # Count the number of files in archive dir
 archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
@@ -76,4 +76,6 @@ fi
 # --embed-thumbnail \ 
 # Requires:
 # brew install atomicparsley (if you want thumbnail to be embedded into m4a file)
+
+echo "All done with `basename "$0"`."
 

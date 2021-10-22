@@ -2,17 +2,17 @@
 
 # Utility to batch upload multiple files (audio+json pairs) to the Internet Archive
 #
-# Usage: ./upload_batch.sh [../path/to/dir]
+# Usage: ./upload_batch.sh podcast.conf ../path/to/audio/file/dir
 # Requires:
 # upload.sh (uploads a single file)
 #
 # TODO:
-# - Broken! Need to pass podcast.comf to upload.sh for this to work
+# - Broken! Need to pass podcast.conf to upload.sh for this to work
 # ------------------------------------------------------------------------
 
 function print_usage {
     local msg="Utility to batch upload multiple files (audio+json pairs) to the internet archive
-Usage: ./upload_batch.sh [../path/to/dir]
+Usage: ./upload_batch.sh podcast.conf ../path/to/audio/file/dir
 Requires: ia"
     printf "%s\n" "$msg"
     exit 127
@@ -27,25 +27,26 @@ function requirements {
         done 
 }
 
-[[ $# = 0 ]] && print_usage
+[[ $# -lt 2 ]] && print_usage
 requirements
 
-# ------------------------------------------------------------------------
-# File path where the audio and json metadata files have been saved
-ARCHIVE_DIR=$1
+source $1 # Include the podcast config file passed as argument
 
+
+# ------------------------------------------------------------------------
+echo "Starting `basename "$0"`..."
 
 IFS=$'\n' # newline as the delimiter
-arr_m4a=( $(ls -r "$ARCHIVE_DIR"/*.m4a) )
-items_total=$(ls "$ARCHIVE_DIR"/*.m4a | wc -l | tr -d ' ')
+arr_audio_files=( $(ls -r "$ARCHIVE_DIR"/*."$RSS_AUDIO_FORMAT") )
+items_total=$(ls "$ARCHIVE_DIR"/*."$RSS_AUDIO_FORMAT" | wc -l | tr -d ' ')
 echo "Uploading $items_total items..."
 item_num=0
-for m4a in "${arr_m4a[@]}"; do
+for audio_file in "${arr_audio_files[@]}"; do
         let item_num+=1
         echo "Uploading item $item_num/$items_total"
         # $m4a is the audio file (full path)
 #        echo "upload $m4a"
-        ./upload.sh $m4a
+        ./upload.sh $1 $audio_file
 done
-echo "All files uploaded."
+echo "All done with `basename "$0"`."
 exit

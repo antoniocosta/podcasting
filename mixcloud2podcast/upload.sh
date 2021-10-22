@@ -2,7 +2,7 @@
 
 # Uploads audio file and corresponding json to the Internet Archive
 #
-# Usage: ./upload.sh [podcast.conf] [./full/path/audio_file.ext]
+# Usage: ./upload.sh podcast.conf ./full/path/audio_file.ext
 # Requires:
 # brew install internetarchive (Internet Archive's command line interface)
 # ia configure (configure ia with your credentials)
@@ -10,7 +10,7 @@
 
 function print_usage {
     local msg="Uploads audio file and corresponding json to the Internet Archive
-Usage: ./upload.sh [podcast.conf] [./full/path/audio_file.ext]
+Usage: ./upload.sh podcast.conf ./full/path/audio_file.ext
 Requires: ia"
     printf "%s\n" "$msg"
     exit 127
@@ -31,6 +31,7 @@ requirements
 source $1 # Include the podcast config file passed as 1st argument
 
 # ------------------------------------------------------------------------
+echo "Starting `basename "$0"`..."
 
 audio_file=$2 # 2nd argument is the file to upload
 audio_file_ext="${audio_file##*.}" # just the extension (without dot)
@@ -60,8 +61,9 @@ then # empty
       IA_ARTIST=$IA_ARTIST' '
 fi
 
-#ia --debug upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
-ia upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
+#ia \
+ia --debug \
+upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
 --metadata="mediatype:$IA_MEDIATYPE" \
 --metadata="title:$IA_TITLE" \
 --metadata="collection:$IA_COLLECTION" \
@@ -76,4 +78,5 @@ ia upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
 --metadata="language:$IA_LANGUAGE" \
 --metadata="licenseurl:$IA_LICENSEURL"
 
+echo "All done with `basename "$0"`."
 

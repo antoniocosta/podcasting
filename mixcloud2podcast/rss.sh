@@ -5,14 +5,14 @@
 #
 # Heavily adapted from https://github.com/maxhebditch/rss-roller
 #
-# Usage: ./rss.sh [config.conf]]
+# Usage: ./rss.sh config.conf]
 # Requires:
 # brew install jq (command-line JSON processor)
 # ------------------------------------------------------------------------
 
 function print_usage {
     local msg="Creates a podcast rss file from a folder of m4a (or mp3) files and metadata json files 
-Usage: ./rss.sh [config.conf]]
+Usage: ./rss.sh config.conf
 Requires: jq"
     printf "%s\n" "$msg"
     exit 127
@@ -33,6 +33,7 @@ requirements
 source $1 # Include the config file passed as argument
 
 # ------------------------------------------------------------------------
+echo "Starting `basename "$0"`..."
 
 # The copyright: © 2021 FirstName LastName
 RSS_COPYRIGHT="&#xA9; $(date +"%Y") $RSS_AUTHOR"
@@ -197,6 +198,6 @@ gitpush () {
         git push
 }
 gitpush
-echo "All done."
+echo "All done with `basename "$0"`."
 exit
 
