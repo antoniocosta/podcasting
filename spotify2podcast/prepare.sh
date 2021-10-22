@@ -52,9 +52,9 @@ function print_json {
     local title="$RSS_TITLE $ID3_TITLE"
     #local timestamp=$(date -r "$EP_FULLPATH" "+%s") # Use file timestamp
     if [ "$(uname)" == "Darwin" ]; then # Mac OS X platform 
-        local timestamp=$(date -j -u -f "%Y/%m/%d %H:%M:%S" "2021/10/20 12:34:56" "+%s")
+        local timestamp=$(date -j -u -f "%Y/%m/%d %H:%M:%S" "$EP_PUBDATE" "+%s") # Use hardcoded date
     elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then # GNU/Linux platform
-        local timestamp=$(date -d '2021/10/20 12:34:56' +"%s")
+        local timestamp=$(date -d "$EP_PUBDATE" +"%s") # Use hardcoded date
     fi
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
     local description=$EP_DESCRIPTION
