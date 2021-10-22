@@ -61,6 +61,7 @@ rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/.spotdl-cache' # Remove spot-dl auth file (dont
 rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/tmp.txt' # Remove ffmpeg temp merge file (dont show error if it doenst exist)
 
 # 3. Generate json from merged mp3 and episode config file
+echo "Generating JSON..."
 function print_json {
     local id=${EP_FILE%'.'$RSS_AUDIO_FORMAT} # Same as mp3 filename (minus extension)
     local title="$RSS_TITLE $ID3_TITLE"
@@ -75,10 +76,9 @@ function print_json {
     # convert band names from m3u to / delimited single line. Ignore intro and outro (any line without ' -')
 #    local description=$EP_DESCRIPTION" <br /> <br /> Lineup:<br /> "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
     local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/, /; ta')
-    local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url": "%s", "description": "%s", "artist": "%s"}\n'
+    local json_fmt='{\n"id": \n"%s", \n"title": "%s", \n"timestamp": %s, \n"webpage_url": "%s", \n"description": "%s", \n"artist": "%s"\n}'
     printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description" "$artist"
 }
-echo "Generating JSON..."
 M3U_FILE=$(find $ARCHIVE_DIR'/'$EP_SUBDIR -type f -name "*.m3u") # Works but only if find command will return exactly 1 file
 echo "Episode info.json saved: $M3U_FILE"
 JSON_FILE=${EP_FILE%.mp3}.info.json # json filename from mp3 file

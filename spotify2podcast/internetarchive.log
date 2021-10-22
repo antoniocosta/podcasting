@@ -1,0 +1,16 @@
+2021-10-22 15:06:57,155 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 15:06:57,196 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 15:06:57,955 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 15:06:57,958 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-003-drive-like-jehu", retrieving now.
+2021-10-22 15:06:57,963 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 15:06:58,797 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-003-drive-like-jehu HTTP/1.1" 200 None
+2021-10-22 15:06:59,534 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
+2021-10-22 15:07:00,453 - urllib3.connectionpool - DEBUG - https://s3.us.archive.org:443 "GET /?check_limit=1&bucket=yqt1YXpoaleYXXx1 HTTP/1.1" 200 412
+2021-10-22 15:07:00,490 - urllib3.connectionpool - DEBUG - Resetting dropped connection: s3.us.archive.org
+2021-10-22 15:07:11,931 - internetarchive.session - DEBUG - no metadata provided for "opensource_audio", retrieving now.
+2021-10-22 15:07:11,944 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): archive.org:443
+2021-10-22 15:07:12,621 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/opensource_audio HTTP/1.1" 200 None
+2021-10-22 15:07:12,623 - internetarchive.session - DEBUG - no metadata provided for "all-my-favorite-songs-002-dinosaur-jr", retrieving now.
+2021-10-22 15:07:12,628 - urllib3.connectionpool - DEBUG - Resetting dropped connection: archive.org
+2021-10-22 15:07:13,304 - urllib3.connectionpool - DEBUG - https://archive.org:443 "GET /metadata/all-my-favorite-songs-002-dinosaur-jr HTTP/1.1" 200 None
+2021-10-22 15:07:13,311 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): s3.us.archive.org:443
