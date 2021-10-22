@@ -6,7 +6,7 @@
 #   3. Merges all mp3s in a m3u playlist to one big mp3
 #   4. Adds id3 metadata to merged mp3
 #
-# Usage: ./download.sh [podcast.conf] [episode.conf]
+# Usage: ./download.sh podcast.conf episode.conf
 # Requires:
 # python3 -m pip install --user pipx && python3 -m pipx ensurepath
 # brew install ffmpeg
@@ -20,7 +20,7 @@
 
 function print_usage {
     local msg="Generates a podcast mp3 episode from a Spotify playlist.
-Usage: ./download.sh [podcast.conf] [episode.conf]
+Usage: ./download.sh podcast.conf episode.conf
 Requires: 'pipx run spotdl' ffmpeg eyeD3 jq ia"
     printf "%s\n" "$msg"
     exit 127
