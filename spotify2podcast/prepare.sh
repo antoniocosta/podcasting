@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Prepares a generated audio file episode to be uploaded:
-#   1. Moves merged mp3 from download subdir to one dir up
+#   1. Moves merged mp3 from download subdir to one dir up (if not already there)
 #   2. Cleans up tmp files from download subdir
 #   3. Generates json from merged mp3 and episode config file
 #
-# Usage: ./prepare.sh [podcast.conf] [episode.conf]
+# Usage: ./prepare.sh [podcast.conf] [./full/path/audio_file.ext]
 # Requires:
 #
 # TODO:
@@ -14,7 +14,7 @@
 
 function print_usage {
     local msg="Prepares a generated audio file episode to be uploaded
-Usage: ./prepare.sh [podcast.conf] [episode.conf]"
+Usage: ./prepare.sh [podcast.conf] [./full/path/audio_file.ext]"
     printf "%s\n" "$msg"
     exit 127
 }
@@ -22,11 +22,27 @@ Usage: ./prepare.sh [podcast.conf] [episode.conf]"
 [[ $# -lt 2 ]] && print_usage
 
 source $1 # Include the podcast config file passed as argument
-source $2 # Include the episode config file passed as argument
 
 # ------------------------------------------------------------------------
 
 echo "Starting..."
+
+# Calculate necessary variables just from audio filename
+
+audio_file=$2 # 2nd argument is the file to upload
+audio_file_ext="${audio_file##*.}" # just the extension (without dot). Example: mp3
+audio_file_basename=$(basename "$audio_file" ".$audio_file_ext") # Just the filename without path or extension. Example: all-my-favorite-songs-001-weezer
+audio_file_ep_num=$(echo $audio_file_basename | sed 's/[^0-9]*//g') # Just the episode num (with trailing zeros) Example: 001
+audio_file_before_num=$(echo $audio_file_basename | sed 's/[0-9].*//' | sed 's/\(.*\)-/\1/') # Remove rest of string after number AND remove last occurence of dash. Example: all-my-favorite-songs . See: https://unix.stackexchange.com/questions/257514/how-to-delete-the-rest-of-each-line-after-a-certain-pattern-or-a-string-in-a-fil and https://unix.stackexchange.com/questions/187889/how-do-i-replace-the-last-occurrence-of-a-character-in-a-string-using-sed
+ep_config_filename=$audio_file_before_num'-ep-'$audio_file_ep_num'.conf' # the episode config filename. Example: all-my-favorite-songs-ep-001.conf)
+#echo $audio_file_ext
+#echo $audio_file_basename
+#echo $audio_file_ep_num
+#echo $audio_file_before_num
+#echo $ep_config_filename
+source $ep_config_filename # Include the episode config file (as deducted from mp3 filename)
+
+# Do the actual work
 
 if [ -f $ARCHIVE_DIR'/'$EP_FILE ]; then
     EP_FULLPATH=$ARCHIVE_DIR'/'$EP_FILE
@@ -68,7 +84,7 @@ function print_json {
 }
 echo "Generating JSON..."
 M3U_FILE=$(find $ARCHIVE_DIR'/'$EP_SUBDIR -type f -name "*.m3u") # Works but only if find command will return exactly 1 file
-echo "Episode m3u found: $M3U_FILE"
+echo "Episode info.json saved: $M3U_FILE"
 JSON_FILE=${EP_FILE%.mp3}.info.json # json filename from mp3 file
 print_json > $ARCHIVE_DIR'/'$JSON_FILE
 
