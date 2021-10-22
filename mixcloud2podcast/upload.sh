@@ -65,8 +65,8 @@ fi
 # Upload files. mediatype and collection has to be set as it cannot be changed afterwards. 
 # See: https://archive.org/services/docs/api/internetarchive/cli.html#upload
 function ia_upload {
-    #ia \
-    ia --debug \
+    # ia --debug \
+    ia \
     upload $IA_IDENTIFIER "$audio_file" "$json" "$IA_COVER_IMG" --retries 100 \
     --metadata="mediatype:$IA_MEDIATYPE" \
     --metadata="collection:$IA_COLLECTION" \
@@ -86,8 +86,8 @@ function ia_upload {
 # Modify metadata. mediatype and collection cannot be modified.
 # See: https://archive.org/services/docs/api/internetarchive/cli.html#upload
 function ia_metadata {
-    #ia \
-    ia --debug \
+    #ia --debug \
+    ia \
     metadata $IA_IDENTIFIER \
     --modify="title:$IA_TITLE" \
     --modify="description:$IA_DESCRIPTION " \
