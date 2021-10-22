@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Prepares a generated episode to be uploaded:
+# Prepares a generated audio file episode to be uploaded:
 #   1. Moves merged mp3 from download subdir to one dir up
 #   2. Cleans up tmp files from download subdir
 #   3. Generates json from merged mp3 and episode config file
@@ -8,11 +8,13 @@
 # Usage: ./prepare.sh [podcast.conf] [episode.conf]
 # Requires:
 #
+# TODO:
+# - Use audio file as 2nd param instead of ep config file (for consistency with upload.sh)
 # ------------------------------------------------------------------------
 
 function print_usage {
-    local msg="Generates a podcast mp3 episode from a Spotify playlist.
-Usage: ./download.sh [podcast.conf] [episode.conf]"
+    local msg="Prepares a generated audio file episode to be uploaded
+Usage: ./prepare.sh [podcast.conf] [episode.conf]"
     printf "%s\n" "$msg"
     exit 127
 }

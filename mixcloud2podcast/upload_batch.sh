@@ -5,6 +5,9 @@
 # Usage: ./upload_batch.sh [../path/to/dir]
 # Requires:
 # upload.sh (uploads a single file)
+#
+# TODO:
+# - Broken! Need to pass podcast.comf to upload.sh for this to work
 # ------------------------------------------------------------------------
 
 function print_usage {
@@ -29,7 +32,6 @@ requirements
 
 # ------------------------------------------------------------------------
 # File path where the audio and json metadata files have been saved
-#ARCHIVE_DIR=../docs/just-a-blip/downloads
 ARCHIVE_DIR=$1
 
 

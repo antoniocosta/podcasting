@@ -2,7 +2,7 @@
 
 # Uploads audio file and corresponding json to the Internet Archive
 #
-# Usage: ./upload.sh [config.conf] [./full/path/audio_file.ext]
+# Usage: ./upload.sh [podcast.conf] [./full/path/audio_file.ext]
 # Requires:
 # brew install internetarchive (Internet Archive's command line interface)
 # ia configure (configure ia with your credentials)
@@ -10,7 +10,7 @@
 
 function print_usage {
     local msg="Uploads audio file and corresponding json to the Internet Archive
-Usage: ./upload.sh [config.conf] [./full/path/audio_file.ext]
+Usage: ./upload.sh [podcast.conf] [./full/path/audio_file.ext]
 Requires: ia"
     printf "%s\n" "$msg"
     exit 127
@@ -28,8 +28,7 @@ function requirements {
 [[ $# -lt 2 ]] && print_usage
 requirements
 
-source $1 # Include the config file passed as 1st argument
-
+source $1 # Include the podcast config file passed as 1st argument
 
 # ------------------------------------------------------------------------
 

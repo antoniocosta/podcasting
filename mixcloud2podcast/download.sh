@@ -5,7 +5,7 @@
 #	2. uploads mp4a to the internet archive 
 #	3. Generates podcast rss file
 #
-# Usage: ./download.sh [mixcloud2podcast.conf]
+# Usage: ./download.sh [podcast.conf]
 # Requires:
 # brew install youtube-dl (to download files from mixcloud)
 # brew install ffmpeg
