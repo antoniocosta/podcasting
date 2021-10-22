@@ -57,10 +57,12 @@ function print_json {
         local timestamp=$(date -d '2021/10/20 12:34:56' +"%s")
     fi
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
+    local description=$EP_DESCRIPTION
     # convert band names from m3u to / delimited single line. Ignore intro and outro (any line without ' -')
-    local description=$EP_DESCRIPTION" <br /> <br /> Lineup:<br /> "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
-    local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url": "%s", "description": "%s"}\n'
-    printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description"
+#    local description=$EP_DESCRIPTION" <br /> <br /> Lineup:<br /> "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
+    local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/, /; ta')
+    local json_fmt='{"id": "%s", "title": "%s", "timestamp": %s, "webpage_url": "%s", "description": "%s", "artist": "%s"}\n'
+    printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description" "$artist"
 }
 echo "Generating JSON..."
 M3U_FILE=$(find $ARCHIVE_DIR'/'$EP_SUBDIR -type f -name "*.m3u") # Works but only if find command will return exactly 1 file
