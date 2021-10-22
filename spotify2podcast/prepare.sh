@@ -73,9 +73,11 @@ function print_json {
     fi
     local webpage_url=$RSS_LINK'/episode/'$EP_NUM
     local description=$EP_DESCRIPTION
-    # convert band names from m3u to / delimited single line. Ignore intro and outro (any line without ' -')
-#    local description=$EP_DESCRIPTION" <br /> <br /> Lineup:<br /> "$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/ \/ /; ta')
+    # convert artist names from m3u to comma delimited single line. Ignore intro and outro (any line without ' -'). Example: Artist Name 1, Artist Name 2
     local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/, /; ta')
+    # Add artist names and url to description too, so it shows on each episode's rss description.
+    # DONT USE HTML HERE. For some reason it doesn't show on internet archive (although it support it)
+    local description="$description \n\n Lineup: $artist"
     local json_fmt='{\n"id": \n"%s", \n"title": "%s", \n"timestamp": %s, \n"webpage_url": "%s", \n"description": "%s", \n"artist": "%s"\n}'
     printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description" "$artist"
 }

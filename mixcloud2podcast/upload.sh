@@ -61,22 +61,49 @@ then # empty
       IA_ARTIST=$IA_ARTIST' '
 fi
 
-#ia \
-ia --debug \
-upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
---metadata="mediatype:$IA_MEDIATYPE" \
---metadata="title:$IA_TITLE" \
---metadata="collection:$IA_COLLECTION" \
---metadata="description:$IA_DESCRIPTION " \
---metadata="artist:$IA_ARTIST" \
---metadata="author:$IA_AUTHOR" \
---metadata="contributor:$IA_CONTRIBUTOR" \
---metadata="creator:$IA_CREATOR" \
---metadata="source:$IA_SOURCE" \
---metadata="subject:$IA_SUBJECT" \
---metadata="date:$IA_DATE" \
---metadata="language:$IA_LANGUAGE" \
---metadata="licenseurl:$IA_LICENSEURL"
+
+# Upload files. mediatype and collection has to be set as it cannot be changed afterwards. 
+# See: https://archive.org/services/docs/api/internetarchive/cli.html#upload
+function ia_upload {
+    #ia \
+    ia --debug \
+    upload $IA_IDENTIFIER "$audio_file" "$json" --retries 100 \
+    --metadata="mediatype:$IA_MEDIATYPE" \
+    --metadata="collection:$IA_COLLECTION" \
+    --metadata="title:$IA_TITLE" \
+    --metadata="description:$IA_DESCRIPTION " \
+    --metadata="artist:$IA_ARTIST" \
+    --metadata="author:$IA_AUTHOR" \
+    --metadata="contributor:$IA_CONTRIBUTOR" \
+    --metadata="creator:$IA_CREATOR" \
+    --metadata="source:$IA_SOURCE" \
+    --metadata="subject:$IA_SUBJECT" \
+    --metadata="date:$IA_DATE" \
+    --metadata="language:$IA_LANGUAGE" \
+    --metadata="licenseurl:$IA_LICENSEURL"
+}
+
+# Modify metadata. mediatype and collection cannot be modified.
+# See: https://archive.org/services/docs/api/internetarchive/cli.html#upload
+function ia_metadata {
+    #ia \
+    ia --debug \
+    metadata $IA_IDENTIFIER \
+    --modify="title:$IA_TITLE" \
+    --modify="description:$IA_DESCRIPTION " \
+    --modify="artist:$IA_ARTIST" \
+    --modify="author:$IA_AUTHOR" \
+    --modify="contributor:$IA_CONTRIBUTOR" \
+    --modify="creator:$IA_CREATOR" \
+    --modify="source:$IA_SOURCE" \
+    --modify="subject:$IA_SUBJECT" \
+    --modify="date:$IA_DATE" \
+    --modify="language:$IA_LANGUAGE" \
+    --modify="licenseurl:$IA_LICENSEURL"    
+}
+
+#ia_upload
+ia_metadata
 
 echo "All done with `basename "$0"`."
 
