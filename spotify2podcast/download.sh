@@ -151,5 +151,6 @@ add_id3
 # Change back from episode subdir to our project main dir (just for completeness)
 cd '../../../../spotify2podcast'
 
-echo 'All done.'
+echo "All done with `basename "$0"`."
+
 

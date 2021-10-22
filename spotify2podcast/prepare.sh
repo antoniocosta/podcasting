@@ -87,4 +87,5 @@ print_json > $ARCHIVE_DIR'/'$JSON_FILE
 # Generate RSS. This project shares rss.sh with mixcloud2podcast as a symlink
 # ./rss.sh "$1"
 
-echo 'All done.'
+echo "All done with `basename "$0"`."
+

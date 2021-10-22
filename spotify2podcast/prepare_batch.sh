@@ -34,5 +34,5 @@ for audio_file in "${arr_audio_files[@]}"; do
 #        echo "Prepare $audio_file"
         ./prepare.sh $1 $audio_file
 done
-echo "All files prepared."
+echo "All done with `basename "$0"`."
 exit
