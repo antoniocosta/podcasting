@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>All My Favorite Songs</title>
+	<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+	<script>
+	  jQuery(function($) {
+
+		$("#rss-items").rss("http://feeds.feedburner.com/all-my-favorite-songs",
+		{
+			// how many entries do you want?
+			// default: 4
+			// valid values: any integer
+			limit: 1000,
+
+			// will request the API via https
+			// default: false
+			// valid values: false, true
+			ssl: true,
+
+			// option to seldomly render ads
+			// ads help covering the costs for the feedr app server hosting and future improvements
+			// default: true
+			// valid values: false, true
+			support: false,
+
+			// formats the date with moment.js (optional)
+			// default: 'dddd MMM Do'
+			// valid values: see http://momentjs.com/docs/#/displaying/
+			dateFormat: "MMM Do YYYY",
+
+			// outer template for the html transformation
+			// default: "<ul>{entries}</ul>"
+			// valid values: any string
+			layoutTemplate: "{entries}",
+
+			// inner template for each entry
+			// default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
+			// valid values: any string
+
+			entryTemplate: '<div class="tab"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}  ·  {date}</h2>{enclosure}<p>{body}</span></p></div>',
+
+		  // a callback, which gets triggered when an error occurs
+		  // default: function() { throw new Error("jQuery RSS: url don't link to RSS-Feed") }
+		  error: function() {},
+
+		  // a callback, which gets triggered when everything was loaded successfully
+		  // this is an alternative to the next parameter (callback function)
+		  // default: function(){}
+		  success: function() {
+				console.log(this.feed)
+				let img_src=this.feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
+				let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
+				// html+='<h1>'+this.feed.title+'</h1>';
+				html+='<h2>'+this.feed.description+'</h2>';
+				$( "#rss-desc").append( html );
+
+		  },
+
+		  // a callback, which gets triggered once data was received but before the rendering.
+		  // this can be useful when you need to remove a spinner or something similar
+		  onData: function() {},
+
+		  tokens: {
+			num: function (entry,token){
+			  return entry.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
+			},
+			curator: function (entry,token){
+			  return entry.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
+			},			
+			title: function (entry,token){
+			  return entry.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
+			},
+			subtitle: function (entry,token){
+			  return entry.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
+			},
+			enclosure: function (entry, tokens) {
+			  if (entry.enclosure) {
+				return `<audio preload="none" src="${entry.enclosure.url}" type="audio/mpeg" controls></audio>`;
+			  }
+			  return "";
+			},
+		  }
+		})
+
+	  })
+	</script>
+	<style>
+	html,body{
+		font-family: sans-serif;
+		background-color:white;
+		color:#333;
+		margin:0;
+	}
+	h1{	}
+	h2,h3,h4 {
+		font-weight: normal;
+		line-height: 1.6;
+	}	  
+	a { 
+		color: #0000ee;
+		text-decoration: none;
+	}
+	p{
+		line-height: 1.6;
+		color: #555;
+	}
+	audio{
+		width: 100%;
+	}
+	.header{
+		max-width: 720px;
+		margin: auto;
+		padding: 1em;
+	}
+	.footer{
+		max-width: 720px;
+		margin: auto;
+		padding: 2em 0 2em 0;
+	}
+
+	/*See:  ;https://codepen.io/raubaca/pen/PZzpVe*/
+	 input {
+		 position: absolute;
+		 opacity: 0;
+		 z-index: -1;
+	}
+
+	/* Accordion styles */
+	.tabs {
+		max-width: 720px;
+		margin: auto;
+		/*border-radius: 8px;*/
+		overflow: hidden;
+		/*box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);*/
+		padding: 1em;
+	}
+	.tab {
+		border-bottom: 2px solid black;
+		width: 100%;
+		overflow: hidden;
+	}
+	.tab:last-of-type {
+		border-bottom: 0;
+	}
+	.tab-label {
+	 	font-size: 1.9em;
+	 	/*display: block;*/
+		display: flex;
+		justify-content: space-between;
+		padding: .8em 0 .8em 0;
+		/*background: #2c3e50;*/
+		font-weight: bold;
+		cursor: pointer;
+	}
+/*	.tab-label  > small{
+		font-size:  .8em;
+		font-weight: normal;
+	}*/
+	.tab-label:hover {
+		 /*background: #333;*/
+	}
+	.tab-label::after {
+		 content: "\276F";
+		 width: 1em;
+		 height: 1em;
+		 text-align: center;
+		 transition: all 0.35s;
+
+		 /*float: right;*/
+	}
+	.tab-content {
+		 max-height: 0;
+		 /*padding: 0 1em;*/
+		 /*color: #2c3e50;*/
+		 /*background: white;*/
+		 transition: all 0.35s;
+	}
+	.tab-content > h2 {
+		margin-top: 0;
+	}
+	.tab-close {
+		 display: flex;
+		 justify-content: flex-end;
+		 padding: 1em;
+		 /*font-size: 0.75em;*/
+		 /*background: #2c3e50;*/
+		 cursor: pointer;
+	}
+	.tab-close:hover {
+		 /*background: #1a252f;*/
+	}
+	 input:checked + .tab-label {
+		 /*background: #1a252f;*/
+	}
+	 input:checked + .tab-label::after {
+		 transform: rotate(90deg);
+	}
+	 input:checked ~ .tab-content {
+		 max-height: 600vh;
+		 padding: 0 0 1em 0;
+	}
+ 
+
+	</style>
+</head>
+<body>
+
+<div class="header" id="rss-desc"></div>
+<div class="tabs" id="rss-items">
+<!-- 
+	<div class="tab"><input type="checkbox" id="chck1"><label class="tab-label" for="chck1">Item 1</label><div class="tab-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!</div></div>
+
+	<div class="tab"><input type="checkbox" id="chck2"><label class="tab-label" for="chck2">Item 2</label><div class="tab-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!</div></div>
+-->
+</div>
+<div class="footer"></div>
+</body>
+</html>
