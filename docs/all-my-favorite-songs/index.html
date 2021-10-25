@@ -32,6 +32,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
 <script>
 	jQuery(function($) {
+		
 		// https://github.com/sdepold/jquery-rss
 		$("#rss-items").rss("http://feeds.feedburner.com/all-my-favorite-songs", {
 			limit: 1000,
@@ -112,17 +113,16 @@
 		padding: 1em 0 1em 0;
 	}
 	.badges img{
-		padding: 0 .3em 0 0;
-		filter: grayscale(100%);
+		padding: 0 .28em 0 0;
+/*		filter: grayscale(100%);
 	    -webkit-filter: grayscale(100%);
-	    opacity: .5;
+	    opacity: .5;*/
 	}
-	.badges img:hover {
+/*	.badges img:hover {
     	filter: none;
     	-webkit-filter: grayscale(0);
     	opacity: 1;
-	}
-
+	}*/
 	.footer{
 		max-width: 720px;
 		margin: auto;
