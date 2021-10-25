@@ -1,16 +1,33 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<title>All My Favorite Songs</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">	
-	<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-	<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
-	<script>
+<head>
+
+<title>All My Favorite Songs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta name="twitter:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta property="og:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="All My Favorite Songs">
+<meta property="og:title" content="All My Favorite Songs">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="http://allmyfavoritesongs.com">
+<meta name="twitter:image" content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
+<meta property="og:image" content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
+<meta property="og:type" content="website">
+
+<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+
+<script>
 	  jQuery(function($) {
 
 		$("#rss-items").rss("http://feeds.feedburner.com/all-my-favorite-songs",
@@ -65,7 +82,6 @@
 				html+='<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>';
 				html+='<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>';
 				html+='<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>';
-
 				html+='</div>';
 				$( "#rss-desc").append( html );
 
@@ -73,32 +89,31 @@
 
 		  // a callback, which gets triggered once data was received but before the rendering. This can be useful when you need to remove a spinner or something similar
 		  onData: function() {},
-
 		  tokens: {
-			num: function (entry,token){
-			  return entry.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
-			},
-			curator: function (entry,token){
-			  return entry.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
-			},			
-			title: function (entry,token){
-			  return entry.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
-			},
-			subtitle: function (entry,token){
-			  return entry.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
-			},
-			enclosure: function (entry, tokens) {
-			  if (entry.enclosure) {
-				return `<audio preload="none" src="${entry.enclosure.url}" type="audio/mpeg" controls></audio>`;
-			  }
-			  return "";
-			},
+				num: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
+				},
+				curator: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
+				},			
+				title: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
+				},
+				subtitle: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
+				},
+				enclosure: function (entry, tokens) {
+				  if (entry.enclosure) {
+					return `<audio preload="none" src="${entry.enclosure.url}" type="audio/mpeg" controls></audio>`;
+				  }
+				  return "";
+				},
 		  }
 		})
 
 	  })
-	</script>
-	<style>
+</script>
+<style>
 	html,body{
 		font-family: sans-serif;
 		background-color:white;
@@ -137,8 +152,7 @@
 		margin: auto;
 		padding: 2em 0 2em 0;
 	}
-
-	/*See:  ;https://codepen.io/raubaca/pen/PZzpVe*/
+	/* Accordion: ;https://codepen.io/raubaca/pen/PZzpVe*/
 	 input {
 		 position: absolute;
 		 opacity: 0;
@@ -149,9 +163,7 @@
 	.tabs {
 		max-width: 720px;
 		margin: auto;
-		/*border-radius: 8px;*/
 		overflow: hidden;
-		/*box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);*/
 		padding: 1em;
 	}
 	.tab {
@@ -172,10 +184,6 @@
 		font-weight: bold;
 		cursor: pointer;
 	}
-/*	.tab-label  > small{
-		font-size:  .8em;
-		font-weight: normal;
-	}*/
 	.tab-label:hover {
 		 /*background: #333;*/
 	}
@@ -185,7 +193,6 @@
 		 height: 1em;
 		 text-align: center;
 		 transition: all 0.35s;
-
 		 /*float: right;*/
 	}
 	.tab-content {
@@ -206,12 +213,12 @@
 		 /*background: #2c3e50;*/
 		 cursor: pointer;
 	}
-	.tab-close:hover {
-		 /*background: #1a252f;*/
+/*	.tab-close:hover {
+		 background: #1a252f;
 	}
 	 input:checked + .tab-label {
-		 /*background: #1a252f;*/
-	}
+		 background: #1a252f;
+	}*/	
 	 input:checked + .tab-label::after {
 		 transform: rotate(90deg);
 	}
@@ -220,12 +227,13 @@
 		 padding: 0 0 1em 0;
 	}
  
-
-	</style>
+</style>
 </head>
 <body>
+
 	<div class="header" id="rss-desc"></div>
 	<div class="tabs" id="rss-items"></div>
 	<div class="footer"></div>
+
 </body>
 </html>
