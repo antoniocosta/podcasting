@@ -1,7 +1,10 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
 	<title>All My Favorite Songs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -57,6 +60,13 @@
 				let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
 				// html+='<h1>'+this.feed.title+'</h1>';
 				html+='<h2>'+this.feed.description+'</h2>';
+				html+='<div class="badges">';
+				html+='<a href="http://feeds.feedburner.com/all-my-favorite-songs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>';				
+				html+='<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>';
+				html+='<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>';
+				html+='<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>';
+
+				html+='</div>';
 				$( "#rss-desc").append( html );
 
 		  },
@@ -99,7 +109,7 @@
 	h1{	}
 	h2,h3,h4 {
 		font-weight: normal;
-		line-height: 1.6;
+		line-height: 1.5;
 	}	  
 	a { 
 		color: #0000ee;
@@ -116,6 +126,12 @@
 		max-width: 720px;
 		margin: auto;
 		padding: 1em;
+	}
+	.badges{
+		padding: 1em 0 1em 0;
+	}
+	.badges img{
+		padding: 0 .22em 0 0;
 	}
 	.footer{
 		max-width: 720px;
@@ -148,7 +164,7 @@
 		border-bottom: 0;
 	}
 	.tab-label {
-	 	font-size: 1.9em;
+	 	font-size: 1.8em;
 	 	/*display: block;*/
 		display: flex;
 		justify-content: space-between;
