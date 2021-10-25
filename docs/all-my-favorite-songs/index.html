@@ -4,75 +4,45 @@
 <head>
 
 <title>All My Favorite Songs</title>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">	
-<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="robots" content="index,follow">
-<meta name="description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
-<meta name="twitter:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
-<meta property="og:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="All My Favorite Songs">
-<meta property="og:title" content="All My Favorite Songs">
 <meta property="og:locale" content="en_US">
-<meta property="og:url" content="http://allmyfavoritesongs.com">
-<meta name="twitter:image" content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
-<meta property="og:image" content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:type" content="website">
+
+<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
+<meta name="description" 			content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta name="twitter:description" 	content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta property="og:description" 	content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+
+<meta name="twitter:title" 	content="All My Favorite Songs">
+<meta property="og:title" 	content="All My Favorite Songs">
+
+<meta property="og:url" 	content="http://allmyfavoritesongs.com">
+<meta name="twitter:image" 	content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
+<meta property="og:image" 	content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
 
 <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
-
 <script>
-	  jQuery(function($) {
-
-		$("#rss-items").rss("http://feeds.feedburner.com/all-my-favorite-songs",
-		{
-			// how many entries do you want?
-			// default: 4
-			// valid values: any integer
+	jQuery(function($) {
+		// https://github.com/sdepold/jquery-rss
+		$("#rss-items").rss("http://feeds.feedburner.com/all-my-favorite-songs", {
 			limit: 1000,
-
-			// will request the API via https
-			// default: false
-			// valid values: false, true
 			ssl: true,
-
-			// option to seldomly render ads
-			// ads help covering the costs for the feedr app server hosting and future improvements
-			// default: true
-			// valid values: false, true
 			support: false,
-
-			// formats the date with moment.js (optional)
-			// default: 'dddd MMM Do'
-			// valid values: see http://momentjs.com/docs/#/displaying/
-			dateFormat: "MMM Do YYYY",
-
-			// outer template for the html transformation
-			// default: "<ul>{entries}</ul>"
-			// valid values: any string
+			dateFormat: "MMM Do YYYY", // http://momentjs.com/docs/#/displaying/
 			layoutTemplate: "{entries}",
-
-			// inner template for each entry
-			// default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
-			// valid values: any string
-
 			entryTemplate: '<div class="tab"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}  ·  {date}</h2>{enclosure}<p>{body}</span></p></div>',
-
-		  // a callback, which gets triggered when an error occurs
-		  // default: function() { throw new Error("jQuery RSS: url don't link to RSS-Feed") }
-		  error: function() {},
-
-		  // a callback, which gets triggered when everything was loaded successfully
-		  // this is an alternative to the next parameter (callback function)
-		  // default: function(){}
-		  success: function() {
-				console.log(this.feed)
+			error: function() {},
+		  	success: function() {
+				// console.log(this.feed)
 				let img_src=this.feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
 				let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
 				// html+='<h1>'+this.feed.title+'</h1>';
@@ -84,12 +54,9 @@
 				html+='<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>';
 				html+='</div>';
 				$( "#rss-desc").append( html );
-
-		  },
-
-		  // a callback, which gets triggered once data was received but before the rendering. This can be useful when you need to remove a spinner or something similar
-		  onData: function() {},
-		  tokens: {
+		  	},
+			onData: function() {},
+			tokens: {
 				num: function (entry,token){
 				  return entry.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
 				},
@@ -108,10 +75,10 @@
 				  }
 				  return "";
 				},
-		  }
+			}
 		})
 
-	  })
+	})
 </script>
 <style>
 	html,body{
@@ -131,7 +98,7 @@
 	}
 	p{
 		line-height: 1.6;
-		color: #555;
+		color: #666;
 	}
 	audio{
 		width: 100%;
@@ -152,14 +119,12 @@
 		margin: auto;
 		padding: 2em 0 2em 0;
 	}
-	/* Accordion: ;https://codepen.io/raubaca/pen/PZzpVe*/
+	/* CSS accordion: https://codepen.io/raubaca/pen/PZzpVe */
 	 input {
 		 position: absolute;
 		 opacity: 0;
 		 z-index: -1;
 	}
-
-	/* Accordion styles */
 	.tabs {
 		max-width: 720px;
 		margin: auto;
@@ -175,7 +140,7 @@
 		border-bottom: 0;
 	}
 	.tab-label {
-	 	font-size: 1.8em;
+	 	font-size: 1.7em;
 	 	/*display: block;*/
 		display: flex;
 		justify-content: space-between;
@@ -184,11 +149,12 @@
 		font-weight: bold;
 		cursor: pointer;
 	}
-	.tab-label:hover {
-		 /*background: #333;*/
-	}
+/*	.tab-label:hover {
+		 background: #333;
+	}*/
 	.tab-label::after {
-		 content: "\276F";
+		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
+		 /*content: "\2192";  /* Rightwards Arrow */
 		 width: 1em;
 		 height: 1em;
 		 text-align: center;
