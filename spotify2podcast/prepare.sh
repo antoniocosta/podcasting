@@ -77,7 +77,7 @@ function print_json {
     local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/, /; ta')
     # Add artist names and url to description too, so it shows on each episode's rss description.
     # DONT USE HTML HERE. For some reason it doesn't show on internet archive (although it support it)
-    local description="$description \n\n Lineup: $artist"
+    local description="$description \n\n Lineup:\n $artist"
     local json_fmt='{\n"id": \n"%s", \n"title": "%s", \n"timestamp": %s, \n"webpage_url": "%s", \n"description": "%s", \n"artist": "%s"\n}'
     printf "$json_fmt" "$id" "$title" "$timestamp" "$webpage_url" "$description" "$artist"
 }
