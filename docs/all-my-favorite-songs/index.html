@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="robots" content="index,follow">
 <meta property="og:locale" content="en_US">
@@ -39,7 +39,7 @@
 			support: false,
 			dateFormat: "MMM Do YYYY", // http://momentjs.com/docs/#/displaying/
 			layoutTemplate: "{entries}",
-			entryTemplate: '<div class="tab"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}  ·  {date}</h2>{enclosure}<p>{body}</span></p></div>',
+			entryTemplate: '<div class="tab"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}<span class="date"> · {date}</span></h2>{enclosure}<p>{body}</span></p></div>',
 			error: function() {},
 		  	success: function() {
 				// console.log(this.feed)
@@ -170,6 +170,16 @@
 	}
 	.tab-content > h2 {
 		margin-top: 0;
+		/*display: block;*/
+	}
+	.tab-content > h2 .date {
+		/*font-size: .6em;*/
+		/*display:  block;*/
+		/*float: right;*/
+		/*margin: .8em 0 .8em 0  ;*/
+		color: #8f97a4;
+		font-weight: lighter;
+
 	}
 	.tab-close {
 		 display: flex;
