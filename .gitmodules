@@ -1,0 +1,4 @@
+[submodule "docs/all-my-favorite-songs"]
+	path = docs/all-my-favorite-songs
+	url = https://github.com/allmyfavoritesongs/allmyfavoritesongs.github.io.git
+	branch = main
