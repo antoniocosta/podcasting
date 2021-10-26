@@ -190,7 +190,7 @@ done
 combine
 echo "RSS file saved"
 
-gitpush () {
+function gitpush {
         echo "Pushing to git..."
         cd ..
         git add .
