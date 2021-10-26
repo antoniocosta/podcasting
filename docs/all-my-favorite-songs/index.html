@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>All My Favorite Songs</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="index,follow">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website">
+
+<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
+<meta name="description" 			content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta name="twitter:description" 	content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta property="og:description" 	content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+
+<meta name="twitter:title" 	content="All My Favorite Songs">
+<meta property="og:title" 	content="All My Favorite Songs">
+
+<meta property="og:url" 	content="http://allmyfavoritesongs.com">
+<meta name="twitter:image" 	content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
+<meta property="og:image" 	content="http://antoniocosta.github.io/podcasting/all-my-favorite-songs/all-my-favorite-songs.jpg">
+
+<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+<script>
+	jQuery(function($) {
+		
+		// https://github.com/sdepold/jquery-rss
+		$("#rss-items").rss("http://feeds.feedburner.com/all-my-favorite-songs", {
+			limit: 1000,
+			ssl: true,
+			support: false,
+			dateFormat: "MMM Do YYYY", // http://momentjs.com/docs/#/displaying/
+			layoutTemplate: "{entries}",
+			entryTemplate: '<div class="tab"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}<span class="date"> · {date}</span></h2>{enclosure}<p>{body}</span></p></div>',
+			error: function() {},
+		  	success: function() {
+				// console.log(this.feed)
+				let img_src=this.feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
+				let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
+				// html+='<h1>'+this.feed.title+'</h1>';
+				html+='<h2>'+this.feed.description+'</h2>';
+				html+='<div class="badges">';
+				html+='<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>';
+				html+='<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>';
+				html+='<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>';
+				html+='<a href="http://feeds.feedburner.com/all-my-favorite-songs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>';
+				html+='</div>';
+				$( "#rss-desc").append( html );
+		  	},
+			onData: function() {},
+			tokens: {
+				num: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
+				},
+				curator: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
+				},			
+				title: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
+				},
+				subtitle: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
+				},
+				enclosure: function (entry, tokens) {
+				  if (entry.enclosure) {
+					return `<audio preload="none" src="${entry.enclosure.url}" type="audio/mpeg" controls></audio>`;
+				  }
+				  return "";
+				},
+			}
+		})
+
+	})
+</script>
+<style>
+	html,body{
+		font-family: sans-serif;
+		background-color:white;
+		color:#333;
+		margin:0;
+	}
+	h1{	}
+	h2,h3,h4 {
+		font-weight: normal;
+		line-height: 1.5;
+	}	  
+	a { 
+		color: #0000ee;
+		text-decoration: none;
+	}
+	p{
+		line-height: 1.6;
+		color: #666;
+	}
+	audio{
+		width: 100%;
+	}
+	.header{
+		max-width: 720px;
+		margin: auto;
+		padding: 1em;
+	}
+	.badges{
+		padding: 1em 0 1em 0;
+	}
+	.badges img{
+		padding: 0 .28em 0 0;
+/*		filter: grayscale(100%);
+	    -webkit-filter: grayscale(100%);
+	    opacity: .5;*/
+	}
+/*	.badges img:hover {
+    	filter: none;
+    	-webkit-filter: grayscale(0);
+    	opacity: 1;
+	}*/
+	.footer{
+		max-width: 720px;
+		margin: auto;
+		padding: 2em 0 2em 0;
+	}
+	/* CSS accordion: https://codepen.io/raubaca/pen/PZzpVe */
+	 input {
+		 position: absolute;
+		 opacity: 0;
+		 z-index: -1;
+	}
+	.tabs {
+		max-width: 720px;
+		margin: auto;
+		overflow: hidden;
+		padding: 1em;
+	}
+	.tab {
+		border-bottom: 2px solid black;
+		width: 100%;
+		overflow: hidden;
+	}
+	.tab:last-of-type {
+		border-bottom: 0;
+	}
+	.tab-label {
+	 	font-size: 1.7em;
+	 	/*display: block;*/
+		display: flex;
+		justify-content: space-between;
+		padding: .8em 0 .8em 0;
+		/*background: #2c3e50;*/
+		font-weight: bold;
+		cursor: pointer;
+	}
+/*	.tab-label:hover {
+		 background: #333;
+	}*/
+	.tab-label::after {
+		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
+		 /*content: "\2192";  /* Rightwards Arrow */
+		 width: 1em;
+		 height: 1em;
+		 text-align: center;
+		 transition: all 0.35s;
+		 /*float: right;*/
+	}
+	.tab-content {
+		 max-height: 0;
+		 /*padding: 0 1em;*/
+		 /*color: #2c3e50;*/
+		 /*background: white;*/
+		 transition: all 0.35s;
+	}
+	.tab-content > h2 {
+		margin-top: 0;
+		/*display: block;*/
+	}
+	.tab-content > h2 .date {
+		/*font-size: .6em;*/
+		/*display:  block;*/
+		/*float: right;*/
+		/*margin: .8em 0 .8em 0  ;*/
+		color: #8f97a4;
+		font-weight: lighter;
+
+	}
+	.tab-close {
+		 display: flex;
+		 justify-content: flex-end;
+		 padding: 1em;
+		 /*font-size: 0.75em;*/
+		 /*background: #2c3e50;*/
+		 cursor: pointer;
+	}
+/*	.tab-close:hover {
+		 background: #1a252f;
+	}
+	 input:checked + .tab-label {
+		 background: #1a252f;
+	}*/	
+	 input:checked + .tab-label::after {
+		 transform: rotate(90deg);
+	}
+	 input:checked ~ .tab-content {
+		 max-height: 600vh;
+		 padding: 0 0 1em 0;
+	}
+ 
+</style>
+</head>
+<body>
+
+	<div class="header" id="rss-desc"></div>
+	<div class="tabs" id="rss-items"></div>
+	<div class="footer"></div>
+
+</body>
+</html>
