@@ -61,7 +61,7 @@ function rsyncing {
     --exclude=".*" \
     --exclude='downloads/' \
     --exclude='downloaded.txt' \
-    --exclude="*.psd" \
+    --exclude="psd/" \
     "$source" "$dest"
 }
 rsyncing $1 $2
