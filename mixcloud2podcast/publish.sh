@@ -5,9 +5,10 @@
 # 2. git pushes to podcast-name.github.io repo
 #
 # Usage: ./publish.sh ../docs/podcast-name/ ../../podcast-name.github.io
-# Requires:
-# rsync
-# git
+# Requires: rsync git
+#
+# TODO:
+# - Make it use podcast.conf instead of directory names . Move dir names to podcast.conf.
 # ------------------------------------------------------------------------
 
 function print_usage {

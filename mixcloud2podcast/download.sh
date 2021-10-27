@@ -11,6 +11,9 @@
 # brew install ffmpeg
 # brew install internetarchive (Internet Archive's command line interface)
 # ia configure (configure ia with your credentials)
+#
+# TODO:
+# Add publish.sh so it gets actually published to website
 # ------------------------------------------------------------------------
 
 function print_usage {
