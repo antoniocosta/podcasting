@@ -73,9 +73,11 @@ function print_json {
     fi
     local webpage_url=$RSS_LINK'#'$EP_NUM
     local description=$EP_DESCRIPTION
-    # convert artist names from m3u to comma delimited single line. Ignore intro and outro (any line without ' -'). Remove duplicates with awk. Remove newlines with sed and use , instead. Example: Artist Name 1, Artist Name 2
-    local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | awk '!x[$0]++' | sed -e :a -e '$!N; s/\n/, /; ta')
-    
+    # convert artist names from m3u to comma delimited single line. 
+    # Ignore intro and outro (any line without ' -'). Remove newlines and use , instead. Example: Artist Name 1, Artist Name 2
+    local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/, /; ta')
+    # Remove duplicates with awk. Remove all linebreaks with tr. Get rid of ',' at the end with sed. Trim whitesace with xargs
+    artist=$(echo $artist | awk 'BEGIN{RS=ORS=", "} !seen[$0]++' | tr -d \\n | sed 's/\(.*\),/\1 /' | xargs)
     # Add artist names and url to description too, so it shows on each episode's rss description.
     # DONT USE HTML HERE. For some reason it doesn't show on internet archive (although it support it)
     local description="$description \n\n Lineup:\n $artist"
