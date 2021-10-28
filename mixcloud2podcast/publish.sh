@@ -56,7 +56,7 @@ function rsyncing {
     # --delete - deletes any files that exist in your target directories but that do not exist in the source directory struction
     # --progress - show progress of copy
     # --exclude=".*" - exclude files that begin with a dot
-    rsync -ra \
+    rsync -ura \
     --delete \
     --progress \
     --exclude=".*" \
