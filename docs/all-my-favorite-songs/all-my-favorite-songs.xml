@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 28 Oct 2021 14:31:00 +0200</lastBuildDate>
+        <lastBuildDate>Fri, 29 Oct 2021 18:38:07 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 abmc</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,16 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 008 by Kurt Vile - Nepotismic Reticulum Top Faves Studio Mixtape</title>
+                <link>http://allmyfavoritesongs.com#008</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-008-kurt-vile</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-008-kurt-vile/all-my-favorite-songs-008-kurt-vile.mp3" length="303378306" type="audio/mpeg" />
+                <description>Kurt Samuel Vile (born January 3, 1980) is an American singer, songwriter, multi-instrumentalist, and record producer. He is known for his solo work and as the former lead guitarist of rock band The War on Drugs. Both in the studio and during live performances, Vile is accompanied by his backing band, The Violators, which currently includes Jesse Trbovich (bass, guitar, saxophone), Rob Laakso (guitar, bass) and Kyle Spence (drums). His laid-back and drifting indie rock takes notes from masters like Neil Young, Sonic Youth, and Dinosaur Jr., exploring inventive guitar tones on meditative and often self-reflective songs.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Stephen Malkmus &amp; The Jicks, Courtney Barnett, DRINKS, Cass McCombs, John Prine, Nathan Bowles, Grouper, Yo La Tengo, Jessica Pratt, Steve Gunn, Kurt Vile, Steely Dan, The Go-Betweens, Nick Cave &amp; The Bad Seeds, Suicide, The Move, Captain Beefheart, Miles Davis, The Sadies, The Pogues, The Rolling Stones, Rusty Kershaw, Doug Kershaw, Willie Dunn, Aphrodite&#39;s Child, Lou Reed, Prince, Depeche Mode, David Bowie, Big Star, Flamin&#39; Groovies, The Byrds, Tim Buckley, Randy Newman, David Byrne, Gary Numan  Tubeway Army</description>
+                <pubDate>Fri, 29 Oct 2021 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 007 by SebastiAn - Picks</title>

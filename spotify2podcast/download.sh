@@ -15,6 +15,7 @@
 # ia configure (configure ia with your credentials)
 #
 # TODO:
+# - Make so that if an .m3u exists in folder we dont download it again (might not be possible with spotDL)
 # - Don't generate rss right after download. Because it pushes to git it should be done only after upload to IA.
 # ------------------------------------------------------------------------
 
@@ -54,7 +55,6 @@ cd "$EP_SUBDIR" # every command from here forward is relative to this
 
 echo "Downloading all playlist's songs with spotdl..."
 pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
-#pipx run spotdl $SPOTIFY_PLAYLIST_URL -o "mp3" --m3u
 
 if [ "$M3U_RENAME" = true ] ; then
     find . -type f -name '*.m3u' -exec mv {} "$M3U_FILE" \; # rename m3u to fixed name
@@ -117,8 +117,9 @@ function merge_audio {
     while read -r line; do
         # replace single quote (ex: O'Connor with O'\''Connor) so ffmpeg doesn't fail
         # ref: https://ffmpeg.org/ffmpeg-formats.html#Examples
+        # ref: https://www.ffmpeg.org/ffmpeg-utils.html#Quoting-and-escaping
         # ref: https://askubuntu.com/questions/648759/replace-with-sed-a-character-with-backslash-and-use-this-in-a-variable
-        line=$(echo $line | sed 's/'\''/&\\&&/g')
+        line=$(echo "$line" | sed 's/'\''/&\\&&/g')
         echo "file '$line'";
     done < "$M3U_FILE" > tmp.txt
 
