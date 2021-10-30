@@ -72,7 +72,7 @@ function print_json {
         local timestamp=$(date -d "$EP_PUBDATE" +"%s") # Use hardcoded date
     fi
     local webpage_url=$RSS_LINK'#'$EP_NUM
-    local description=$EP_DESCRIPTION
+    local description="$EP_DESCRIPTION"
     # convert artist names from m3u to comma delimited single line. 
     # Ignore intro and outro (any line without ' -'). Remove newlines and use , instead. Example: Artist Name 1, Artist Name 2
     local artist=$(cat "$M3U_FILE" | sed '/ -/!d' | sed 's/ -.*//' | sed -e :a -e '$!N; s/\n/, /; ta')

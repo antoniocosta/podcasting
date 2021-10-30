@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 29 Oct 2021 18:38:07 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 31 Oct 2021 01:09:24 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 abmc</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,16 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 009 by Spliknot - Halloween Playlist</title>
+                <link>http://allmyfavoritesongs.com#009</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-009-slipknot</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-009-slipknot/all-my-favorite-songs-009-slipknot.mp3" length="221575526" type="audio/mpeg" />
+                <description>Slipknot is an American heavy metal band formed in Des Moines, Iowa, in 1995 by percussionist Shawn Crahan, drummer Joey Jordison and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Crahan, Jordison, Gray, Craig Jones, Mick Thomson, Corey Taylor, Sid Wilson, Chris Fehn, and Jim Root. Gray died on May 24, 2010, and was replaced during 2011–2014 by guitarist Donnie Steele. Slipknot&#39;s mix of grinding, post-Korn alternative metal, Marilyn Manson-esque neo-shock rock, and rap-metal helped make them one of the most popular bands in the nu-metal explosion of the late 1990s and early 2000s. But even more helpful was their theatrical, attention-grabbing image: the band always performed in identical industrial jump suits and homemade Halloween masks, and added to their mysterious anonymity by adopting the numbers zero through eight as stage aliases. Add to that a lyrical preoccupation with darkness and nihilism, and an affectionately insulting name for their fans (&#39;Maggots&#39;), and Slipknot&#39;s blueprint for nu-metal success was set.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Slipknot, Talking Heads, S.O.D. Stormtroopers of Death, Dangerous Toys, Iron Maiden, Ho99o9, Refused, Public Enemy, Marilyn Manson, White Zombie, Slayer, Venom, Megadeth, Ice Cube, Dr. Dre, Misfits, Glenn Danzig, Black Sabbath, Judas Priest, Testament, Alice Cooper, Behemoth, Neurosis, Mötley Crüe, Concrete Blonde, W.A.S.P., Slipknot</description>
+                <pubDate>Sun, 31 Oct 2021 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 008 by Kurt Vile - Nepotismic Reticulum Top Faves Studio Mixtape</title>
