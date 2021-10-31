@@ -45,7 +45,8 @@
 		  	success: function() {
 				// console.log(this.feed)
 				let img_src=this.feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
-				let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
+				let html='<picture><source srcset="'+img_src+'-dark.jpg" media="(prefers-color-scheme: dark)"><img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'"></picture>';
+				// let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
 				// html+='<h1>'+this.feed.title+'</h1>';
 				html+='<h2>'+this.feed.description+'</h2>';
 				html+='<div class="badges">';
@@ -103,6 +104,9 @@
 	})
 </script>
 <style>
+
+
+
 	html,body{
 		font-family: sans-serif;
 		background-color:white;
@@ -231,6 +235,15 @@
 	 input:checked ~ .tab-content {
 		 max-height: 600vh;
 		 padding: 0 0 1em 0;
+	}
+
+	/* Dar k mode */
+	@media (prefers-color-scheme: dark) {
+		html,body{ background-color:#222; color:#ddd; }
+		p{ color: #aaa; }
+		.tab { border-bottom: 2px solid #666; }
+		.badges img { opacity: .75; transition: opacity .5s ease-in-out;}
+		.badges img:hover { opacity: 1; }
 	}
 
 </style>
