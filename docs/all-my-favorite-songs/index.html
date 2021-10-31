@@ -40,7 +40,7 @@
 			support: false,
 			dateFormat: "MMM Do YYYY", // http://momentjs.com/docs/#/displaying/
 			layoutTemplate: "{entries}",
-			entryTemplate: '<div class="tab"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}<span class="date"> · {date}</span></h2>{enclosure}<p>{body}</span></p></div>',
+			entryTemplate: '<div class="tab" id="{num}"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}<span class="date"> · {date}</span></h2>{enclosure}<p>{body}</span></p></div>',
 			error: function() {},
 		  	success: function() {
 				// console.log(this.feed)
@@ -55,6 +55,27 @@
 				html+='<a href="http://feeds.feedburner.com/all-my-favorite-songs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>';
 				html+='</div>';
 				$( "#rss-desc").append( html );
+
+				// scroll to episode and open tab if ep hash is set
+				let myhash=window.location.hash;
+				let myelem=document.getElementById(myhash.substring(1))
+				if(myhash && myelem ) {
+					myelem.scrollIntoView(true);					
+					$(myhash+" input").prop("checked", true);					
+				} 
+
+				// $(".tab audio").on('loadstart', function() {
+				// 	console.log('loaded audio '+this)
+				// });
+
+				$("audio").bind('loadeddata',function(e) { 
+					console.log('loadeddata ' + e.target);
+				});
+
+				$("audio").bind("play", function (e) {
+					console.log('play ' + e.target);
+					// console.debug("Audio paused. Current time of audioplay: " + e.target.currentTime );
+				});
 		  	},
 			onData: function() {},
 			tokens: {
@@ -211,7 +232,7 @@
 		 max-height: 600vh;
 		 padding: 0 0 1em 0;
 	}
- 
+
 </style>
 </head>
 <body>

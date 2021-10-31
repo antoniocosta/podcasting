@@ -15,8 +15,7 @@
 # ia configure (configure ia with your credentials)
 #
 # TODO:
-# - Make so that if an .m3u exists in folder we dont download it again (might not be possible with spotDL)
-# - Don't generate rss right after download. Because it pushes to git it should be done only after upload to IA.
+# - Make so that if an .m3u exists in folder we don't download it again (might not be possible with spotDL)
 # ------------------------------------------------------------------------
 
 function print_usage {
@@ -151,6 +150,8 @@ add_id3
 
 # Change back from episode subdir to our project main dir (just for completeness)
 cd '../../../../spotify2podcast'
+
+./prepare.sh $1 "$ARCHIVE_DIR/$EP_SUBDIR/$EP_FILE"
 
 echo "All done with `basename $0`."
 

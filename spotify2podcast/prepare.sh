@@ -5,13 +5,13 @@
 #   2. Cleans up tmp files from download subdir
 #   3. Generates json from merged mp3 and episode config file
 #
-# Usage: ./prepare.sh podcast.conf ./full/path/audio_file.ext 
+# Usage: ./prepare.sh podcast.conf ../full/path/audio_file.ext 
 # Requires: None
 # ------------------------------------------------------------------------
 
 function print_usage {
     local msg="Prepares a generated audio file episode to be uploaded
-Usage: ./prepare.sh podcast.conf ./full/path/audio_file.ext"
+Usage: ./prepare.sh podcast.conf ../full/path/audio_file.ext"
     printf "%s\n" "$msg"
     exit 127
 }
