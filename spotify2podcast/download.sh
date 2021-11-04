@@ -48,7 +48,7 @@ echo "Starting `basename $0`..."
 
 cd "$ARCHIVE_DIR" # every command from here forward is relative to this
 if [ ! -d "$EP_SUBDIR" ]; then # create dir (to hold all downloaded mp3s) if it doesn't exist already
-  mkdir -p "$EP_SUBDIR"
+    mkdir -p "$EP_SUBDIR"
 fi
 cd "$EP_SUBDIR" # every command from here forward is relative to this
 
