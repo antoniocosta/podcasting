@@ -52,8 +52,16 @@ if [ ! -d "$EP_SUBDIR" ]; then # create dir (to hold all downloaded mp3s) if it 
 fi
 cd "$EP_SUBDIR" # every command from here forward is relative to this
 
-echo "Downloading all playlist's songs with spotdl..."
-pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+read -p "Type 'Y' to download m3u and all mp3s from Spotify. If m3u was edited manually skip with 'Return' or 'N'." -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    # Download
+    echo "Downloading all playlist's songs with spotdl..."
+    pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+fi
+
+
 
 if [ "$M3U_RENAME" = true ] ; then
     find . -type f -name '*.m3u' -exec mv {} "$M3U_FILE" \; # rename m3u to fixed name
