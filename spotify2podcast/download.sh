@@ -6,7 +6,7 @@
 #   3. Merges all mp3s in a m3u playlist to one big mp3
 #   4. Adds id3 metadata to merged mp3
 #
-# Usage: ./download.sh podcast.conf episode.conf
+# Usage: ./download.sh podcast.conf episode.conf [256(bitrate)]
 # Requires:
 # python3 -m pip install --user pipx && python3 -m pipx ensurepath
 # brew install ffmpeg
@@ -20,7 +20,7 @@
 
 function print_usage {
     local msg="Generates a podcast mp3 episode from a Spotify playlist.
-Usage: ./download.sh podcast.conf episode.conf
+Usage: ./download.sh podcast.conf episode.conf [256(bitrate)]
 Requires: 'pipx run spotdl' ffmpeg eyeD3 jq ia"
     printf "%s\n" "$msg"
     exit 127
@@ -40,6 +40,9 @@ requirements
 
 source $1 # Include the podcast config file passed as argument
 source $2 # Include the episode config file passed as argument
+
+# Use $3 if defined AND NOT EMPTY otherwise use 256 bitrate
+BITRATE=${3-256}
 
 # ------------------------------------------------------------------------
 echo "Starting `basename $0`..."
@@ -89,7 +92,7 @@ function get_tts { # generate ttsmp3.com mp3 file from text
     curl --silent -L --output "$2" $tts_url # download mp3
     echo "Converting $INTRO_MP3 to higher quality with ffmpeg..."
     # convert to higher frequency, bitrate and (from mono) to stereo
-    ffmpeg -hide_banner -loglevel error -i "$2" -b:a 256k -ar 48000 -af "pan=stereo|c0=c0|c1=c0" tmp.mp3 && mv tmp.mp3 "$2"
+    ffmpeg -hide_banner -loglevel error -i "$2" -b:a $BITRATE'k' -ar 48000 -af "pan=stereo|c0=c0|c1=c0" tmp.mp3 && mv tmp.mp3 "$2"
 }
 
 if [[ ! -e "$INTRO_MP3" ]]; then # $INTRO_MP3 does not exist?
@@ -134,7 +137,7 @@ function merge_audio {
     # ref: https://superuser.com/questions/314239/how-to-join-merge-many-mp3-files
     # ref: https://trac.ffmpeg.org/wiki/Concatenate#samecodec
     echo "Merging all playlist's songs as $EP_FILE with ffmpeg..."
-    ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a 256k -ar 48000 "$EP_FILE"
+    ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a $BITRATE'k' -ar 48000 "$EP_FILE"
 }
 merge_audio
 

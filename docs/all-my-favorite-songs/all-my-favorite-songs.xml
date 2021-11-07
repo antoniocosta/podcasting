@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 04 Nov 2021 15:33:49 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 07 Nov 2021 19:29:14 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 abmc</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,16 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 012 by Adam Yauch - Mixtape</title>
+                <link>http://allmyfavoritesongs.com#012</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-012-adam-yauch</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-012-adam-yauch/all-my-favorite-songs-012-adam-yauch.mp3" length="251712605" type="audio/mpeg" />
+                <description>Adam Nathaniel Yauch (August 5, 1964 – May 4, 2012), better known under the stage name MCA, was an American rapper, bass player, filmmaker and a founding member of the hip hop group Beastie Boys. Yauch co-founded the Beastie Boys with Mike &#39;Mike D&#39; Diamond and Adam &#39;Ad-Rock&#39; Horovitz in 1979. The band started off as a hardcore punk group, but soon began experimenting with hip-hop. The band broke huge with their first proper album, Licensed to Ill, in 1986; it was the biggest-selling rap album of the decade and the first to reach Number One on the Billboard chart. Further albums Paul’s Boutique, Check Your Head and Ill Communication cemented the Beasties as a true superstar act. Yauch also directed many of the Beastie Boys’ music videos under the pseudonym Nathaniel Hornblower. In 2002, he founded Oscilloscope Laboratories, an independent film production and distribution company based in New York City. As a Buddhist, he was involved in the Tibetan independence movement and organized the Tibetan Freedom Concert. He died in 2012 from parotid cancer.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Bad Brains, Stiff Little Fingers, Buzzcocks, Generation X, Public Image Ltd., Toots &amp; The Maytals, Linton Kwesi Johnson, Bob Marley &amp; The Wailers, Spoonie Gee, Run–D.M.C., Bob Dylan, Public Enemy, Jimi Hendrix, Jackson Browne, Back Door, The Beatles, Elis Regina, Antônio Carlos Jobim, Kanye West, Mos Def, Freeway, The Boys Choir Of Harlem, Phoenix, The Slits, Killing Joke, New Age Steppers, Young Marble Giants, Minor Threat, Cockney Rejects, Dr. Jeckyll &amp; Mr. Hyde, Grandmaster Flash &amp; The Furious Five, Jocelyn Brown, Frederick M.C. Count Linton, Malcolm McLaren, The Crusaders, Larry Carlton, Beanie Sigel, The Strokes, Arctic Monkeys</description>
+                <pubDate>Sun, 07 Nov 2021 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 011 by Thurston Moore - Favorite Songs Of All Time</title>
