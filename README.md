@@ -47,6 +47,10 @@ Generates a podcast mp3 episode from a Spotify playlist
 2. Generates intro and outro mp3 files using text to speech service
 3. Merges all mp3s in a m3u playlist to one big mp3
 4. Adds id3 metadata to merged mp3
+5. Adds chapter metadata to merged mp3
+
+### m3u2chapters.sh
+Generates ffmpeg chapter metadata file from an m3u playlist
 
 ### prepare.sh
 Prepares a generated audio file episode to be uploaded:
@@ -65,6 +69,7 @@ _Main Requirements_:
     python3 -m pip install --user pipx && python3 -m pipx ensurepath
     brew install ffmpeg
     brew install eye-d3
+    brew install mediainfo
     brew install internetarchive (Internet Archive's command line interface)
     ia configure (configure ia with your credentials)
 
