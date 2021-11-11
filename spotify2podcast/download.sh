@@ -5,6 +5,7 @@
 #   2. Generates intro and outro mp3 files using text to speech service
 #   3. Merges all mp3s in a m3u playlist to one big mp3
 #   4. Adds id3 metadata to merged mp3
+#   5. Adds chapter metadata to merged mp3
 #
 # Usage: ./download.sh podcast.conf episode.conf [256(bitrate)]
 # Requires:
@@ -64,8 +65,6 @@ then
     pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
 fi
 
-
-
 if [ "$M3U_RENAME" = true ] ; then
     find . -type f -name '*.m3u' -exec mv {} "$M3U_FILE" \; # rename m3u to fixed name
     echo "Renamed playlist to $M3U_FILE"
@@ -103,7 +102,7 @@ if [[ ! -e "$OUTRO_MP3" ]]; then # $OUTRO_MP" does not exist?
 fi
 
 # Prepend intro mp3 to beginning of m3u but only if it's not there already (uses tmp file). Ref: https://stackoverflow.com/questions/54365/shell-one-liner-to-prepend-to-a-file?page=1&tab=votes#tab-top
-grep -qxF "$INTRO_MP3" "$M3U_FILE" || (echo "$INTRO_MP3" | cat - "$M3U_FILE" > tmp.txt && mv tmp.txt "$M3U_FILE")
+grep -qxF "$INTRO_MP3" "$M3U_FILE" || (echo "$INTRO_MP3" | cat - "$M3U_FILE" > _tmp.txt && mv _tmp.txt "$M3U_FILE")
 # Append outro mp3 to end of m3u but only if it's not there already. Ref: https://stackoverflow.com/questions/3557037/appending-a-line-to-a-file-only-if-it-does-not-already-exist
 grep -qxF "$OUTRO_MP3" "$M3U_FILE" || echo "$OUTRO_MP3" >> "$M3U_FILE"
 
@@ -119,7 +118,7 @@ function normalize_all_names {
     # Rename all string in m3u
     sed -i 's/[^A-Za-z0-9[:space:]._-]//g' "$M3U_FILE"
 }
-# BUGGY... disabled
+# BUGGY!... disabled
 #normalize_all_names
 
 function merge_audio {
@@ -131,13 +130,14 @@ function merge_audio {
         # ref: https://askubuntu.com/questions/648759/replace-with-sed-a-character-with-backslash-and-use-this-in-a-variable
         line=$(echo "$line" | sed 's/'\''/&\\&&/g')
         echo "file '$line'";
-    done < "$M3U_FILE" > tmp.txt
+    done < "$M3U_FILE" > _tmp.txt
 
     # Merge (same codec) mp3 files using ffmpeg concat using tmp txt file as input and then get rid of txt file
     # ref: https://superuser.com/questions/314239/how-to-join-merge-many-mp3-files
     # ref: https://trac.ffmpeg.org/wiki/Concatenate#samecodec
     echo "Merging all playlist's songs as $EP_FILE with ffmpeg..."
-    ffmpeg -hide_banner -y -f concat -safe 0 -i ./tmp.txt -b:a $BITRATE'k' -ar 48000 "$EP_FILE"
+    ffmpeg -hide_banner -y -f concat -safe 0 -i ./_tmp.txt -b:a $BITRATE'k' -ar 48000 "$EP_FILE"
+
 }
 merge_audio
 
@@ -159,9 +159,23 @@ function add_id3 {
 }
 add_id3
 
-# Change back from episode subdir to our project main dir (just for completeness)
+# Change back from episode subdir to our project main dir
 cd '../../../../spotify2podcast'
 
+# 5. Generate chapter metadata file _ffmetadata.txt and add to mp3
+function add_chapters {
+
+    ./m3u2chapters.sh $1 $2
+    local mp3_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE # The mp3 file without chapter metadata
+    local tmp_mp3_file_with_chapters=$ARCHIVE_DIR'/'$EP_SUBDIR'/_ffmetadata-'$EP_FILE # The tmp mp3 file with chapter metadata. We will overwrite original with this one.
+    local metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'_ffmetadata.txt # The temp metadata file itself
+    echo "Adding chapter metadata from _ffmetadata.txt to $EP_FILE"
+    ffmpeg -hide_banner -i $mp3_file -i "$metadata_file" -map_metadata 1 -codec copy $tmp_mp3_file_with_chapters
+    mv tmp_mp3_file_with_chapters mp3_file # Overwrite chapterless file
+}
+add_chapters $1 $2
+
+# 6. Prepare generated audio file episode to be uploaded
 ./prepare.sh $1 "$ARCHIVE_DIR/$EP_SUBDIR/$EP_FILE"
 
 echo "All done with `basename $0`."

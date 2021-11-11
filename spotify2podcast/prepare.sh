@@ -58,7 +58,8 @@ echo "Episode mp3 found: $EP_FULLPATH"
 # 2. Clean up tmp files from download subdir
 echo "Cleaning up..."
 rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/.spotdl-cache' # Remove spot-dl auth file (dont show error if doesnt exist)
-rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/tmp.txt' # Remove ffmpeg temp merge file (dont show error if it doenst exist)
+rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/_tmp.txt' # Remove ffmpeg temp merge file (dont show error if it doenst exist)
+rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/_ffmetadata.txt' # Remove chapter metadata file (dont show error if it doenst exist)
 
 # 3. Generate json from merged mp3 and episode config file
 echo "Generating JSON..."
