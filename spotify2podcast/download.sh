@@ -108,19 +108,6 @@ grep -qxF "$OUTRO_MP3" "$M3U_FILE" || echo "$OUTRO_MP3" >> "$M3U_FILE"
 
 # 3. Merge all mp3s in a m3u playlist to one big mp3
 
-function normalize_all_names {
-    echo "Normalizing all names..."
-    # Replaces anything that isn't a letter, number, space, period, underscore, or dash with nothing
-    # See: https://stackoverflow.com/questions/27232839/how-to-rename-a-bunch-of-files-to-eliminate-quote-marks
-    # See: https://serverfault.com/questions/348482/how-to-remove-invalid-characters-from-filenames
-    # Rename all mp3 files
-    for f in *.mp3; do mv --force -i "$f" "${f//[^A-Za-z0-9[:space:]._-]}"; done
-    # Rename all string in m3u
-    sed -i 's/[^A-Za-z0-9[:space:]._-]//g' "$M3U_FILE"
-}
-# BUGGY!... disabled
-#normalize_all_names
-
 function merge_audio {
     # Create txt file from m3u in format ffmpeg concat expects
     while read -r line; do
@@ -139,7 +126,7 @@ function merge_audio {
     ffmpeg -hide_banner -y -f concat -safe 0 -i ./_tmp.txt -b:a $BITRATE'k' -ar 48000 "$EP_FILE"
 
 }
-merge_audio
+###merge_audio
 
 # 4. Add id3 metadata to merged mp3
 
@@ -157,7 +144,7 @@ function add_id3 {
 
    rm '_cover.jpg' #We don't need the image anymore. Delete it
 }
-add_id3
+###add_id3
 
 # Change back from episode subdir to our project main dir
 cd '../../../../spotify2podcast'
