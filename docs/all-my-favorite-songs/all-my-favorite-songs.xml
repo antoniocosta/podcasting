@@ -6,9 +6,9 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 12 Nov 2021 00:31:37 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 12 Nov 2021 00:37:03 +0100</lastBuildDate>
         <language>en-us</language>
-        <copyright>&#xA9; 2021 Alpha Bravo MC</copyright>
+        <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
         <image>
                 <link>http://allmyfavoritesongs.com</link>
@@ -20,9 +20,9 @@
         <itunes:summary>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:summary>        
         <itunes:category text='Music' />
         <itunes:keywords>all, favorite, songs, podcast, music</itunes:keywords>
-        <itunes:author>Alpha Bravo MC</itunes:author>
+        <itunes:author>A Bee MC</itunes:author>
         <itunes:owner>
-                <itunes:name>Alpha Bravo MC</itunes:name>
+                <itunes:name>A Bee MC</itunes:name>
                 <itunes:email>abmc@gmx.net</itunes:email>
         </itunes:owner>
         <itunes:explicit>no</itunes:explicit>
