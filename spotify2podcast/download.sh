@@ -126,7 +126,7 @@ function merge_audio {
     ffmpeg -hide_banner -y -f concat -safe 0 -i ./_tmp.txt -b:a $BITRATE'k' -ar 48000 "$EP_FILE"
 
 }
-###merge_audio
+merge_audio
 
 # 4. Add id3 metadata to merged mp3
 
@@ -144,7 +144,7 @@ function add_id3 {
 
    rm '_cover.jpg' #We don't need the image anymore. Delete it
 }
-###add_id3
+add_id3
 
 # Change back from episode subdir to our project main dir
 cd '../../../../spotify2podcast'
