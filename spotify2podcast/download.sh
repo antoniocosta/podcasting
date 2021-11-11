@@ -170,8 +170,8 @@ function add_chapters {
     local tmp_mp3_file_with_chapters=$ARCHIVE_DIR'/'$EP_SUBDIR'/_ffmetadata-'$EP_FILE # The tmp mp3 file with chapter metadata. We will overwrite original with this one.
     local metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'_ffmetadata.txt # The temp metadata file itself
     echo "Adding chapter metadata from _ffmetadata.txt to $EP_FILE"
-    ffmpeg -hide_banner -i $mp3_file -i "$metadata_file" -map_metadata 1 -codec copy $tmp_mp3_file_with_chapters
-    mv tmp_mp3_file_with_chapters mp3_file # Overwrite chapterless file
+    ffmpeg -hide_banner -loglevel warning -i $mp3_file -i "$metadata_file" -map_metadata 1 -codec copy $tmp_mp3_file_with_chapters
+    mv $tmp_mp3_file_with_chapters $mp3_file # Overwrite chapterless file
 }
 add_chapters $1 $2
 
