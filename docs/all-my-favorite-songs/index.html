@@ -24,8 +24,8 @@
 <meta property="og:title" content="All My Favorite Songs">
 
 <meta property="og:url" content="http://allmyfavoritesongs.com">
-<meta name="twitter:image" content="http://allmyfavoritesongs.com/all-my-favorite-songs.jpg">
-<meta property="og:image" content="http://allmyfavoritesongs.com/all-my-favorite-songs.jpg">
+<meta name="twitter:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
+<meta property="og:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
 
 <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
@@ -45,8 +45,8 @@
 		  	success: function() {
 				// console.log(this.feed)
 				let img_src=this.feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
-				let html='<picture><source srcset="'+img_src+'-dark.jpg" media="(prefers-color-scheme: dark)"><img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'"></picture>';
-				// let html='<img src="'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
+				let html='<picture><source srcset="img/'+img_src+'-dark.jpg" media="(prefers-color-scheme: dark)"><img src="img/'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'"></picture>';
+				// let html='<img src="img/'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
 				// html+='<h1>'+this.feed.title+'</h1>';
 				html+='<h2>'+this.feed.description+'</h2>';
 				html+='<div class="badges">';

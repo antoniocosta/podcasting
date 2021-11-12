@@ -6,16 +6,16 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 12 Nov 2021 00:37:03 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 12 Nov 2021 17:56:12 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
         <image>
                 <link>http://allmyfavoritesongs.com</link>
-                <url>http://allmyfavoritesongs.com/all-my-favorite-songs.jpg</url>
+                <url>http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg</url>
                 <title>All My Favorite Songs</title>
         </image>
-        <itunes:image href='http://allmyfavoritesongs.com/all-my-favorite-songs.jpg' />
+        <itunes:image href='http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg' />
         <itunes:subtitle>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:subtitle>
         <itunes:summary>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:summary>        
         <itunes:category text='Music' />
