@@ -39,10 +39,12 @@ M3U_FILE=$(find $ARCHIVE_DIR'/'$EP_SUBDIR -type f -name "*.m3u") # Works but onl
 metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'_ffmetadata.txt
 
 # Metadata keys or values containing special characters (‘=’, ‘;’, ‘#’, ‘\’ and a newline) must be escaped with a backslash ‘\’. See:  https://ffmpeg.org/ffmpeg-formats.html#Metadata-1
+# Escape =;#\ chars
 echo ";FFMETADATA1
 title=$(echo "$ID3_TITLE" | sed 's/[=;#\]/\\&/g')
 artist=$(echo "$ID3_ARTIST" | sed 's/[=;#\]/\\&/g')
 comment=$(echo "$ID3_DESC" | sed 's/[=;#\]/\\&/g')
+description=$(echo "$ID3_DESC" | sed 's/[=;#\]/\\&/g')
 date=$ID3_YEAR" > $metadata_file
 
 total_duration=0
@@ -69,13 +71,18 @@ while read mp3; do # reading each line
 	elif [[ "$mp3_without_extension" == '_outro' ]]; then
 		mp3_without_extension='Outro'
 	fi
-	echo 'title='$mp3_without_extension >> $metadata_file
+
+	mp3_without_extension=$(echo "$mp3_without_extension" | sed 's/[=;#\]/\\&/g') # Escape =;#\ chars
+	mp3_without_extension=${mp3_without_extension:0:220} # Limit to 220 chars or less. This is important ! 224 breaks it
+	echo 'title='$mp3_without_extension'' >> $metadata_file
 done < "$M3U_FILE" 
 
+# Escape =;#\ chars
 echo '
 [STREAM]
 title='$(echo "$ID3_TITLE" | sed 's/[=;#\]/\\&/g') >> $metadata_file
 
 echo ''
 echo "All done with `basename $0`."
+
 
