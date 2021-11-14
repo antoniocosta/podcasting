@@ -91,6 +91,7 @@ item () {
                 <link>$item_link</link>
                 <guid>$item_guid</guid>
                 <enclosure url=\"$item_enclosure\" length=\"$item_enclosure_length\" type=\"$item_enclosure_type\" />
+                $item_image_tag
                 <description>$item_description</description>
                 <pubDate>$item_date</pubDate>
         </item>
@@ -171,7 +172,7 @@ for json in "${arr_json[@]}"; do
                 item_date=$(date -d @$item_date "+%a, %d %b %Y %H:%M:%S %z") # convert timestamp to date string
         fi
         item_link=$(jq --raw-output '.webpage_url' $json) # get data from json
-        item_guid='http://archive.org/details/'$item_id # use archive.oerg permalink
+        item_guid='http://archive.org/details/'$item_id # use archive.org permalink
         item_enclosure='http://archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
         #item_enclosure_length=$(stat -f%z $audio_file) # get file size in bytes
         item_enclosure_length=$(jq --raw-output '.length' $json) # get file size in bytes (we added this data to the json above)
@@ -184,6 +185,12 @@ for json in "${arr_json[@]}"; do
         item_description=${item_description//$'\n'/ <br />} # convert newlines /n to html <br />
         item_description=$(echo $item_description | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g') # convert special characters to HTML entities
         #item_description="![CDATA[ $item_description ]]" # add cdata tag
+
+        item_image_tag='' # emtpy by default
+        if [ -f "$ARCHIVE_DIR/$item_id.jpg" ]; then # if custom cover img exists, overwrite conf var $IA_COVER_IMG
+                item_image='http://archive.org/download/'$item_id'/'$item_id'.jpg'
+                item_image_tag="<itunes:image href='$item_image' />"
+        fi
 
         item
 done

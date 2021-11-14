@@ -59,7 +59,7 @@ function get_tts { # generate ttsmp3.com mp3 file from text
     local tts_url=$(curl "${opts[@]}" 'https://ttsmp3.com/makemp3_new.php' | jq -r '.URL' ) # mp3 file url
     echo "Downloading tts from $tts_url as $2 with curl"
     curl --silent -L --output "$2" $tts_url # download mp3
-    echo "Converting $INTRO_MP3 to higher quality with ffmpeg..."
+    echo "Converting $2 to higher quality with ffmpeg..."
     # convert to higher frequency, bitrate and (from mono) to stereo
     ffmpeg -hide_banner -loglevel error -i "$2" -b:a $BITRATE'k' -ar 48000 -af "pan=stereo|c0=c0|c1=c0" tmp.mp3 && mv tmp.mp3 "$2"
 }
