@@ -60,7 +60,6 @@ Prepares a generated audio file episode to be uploaded:
 ### prepare_batch.sh
 Utility to batch prepares multiple generated audio file episodes to be uploaded
 
-
 **NOTE:** Shares **upload.sh**, **upload_batch.sh**, **rss.sh** and **prepare.sh** scripts (symlinked) with **mixcloud2podcast**.
 
 _Main Requirements_:
