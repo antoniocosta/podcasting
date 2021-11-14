@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 14 Nov 2021 22:09:30 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 14 Nov 2021 22:09:43 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -42,6 +42,17 @@
         
 
         <item>
+                <title>All My Favorite Songs 013 by Steve Albini - Rage Guest (part 1 of 2)</title>
+                <link>http://allmyfavoritesongs.com#013</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-013-steve-albini</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-013-steve-albini/all-my-favorite-songs-013-steve-albini.mp3" length="307323556" type="audio/mpeg" />
+                <itunes:image href='http://archive.org/download/all-my-favorite-songs-013-steve-albini/all-my-favorite-songs-013-steve-albini.jpg' />
+                <description>Steve Albini (born July 22, 1961) is an American musician, record producer, audio engineer and music journalist. He was a member of Big Black, Rapeman and Flour, and is a member of Shellac. He is the founder, owner and principal engineer of Electrical Audio, a recording studio complex in Chicago. In 2018, Albini estimated that he had worked on several thousand albums over his career. He has worked with acts such as Nirvana, Pixies, the Breeders and PJ Harvey. Albini is also known for his outspoken views on the music industry, having stated repeatedly that it financially exploits artists and homogenizes their sound, as well as the flaws in the digital recording process and the superiority of analog technology.  &lt;br /&gt; &lt;br /&gt; Albini&#39;s engineering skills have been celebrated for their sense of space, naturalistic tone, and the power of his guitar and drum sounds; his own guitar work is as imaginatively abrasive as his lyrics, which can be challenging and sometimes confrontational. Nearly alone among well-known producers and musicians, Albini refuses to take ongoing royalties from album sales, feeling that a producer&#39;s job is to record the music to the band&#39;s desires, and that paying producers as if they had contributed artistically to an album is unethical.  &lt;br /&gt; &lt;br /&gt; In this episode, part one of a series of two, all songs selected by Steve Albini as guest for Australian TV show Rage, on June 29 2013.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; The B-52&#39;s, Blondie, The Stranglers, Man Or Astro-Man, Chad Van Gaalen, Lou Reed, The Specials, The Cars, Siouxsie and the Banshees, D. Rider, Superchunk, The Breeders, Andrew Bird, Angus &amp; Julia Stone, Björk, A1 People, Pete Shelley, Cheap Trick, Big Black, Altered Images, Pere Ubu, Sonic Youth, Bailter Space, Useless ID, Alan Vega, Bauhaus, Toys Went Berserk, Charge Group, Tortoise, Cat Power, The Only Ones, Black Box Recorder, The Human League, Tubeway Army, Kraftwerk, Xiu Xiu, Plastic Bertrand, Mucca Pazza, Radio Birdman, Ted Leo and the Pharmacists, The Bronx, Mclusky, Public Image Ltd., Sex Pistols, X-Ray Spex, Alice Cooper, Neil Young, Crazy Horse, Willie Nelson, The Birthday Party, Dead Meadow, Red Fang, Archers Of Loaf, The Amps, Dead Rider, Har Mar Superstar, Beth Ditto, CeeLo Green</description>
+                <pubDate>Thu, 11 Nov 2021 12:34:56 +0100</pubDate>
+        </item>
+        
+
+        <item>
                 <title>All My Favorite Songs 012 by Adam Yauch - Mixtape</title>
                 <link>http://allmyfavoritesongs.com#012</link>
                 <guid>http://archive.org/details/all-my-favorite-songs-012-adam-yauch</guid>
@@ -64,17 +75,6 @@
         
 
         <item>
-                <title>All My Favorite Songs 009 by Slipknot - Halloween Playlist</title>
-                <link>http://allmyfavoritesongs.com#009</link>
-                <guid>http://archive.org/details/all-my-favorite-songs-009-slipknot</guid>
-                <enclosure url="http://archive.org/download/all-my-favorite-songs-009-slipknot/all-my-favorite-songs-009-slipknot.mp3" length="221642630" type="audio/mpeg" />
-                <itunes:image href='http://archive.org/download/all-my-favorite-songs-009-slipknot/all-my-favorite-songs-009-slipknot.jpg' />
-                <description>Slipknot is an American heavy metal band formed in Des Moines, Iowa, in 1995 by percussionist Shawn Crahan, drummer Joey Jordison and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Crahan, Jordison, Gray, Craig Jones, Mick Thomson, Corey Taylor, Sid Wilson, Chris Fehn, and Jim Root. Gray died on May 24, 2010, and was replaced during 2011–2014 by guitarist Donnie Steele. Slipknot&#39;s mix of grinding, post-Korn alternative metal, Marilyn Manson-esque neo-shock rock, and rap-metal helped make them one of the most popular bands in the nu-metal explosion of the late 1990s and early 2000s. But even more helpful was their theatrical, attention-grabbing image: the band always performed in identical industrial jump suits and homemade Halloween masks, and added to their mysterious anonymity by adopting the numbers zero through eight as stage aliases. Add to that a lyrical preoccupation with darkness and nihilism, and an affectionately insulting name for their fans (&#39;Maggots&#39;), and Slipknot&#39;s blueprint for nu-metal success was set.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Slipknot, Talking Heads, S.O.D. Stormtroopers of Death, Dangerous Toys, Iron Maiden, Ho99o9, Refused, Public Enemy, Marilyn Manson, White Zombie, Slayer, Venom, Megadeth, Ice Cube, Dr. Dre, Misfits, Glenn Danzig, Black Sabbath, Judas Priest, Testament, Alice Cooper, Behemoth, Neurosis, Mötley Crüe, Concrete Blonde, W.A.S.P.</description>
-                <pubDate>Sun, 31 Oct 2021 12:34:56 +0100</pubDate>
-        </item>
-        
-
-        <item>
                 <title>All My Favorite Songs 010 by Mike Patton - Playlist for Henry Rollins</title>
                 <link>http://allmyfavoritesongs.com#010</link>
                 <guid>http://archive.org/details/all-my-favorite-songs-010-mike-patton</guid>
@@ -86,13 +86,13 @@
         
 
         <item>
-                <title>All My Favorite Songs 007 by SebastiAn - Picks</title>
-                <link>http://allmyfavoritesongs.com#007</link>
-                <guid>http://archive.org/details/all-my-favorite-songs-007-sebastian</guid>
-                <enclosure url="http://archive.org/download/all-my-favorite-songs-007-sebastian/all-my-favorite-songs-007-sebastian.mp3" length="277264660" type="audio/mpeg" />
-                <itunes:image href='http://archive.org/download/all-my-favorite-songs-007-sebastian/all-my-favorite-songs-007-sebastian.jpg' />
-                <description>Sébastien Akchoté-Bozović (born 3 February 1981), known mononymously as Sebastian (stylised as SebastiAn), is a French musician, composer, producer, mixer, engineer, vocalist and DJ affiliated with Ed Banger Records. He has worked as a solo electronic musician and as a remixer for bands and singers such as Charlotte Gainsbourg, Daft Punk, Beastie Boys, Bloc Party, and Nero. He has also composed and produced songs for Charlotte Gainsbourg, Katerine, Kavinsky, Frank Ocean, Uffie and Woodkid, and he has composed soundtracks for the films Our Day Will Come, The World Is Yours and Steak (in which he also acted, credited under the name Sebastian Akchoté). Many of his tracks have been used on television and in video games.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; SebastiAn, Syd, Gary Numan, Bakar, Iggy Pop, Bon Iver, Gallant, Jhené Aiko, A. K. Paul, Mica Levi, Jackson And His Computer Band, TOBACCO, Beck, Frank Ocean, The Waitresses, JPEGMAFIA, Mr. Oizo, Phra, Daft Punk, Sparks, Kavinsky, Lightning Bolt, Chassol, Prince, Mother&#39;s Finest, The Beach Boys, Chet Baker, The Marketts, Mark Bell, Errorsmith, Orchestre Lamoureux, DJ Mehdi, Thomas Roussel, Aphex Twin, Billie Holiday, Catherine Deneuve, Kanye West, PARTYNEXTDOOR, Googoosh, Charlotte Gainsbourg, Ennio Morricone, Hrvoje Hitrec, Wings</description>
-                <pubDate>Thu, 28 Oct 2021 12:34:56 +0200</pubDate>
+                <title>All My Favorite Songs 009 by Slipknot - Halloween Playlist</title>
+                <link>http://allmyfavoritesongs.com#009</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-009-slipknot</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-009-slipknot/all-my-favorite-songs-009-slipknot.mp3" length="221642630" type="audio/mpeg" />
+                <itunes:image href='http://archive.org/download/all-my-favorite-songs-009-slipknot/all-my-favorite-songs-009-slipknot.jpg' />
+                <description>Slipknot is an American heavy metal band formed in Des Moines, Iowa, in 1995 by percussionist Shawn Crahan, drummer Joey Jordison and bassist Paul Gray. After several lineup changes in its early years, the band settled on nine members for more than a decade: Crahan, Jordison, Gray, Craig Jones, Mick Thomson, Corey Taylor, Sid Wilson, Chris Fehn, and Jim Root. Gray died on May 24, 2010, and was replaced during 2011–2014 by guitarist Donnie Steele. Slipknot&#39;s mix of grinding, post-Korn alternative metal, Marilyn Manson-esque neo-shock rock, and rap-metal helped make them one of the most popular bands in the nu-metal explosion of the late 1990s and early 2000s. But even more helpful was their theatrical, attention-grabbing image: the band always performed in identical industrial jump suits and homemade Halloween masks, and added to their mysterious anonymity by adopting the numbers zero through eight as stage aliases. Add to that a lyrical preoccupation with darkness and nihilism, and an affectionately insulting name for their fans (&#39;Maggots&#39;), and Slipknot&#39;s blueprint for nu-metal success was set.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Slipknot, Talking Heads, S.O.D. Stormtroopers of Death, Dangerous Toys, Iron Maiden, Ho99o9, Refused, Public Enemy, Marilyn Manson, White Zombie, Slayer, Venom, Megadeth, Ice Cube, Dr. Dre, Misfits, Glenn Danzig, Black Sabbath, Judas Priest, Testament, Alice Cooper, Behemoth, Neurosis, Mötley Crüe, Concrete Blonde, W.A.S.P.</description>
+                <pubDate>Sun, 31 Oct 2021 12:34:56 +0100</pubDate>
         </item>
         
 
@@ -108,6 +108,28 @@
         
 
         <item>
+                <title>All My Favorite Songs 007 by SebastiAn - Picks</title>
+                <link>http://allmyfavoritesongs.com#007</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-007-sebastian</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-007-sebastian/all-my-favorite-songs-007-sebastian.mp3" length="277264660" type="audio/mpeg" />
+                <itunes:image href='http://archive.org/download/all-my-favorite-songs-007-sebastian/all-my-favorite-songs-007-sebastian.jpg' />
+                <description>Sébastien Akchoté-Bozović (born 3 February 1981), known mononymously as Sebastian (stylised as SebastiAn), is a French musician, composer, producer, mixer, engineer, vocalist and DJ affiliated with Ed Banger Records. He has worked as a solo electronic musician and as a remixer for bands and singers such as Charlotte Gainsbourg, Daft Punk, Beastie Boys, Bloc Party, and Nero. He has also composed and produced songs for Charlotte Gainsbourg, Katerine, Kavinsky, Frank Ocean, Uffie and Woodkid, and he has composed soundtracks for the films Our Day Will Come, The World Is Yours and Steak (in which he also acted, credited under the name Sebastian Akchoté). Many of his tracks have been used on television and in video games.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; SebastiAn, Syd, Gary Numan, Bakar, Iggy Pop, Bon Iver, Gallant, Jhené Aiko, A. K. Paul, Mica Levi, Jackson And His Computer Band, TOBACCO, Beck, Frank Ocean, The Waitresses, JPEGMAFIA, Mr. Oizo, Phra, Daft Punk, Sparks, Kavinsky, Lightning Bolt, Chassol, Prince, Mother&#39;s Finest, The Beach Boys, Chet Baker, The Marketts, Mark Bell, Errorsmith, Orchestre Lamoureux, DJ Mehdi, Thomas Roussel, Aphex Twin, Billie Holiday, Catherine Deneuve, Kanye West, PARTYNEXTDOOR, Googoosh, Charlotte Gainsbourg, Ennio Morricone, Hrvoje Hitrec, Wings</description>
+                <pubDate>Thu, 28 Oct 2021 12:34:56 +0200</pubDate>
+        </item>
+        
+
+        <item>
+                <title>All My Favorite Songs 006 by Wu-Tang Clan - Music Mondays</title>
+                <link>http://allmyfavoritesongs.com#006</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-006-wu-tang-clan</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-006-wu-tang-clan/all-my-favorite-songs-006-wu-tang-clan.mp3" length="130190445" type="audio/mpeg" />
+                <itunes:image href='http://archive.org/download/all-my-favorite-songs-006-wu-tang-clan/all-my-favorite-songs-006-wu-tang-clan.jpg' />
+                <description>Wu-Tang Clan is an American hip hop group formed in Staten Island, New York City, in 1992. Its original members include RZA, GZA, Ol&#39; Dirty Bastard, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, and Masta Killa. Close affiliate Cappadonna later became an official member. Wu-Tang Clan are regarded as a highly influential group in hip hop, helping to popularize and develop the East Coast hip hop and hardcore hip hop styles.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Method Man, Wu-Tang Clan, RZA, Inspectah Deck, Raekwon, Ghostface Killah, Cappadonna, Mobb Deep, ODB, The Notorious B.I.G., Gang Starr, U-God, GZA, Masta Killa, GZA (Genius), Nas, Onyx, Ice Cube, Warren G, Nate Dogg, The Pharcyde</description>
+                <pubDate>Wed, 27 Oct 2021 12:34:56 +0200</pubDate>
+        </item>
+        
+
+        <item>
                 <title>All My Favorite Songs 005 by Nick Cave - Hiding Songs</title>
                 <link>http://allmyfavoritesongs.com#005</link>
                 <guid>http://archive.org/details/all-my-favorite-songs-005-nick-cave</guid>
@@ -115,6 +137,17 @@
                 <itunes:image href='http://archive.org/download/all-my-favorite-songs-005-nick-cave/all-my-favorite-songs-005-nick-cave.jpg' />
                 <description>Nicholas Edward Cave AO (born 22 September 1957) is an Australian singer, songwriter, author, screenwriter, composer and occasional actor. Known for his baritone voice and for fronting the rock band Nick Cave and the Bad Seeds, Cave&#39;s music is generally characterised by emotional intensity, a wide variety of influences and lyrical obsessions with death, religion, love and violence.  &lt;br /&gt; &lt;br /&gt; Since the late &#39;70s, Nick Cave has proved to be one of the most enduring talents to emerge from the post-punk era. In addition to being a remarkably consistent recording artist, his songs have been covered by everyone from Josh Groban, PJ Harvey, and Johnny Cash to Arctic Monkeys, Metallica, and Chelsea Wolfe, to name a few.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Leonard Cohen, Karen Dalton, Neil Young, John Lee Hooker, Van Morrison, Bob Dylan, Nina Simone, Big Star, Brian Eno, Bill Callahan, The Gun Club</description>
                 <pubDate>Mon, 25 Oct 2021 12:34:56 +0200</pubDate>
+        </item>
+        
+
+        <item>
+                <title>All My Favorite Songs 004 by Viagra Boys - Shrimptech Enterprises Vol.1</title>
+                <link>http://allmyfavoritesongs.com#004</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-004-viagra-boys</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-004-viagra-boys/all-my-favorite-songs-004-viagra-boys.mp3" length="305630792" type="audio/mpeg" />
+                <itunes:image href='http://archive.org/download/all-my-favorite-songs-004-viagra-boys/all-my-favorite-songs-004-viagra-boys.jpg' />
+                <description>Viagra Boys are a Swedish post-punk band from Stockholm. The band was formed in 2015, with several members coming from the bands Les Big Byrd, Pig Eyes, Nine, Nitad and Neu-Ronz. In 2018, they released their first album, Street Worms. Nils Hansson, a journalist at the newspaper Dagens Nyheter described the band favorably, praising their musical style, as well as their use of black humor and satire, and rated the album a five out of five. In 2019, the band won the Independent Music Companies Association (IMPALA) Album of the Year Award for Street Worms. The band&#39;s second album, Welfare Jazz, was released in January 2021.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Tubeway Army, The Jesus and Mary Chain, Chain and The Gang, DEVO, Goran Kajfes Subtropic Arkestra, Goran Kajfes, Roxy Music, Built To Spill, The Stooges, Waylon Jennings, Clap Your Hands Say Yeah, DAF, Broadcast, Container, Run The Jewels, Spacemen 3, Daniel Lanois, Anna Domino, Rocket From The Tombs, Esbjörn Svensson Trio, Missing Persons, Pere Ubu, Christian Scott aTunde Adjuah, Elena Pinderhughes, Tom Tom Club, 13th Floor Elevators, Sleaford Mods, John Coltrane, Art Ensemble Of Chicago, Pixies, Fire! Orchestra, Richard Hell, The Breeders, Daniel Ögren, Sam Rivers, Chris &amp; Cosey, The Soft Boys, Hawkwind, Joni Mitchell</description>
+                <pubDate>Fri, 22 Oct 2021 12:34:56 +0200</pubDate>
         </item>
         
 
@@ -148,39 +181,6 @@
                 <itunes:image href='http://archive.org/download/all-my-favorite-songs-001-weezer/all-my-favorite-songs-001-weezer.jpg' />
                 <description>Weezer is an American rock band formed in Los Angeles, California, in 1992. Since 2001, the band has consisted of Rivers Cuomo (lead vocals, lead guitar, keyboards), Patrick Wilson (drums, percussion, backing vocals), Brian Bell (guitar, backing vocals, keyboards), and Scott Shriner (bass, backing vocals, keyboards).  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Neil Young, REO Speedwagon, Johnny Cash, Toni Braxton, Yeah Yeah Yeahs, Céline Dion, Sinéad O&#39;Connor</description>
                 <pubDate>Tue, 19 Oct 2021 12:34:56 +0200</pubDate>
-        </item>
-        
-
-        <item>
-                <title>All My Favorite Songs 006 by Wu-Tang Clan - Music Mondays</title>
-                <link>http://allmyfavoritesongs.com#006</link>
-                <guid>http://archive.org/details/all-my-favorite-songs-006-wu-tang-clan</guid>
-                <enclosure url="http://archive.org/download/all-my-favorite-songs-006-wu-tang-clan/all-my-favorite-songs-006-wu-tang-clan.mp3" length="130190445" type="audio/mpeg" />
-                <itunes:image href='http://archive.org/download/all-my-favorite-songs-006-wu-tang-clan/all-my-favorite-songs-006-wu-tang-clan.jpg' />
-                <description>Wu-Tang Clan is an American hip hop group formed in Staten Island, New York City, in 1992. Its original members include RZA, GZA, Ol&#39; Dirty Bastard, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, and Masta Killa. Close affiliate Cappadonna later became an official member. Wu-Tang Clan are regarded as a highly influential group in hip hop, helping to popularize and develop the East Coast hip hop and hardcore hip hop styles.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Method Man, Wu-Tang Clan, RZA, Inspectah Deck, Raekwon, Ghostface Killah, Cappadonna, Mobb Deep, ODB, The Notorious B.I.G., Gang Starr, U-God, GZA, Masta Killa, GZA (Genius), Nas, Onyx, Ice Cube, Warren G, Nate Dogg, The Pharcyde</description>
-                <pubDate>Wed, 27 Oct 2021 12:34:56 +0200</pubDate>
-        </item>
-        
-
-        <item>
-                <title>All My Favorite Songs 004 by Viagra Boys - Shrimptech Enterprises Vol.1</title>
-                <link>http://allmyfavoritesongs.com#004</link>
-                <guid>http://archive.org/details/all-my-favorite-songs-004-viagra-boys</guid>
-                <enclosure url="http://archive.org/download/all-my-favorite-songs-004-viagra-boys/all-my-favorite-songs-004-viagra-boys.mp3" length="305630792" type="audio/mpeg" />
-                <itunes:image href='http://archive.org/download/all-my-favorite-songs-004-viagra-boys/all-my-favorite-songs-004-viagra-boys.jpg' />
-                <description>Viagra Boys are a Swedish post-punk band from Stockholm. The band was formed in 2015, with several members coming from the bands Les Big Byrd, Pig Eyes, Nine, Nitad and Neu-Ronz. In 2018, they released their first album, Street Worms. Nils Hansson, a journalist at the newspaper Dagens Nyheter described the band favorably, praising their musical style, as well as their use of black humor and satire, and rated the album a five out of five. In 2019, the band won the Independent Music Companies Association (IMPALA) Album of the Year Award for Street Worms. The band&#39;s second album, Welfare Jazz, was released in January 2021.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Tubeway Army, The Jesus and Mary Chain, Chain and The Gang, DEVO, Goran Kajfes Subtropic Arkestra, Goran Kajfes, Roxy Music, Built To Spill, The Stooges, Waylon Jennings, Clap Your Hands Say Yeah, DAF, Broadcast, Container, Run The Jewels, Spacemen 3, Daniel Lanois, Anna Domino, Rocket From The Tombs, Esbjörn Svensson Trio, Missing Persons, Pere Ubu, Christian Scott aTunde Adjuah, Elena Pinderhughes, Tom Tom Club, 13th Floor Elevators, Sleaford Mods, John Coltrane, Art Ensemble Of Chicago, Pixies, Fire! Orchestra, Richard Hell, The Breeders, Daniel Ögren, Sam Rivers, Chris &amp; Cosey, The Soft Boys, Hawkwind, Joni Mitchell</description>
-                <pubDate>Fri, 22 Oct 2021 12:34:56 +0200</pubDate>
-        </item>
-        
-
-        <item>
-                <title>All My Favorite Songs 013 by Steve Albini - Rage Guest (part 1 of 2)</title>
-                <link>http://allmyfavoritesongs.com#013</link>
-                <guid>http://archive.org/details/all-my-favorite-songs-013-steve-albini</guid>
-                <enclosure url="http://archive.org/download/all-my-favorite-songs-013-steve-albini/all-my-favorite-songs-013-steve-albini.mp3" length="307323556" type="audio/mpeg" />
-                <itunes:image href='http://archive.org/download/all-my-favorite-songs-013-steve-albini/all-my-favorite-songs-013-steve-albini.jpg' />
-                <description>Steve Albini (born July 22, 1961) is an American musician, record producer, audio engineer and music journalist. He was a member of Big Black, Rapeman and Flour, and is a member of Shellac. He is the founder, owner and principal engineer of Electrical Audio, a recording studio complex in Chicago. In 2018, Albini estimated that he had worked on several thousand albums over his career. He has worked with acts such as Nirvana, Pixies, the Breeders and PJ Harvey. Albini is also known for his outspoken views on the music industry, having stated repeatedly that it financially exploits artists and homogenizes their sound, as well as the flaws in the digital recording process and the superiority of analog technology.  &lt;br /&gt; &lt;br /&gt; Albini&#39;s engineering skills have been celebrated for their sense of space, naturalistic tone, and the power of his guitar and drum sounds; his own guitar work is as imaginatively abrasive as his lyrics, which can be challenging and sometimes confrontational. Nearly alone among well-known producers and musicians, Albini refuses to take ongoing royalties from album sales, feeling that a producer&#39;s job is to record the music to the band&#39;s desires, and that paying producers as if they had contributed artistically to an album is unethical.  &lt;br /&gt; &lt;br /&gt; In this episode, part one of a series of two, all songs selected by Steve Albini as guest for Australian TV show Rage, on June 29 2013.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; The B-52&#39;s, Blondie, The Stranglers, Man Or Astro-Man, Chad Van Gaalen, Lou Reed, The Specials, The Cars, Siouxsie and the Banshees, D. Rider, Superchunk, The Breeders, Andrew Bird, Angus &amp; Julia Stone, Björk, A1 People, Pete Shelley, Cheap Trick, Big Black, Altered Images, Pere Ubu, Sonic Youth, Bailter Space, Useless ID, Alan Vega, Bauhaus, Toys Went Berserk, Charge Group, Tortoise, Cat Power, The Only Ones, Black Box Recorder, The Human League, Tubeway Army, Kraftwerk, Xiu Xiu, Plastic Bertrand, Mucca Pazza, Radio Birdman, Ted Leo and the Pharmacists, The Bronx, Mclusky, Public Image Ltd., Sex Pistols, X-Ray Spex, Alice Cooper, Neil Young, Crazy Horse, Willie Nelson, The Birthday Party, Dead Meadow, Red Fang, Archers Of Loaf, The Amps, Dead Rider, Har Mar Superstar, Beth Ditto, CeeLo Green</description>
-                <pubDate>Thu, 11 Nov 2021 12:34:56 +0100</pubDate>
         </item>
         
 
