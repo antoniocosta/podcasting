@@ -64,10 +64,9 @@ function get_tts { # generate ttsmp3.com mp3 file from text
     ffmpeg -hide_banner -loglevel error -i "$2" -b:a $BITRATE'k' -ar 48000 -af "pan=stereo|c0=c0|c1=c0" tmp.mp3 && mv tmp.mp3 "$2"
 }
 
-# Step 1 function
-#Downloads all mp3s and m3u using Spotdl (if configured it also renames m3u)
+# Step 1 function. Downloads all mp3s and m3u using Spotdl (if configured it also renames m3u)
 function download_playlist {
-    read -p "Type 'Y' to confirm download of all mp3s and m3u from Spotify. Skip with 'Return' or 'N' (in case you edited m3u). [Y|N]" -n 1 -r
+    read -p "Type 'y' to confirm download of all mp3s and m3u from Spotify. Skip with 'Return' or 'N' (in case you edited m3u). [y|N] " -n 1 -r
     echo    # (optional) move to a new line
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         # Download
@@ -85,8 +84,7 @@ function download_playlist {
     fi
 }
 
-# Step 2 function
-# Generates intro and outro mp3 files (if they dont exist already) using text to speech service and add to playlist (if not there already)
+# Step 2 function. Generates intro and outro mp3 files (if they dont exist already) using text to speech service and add to playlist (if not there already)
 function intro_outro {
 
     if [[ ! -e "$INTRO_MP3" ]]; then # $INTRO_MP3 does not exist?
@@ -103,8 +101,7 @@ function intro_outro {
 
 }
 
-# Step 3 function
-# Merges all mp3s in a m3u playlist to one big mp3
+# Step 3 function. Merges all mp3s in a m3u playlist to one big mp3
 function merge_audio {
 
     # Create txt file from m3u in format ffmpeg concat expects
@@ -124,42 +121,9 @@ function merge_audio {
     ffmpeg -hide_banner -y -f concat -safe 0 -i ./_tmp.txt -b:a $BITRATE'k' -ar 48000 "$EP_FILE"
 }
 
-# Step 4 function
-# Adds id3 metadata to merged mp3
-function add_id3 {
 
-    # get the cover art
-    if [[ ! -e '_cover.jpg' ]]; then # tmp _cover.jpg does not exist?
-    
-        # Check if an episode cover exists on disk and use it instead default
-        local id=${EP_FILE%'.'$RSS_AUDIO_FORMAT} # Same as mp3 filename (minus extension). Ex: all-my-favorite-songs-000-weezer
-        custom_cover_img="../$id.jpg" # the custom cover image file to upload (full path)
-        if [ -f "$custom_cover_img" ]; then # if custom cover img exists, overwrite conf var 
-            echo "Found episode cover art: $custom_cover_img"
-            cp $custom_cover_img '_cover.jpg' # copy cover to subdir
-        else
-            # use default conf $ID3_COVER url instead
-            echo "Downloading episode cover: $ID3_COVER"
-            curl --silent -L -o '_cover.jpg' $ID3_COVER # download default cover img 
-        fi
-        echo "Resizing episode cover to 600x600"
-        convert '_cover.jpg' -resize 600x600 '_cover.jpg' # resize cover art to 600x600 (should stay below 200 KB)
-    fi
 
-    echo "Adding ID3..."
-    # add cover art and other id3 data
-    eyeD3 --add-image '_cover.jpg:FRONT_COVER' "$EP_FILE" \
-    --title "$ID3_TITLE" \
-    --artist "$ID3_ARTIST" \
-    --comment "$ID3_DESC" \
-    --release-year "$ID3_YEAR"
-
-    echo "Finished adding ID3."
-    # we don't need id3 cover anymore/ prepare.sh will remove it later.
-}
-
-# Step 5 function
-# Generates chapter metadata file _ffmetadata.txt and add to mp3
+# Step 4 function. Generates chapter metadata file _ffmetadata.txt and add to mp3
 function add_chapters {
     ./m3u2chapters.sh $1 $2
     local mp3_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE # The mp3 file without chapter metadata
@@ -167,7 +131,43 @@ function add_chapters {
     local metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'_ffmetadata.txt # The temp metadata file itself
     echo "Adding chapter metadata from _ffmetadata.txt to $EP_FILE"
     ffmpeg -hide_banner -loglevel warning -i $mp3_file -i "$metadata_file" -map_metadata 1 -codec copy $tmp_mp3_file_with_chapters
+#    ffmpeg -loglevel info -i $mp3_file -i "$metadata_file" -map_metadata 1 -codec copy $tmp_mp3_file_with_chapters
+
     mv $tmp_mp3_file_with_chapters $mp3_file # Overwrite chapterless file
+}
+
+# Step 5 function. Adds id3 metadata to merged mp3
+function add_id3 {
+
+    local tmp_cover=$ARCHIVE_DIR'/'$EP_SUBDIR'/_cover.jpg'
+    # get the cover art
+    if [[ ! -e $tmp_cover ]]; then # tmp _cover.jpg does not exist?
+    
+        # Check if an episode cover exists on disk and use it instead default
+        local id=${EP_FILE%'.'$RSS_AUDIO_FORMAT} # Same as mp3 filename (minus extension). Ex: all-my-favorite-songs-000-weezer
+        local custom_cover_img=$ARCHIVE_DIR'/'$EP_SUBDIR'/'$id.'jpg' # the custom cover image file to upload (full path)
+        if [ -f "$custom_cover_img" ]; then # if custom cover img exists, overwrite conf var 
+            echo "Found episode cover art: $custom_cover_img"
+            cp $custom_cover_img $tmp_cover # copy cover to subdir
+        else
+            # use default conf $ID3_COVER url instead
+            echo "Downloading episode cover: $ID3_COVER"
+            curl --silent -L -o $tmp_cover $ID3_COVER # download default cover img 
+        fi
+        echo "Resizing episode cover to 600x600"
+        convert $tmp_cover -resize 600x600 $tmp_cover # resize cover art to 600x600 (should stay below 200 KB)
+    fi
+
+    echo "Adding ID3..."
+    # add cover art and other id3 data
+    eyeD3 --add-image "$tmp_cover:FRONT_COVER" "$ARCHIVE_DIR/$EP_SUBDIR/$EP_FILE" \
+    --title "$ID3_TITLE" \
+    --artist "$ID3_ARTIST" \
+    --comment "$ID3_DESC" \
+    --release-year "$ID3_YEAR"
+
+    echo "Finished adding ID3."
+    # we don't need id3 cover anymore/ prepare.sh will remove it later.
 }
 
 ### Start doing stuff...
@@ -184,16 +184,18 @@ download_playlist
 ### 2. Generate intro and outro mp3 files and add to playlist (only if not already done)
 intro_outro 
 ### 3. Merge all mp3s in a m3u playlist to one big mp3
-merge_audio
-### 4. Add id3 metadata to merged mp3 
-add_id3 
-### Change back from episode subdir to our project main dir TODO: get rid of this changing dir stuff
-cd '../../../../spotify2podcast' 
-### 5. Generate chapter metadata file _ffmetadata.txt and add to mp3
+#merge_audio
+
+cd '../../../../spotify2podcast' ### Change back from episode subdir to our project main dir TODO: get rid of this changing dir stuff
+
+### 4. Generate chapter metadata file _ffmetadata.txt and add to mp3
 add_chapters $1 $2 
+
+### 5. Add id3 metadata (including cover image) to merged mp3 
+add_id3 
+
 ### 6. Prepare generated audio file episode to be uploaded
 ./prepare.sh $1 "$ARCHIVE_DIR/$EP_SUBDIR/$EP_FILE"
 
 echo "All done with `basename $0`."
-
 

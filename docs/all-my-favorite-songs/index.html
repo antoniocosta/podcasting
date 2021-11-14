@@ -93,6 +93,7 @@
 				  return entry.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
 				},
 				enclosure: function (entry, tokens) {
+					console.log(entry)
 				  if (entry.enclosure) {
 					return `<audio preload="none" src="${entry.enclosure.url}" type="audio/mpeg" controls></audio>`;
 				  }

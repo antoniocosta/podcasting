@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Generates ffmpeg chapter metadata file from an m3u playlist
+# Utility to generate ffmpeg chapter metadata file from an m3u playlist
 #
 # Usage: ./m3u2chapters.sh podcast.conf episode.conf
 # Requires: mediainfo
@@ -38,9 +38,12 @@ echo "Starting `basename $0`..."
 M3U_FILE=$(find $ARCHIVE_DIR'/'$EP_SUBDIR -type f -name "*.m3u") # Works but only if find command will return only one file
 metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'_ffmetadata.txt
 
+# Metadata keys or values containing special characters (‘=’, ‘;’, ‘#’, ‘\’ and a newline) must be escaped with a backslash ‘\’. See:  https://ffmpeg.org/ffmpeg-formats.html#Metadata-1
 echo ";FFMETADATA1
-title=$ID3_TITLE
-artist=$ID3_ARTIST" > $metadata_file
+title=$(echo "$ID3_TITLE" | sed 's/[=;#\]/\\&/g')
+artist=$(echo "$ID3_ARTIST" | sed 's/[=;#\]/\\&/g')
+comment=$(echo "$ID3_DESC" | sed 's/[=;#\]/\\&/g')
+date=$ID3_YEAR" > $metadata_file
 
 total_duration=0
 item_num=0
@@ -71,7 +74,7 @@ done < "$M3U_FILE"
 
 echo '
 [STREAM]
-title='$ID3_TITLE >> $metadata_file
+title='$(echo "$ID3_TITLE" | sed 's/[=;#\]/\\&/g') >> $metadata_file
 
 echo ''
 echo "All done with `basename $0`."
