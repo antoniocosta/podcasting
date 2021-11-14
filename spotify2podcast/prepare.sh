@@ -60,6 +60,7 @@ echo "Cleaning up..."
 rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/.spotdl-cache' # Remove spot-dl auth file (dont show error if doesnt exist)
 rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/_tmp.txt' # Remove ffmpeg temp merge file (dont show error if it doenst exist)
 rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/_ffmetadata.txt' # Remove chapter metadata file (dont show error if it doenst exist)
+rm -f $ARCHIVE_DIR'/'$EP_SUBDIR'/_cover.jpg' # Remove ID3 cover thumb
 
 # 3. Generate json from merged mp3 and episode config file
 echo "Generating JSON..."

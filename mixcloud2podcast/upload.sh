@@ -36,6 +36,10 @@ echo "Starting `basename $0`..."
 audio_file=$2 # 2nd argument is the file to upload
 audio_file_ext="${audio_file##*.}" # just the extension (without dot)
 json=${audio_file%'.'$audio_file_ext}.info.json # the metadata json file to upload (full path)
+custom_cover_img=${audio_file%'.'$audio_file_ext}.jpg # the custom cover image file to upload (full path)
+if [ -f "$custom_cover_img" ]; then # if custom cover img exists, overwrite conf var $IA_COVER_IMG
+    IA_COVER_IMG=$custom_cover_img
+fi
 IA_IDENTIFIER=$(jq --raw-output '.id' $json) # get data from json
 IA_TITLE=$(jq --raw-output '.title' $json) # get data from json
 IA_DESCRIPTION=$(jq --raw-output '.description' $json) # get data from json
