@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>http://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 18 Nov 2021 15:20:00 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 22 Nov 2021 01:27:00 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 016 by Kurt Cobain - Top 50 Albums</title>
+                <link>http://allmyfavoritesongs.com#016</link>
+                <guid>http://archive.org/details/all-my-favorite-songs-016-kurt-cobain</guid>
+                <enclosure url="http://archive.org/download/all-my-favorite-songs-016-kurt-cobain/all-my-favorite-songs-016-kurt-cobain.mp3" length="251292671" type="audio/mpeg" />
+                <itunes:image href='http://archive.org/download/all-my-favorite-songs-016-kurt-cobain/all-my-favorite-songs-016-kurt-cobain.jpg' />
+                <description>Kurt Donald Cobain (February 20, 1967 – c. April 5, 1994) was an American singer, songwriter, artist and musician. He was the frontman of the rock band Nirvana, serving as the band&#39;s guitarist, lead vocalist, and primary songwriter. Through his angst-fueled songwriting and anti-establishment persona, Cobain&#39;s compositions widened the thematic conventions of mainstream rock music. He was often heralded as a spokesman of Generation X and is considered to be one of the most influential musicians in the history of alternative rock.  &lt;br /&gt; &lt;br /&gt; This episode is based on Kurt&#39;s handwritten list of Top 50 albums, as featured in the 2002 anthology Journals. Note we included a song from each side of The Faith/Void split LP which brings our song total to 51.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; The Stooges, Pixies, The Breeders, The Vaselines, The Shaggs, Fang, MDC, Scratch Acid, Saccharine Trust, Butthole Surfers, Black Flag, Bad Brains, Gang Of Four, Sex Pistols, The Frogs, PJ Harvey, Sonic Youth, The Knack, The Saints, Kleenex, The Raincoats, Young Marble Giants, Aerosmith, Germs, R.E.M., Shonen Knife, The Slits, The Clash, The Faith, Void, Rites of Spring, Beat Happening, Tales Of Terror, Lead Belly, Mudhoney, Daniel Johnston, Flipper, The Beatles, Half Japanese, Fear, Public Image Ltd., Public Enemy, Marine Girls, David Bowie, Wipers, Mazzy Star, Swans</description>
+                <pubDate>Mon, 22 Nov 2021 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 015 by Buzz Osborne - Bands that were good, but blew it</title>

@@ -197,12 +197,14 @@
 	}*/
 	.tab-label::after {
 		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
-		 /*content: "\2192";  /* Rightwards Arrow */
+		 /*content: "\2304"; /* Down arrowhead */
+ 		 /*content: "\2192";  /* Rightwards Arrow */
 		 width: 1em;
 		 height: 1em;
 		 text-align: center;
 		 transition: all 0.35s;
 		 /*float: right;*/
+		 transform: rotate(90deg);
 	}
 	.tab-content {
 		 max-height: 0;
@@ -210,7 +212,7 @@
 		 /*color: #2c3e50;*/
 		 /*background: white;*/
 		 transition: all 0.35s;
-		 overflow:hidden;
+		 overflow: hidden;
 	}
 	.tab-content > h2 {
 		margin-top: 0;
@@ -240,7 +242,7 @@
 		 background: #1a252f;
 	}*/	
 	 input:checked + .tab-label::after {
-		 transform: rotate(90deg);
+		 transform: rotate(270deg);
 	}
 	 input:checked ~ .tab-content {
 		 max-height: 600vh;
