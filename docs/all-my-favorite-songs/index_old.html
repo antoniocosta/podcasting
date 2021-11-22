@@ -6,7 +6,7 @@
 <title>All My Favorite Songs</title>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta name="viewport" content="width=device-width, initial-scale=1">	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -28,94 +28,93 @@
 <meta property="og:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
 
 <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
 <script>
-jQuery(function($) {
-	
-	var rssurl="all-my-favorite-songs.xml";
-	$.get(rssurl, function (data) {
+	jQuery(function($) {
+		
+		var rssurl="http://feeds.feedburner.com/all-my-favorite-songs";
+		// https://github.com/sdepold/jquery-rss
+		$("#rss-items").rss(rssurl, {
+			limit: 1000,
+			ssl: true,
+			support: false,
+			dateFormat: "MMM Do YYYY", // http://momentjs.com/docs/#/displaying/
+			layoutTemplate: "{entries}",
+			entryTemplate: '<div class="tab" id="{num}"><input type="checkbox" id="chck{index}"><label class="tab-label" for="chck{index}">{num} {curator}</label><div class="tab-content"><h2>{subtitle}<span class="date"> · {date}</span></h2>{enclosure}<p>{cover}{body}</span></p></div>',
+			error: function() {},
+		  	success: function() {
+				// console.log(this.feed)
+				let img_src=this.feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
+				let html='<picture><source srcset="img/'+img_src+'-dark.jpg" media="(prefers-color-scheme: dark)"><img src="img/'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'"></picture>';
+				// let html='<img src="img/'+img_src+'.jpg" style="width:100%; max-width:320px" alt="'+this.feed.title+'">';
+				// html+='<h1>'+this.feed.title+'</h1>';
+				html+='<h2>'+this.feed.description+'</h2>';
+				html+='<div class="badges">';
+				html+='<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>';
+				html+='<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>';
+				html+='<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>';
+				html+='<a href="http://feeds.feedburner.com/all-my-favorite-songs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>';
+				html+='</div>';
+				$( "#rss-desc").append( html );
 
-		var feed = {
-			title: 		 $(data).find("channel > title").text(), 
-			link: 		 $(data).find("channel > link").text(), 
-			description: $(data).find("channel > description").text(),
-			image_url: 	 $(data).find("channel > image > url").text() 
-		};
+				// scroll to episode and open tab if ep hash is set
+				let myhash=window.location.hash;
+				let myelem=document.getElementById(myhash.substring(1))
+				if(myhash && myelem ) {
+					myelem.scrollIntoView(true);					
+					$(myhash+" input").prop("checked", true);					
+				} 
 
-		let img_src=feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
-		let html=`
-		<picture><source srcset="img/`+img_src+`-dark.jpg" media="(prefers-color-scheme: dark)"><img src="img/`+img_src+`.jpg" style="width:100%; max-width:320px" alt="`+feed.title+`"></picture>
-		<h2>`+feed.description+`</h2>
-		<div class="badges">
-			<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>
-			<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>
-			<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>
-			<a href="http://feeds.feedburner.com/all-my-favorite-songs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>
-			</div>
-		`
-		$( "#rss-desc").append( html );
+				// $(".tab audio").on('loadstart', function() {
+				// 	console.log('loaded audio '+this)
+				// });
 
+				$("audio").bind('loadeddata',function(e) { 
+					console.log('loadeddata ' + e.target);
+				});
 
-		$(data).find("item").each(function (index) { // or "item" or whatever suits your feed
-				var el = $(this);
-				var item = {
-					title: 			el.find("title").text(),
-					description: 	el.find("description").text(),
-					image: 			el.find("itunes:image").text(),
-					pubdate: 		el.find("pubDate").text(),
-					enclosure_url:  el.find("enclosure").attr('url')
+				$("audio").bind("play", function (e) {
+					console.log('play ' + e.target);
+					// console.debug("Audio paused. Current time of audioplay: " + e.target.currentTime );
+				});
+		  	},
+			onData: function() {},
+			tokens: {
+				num: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
+				},
+				curator: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
+				},			
+				title: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
+				},
+				subtitle: function (entry,token){
+				  return entry.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
+				},
+				enclosure: function (entry, tokens) {
+					// console.log(entry)
+				  if (entry.enclosure) {
+					return `<audio preload="none" src="${entry.enclosure.url}" type="audio/mpeg" controls></audio>`;
+				  }
+				  return "";
+				},
+				cover: function (entry, tokens) {
+					// console.log(entry)
+				  if (entry.enclosure) {
+					return `<img class="cover" src="${entry.enclosure.url.replace(/\.[^/.]+$/, "")+'_thumb.jpg'}" >`;
+				  }
+				  return "";
 				}
-				// format for display
-				item.num = item.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
-				item.curator = item.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
-				item.subtitle = item.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
-				// item.title = 	item.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
-				item.cover = item.enclosure_url.replace(/\.[^/.]+$/, "")+'_thumb.jpg'
-				item.date = moment(item.pubdate).format('MMM Do YYYY');
+			}
+		})
 
-				let html=`
-				<div class="tab" id="`+item.num+`">
-					<input type="checkbox" id="chck`+index+`">
-					<label class="tab-label" for="chck`+index+`">`+item.num+` `+item.curator+`</label>
-					<div class="tab-content">
-						<h2>`+item.subtitle+`<span class="date"> · `+item.date+`</span></h2>
-						<audio preload="none" src="`+item.enclosure_url+`" type="audio/mpeg" controls></audio>
-						<p><img class="cover" src="`+item.cover+`" >`+item.description+`</p>
-					</div>
-				</div>
-				`
-				$( "#rss-items").append( html );
-		});
-
-		// scroll to episode and open tab if ep hash is set
-		let myhash=window.location.hash;
-		let myelem=document.getElementById(myhash.substring(1))
-		if(myhash && myelem ) {
-			myelem.scrollIntoView(true);					
-			$(myhash+" input").prop("checked", true);					
-		} 
-
-		// $(".tab audio").on('loadstart', function() {
-		// 	console.log('loaded audio '+this)
-		// });
-
-		$("audio").bind('loadeddata',function(e) { 
-			console.log('loadeddata ' + e.target);
-		});
-
-		$("audio").bind("play", function (e) {
-			console.log('play ' + e.target);
-			// console.debug("Audio paused. Current time of audioplay: " + e.target.currentTime );
-		});
-
-
-	});
-
-
-})
+	})
 </script>
 <style>
+
+
 
 	html,body{
 		font-family: sans-serif;
@@ -123,11 +122,11 @@ jQuery(function($) {
 		color:#333;
 		margin:0;
 	}
-	h1{ }
+	h1{	}
 	h2,h3,h4 {
 		font-weight: normal;
 		line-height: 1.5;
-	}   
+	}	  
 	a { 
 		color: #0000ee;
 		text-decoration: none;
@@ -150,14 +149,14 @@ jQuery(function($) {
 	}
 	.badges img{
 		padding: 0 .28em 0 0;
-/*    filter: grayscale(100%);
-			-webkit-filter: grayscale(100%);
-			opacity: .5;*/
+/*		filter: grayscale(100%);
+	    -webkit-filter: grayscale(100%);
+	    opacity: .5;*/
 	}
-/*  .badges img:hover {
-			filter: none;
-			-webkit-filter: grayscale(0);
-			opacity: 1;
+/*	.badges img:hover {
+    	filter: none;
+    	-webkit-filter: grayscale(0);
+    	opacity: 1;
 	}*/
 	.footer{
 		max-width: 720px;
@@ -185,8 +184,8 @@ jQuery(function($) {
 		border-bottom: 0;
 	}
 	.tab-label {
-		font-size: 1.7em;
-		/*display: block;*/
+	 	font-size: 1.7em;
+	 	/*display: block;*/
 		display: flex;
 		justify-content: space-between;
 		padding: .8em 0 .8em 0;
@@ -194,13 +193,13 @@ jQuery(function($) {
 		font-weight: bold;
 		cursor: pointer;
 	}
-/*  .tab-label:hover {
+/*	.tab-label:hover {
 		 background: #333;
 	}*/
 	.tab-label::after {
 		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
 		 /*content: "\2304"; /* Down arrowhead */
-		 /*content: "\2192";  /* Rightwards Arrow */
+ 		 /*content: "\2192";  /* Rightwards Arrow */
 		 width: 1em;
 		 height: 1em;
 		 text-align: center;
@@ -236,12 +235,12 @@ jQuery(function($) {
 		 /*background: #2c3e50;*/
 		 cursor: pointer;
 	}
-/*  .tab-close:hover {
+/*	.tab-close:hover {
 		 background: #1a252f;
 	}
 	 input:checked + .tab-label {
 		 background: #1a252f;
-	}*/ 
+	}*/	
 	 input:checked + .tab-label::after {
 		 transform: rotate(90deg);
 	}
