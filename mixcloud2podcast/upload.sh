@@ -72,6 +72,7 @@ function ia_upload {
     # ia --debug \
     ia \
     upload $IA_IDENTIFIER "$audio_file" "$json" "$IA_COVER_IMG" --retries 100 \
+    -H x-archive-keep-old-version:0 \
     --metadata="mediatype:$IA_MEDIATYPE" \
     --metadata="collection:$IA_COLLECTION" \
     --metadata="title:$IA_TITLE" \
