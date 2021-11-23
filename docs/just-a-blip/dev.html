@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 
-<title>All My Favorite Songs</title>
+<title>Just A Blip</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">  
@@ -15,17 +15,17 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:type" content="website">
 
-<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
-<meta name="description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
-<meta name="twitter:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
-<meta property="og:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<link rel="alternate" type="application/rss+xml" title="Just A Blip" href="http://feeds.feedburner.com/just-a-blip" />
+<meta name="description" content="A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!">
+<meta name="twitter:description" content="A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!">
+<meta property="og:description" content="A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!">
 
-<meta name="twitter:title" content="All My Favorite Songs">
-<meta property="og:title" content="All My Favorite Songs">
+<meta name="twitter:title" content="Just A Blip">
+<meta property="og:title" content="Just A Blip">
 
-<meta property="og:url" content="http://allmyfavoritesongs.com">
-<meta name="twitter:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
-<meta property="og:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
+<meta property="og:url" content="http://justablip.github.io">
+<meta name="twitter:image" content="http://justablip.github.io/just-a-blip.jpg">
+<meta property="og:image" content="http://justablip.github.io/just-a-blip.jpg">
 
 <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
@@ -33,7 +33,7 @@
 <script>
 jQuery(function($) {
 	
-	var rssurl="all-my-favorite-songs.xml";
+	var rssurl="just-a-blip.xml";
 	$.get(rssurl, function (data) {
 
 		var feed = {
@@ -42,26 +42,26 @@ jQuery(function($) {
 			description: $(data).find("channel > description").text(),
 			image_url: 	 $(data).find("channel > image > url").text() 
 		};
-
 		let img_src=feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
 
 		let html=`
-			<picture>
-				<source srcset="img/`+img_src+`-dark.jpg" media="(prefers-color-scheme: dark)">
-				<img src="img/`+img_src+`.jpg" style="width:100%; max-width:320px" alt="`+feed.title+`">
-			</picture>
+			<img src="img/`+img_src+`.jpg" style="width:100%; max-width:320px" alt="`+feed.title+`">
 		`
-		html+='<h1>'+this.feed.title+'</h1>';
+		html+='<h1>'+feed.title+'</h1>';
 		html+='<h2>'+feed.description+'</h2>';
-		html=`
+		html+=`
 			<div class="badges">
-				<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>
-				<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>
-				<a href="https://pca.st/i8poy7na"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>
-				<a href="http://feeds.feedburner.com/all-my-favorite-songs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>
+				<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcHJveHkuZ29vZ2xlLmNvbS9qdXN0LWEtYmxpcA"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>
+				<a href="https://podcasts.apple.com/us/podcast/just-a-blip/id1565531309"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>
+				<a href="https://pca.st/svddebcs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>
+				<a href="http://feeds.feedburner.com/just-a-blip"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>
+				<a href="https://www.mixcloud.com/DublinDigitalRadio/playlists/just-a-blip/"><img src="img/badges/mixcloud-badge.svg"></a>
+				<a href="https://listen.dublindigitalradio.com/resident/just-a-blip"><img src="img/badges/ddr-badge.svg"></a>
+				<a href="https://archive.org/details/@abmc?&and[]=subject%3A%22justablip%22"><img src="img/badges/ia-badge.svg"></a>
 			</div>
 		`
 		$( "#rss-desc").append( html );
+
 
 		$(data).find("item").each(function (index) { // or "item" or whatever suits your feed
 				var el = $(this);
@@ -77,17 +77,16 @@ jQuery(function($) {
 				item.curator = item.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
 				item.subtitle = item.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
 				// item.title = item.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
-				item.cover = item.enclosure_url.replace(/\.[^/.]+$/, "")+'_thumb.jpg'
+				// item.cover = item.enclosure_url.replace(/\.[^/.]+$/, "")+'_thumb.jpg'
 				item.date = moment(item.pubdate).format('MMM Do YYYY');
 
 				let html=`
 				<div class="tab" id="`+item.num+`">
 					<input type="checkbox" id="chck`+index+`">
-					<label class="tab-label" for="chck`+index+`">`+item.num+` `+item.curator+`</label>
+					<label class="tab-label" for="chck`+index+`">`+item.num+` · `+item.date+`</label>
 					<div class="tab-content">
-						<h2>`+item.subtitle+`<span class="date"> · `+item.date+`</span></h2>
 						<audio preload="none" src="`+item.enclosure_url+`" type="audio/mpeg" controls></audio>
-						<p><img class="cover" src="`+item.cover+`" >`+item.description+`</p>
+						<p>`+item.description+`</p>
 					</div>
 				</div>
 				`
@@ -281,14 +280,6 @@ jQuery(function($) {
 	<div class="footer"></div>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VPH16ZTGBQ"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-VPH16ZTGBQ');
-	</script>
 
 </body>
 </html>
