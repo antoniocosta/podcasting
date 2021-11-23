@@ -50,10 +50,10 @@ jQuery(function($) {
 				<source srcset="img/`+img_src+`-dark.jpg" media="(prefers-color-scheme: dark)">
 				<img src="img/`+img_src+`.jpg" style="width:100%; max-width:320px" alt="`+feed.title+`">
 			</picture>
-		`
-		html+='<h1>'+this.feed.title+'</h1>';
+			`
+		// html+='<h1>'+feed.title+'</h1>';
 		html+='<h2>'+feed.description+'</h2>';
-		html=`
+		html+=`
 			<div class="badges">
 				<a href="https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL2FsbC1teS1mYXZvcml0ZS1zb25ncw=="><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>
 				<a href="https://podcasts.apple.com/us/podcast/all-my-favorite-songs/id1591646695?mt=2&ls=1"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>
