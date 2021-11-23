@@ -1,69 +1,285 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Just A Blip</title>
-    <link rel="alternate" type="application/rss+xml" title="Just A Blip" href="http://feeds.feedburner.com/just-a-blip" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
-    <script>
-      jQuery(function($) {
-        $("#rss-feeds").rss("http://feeds.feedburner.com/just-a-blip",
-        {
-          // how many entries do you want?
-          // default: 4
-          // valid values: any integer
-          limit: 1000,          
-          // will request the API via https
-          // default: false
-          // valid values: false, true
-          ssl: true,
-          // option to seldomly render ads
-          // ads help covering the costs for the feedrapp server hosting and future improvements
-          // default: true
-          // valid values: false, true
-          support: false,
-          // outer template for the html transformation
-          // default: "<ul>{entries}</ul>"
-          // valid values: any string
-          layoutTemplate: "<ul>{entries}</ul>",
+<html lang="en">
+<head>
 
-          // inner template for each entry
-          // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'
-          // valid values: any string
-          entryTemplate: '<li><a href="{url}">{title}</a></li>',
-        })
-      })
-    </script>
-    <style>
-      html,body{
-        font-family: sans-serif;;
-        background-color:black;
-        color:#ccc;
-        margin:1.5em;
-      }
-      h1,h2,h3,h4 {
-        font-weight: normal;
-      }
-      a { 
-        color: #fff;
-        text-decoration: none;
-      }
-      ul{
-        padding-left: 0em 
-      }
-      li{
-        margin:1em;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Just A Blip</h2>
-    <h4><a href="http://feeds.feedburner.com/just-a-blip">Feedburner</a> &middot; <a href="https://www.mixcloud.com/DublinDigitalRadio/playlists/just-a-blip/">Mixcloud</a> &middot; <a href="https://listen.dublindigitalradio.com/resident/just-a-blip">DDR</a> &middot; <a href="https://archive.org/details/@abmc?&and[]=subject%3A%22justablip%22">Internet Archive</a> &middot; <a href="https://podcasts.apple.com/us/podcast/just-a-blip/id1565531309">Apple Podcasts</a> &middot; <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcHJveHkuZ29vZ2xlLmNvbS9qdXN0LWEtYmxpcA">Google Podcasts</a>
+<title>Just A Blip</title>
 
-    </h4>
-    <p><img src="just-a-blip.jpg" width="300px"></p>
-    <div id="rss-feeds"></div>
-  </body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="index,follow">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website">
+
+<link rel="alternate" type="application/rss+xml" title="Just A Blip" href="http://feeds.feedburner.com/just-a-blip" />
+<meta name="description" content="A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!">
+<meta name="twitter:description" content="A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!">
+<meta property="og:description" content="A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!">
+
+<meta name="twitter:title" content="Just A Blip">
+<meta property="og:title" content="Just A Blip">
+
+<meta property="og:url" content="http://justablip.github.io">
+<meta name="twitter:image" content="http://justablip.github.io/just-a-blip.jpg">
+<meta property="og:image" content="http://justablip.github.io/just-a-blip.jpg">
+
+<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+<script>
+jQuery(function($) {
+	
+	var rssurl="just-a-blip.xml";
+	$.get(rssurl, function (data) {
+
+		var feed = {
+			title: 		 $(data).find("channel > title").text(), 
+			link: 		 $(data).find("channel > link").text(), 
+			description: $(data).find("channel > description").text(),
+			image_url: 	 $(data).find("channel > image > url").text() 
+		};
+		let img_src=feed.title.replace(/\s+/g, '-').toLowerCase(); // replace spaces by dashes and make lowecase
+
+		let html=`
+			<img src="img/`+img_src+`.jpg" style="width:100%; max-width:320px" alt="`+feed.title+`">
+		`
+		html+='<h1>'+feed.title+'</h1>';
+		html+='<h2>'+feed.description+'</h2>';
+		html+=`
+			<div class="badges">
+				<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcHJveHkuZ29vZ2xlLmNvbS9qdXN0LWEtYmxpcA"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/googlepodcasts-badge.svg"></a>
+				<a href="https://podcasts.apple.com/us/podcast/just-a-blip/id1565531309"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/applepodcasts-badge.svg"></a>
+				<a href="https://pca.st/svddebcs"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/pocketcasts-badge.svg"></a>
+				<a href="http://feeds.feedburner.com/just-a-blip"><img src="https://redwood-labs.s3.amazonaws.com/showpage/static/public/images/badges/rss-badge.svg"></a>
+				<a href="https://www.mixcloud.com/DublinDigitalRadio/playlists/just-a-blip/"><img src="img/badges/mixcloud-badge.svg"></a>
+				<a href="https://listen.dublindigitalradio.com/resident/just-a-blip"><img src="img/badges/ddr-badge.svg"></a>
+				<a href="https://archive.org/details/@abmc?&and[]=subject%3A%22justablip%22"><img src="img/badges/ia-badge.svg"></a>
+			</div>
+		`
+		$( "#rss-desc").append( html );
+
+
+		$(data).find("item").each(function (index) { // or "item" or whatever suits your feed
+				var el = $(this);
+				var item = {
+					title: 			el.find("title").text(),
+					description: 	el.find("description").text(),
+					image: 			el.find("itunes:image").text(),
+					pubdate: 		el.find("pubDate").text(),
+					enclosure_url:  el.find("enclosure").attr('url')
+				}
+				// format for display
+				item.num = item.title.replace(/[^0-9]*/, '').replace(/ .*/, '');
+				item.curator = item.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
+				item.subtitle = item.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
+				// item.title = item.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
+				// item.cover = item.enclosure_url.replace(/\.[^/.]+$/, "")+'_thumb.jpg'
+				item.date = moment(item.pubdate).format('MMM Do YYYY');
+
+				let html=`
+				<div class="tab" id="`+item.num+`">
+					<input type="checkbox" id="chck`+index+`">
+					<label class="tab-label" for="chck`+index+`">`+item.num+` · `+item.date+`</label>
+					<div class="tab-content">
+						<audio preload="none" src="`+item.enclosure_url+`" type="audio/mpeg" controls></audio>
+						<p>`+item.description+`</p>
+					</div>
+				</div>
+				`
+				$( "#rss-items").append( html );
+		});
+
+		// scroll to episode and open tab if ep hash is set
+		let myhash=window.location.hash;
+		let myelem=document.getElementById(myhash.substring(1))
+		if(myhash && myelem ) {
+			myelem.scrollIntoView(true);					
+			$(myhash+" input").prop("checked", true);					
+		} 
+
+		// $(".tab audio").on('loadstart', function() {
+		// 	console.log('loaded audio '+this)
+		// });
+
+		$("audio").bind('loadeddata',function(e) { 
+			console.log('loadeddata ' + e.target);
+		});
+
+		$("audio").bind("play", function (e) {
+			console.log('play ' + e.target);
+			// console.debug("Audio paused. Current time of audioplay: " + e.target.currentTime );
+		});
+
+
+	});
+
+
+})
+</script>
+<style>
+
+	html,body{
+		font-family: sans-serif;
+		background-color:white;
+		color:#333;
+		margin:0;
+	}
+	h1{ }
+	h2,h3,h4 {
+		font-weight: normal;
+		line-height: 1.5;
+	}   
+	a { 
+		color: #0000ee;
+		text-decoration: none;
+	}
+	p{
+		line-height: 1.6;
+		color: #666;
+		font-size: 1.1em;
+	}
+	audio{
+		width: 100%;
+	}
+	.header{
+		max-width: 720px;
+		margin: auto;
+		padding: 1em;
+	}
+	.badges{
+		padding: 1em 0 1em 0;
+	}
+	.badges img{
+		padding: 0 .28em 0 0;
+/*    filter: grayscale(100%);
+			-webkit-filter: grayscale(100%);
+			opacity: .5;*/
+	}
+/*  .badges img:hover {
+			filter: none;
+			-webkit-filter: grayscale(0);
+			opacity: 1;
+	}*/
+	.footer{
+		max-width: 720px;
+		margin: auto;
+		padding: 2em 0 2em 0;
+	}
+	/* CSS accordion: https://codepen.io/raubaca/pen/PZzpVe */
+	 input {
+		 position: absolute;
+		 opacity: 0;
+		 z-index: -1;
+	}
+	.tabs {
+		max-width: 720px;
+		margin: auto;
+		overflow: hidden;
+		padding: 1em;
+	}
+	.tab {
+		border-bottom: 2px solid black;
+		width: 100%;
+		overflow: hidden;
+	}
+	.tab:last-of-type {
+		border-bottom: 0;
+	}
+	.tab-label {
+		font-size: 1.7em;
+		/*display: block;*/
+		display: flex;
+		justify-content: space-between;
+		padding: .8em 0 .8em 0;
+		/*background: #2c3e50;*/
+		font-weight: bold;
+		cursor: pointer;
+	}
+/*  .tab-label:hover {
+		 background: #333;
+	}*/
+	.tab-label::after {
+		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
+		 /*content: "\2304"; /* Down arrowhead */
+		 /*content: "\2192";  /* Rightwards Arrow */
+		 width: 1em;
+		 height: 1em;
+		 text-align: center;
+		 transition: all 0.35s;
+		 /*float: right;*/
+	}
+	.tab-content {
+		 max-height: 0;
+		 /*padding: 0 1em;*/
+		 /*color: #2c3e50;*/
+		 /*background: white;*/
+		 transition: all 0.35s;
+		 overflow: hidden;
+	}
+	.tab-content > h2 {
+		margin-top: 0;
+		/*display: block;*/
+	}
+	.tab-content > h2 .date {
+		/*font-size: .6em;*/
+		/*display:  block;*/
+		/*float: right;*/
+		/*margin: .8em 0 .8em 0  ;*/
+		color: #8f97a4;
+		font-weight: lighter;
+
+	}
+	.tab-close {
+		 display: flex;
+		 justify-content: flex-end;
+		 padding: 1em;
+		 /*font-size: 0.75em;*/
+		 /*background: #2c3e50;*/
+		 cursor: pointer;
+	}
+/*  .tab-close:hover {
+		 background: #1a252f;
+	}
+	 input:checked + .tab-label {
+		 background: #1a252f;
+	}*/ 
+	 input:checked + .tab-label::after {
+		 transform: rotate(90deg);
+	}
+	 input:checked ~ .tab-content {
+		 max-height: 600vh;
+		 padding: 0 0 1em 0;
+	}
+
+	.tab-content > p .cover {
+		float: left; 
+		margin: 0 1em .1em 0;
+		width: 9em;
+	}
+
+	/* Dark mode */
+	@media (prefers-color-scheme: dark) {
+		html,body{ background-color:#222; color:#ddd; }
+		p{ color: #aaa; }
+		.tab { border-bottom: 2px solid #666; }
+		.badges img { opacity: .75; transition: opacity .5s ease-in-out; }
+		.badges img:hover { opacity: 1; }
+		audio { filter: invert(100%); }
+	}
+
+</style>
+</head>
+<body>
+
+	<div class="header" id="rss-desc"></div>
+	<div class="tabs" id="rss-items"></div>
+	<div class="footer"></div>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+</body>
 </html>
