@@ -1,0 +1,321 @@
+;FFMETADATA1
+title=017 by David Bowie - 25 Favorite Albums
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2021
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28437
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28438
+END=101851
+title=The Last Poets - Run, Nigger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=101852
+END=252713
+title=The Last Poets - When The Revolution Comes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=252714
+END=438975
+title=Robert Wyatt - Shipbuilding - Remastered in 1998
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=438976
+END=616885
+title=Robert Wyatt - Memories Of You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=616886
+END=753035
+title=Little Richard - Lonesome And Blue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=753036
+END=872577
+title=Little Richard - She Knows How To Rock
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=872578
+END=1199023
+title=Steve Reich - Music for 18 Musicians- Pulses
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1199024
+END=1437509
+title=Steve Reich - Music for 18 Musicians- Section I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1437510
+END=1749747
+title=The Velvet Underground, Nico - Venus In Furs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1749748
+END=2012089
+title=The Velvet Underground, Nico - Run Run Run
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2012090
+END=2215295
+title=John Lee Hooker - Tupelo Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2215296
+END=2423349
+title=John Lee Hooker - I Rowed A Little Boat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2423350
+END=2560363
+title=Ray Koerner & Glover - Linin' Track
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2560364
+END=2673065
+title=Ray Koerner & Glover - Sun's Wail
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2673066
+END=2807295
+title=James Brown - Try Me - Live At The Apollo Theater1962
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2807296
+END=3451645
+title=James Brown - Lost Someone - Live At The Apollo Theater, 1962
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3451646
+END=3683915
+title=Linton Kwesi Johnson - Sonny's Lettah (Anti-Sus Poem)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3683916
+END=3950457
+title=Linton Kwesi Johnson - Fite Dem Back
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3950458
+END=4165185
+title=The Red Flower Of Tachai Blossoms Everywhere - Delivering Public Grain To The State
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4165186
+END=4451750
+title=The Red Flower Of Tachai Blossoms Everywhere - Galloping Across The Vast Grasslands
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4451751
+END=4654828
+title=Daevid Allen - Time Of Your Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4654829
+END=4871881
+title=Daevid Allen - Memories
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4871882
+END=5167055
+title=Scott Walker - My Death
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5167056
+END=5335221
+title=Scott Walker - Next
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5335222
+END=5507299
+title=Tom Dissevelt, Kid Baltan - Song of the Second Moon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5507300
+END=5688785
+title=Tom Dissevelt, Kid Baltan - Orbit Aurora
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5688786
+END=6025383
+title=The Incredible String Band - The Mad Hatter's Song - 2010 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6025384
+END=6316597
+title=The Incredible String Band - The First Girl I Loved - 2010 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6316598
+END=6552683
+title=Tucker Zimmerman - Bird Lives
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6552684
+END=6758841
+title=Tucker Zimmerman - Upsidedown Circus World
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6758842
+END=7001215
+title=Richard Strauss, Gundula Janowitz, Berliner Philharmoniker, Herbert von Karajan - Vier letzte Lieder, TrV 296- I. Frühling
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7001216
+END=7290197
+title=Richard Strauss, Gundula Janowitz, Berliner Philharmoniker, Herbert von Karajan - Vier letzte Lieder, TrV 296- II. September
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7290198
+END=7585347
+title=Glenn Branca - Lesson No. 2
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7585348
+END=8344153
+title=Glenn Branca - The Spectacular Commodity
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8344154
+END=8465207
+title=Syd Barrett - Dark Globe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8465208
+END=8692293
+title=Syd Barrett - Octopus
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8692294
+END=9029467
+title=George Crumb, Kronos Quartet - Black Angels- I. Departure
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9029468
+END=9355289
+title=George Crumb, Kronos Quartet - Black Angels- II. Absence
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9355290
+END=9645471
+title=Toots & The Maytals - Funky Kingston
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9645472
+END=9868789
+title=Toots & The Maytals - Pressure Drop
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9868790
+END=10047851
+title=Harry Partch, John Stannard, Victoria Bond, Paul Bergen, Ensemble of Unique Instruments, Danlee Mitchell - Delusion of the Fury- Act II- Treats with Life and with Life Despite Life- The Quiet Hobo Meal
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10047852
+END=10219329
+title=Harry Partch, John Stannard, Victoria Bond, Paul Bergen, Ensemble of Unique Instruments, Danlee Mitchell - Delusion of the Fury- Act II- Treats with Life and with Life Despite Life- The host Kid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10219330
+END=10662271
+title=Charles Mingus - Hog Calling Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10662272
+END=10945133
+title=Charles Mingus - Wham Bam Thank You Ma'am
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10945134
+END=11128659
+title=Igor Stravinsky, Columbia Symphony Orchestra - Le sacre du printemps- Part 1 'Adoration of the Earth', The Augurs of Spring - Dances of the Young Girls
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11128660
+END=11205985
+title=Igor Stravinsky, Columbia Symphony Orchestra - Le sacre du printemps- Part 1 'Adoration of the Earth', Ritual of Abduction
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11205986
+END=11366327
+title=The Fugs - Doin' All Right
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11366328
+END=11496525
+title=The Fugs - Kill for Peace
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11496526
+END=11641147
+title=Anatoly Lyadov, Florence Foster Jenkins - The Musical Snuff-Box - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11641148
+END=11719745
+title=Cosme McMoon, Florence Foster Jenkins - Like a Bird - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11719746
+END=11722671
+title=Outro
+
+[STREAM]
+title=017 by David Bowie - 25 Favorite Albums
