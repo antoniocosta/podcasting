@@ -183,7 +183,7 @@ for json in "${arr_json[@]}"; do
         fi
         item_description=$(jq --raw-output '.description' $json) # get data from json
         item_description=${item_description//$'\n'/ <br />} # convert newlines /n to html <br />
-        item_description=$(echo $item_description | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g') # convert special characters to HTML entities
+        item_description=$(echo $item_description | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g') # convert special characters to HTML entities. See: https://stackoverflow.com/questions/12873682/short-way-to-escape-html-in-bash
         #item_description="![CDATA[ $item_description ]]" # add cdata tag
 
         item_image_tag='' # emtpy by default
