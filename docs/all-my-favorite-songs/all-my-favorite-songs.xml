@@ -2,20 +2,20 @@
 <rss xmlns:atom='http://www.w3.org/2005/Atom' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:googleplay='http://www.google.com/schemas/play-podcasts/1.0' xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd' version='2.0'>
 
 <channel>
-        <atom:link href='http://feeds.feedburner.com/all-my-favorite-songs' rel='self' type='application/rss+xml' />
+        <atom:link href='https://feeds.feedburner.com/all-my-favorite-songs' rel='self' type='application/rss+xml' />
         <title>All My Favorite Songs</title>
-        <link>http://allmyfavoritesongs.com</link>
+        <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 28 Nov 2021 17:57:10 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 17:59:35 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
         <image>
-                <link>http://allmyfavoritesongs.com</link>
-                <url>http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg</url>
+                <link>https://allmyfavoritesongs.com</link>
+                <url>https://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg</url>
                 <title>All My Favorite Songs</title>
         </image>
-        <itunes:image href='http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg' />
+        <itunes:image href='https://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg' />
         <itunes:subtitle>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:subtitle>
         <itunes:summary>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</itunes:summary>        
         <itunes:category text='Music' />
