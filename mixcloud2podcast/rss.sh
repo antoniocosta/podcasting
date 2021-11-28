@@ -172,8 +172,8 @@ for json in "${arr_json[@]}"; do
                 item_date=$(date -d @$item_date "+%a, %d %b %Y %H:%M:%S %z") # convert timestamp to date string
         fi
         item_link=$(jq --raw-output '.webpage_url' $json) # get data from json
-        item_guid='http://archive.org/details/'$item_id # use archive.org permalink
-        item_enclosure='http://archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
+        item_guid='https://archive.org/details/'$item_id # use archive.org permalink
+        item_enclosure='https://archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
         #item_enclosure_length=$(stat -f%z $audio_file) # get file size in bytes
         item_enclosure_length=$(jq --raw-output '.length' $json) # get file size in bytes (we added this data to the json above)
         if [ "$RSS_AUDIO_FORMAT" == "m4a" ]; then 
@@ -188,7 +188,7 @@ for json in "${arr_json[@]}"; do
 
         item_image_tag='' # emtpy by default
         if [ -f "$ARCHIVE_DIR/$item_id.jpg" ]; then # if custom cover img exists, overwrite conf var $IA_COVER_IMG
-                item_image='http://archive.org/download/'$item_id'/'$item_id'.jpg'
+                item_image='https://archive.org/download/'$item_id'/'$item_id'.jpg'
                 item_image_tag="<itunes:image href='$item_image' />"
         fi
 
