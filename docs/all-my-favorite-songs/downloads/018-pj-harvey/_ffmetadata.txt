@@ -1,0 +1,309 @@
+;FFMETADATA1
+title=018 by PJ Harvey - 11 12 13 14
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2021
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28557
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28558
+END=296539
+title=Claude Debussy, Martin Jones - Clair de Lune, L. 32
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=296540
+END=430337
+title=Colin Stetson - Morning Of
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=430338
+END=733959
+title=Amen Dunes - Miki Dora
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=733960
+END=1001317
+title=Empire of the Sun - We Are The People
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1001318
+END=1352627
+title=Ólafur Arnalds, Nils Frahm - 23-52
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1352628
+END=1565529
+title=Captain Beefheart & His Magic Band - Observatory Crest
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1565530
+END=1811431
+title=Connan Mockasin - It's Choade My Dear
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1811432
+END=1910285
+title=Thom Yorke - Klemperer Walks
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1910286
+END=2118603
+title=Amen Dunes - Lilac In Hand
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2118604
+END=2231665
+title=Colin Stetson - Aurora Borealis
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2231666
+END=2651063
+title=Thom Yorke - The Axe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2651064
+END=2831157
+title=Coby Sey - Petals Have Fallen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2831158
+END=3050683
+title=Bendik Giske - Exit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3050684
+END=3267977
+title=Tirzah - Do You Know
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3267978
+END=3725055
+title=Colin Stetson, Sarah Neufeld - The Sun Roars Into View
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3725056
+END=3970669
+title=Big Thief - Cattails
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3970670
+END=4410395
+title=Colin Stetson - All this I do for glory
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4410396
+END=4680729
+title=Hekla - Stundum
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4680730
+END=5031823
+title=Colin Stetson - Hunted
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5031824
+END=5338565
+title=Thom Yorke - Last I Heard (...He Was Circling the Drain)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5338566
+END=5729067
+title=Colin Stetson, Sarah Neufeld - The Rest of Us
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5729068
+END=5939353
+title=Big Thief - Orange
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5939354
+END=6147455
+title=Sibylle Baier - I Lost Something in the Hills
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6147456
+END=6439989
+title=Nick Cave & The Bad Seeds - Bright Horses
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6439990
+END=6646363
+title=Desert Sessions - Something You Can't See
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6646364
+END=6879617
+title=Liela Moss - Atoms At Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6879618
+END=7063143
+title=slowthai, Mura Masa - Doorman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7063144
+END=7301677
+title=Eartheater - Below the Clavicle
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7301678
+END=7513619
+title=Hole - Doll Parts
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7513620
+END=7715313
+title=Radiohead - Scatterbrain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7715314
+END=7826815
+title=Nicholas Britell - Andantino for Brass and Orchestra in B Minor
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7826816
+END=8008565
+title=Hanan Townshend - Lacrimosa
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8008566
+END=8274867
+title=Here We Go Magic - Over The Ocean
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8274868
+END=8490577
+title=Mark Lanegan - Bleed All Over
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8490578
+END=8891927
+title=Bob Dylan - My Own Version of You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8891928
+END=9076029
+title=Anne Briggs - Fine Horseman - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9076030
+END=9312715
+title=Stina Nordenstam - I Dream of Jeannie - With the Light Brown Hair
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9312716
+END=9550577
+title=Here We Go Magic - Alone But Moving
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9550578
+END=9715047
+title=Jed Kurzel - Riding On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9715048
+END=9960421
+title=SAULT, Michael Kiwanuka - Bow
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9960422
+END=10113443
+title=Martin Phipps - Simple Harp Variation No. 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10113444
+END=10329993
+title=Johnny Flynn, Robert Macfarlane - Gods and Monsters
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10329994
+END=10561519
+title=Low - Congregation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10561520
+END=10805789
+title=Sleaford Mods - I Don't Rate You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10805790
+END=11139483
+title=Superstate, Graham Coxon, Valentina Pappalardo - Yoga Town (feat. Graham Coxon & Valentina Pappalardo)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11139484
+END=11357713
+title=SAULT - Stop Dem
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11357714
+END=11552279
+title=Shabazz Palaces - An echo from the hosts that profess infinitum
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11552280
+END=11795541
+title=Tirzah - Send Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11795542
+END=11798467
+title=Outro
+
+[STREAM]
+title=018 by PJ Harvey - 11 12 13 14

@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 28 Nov 2021 17:59:35 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 01 Dec 2021 02:59:58 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 018 by PJ Harvey - 11 12 13 14</title>
+                <link>https://allmyfavoritesongs.com#018</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-018-pj-harvey</guid>
+                <enclosure url="https://archive.org/download/all-my-favorite-songs-018-pj-harvey/all-my-favorite-songs-018-pj-harvey.mp3" length="283340555" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-018-pj-harvey/all-my-favorite-songs-018-pj-harvey.jpg' />
+                <description>Polly Jean Harvey (born 9 October 1969) is an English singer, songwriter and musician. Primarily known as a vocalist and guitarist, she is also proficient with a wide range of instruments. Over the course of her career, Harvey established herself as one of the most individual and influential songwriters of her era, exploring themes of sex, religion, and political issues with unnerving honesty, dark humor, and a twisted theatricality.  &lt;br /&gt; &lt;br /&gt; This episode is a compilation of the four playlists published by Harvey between August 2019 and August 2021.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Claude Debussy, Martin Jones, Colin Stetson, Amen Dunes, Empire of the Sun, Ólafur Arnalds, Nils Frahm, Captain Beefheart &amp; His Magic Band, Connan Mockasin, Thom Yorke, Coby Sey, Bendik Giske, Tirzah, Sarah Neufeld, Big Thief, Hekla, Sibylle Baier, Nick Cave &amp; The Bad Seeds, Desert Sessions, Liela Moss, slowthai, Mura Masa, Eartheater, Hole, Radiohead, Nicholas Britell, Hanan Townshend, Here We Go Magic, Mark Lanegan, Bob Dylan, Anne Briggs, Stina Nordenstam, Jed Kurzel, SAULT, Michael Kiwanuka, Martin Phipps, Johnny Flynn, Robert Macfarlane, Low, Sleaford Mods, Superstate, Graham Coxon, Valentina Pappalardo, Shabazz Palaces</description>
+                <pubDate>Wed, 01 Dec 2021 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 017 by David Bowie - 25 Favorite Albums</title>
