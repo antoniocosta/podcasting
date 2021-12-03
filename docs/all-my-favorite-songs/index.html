@@ -102,7 +102,7 @@ jQuery(function($) {
 				let html=`
 				<div class="tab" id="`+item.num+`">
 					<input type="checkbox" id="chck`+index+`">
-					<label class="tab-label" for="chck`+index+`"><h1>`+item.num+` `+item.curator+`</h1></label>
+					<label class="tab-label" for="chck`+index+`">`+item.num+` `+item.curator+`</label>
 					<div class="tab-content">
 						<h2>`+item.subtitle+`<span class="date"> · `+item.date+`</span></h2>
 						<audio preload="none" src="`+item.enclosure_url+`" type="audio/mpeg" controls></audio>
@@ -201,15 +201,13 @@ jQuery(function($) {
 	}
 	.tab-label {
 		cursor: pointer;
-	}
-	.tab-label > h1 {
 		font-size: 1.7em;
 		font-weight: bold;
 		display: flex;
 		justify-content: space-between;
-		/*padding-right: .2em;*/
+		padding: .7em 0 .7em 0;
 	}
-	.tab-label > h1::after {
+	.tab-label::after {
 		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
 		 /*content: "\2304"; /* Down arrowhead */
 		 width: 1em;
@@ -238,7 +236,7 @@ jQuery(function($) {
 		 padding: 1em;
 		 cursor: pointer;
 	}
-	input:checked + .tab-label > h1::after {
+	input:checked + .tab-label::after {
 		transform-origin: 30% 50%;
 		transform: rotate(270deg);
 	}
