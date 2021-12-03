@@ -214,9 +214,6 @@ jQuery(function($) {
 		 height: 1em;
 		 text-align: center;
 		 transition: all 0.35s;
-
-		 transform-origin: 50% 50%;
-		 transform: rotate(90deg);
 	}
 	.tab-content {
 		 max-height: 0;
@@ -237,8 +234,8 @@ jQuery(function($) {
 		 cursor: pointer;
 	}
 	input:checked + .tab-label::after {
-		transform-origin: 30% 50%;
-		transform: rotate(270deg);
+		 transform-origin: 50% 50%;
+		 transform: rotate(90deg);
 	}
 	input:checked ~ .tab-content {
 		 max-height: 600vh;
