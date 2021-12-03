@@ -6,9 +6,9 @@
 <title>All My Favorite Songs</title>
 
 <meta charset="utf-8">
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">  
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="robots" content="index,follow">
 <meta property="og:locale" content="en_US">
@@ -102,7 +102,7 @@ jQuery(function($) {
 				let html=`
 				<div class="tab" id="`+item.num+`">
 					<input type="checkbox" id="chck`+index+`">
-					<label class="tab-label" for="chck`+index+`">`+item.num+` `+item.curator+`</label>
+					<label class="tab-label" for="chck`+index+`"><h1>`+item.num+` `+item.curator+`</h1></label>
 					<div class="tab-content">
 						<h2>`+item.subtitle+`<span class="date"> · `+item.date+`</span></h2>
 						<audio preload="none" src="`+item.enclosure_url+`" type="audio/mpeg" controls></audio>
@@ -134,9 +134,7 @@ jQuery(function($) {
 			// console.debug("Audio paused. Current time of audioplay: " + e.target.currentTime );
 		});
 
-
 	});
-
 
 })
 </script>
@@ -175,15 +173,7 @@ jQuery(function($) {
 	}
 	.badges img{
 		padding: 0 .28em 0 0;
-/*    filter: grayscale(100%);
-			-webkit-filter: grayscale(100%);
-			opacity: .5;*/
 	}
-/*  .badges img:hover {
-			filter: none;
-			-webkit-filter: grayscale(0);
-			opacity: 1;
-	}*/
 	.footer{
 		max-width: 720px;
 		margin: auto;
@@ -210,67 +200,49 @@ jQuery(function($) {
 		border-bottom: 0;
 	}
 	.tab-label {
-		font-size: 1.7em;
-		/*display: block;*/
-		display: flex;
-		justify-content: space-between;
-		padding: .8em 0 .8em 0;
-		/*background: #2c3e50;*/
-		font-weight: bold;
 		cursor: pointer;
 	}
-/*  .tab-label:hover {
-		 background: #333;
-	}*/
-	.tab-label::after {
+	.tab-label > h1 {
+		font-size: 1.7em;
+		font-weight: bold;
+		display: flex;
+		justify-content: space-between;
+		/*padding-right: .2em;*/
+	}
+	.tab-label > h1::after {
 		 content: "\276F"; /* Heavy Right-Pointing Angle Quotation Mark Ornament */
 		 /*content: "\2304"; /* Down arrowhead */
-		 /*content: "\2192";  /* Rightwards Arrow */
 		 width: 1em;
 		 height: 1em;
 		 text-align: center;
 		 transition: all 0.35s;
-		 /*float: right;*/
+
+		 transform-origin: 50% 50%;
+		 transform: rotate(90deg);
 	}
 	.tab-content {
 		 max-height: 0;
-		 /*padding: 0 1em;*/
-		 /*color: #2c3e50;*/
-		 /*background: white;*/
 		 transition: all 0.35s;
 		 overflow: hidden;
 	}
 	.tab-content > h2 {
 		margin-top: 0;
-		/*display: block;*/
 	}
 	.tab-content > h2 .date {
-		/*font-size: .6em;*/
-		/*display:  block;*/
-		/*float: right;*/
-		/*margin: .8em 0 .8em 0  ;*/
 		color: #8f97a4;
 		font-weight: lighter;
-
 	}
 	.tab-close {
 		 display: flex;
 		 justify-content: flex-end;
 		 padding: 1em;
-		 /*font-size: 0.75em;*/
-		 /*background: #2c3e50;*/
 		 cursor: pointer;
 	}
-/*  .tab-close:hover {
-		 background: #1a252f;
+	input:checked + .tab-label > h1::after {
+		transform-origin: 30% 50%;
+		transform: rotate(270deg);
 	}
-	 input:checked + .tab-label {
-		 background: #1a252f;
-	}*/ 
-	 input:checked + .tab-label::after {
-		 transform: rotate(90deg);
-	}
-	 input:checked ~ .tab-content {
+	input:checked ~ .tab-content {
 		 max-height: 600vh;
 		 padding: 0 0 1em 0;
 	}
