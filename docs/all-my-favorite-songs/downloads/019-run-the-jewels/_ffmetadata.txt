@@ -1,0 +1,303 @@
+;FFMETADATA1
+title=019 by Run The Jewels - Rage Guest (part 1 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2021
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27405
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27406
+END=232219
+title=Run The Jewels - Oh My Darling Don't Cry
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=232220
+END=475985
+title=Earl Sweatshirt - Chum
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=475986
+END=735279
+title=Action Bronson - Easy Rider
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=735280
+END=943549
+title=Talib Kweli - Listen!!!
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=943550
+END=1184051
+title=The Game - Dope Boys
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1184052
+END=1407753
+title=50 Cent - I Get Money
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1407754
+END=1679599
+title=T.I., Young Thug - About the Money (feat. Young Thug)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1679600
+END=1944797
+title=BOOTS - Mercy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1944798
+END=2231211
+title=Portishead - Machine Gun
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2231212
+END=2561977
+title=Massive Attack - Teardrop
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2561978
+END=2720229
+title=Wavves - King of the Beach
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2720230
+END=2833075
+title=Adam Sandler - Somebody Kill Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2833076
+END=3061256
+title=Jimi Hendriz - Purple Haze Live Atlanta Pop Festival
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3061257
+END=3291942
+title=Outkast - ATLiens
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3291943
+END=3494932
+title=Nas - Made You Look
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3494933
+END=3781754
+title=JAY-Z, DMX - Money, Cash, Hoes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3781755
+END=4011216
+title=Rage Against The Machine - Bulls On Parade
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4011217
+END=4304854
+title=Faith No More - Epic
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4304855
+END=4693508
+title=Led Zeppelin - Dazed and Confused - 1990 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4693509
+END=4923498
+title=The Notorious B.I.G. - Hypnotize - 2007 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4923499
+END=5199112
+title=N.W.A. - 100 Miles And Runnin'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5199113
+END=5417294
+title=Snoop Dogg, Daz Dillinger - Murder Was The Case (feat. Dat Nigga Daz)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5417295
+END=5567709
+title=Wilder Zoby - Day We Met
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5567710
+END=5727835
+title=Flying Lotus - Coronus, the Terminator
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5727836
+END=5991785
+title=D'Angelo - Brown Sugar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5991786
+END=6211241
+title=Gravediggaz - Nowhere To Run Nowhere To Hide
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6211242
+END=6491943
+title=Ghostface Killah, Raekwon, Cappadonna - Daytona 500 (feat. Raekwon & Cappadonna)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6491944
+END=6759085
+title=Rick Ross - Hold Me Back
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6759086
+END=6964907
+title=Danny Brown - Blunt After Blunt
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6964908
+END=7214217
+title=Tyler, The Creator - Yonkers
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7214218
+END=7467775
+title=Cut Killer, Mos Def - Miss Fat Booty
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7467776
+END=7641557
+title=Joey Bada$$ - Christ Conscious
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7641558
+END=7874211
+title=Scarface, Ice Cube, Devin The Dude - Hand Of The Dead Body
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7874212
+END=8163097
+title=Big Mike - Havin Thangs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8163098
+END=8501087
+title=Wu-Tang Clan, ODB, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah, Raekwon - Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa,
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8501088
+END=8769497
+title=2 Pac - Keep Your Head Up
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8769498
+END=9018831
+title=Warren G, Nate Dogg - Regulate
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9018832
+END=9288637
+title=Zola Jesus - Dangerous Days
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9288638
+END=9481691
+title=Lorde - Team
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9481692
+END=9728601
+title=Beastie Boys - No Sleep Till Brooklyn
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9728602
+END=9969823
+title=El-P, Trent Reznor - Flyentology
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9969824
+END=10241909
+title=El-P - Smithereens (Stop Cryin')
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10241910
+END=10476771
+title=Killer Mike, Bun B, T.I., Trouble - Big Beast (feat. Bun B, T.I., and Trouble)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10476772
+END=10684513
+title=Killer Mike, Big Boi - A.D.I.D.A.S. (feat. Big Boi)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10684514
+END=10927663
+title=Outkast Featuring Killer Mike And Sleepy Brown - Land Of A Million Drums
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10927664
+END=11211955
+title=Company Flow - End To End Burners
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11211956
+END=11543969
+title=Aesop Rock - Freeze Honeycomb Interlude
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11543970
+END=11546895
+title=Outro
+
+[STREAM]
+title=019 by Run The Jewels - Rage Guest (part 1 of 2)
