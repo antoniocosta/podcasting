@@ -96,7 +96,14 @@ jQuery(function($) {
 				item.curator = item.title.replace(/[^0-9]*/, '').replace(/.* by /, '').replace(/ - .*/, '');
 				item.subtitle = item.title.replace(/[^0-9]*/, '').replace(/.* - /, ''); // replace everything up to first number then from beginning till first ' - '
 				// item.title = item.title.replace(/[^0-9]*/, '').replace(/ - .*/, ''); // replace everything up to first number, then from ' - ' till end
-				item.cover = item.enclosure_url.replace(/\.[^/.]+$/, "")+'_thumb.jpg'
+
+				item.id=item.enclosure_url.substring(item.enclosure_url.lastIndexOf("/")+1).replace(/\.[^/.]+$/, ""); // remove everything from start to last last / then remove extension
+
+				// item.cover = item.enclosure_url.replace(/\.[^/.]+$/, "")+'_thumb.jpg' // remove extension
+				item.cover = 'https://archive.org/services/img/'+item.id+'/full/pct:120/0/default.jpg' // pct 100 = 180px, 200 = 360px. etc. pct can be value of 100 to 1000
+
+				// img url format: https://archive.org/services/img/[id]/full/pct:200/0/default.jpg
+
 				item.date = moment(item.pubdate).format('MMM Do YYYY');
 
 				let html=`
@@ -244,7 +251,7 @@ jQuery(function($) {
 	.tab-content > p .cover {
 		float: left; 
 		margin: 0 1em .1em 0;
-		width: 9em;
+		width: 10em;
 	}
 
 	/* Dark mode */
