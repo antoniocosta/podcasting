@@ -28,7 +28,7 @@ echo "Starting `basename $0`..."
 audio_file=$2 # 2nd argument is the file to upload
 audio_file_ext="${audio_file##*.}" # just the extension (without dot). Example: mp3
 audio_file_basename=$(basename "$audio_file" ".$audio_file_ext") # Just the filename without path or extension. Example: all-my-favorite-songs-001-weezer
-audio_file_ep_num=$(echo $audio_file_basename | sed 's/[^0-9]*//g') # Just the episode num (with trailing zeros) Example: 001
+audio_file_ep_num=$(echo $audio_file_basename | sed 's/[^0-9]*//g' | cut -c1-3) # Just the episode num (with trailing zeros) Example: 001
 audio_file_before_num=$(echo $audio_file_basename | sed 's/[0-9].*//' | sed 's/\(.*\)-/\1/') # Remove rest of string after number AND remove last occurence of dash. Example: all-my-favorite-songs . See: https://unix.stackexchange.com/questions/257514/how-to-delete-the-rest-of-each-line-after-a-certain-pattern-or-a-string-in-a-fil and https://unix.stackexchange.com/questions/187889/how-do-i-replace-the-last-occurrence-of-a-character-in-a-string-using-sed
 ep_config_filename=$audio_file_before_num'-ep-'$audio_file_ep_num'.conf' # the episode config filename. Example: all-my-favorite-songs-ep-001.conf)
 #echo $audio_file_ext

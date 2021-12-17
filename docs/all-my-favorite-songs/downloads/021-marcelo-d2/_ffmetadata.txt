@@ -1,0 +1,195 @@
+;FFMETADATA1
+title=021 by Marcelo D2 - Atitude Black Punk
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2021
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27669
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27670
+END=378235
+title=Death - Politicians In My Eyes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=378236
+END=527633
+title=X-Ray Spex - Identity
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=527634
+END=713295
+title=The Selecter - On My Radio
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=713296
+END=898525
+title=ESG - Dance
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=898526
+END=1146395
+title=Glorious Din - Tenement Roofs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1146396
+END=1423473
+title=Colourbox - The Moon Is Blue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1423474
+END=1731679
+title=A.R. Kane - A Love From Outer Space
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1731680
+END=1933109
+title=A.R. Kane - Green Hazed Daze
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1933110
+END=2049459
+title=Pure Hell - Noise Addiction
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2049460
+END=2326537
+title=Basement 5 - Last White Christmas
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2326538
+END=2564375
+title=Ho99o9 - Knuckle Up
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2564376
+END=2735061
+title=Bad Brains - I Against I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2735062
+END=2953579
+title=KennyHoopla - how will i rest in peace if i'm buried by a highway
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2953580
+END=3244865
+title=Tyler, The Creator, Hodgy - Sandwitches
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3244866
+END=3494175
+title=Tyler, The Creator - Yonkers
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3494176
+END=3690589
+title=Earl Sweatshirt, Tyler, The Creator - Whoa (feat. Tyler, The Creator)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3690590
+END=3895523
+title=Antwon - 100K
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3895524
+END=4069905
+title=Ho99o9 - Bone Collector
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4069906
+END=4413247
+title=Flatbush Zombies - This Is It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4413248
+END=4596821
+title=Vince Staples - Norf Norf
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4596822
+END=4942347
+title=Big Joanie - Cranes In The Sky
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4942348
+END=5118961
+title=Big Joanie - Fall Asleep
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5118962
+END=5259647
+title=The OBGMs - Not Again
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5259648
+END=5426253
+title=The OBGMs - Torpedo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5426254
+END=5541091
+title=TCIYF - Ziyawa
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5541092
+END=5686025
+title=Red Arkade - Fuck That Shit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5686026
+END=5765871
+title=Bad Brains - Attitude
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5765872
+END=6022237
+title=Ho99o9 - United States Of Horror
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6022238
+END=6152699
+title=Madvillain - All Caps
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6152700
+END=6155625
+title=Outro
+
+[STREAM]
+title=021 by Marcelo D2 - Atitude Black Punk

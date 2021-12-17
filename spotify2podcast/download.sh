@@ -21,13 +21,14 @@
 function print_usage {
 	local msg="Generates a podcast mp3 episode from a Spotify playlist.
 Usage: ./download.sh podcast.conf episode.conf
-Requires: 'pipx run spotdl' ffmpeg jq ia imagemagick"
+Requires: spotdl ffmpeg jq ia imagemagick"
 	printf "%s\n" "$msg"
 	exit 127
 }
 
 function requirements {
-	for p in 'pipx run spotdl' ffmpeg jq ia convert; do
+	# for p in 'pipx run spotdl' ffmpeg jq ia convert; do
+	for p in spotdl ffmpeg jq ia convert; do
 		if [[ -z $(command -v $p) ]]; then
 			echo "$p is not installed"
 			exit 1
@@ -74,7 +75,8 @@ function download_playlist {
 			${options[0]})
 				echo "You chose $REPLY: $opt"
 				echo "Downloading all playlist's songs with SpotDL..."
-				pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+				# pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+				spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
 
 				break
 				;;
@@ -135,7 +137,6 @@ function download_playlist {
 		esac
 	done
 	
-
 
 	# read -p "Type 'y' to confirm download of all mp3s and m3u from Spotify. Skip with 'Return' or 'N' (in case you edited m3u). [y|N] " -n 1 -r
 	# echo    # (optional) move to a new line
