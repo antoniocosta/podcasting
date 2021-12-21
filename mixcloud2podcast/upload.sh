@@ -40,6 +40,7 @@ custom_cover_img=${audio_file%'.'$audio_file_ext}.jpg # the custom cover image f
 if [ -f "$custom_cover_img" ]; then # if custom cover img exists, overwrite conf var $IA_COVER_IMG
     IA_COVER_IMG=$custom_cover_img
 fi
+
 IA_IDENTIFIER=$(jq --raw-output '.id' $json) # get data from json
 IA_TITLE=$(jq --raw-output '.title' $json) # get data from json
 IA_DESCRIPTION=$(jq --raw-output '.description' $json) # get data from json
@@ -69,9 +70,19 @@ fi
 # Upload files. mediatype and collection has to be set as it cannot be changed afterwards. 
 # See: https://archive.org/services/docs/api/internetarchive/cli.html#upload
 function ia_upload {
+
+    # audio_file=$(realpath $audio_file)
+    # json=$(realpath $json)
+    # IA_COVER_IMG=$(realpath $IA_COVER_IMG)
+
+    echo '[DEBUG] IA_IDENTIFIER: '$IA_IDENTIFIER
+    echo '[DEBUG] audio_file: '$audio_file
+    echo '[DEBUG] json: '$json
+    echo '[DEBUG] IA_COVER_IMG: '$IA_COVER_IMG
+
     # ia --debug \
     ia \
-    upload $IA_IDENTIFIER "$audio_file" "$json" "$IA_COVER_IMG" --retries 100 \
+    upload $IA_IDENTIFIER "$audio_file" "$json" "$IA_COVER_IMG" --retries 10 \
     -H x-archive-keep-old-version:0 \
     --metadata="mediatype:$IA_MEDIATYPE" \
     --metadata="collection:$IA_COLLECTION" \

@@ -55,14 +55,15 @@ archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
 youtube-dl \
 --audio-format best \
 --download-archive $ARCHIVE_FILE \
--o $ARCHIVE_DIR/'%(id)s.%(ext)s' --write-info-json \
+-o $ARCHIVE_DIR/'%(id)s.%(ext)s' \
+--write-info-json \
 --add-metadata \
 --exec "./upload.sh $1 {}" \
 $MIXCLOUD_URL
 
 # Generate rss (expensive) but only if there are new files. Also pushes to git.
 if [ "$archive_file_count" != $(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g') ] ; then
-	echo "Nmber of files in archive dir changed. Regenerating RSS..."
+	echo "Number of files in archive dir changed. Regenerating RSS..."
 	./rss.sh "$1"
 fi
 
