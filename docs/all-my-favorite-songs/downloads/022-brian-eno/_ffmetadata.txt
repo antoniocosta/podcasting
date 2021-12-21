@@ -1,0 +1,99 @@
+;FFMETADATA1
+title=022 by Brian Eno - 13 Favorite Albums and Tracks
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2021
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=29853
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29854
+END=285163
+title=Maceo Woods, The Christian Tabernacle Concert Choir - Surrender To His Will - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=285164
+END=733766
+title=Farid al-Atrash - حبينا حبينا
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=733767
+END=994476
+title=Arif Sağ, Belkıs Akkale, Sabahat Akkiraz, Nuray Hafiftas - Ötüşün Kuşlar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=994477
+END=1136434
+title=The Golden Gate Quartet - Go Where I Send Thee
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1136435
+END=1483904
+title=Sly & The Family Stone - In Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1483905
+END=1749078
+title=Meshell Ndegeocello - I'm Diggin' You - Like an Old Soul Record
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1749079
+END=2088604
+title=The Velvet Underground - Pale Blue Eyes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2088605
+END=2571458
+title=Steve Reich - It's Gonna Rain, Pt. I (1965)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2571459
+END=3332904
+title=Fela Kuti - ALU Jon Jonki Jon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3332905
+END=3752278
+title=my bloody valentine - soon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3752279
+END=3942308
+title=Owen Pallett - Keep The Dog Quiet
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3942309
+END=4344114
+title=Svetoslav Obretenov Bulgarian Choir - Velika Ekteniya (Great Litany)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4344115
+END=4548424
+title=Joni Mitchell - Help Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4548425
+END=4551350
+title=Outro
+
+[STREAM]
+title=022 by Brian Eno - 13 Favorite Albums and Tracks
