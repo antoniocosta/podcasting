@@ -71,11 +71,6 @@ fi
 # See: https://archive.org/services/docs/api/internetarchive/cli.html#upload
 function ia_upload {
 
-    # echo '[DEBUG] IA_IDENTIFIER: '$IA_IDENTIFIER
-    # echo '[DEBUG] audio_file: '$audio_file
-    # echo '[DEBUG] json: '$json
-    # echo '[DEBUG] IA_COVER_IMG: '$IA_COVER_IMG
-
     # ia --debug \
     ia \
     upload "$IA_IDENTIFIER" "$audio_file" "$json" "$IA_COVER_IMG" --retries 10 \
