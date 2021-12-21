@@ -6,16 +6,16 @@
         <title>Just A Blip</title>
         <link>https://listen.dublindigitalradio.com/resident/just-a-blip</link>
         <description>A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!</description>
-        <lastBuildDate>Tue, 21 Dec 2021 20:50:35 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 21 Dec 2021 22:37:02 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 Glenn O'Brien</copyright>
         <ttl>60</ttl>
         <image>
                 <link>https://listen.dublindigitalradio.com/resident/just-a-blip</link>
-                <url>http://justablip.github.io/just-a-blip.jpg</url>
+                <url>http://justablip.github.io/img/just-a-blip.jpg</url>
                 <title>Just A Blip</title>
         </image>
-        <itunes:image href='http://justablip.github.io/just-a-blip.jpg' />
+        <itunes:image href='http://justablip.github.io/img/just-a-blip.jpg' />
         <itunes:subtitle>A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!</itunes:subtitle>
         <itunes:summary>A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!</itunes:summary>        
         <itunes:category text='Music' />
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>Just A Blip 082 - DDR - 18th December 2021 REWIND</title>
+                <link>https://www.mixcloud.com/DublinDigitalRadio/just-a-blip-082-ddr-18th-december-2021-rewind/</link>
+                <guid>https://archive.org/details/DublinDigitalRadio_just-a-blip-082-ddr-18th-december-2021-rewind</guid>
+                <enclosure url="https://archive.org/download/DublinDigitalRadio_just-a-blip-082-ddr-18th-december-2021-rewind/DublinDigitalRadio_just-a-blip-082-ddr-18th-december-2021-rewind.m4a" length="59816962" type="audio/x-m4a" />
+                
+                <description>Just A Blip / Saturday 18.12.2021 / 14.00 - 16.00 &lt;br /&gt;2021&lt;&lt;&lt;&lt;&lt;REWIND &lt;br /&gt;(More or Less) &lt;br /&gt; &lt;br /&gt;Like what you hear? Consider donating: https://listen.dublindigitalradio.com/donate  &lt;br /&gt;Thanks for listening &amp; supporting independent music and thought. &lt;br /&gt; &lt;br /&gt;Merope - Salos &lt;br /&gt;Dean Blunt - Sketamine &lt;br /&gt;Tirzah - Send Me &lt;br /&gt;Mr. Mitch - Make Time (feat. Duval Timothy) &lt;br /&gt;Paulinne Anna Strom - Marking Time &lt;br /&gt;Neil Young - I Am A Child &lt;br /&gt;Nyssa Musique - Vol d&#39;Ibis &lt;br /&gt;Carlos Nino &amp; Friends - Pleasewakeupalittlefaster please... &lt;br /&gt;Nala Sinephro - Space 4 &lt;br /&gt;Mortiz Von Oswald Trio - Chapter 9 &lt;br /&gt;Mammal Hands - Oni &lt;br /&gt;Kitchen Cynics - Like Beads on an Abacus &lt;br /&gt;41 Degrees - The Spirit Moves &lt;br /&gt;Wormhole - Rooftops &lt;br /&gt;White Light - I Want You To Know Me &lt;br /&gt;German Bringas - Caminatas   &lt;br /&gt;Mecanica Clasica - Ak Deniz &lt;br /&gt;Wayne Horvitz - This New Generation &lt;br /&gt;Keisuke Sakurai - Harai &lt;br /&gt;The Bug - Pressure (feat. Flowdan)  &lt;br /&gt;Datermin - Born A Star &lt;br /&gt;Spliftan - Look Up Dub &lt;br /&gt;Native Soul - The Journey  &lt;br /&gt;Joy Orbison - Better &lt;br /&gt;Blawan - Under Belly &lt;br /&gt;BZMC - Wural</description>
+                <pubDate>Sun, 19 Dec 2021 12:00:00 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>Just A Blip 081 - DDR - 19th November 2021</title>
