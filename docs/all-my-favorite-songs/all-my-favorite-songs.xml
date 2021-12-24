@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 17 Dec 2021 13:27:54 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 24 Dec 2021 15:40:32 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2021 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 022 by Brian Eno - 13 Favorite Albums and Tracks</title>
+                <link>https://allmyfavoritesongs.com#022</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-022-brian-eno</guid>
+                <enclosure url="https://archive.org/download/all-my-favorite-songs-022-brian-eno/all-my-favorite-songs-022-brian-eno.mp3" length="145769058" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-022-brian-eno/all-my-favorite-songs-022-brian-eno.jpg' />
+                <description>Brian Peter George St John le Baptiste de la Salle Eno (born Brian Peter George Eno, 15 May 1948) is a British musician, composer, record producer and visual artist best known for his pioneering work in ambient music and contributions to rock, pop and electronica. A self-described &#39;non-musician&#39;, Eno has helped introduce unique conceptual approaches and recording techniques to contemporary music. He has been described as one of popular music&#39;s most influential and innovative figures.  &lt;br /&gt; &lt;br /&gt; In this episode some of Eno&#39;s favorite records and tracks, as shared with William Doyle and published by The Quietus magazine on April 13, 2016.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Maceo Woods, The Christian Tabernacle Concert Choir, Farid al-Atrash, Arif Sağ, Belkıs Akkale, Sabahat Akkiraz, Nuray Hafiftas, The Golden Gate Quartet, Sly &amp; The Family Stone, Meshell Ndegeocello, The Velvet Underground, Steve Reich, Fela Kuti, my bloody valentine, Owen Pallett, Svetoslav Obretenov Bulgarian Choir, Joni Mitchell</description>
+                <pubDate>Fri, 24 Dec 2021 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 021 by Marcelo D2 - Atitude Black Punk</title>
