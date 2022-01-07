@@ -6,9 +6,9 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 24 Dec 2021 15:40:32 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 07 Jan 2022 18:48:04 +0100</lastBuildDate>
         <language>en-us</language>
-        <copyright>&#xA9; 2021 A Bee MC</copyright>
+        <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
         <image>
                 <link>https://allmyfavoritesongs.com</link>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 023 by The Hives - New Year's Eve</title>
+                <link>https://allmyfavoritesongs.com#023</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-023-the-hives</guid>
+                <enclosure url="https://archive.org/download/all-my-favorite-songs-023-the-hives/all-my-favorite-songs-023-the-hives.mp3" length="265078454" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-023-the-hives/all-my-favorite-songs-023-the-hives.jpg' />
+                <description>The Hives are a Swedish rock band that rose to prominence in the early 2000s during the Garage Rock Revival. Eight years into their career, the Hives rose from garage rock stalwarts to one of the trendiest bands of the early 2000s, along with the Strokes and the White Stripes. Mixing arty contrivances such as a strict black-and-white dress code and the guidance of a (possibly imaginary) Svengali named Randy Fitzsimmons with Stooges-inspired rock, the Hives - Nicholaus Arson, Chris Dangerous, Dr. Matt Destruction, Vigilante Carlstroem, and Howlin&#39; Pelle Almqvist - formed in 1993 in Fagersta, Sweden, while they were still in their teens.  &lt;br /&gt; &lt;br /&gt; In this episode the playlist published by the band for New Year&#39;s Eve 2020-21.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; ABBA, Viagra Boys, Amy Taylor, Los Saicos, The Cramps, ShitKid, Jacqueline Taieb, Hunx &amp; His Punx, First Aid Kit, Tom Waits, Shannon &amp; The Clams, Radioactivity, Turbonegro, The Hives, Oblivians, New Bomb Turks, The Sonics, Thee Headcoatees, Reigning Sound, Richard Hell, Sonic&#39;s Rendezvous Band, The Hellacopters, Dead Kennedys, Ramones, Electric Eels, Bo Diddley, Mohammed Wardi, King Gizzard &amp; The Lizard Wizard, Charlie Megira, Julian Casablancas, Franska Trion, Tonbruket, The Wailers, Clinic, Mattiel, The Mysterians, The Stooges</description>
+                <pubDate>Fri, 31 Dec 2021 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 022 by Brian Eno - 13 Favorite Albums and Tracks</title>

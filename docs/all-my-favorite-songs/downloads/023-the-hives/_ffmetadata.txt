@@ -1,0 +1,255 @@
+;FFMETADATA1
+title=023 by The Hives - New Year's Eve
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2021
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27261
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27262
+END=290947
+title=ABBA - Happy New Year
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=290948
+END=594329
+title=Viagra Boys, Amy Taylor - In Spite of Ourselves
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=594330
+END=771951
+title=Los Saicos - Demolición
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=771952
+END=974341
+title=The Cramps - What's Inside a Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=974342
+END=1133315
+title=ShitKid - Sugar Town
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1133316
+END=1257417
+title=Jacqueline Taieb - 7 AM
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1257418
+END=1372831
+title=Hunx & His Punx - Mud in Your Eyes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1372832
+END=1560101
+title=First Aid Kit - New Year's Eve
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1560102
+END=1828155
+title=Tom Waits - New Year's Eve
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1828156
+END=2034745
+title=Shannon & The Clams - Backstreets
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2034746
+END=2150255
+title=Radioactivity - World of Pleasure
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2150256
+END=2397981
+title=Turbonegro - Get It On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2397982
+END=2584867
+title=The Hives - Good Samaritan
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2584868
+END=2747585
+title=Oblivians - Bad Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2747586
+END=2910663
+title=New Bomb Turks - Hapless Attempt
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2910664
+END=3071053
+title=The Sonics - Have Love Will Travel
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3071054
+END=3249107
+title=Thee Headcoatees - Davey Crockett
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3249108
+END=3380673
+title=Reigning Sound - Stormy Weather
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3380674
+END=3548503
+title=Richard Hell - Blank Generation - 2013 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3548504
+END=3864005
+title=Sonic's Rendezvous Band - City Slang - The Best Stuff You Havent Heard
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3864006
+END=3997083
+title=The Sonics - Strychnine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3997084
+END=4184449
+title=The Hellacopters - In The Sign Of The Octopus
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4184450
+END=4452071
+title=Dead Kennedys - Moon Over Marin
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4452072
+END=4586517
+title=Ramones - Blitzkrieg Bop - 2016 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4586518
+END=4717507
+title=Electric Eels - Agitated
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4717508
+END=4888409
+title=Bo Diddley - Mumblin' Guitar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4888410
+END=5432367
+title=Mohammed Wardi - Al Sourah (The Photo)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5432368
+END=5590573
+title=Jacqueline Taieb - Le Cœur Au Bout Des Doigts
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5590574
+END=6058643
+title=King Gizzard & The Lizard Wizard - Rattlesnake
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6058644
+END=6313809
+title=Charlie Megira - Tomorrow's Gone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6313810
+END=6517471
+title=Julian Casablancas - I'll Try Anything Once - Live From Electric Lady Studios for WRXP, New York
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6517472
+END=6713093
+title=Franska Trion - Tillbaka i grått
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6713094
+END=7081347
+title=Tonbruket - Trackpounder
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7081348
+END=7251073
+title=The Wailers - I Idolize You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7251074
+END=7424231
+title=Clinic - Monkey On Your Back
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7424232
+END=7620573
+title=Mattiel - Count Your Blessings
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7620574
+END=7797979
+title=The Mysterians - 96 Tears
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7797980
+END=8022497
+title=The Stooges - Down on the Street - 2005 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8022498
+END=8274447
+title=The Hives - I'm Alive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8274448
+END=8277373
+title=Outro
+
+[STREAM]
+title=023 by The Hives - New Year's Eve
