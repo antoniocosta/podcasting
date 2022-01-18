@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 07 Jan 2022 18:48:31 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 18 Jan 2022 22:38:32 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 024 by Uhh Yeah Dude - Intros & Outros 2021 (part 1 of 2)</title>
+                <link>https://allmyfavoritesongs.com#024</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-024-uhh-yeah-dude</guid>
+                <enclosure url="https://archive.org/download/all-my-favorite-songs-024-uhh-yeah-dude/all-my-favorite-songs-024-uhh-yeah-dude.mp3" length="411717007" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-024-uhh-yeah-dude/all-my-favorite-songs-024-uhh-yeah-dude.jpg' />
+                <description> Uhh Yeah Dude is a comedy podcast hosted by Seth Romatelli (born September 20, 1973) and Jonathan Larroquette (born August 7, 1977). Episodes have generally aired once a week since 2006, and run about an hour long. The podcast is described as &#39;A weekly roundup of America through the eyes of two American-Americans&#39;.  &lt;br /&gt; &lt;br /&gt; In this episode, part one of a series of two, all intro and outro songs from the 2021 episodes (#838 to #866) of Uhh Yeah Dude.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Neil Young, Tuxedomoon, Squarepusher, Norma Tanega, Captain Torkive, I-Robots, Steve Hillage, Sonya Spence, CAN, Michael Nesmith, The First National Band, PRISM, Susumu Yokota, Dorothy Ashby, Sonny Sharrock Band, Kuruki, Bill Laswell, Dan Curtin, Patrick Cowley, Sylvester, Eddie Hazel, COMPLEX, Dub Specialist, DJ Re Edit, Lena Platonos, Brian Bennett, Bonobo, Capitol K, Paul Blackford, Cerrone, Abba Gargando, John Beltran, CN, Bill Orcutt, Eddie Murphy, Buddy Emmons, Richenel, Bucky Barrett, Ashra, Dog Soldier, Terekke, Delaney &amp; Bonnie, Davey Graham, The Action, Rodney Crowell, Hank Williams, Drifting Cowboys, Black Uhuru, Ahmad Jamal Trio, Intrusion, Rick Barranco, Grateful Dead, Takako Minekawa, Culture, Bohannon, Con Funk Shun, The Bar-Kays, Yarbrough &amp; Peoples, Audience, Indian Ocean</description>
+                <pubDate>Tue, 18 Jan 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 023 by The Hives - New Year's Eve</title>

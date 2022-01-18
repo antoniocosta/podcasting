@@ -1,0 +1,363 @@
+;FFMETADATA1
+title=024 by Uhh Yeah Dude - Intros & Outros 2021 (part 1 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30285
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30286
+END=377779
+title=Neil Young - Helpless
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=377780
+END=621665
+title=Tuxedomoon - What Use
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=621666
+END=985983
+title=Squarepusher - Midi Sans Frontieres
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=985984
+END=1129045
+title=Norma Tanega - You're Dead
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1129046
+END=1584179
+title=Captain Torkive, I-Robots - Flying Saucers To Krypton - I-Robots 1979 Reconstruction
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1584180
+END=1824489
+title=Tuxedomoon - 59 to 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1824490
+END=2037967
+title=Steve Hillage - Octave Doctors - 2006 Digital Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2037968
+END=2260925
+title=Sonya Spence - Let Love Flow On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2260926
+END=2598243
+title=CAN - Halleluwah
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2598244
+END=2805145
+title=Michael Nesmith, The First National Band - The One Rose (That's Left in My Heart)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2805146
+END=3158303
+title=PRISM, Susumu Yokota - Planet Egg
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3158304
+END=3358341
+title=Dorothy Ashby - Soul Vibrations
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3358342
+END=3747595
+title=Sonny Sharrock Band - My Song
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3747596
+END=4024457
+title=Kuruki - Such a Liar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4024458
+END=4310607
+title=Bill Laswell - O.A.O
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4310608
+END=4775173
+title=Dan Curtin - Parallel
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4775174
+END=5189915
+title=Patrick Cowley, Sylvester - Do You Wanna Funk
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5189916
+END=5941809
+title=Eddie Hazel - From The Bottom Of My Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5941810
+END=6114376
+title=COMPLEX - Funny Feeling
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6114377
+END=6261278
+title=Dub Specialist - Take a Ride Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6261279
+END=6713329
+title=DJ Re Edit - Retrogaming Extended Mix Adam Funk Club
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6713330
+END=6897983
+title=Lena Platonos - Bloody Shadows from Afar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6897984
+END=7317213
+title=Brian Bennett - Chain Reaction
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7317214
+END=7635787
+title=Bonobo - The Plug
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7635788
+END=7768625
+title=Patrick Cowley - Pigfoot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7768626
+END=7981839
+title=Capitol K - God Ohm
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7981840
+END=8239333
+title=Paul Blackford - 1991
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8239334
+END=8701307
+title=Cerrone - Give Me Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8701308
+END=9003561
+title=Abba Gargando - Tarha Lamon Ines
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9003562
+END=9406639
+title=John Beltran - Childhood Memories
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9406640
+END=9758141
+title=CN - Intravenous
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9758142
+END=9978147
+title=Bill Orcutt - The Sun and Its Horizon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9978148
+END=10231417
+title=Eddie Murphy - Party All the Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10231418
+END=10441391
+title=Buddy Emmons - Witchcraft
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10441392
+END=10830549
+title=Richenel - Autumn
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10830550
+END=11161291
+title=Bucky Barrett - Necks to Ewe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11161292
+END=11311001
+title=Norma Tanega - No Stranger Am I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11311002
+END=11587263
+title=Ashra - Blackouts
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11587264
+END=11932933
+title=Dog Soldier - Thieves And Robbers
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11932934
+END=12159539
+title=Terekke - Bb2
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12159540
+END=12347193
+title=Delaney & Bonnie - I Can't Take It Much Longer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12347194
+END=12487603
+title=Davey Graham - Cocaine (Live)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12487604
+END=12696233
+title=The Action - A Saying for Today
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12696234
+END=13076127
+title=Rodney Crowell - California Earthquake (A Whole Lotta Shakin' Goin' On)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13076128
+END=13233181
+title=Hank Williams, Drifting Cowboys - Mansion On The Hill
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13233182
+END=13727555
+title=Black Uhuru - Natural Reggae Beat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13727556
+END=14105961
+title=Ahmad Jamal Trio - Patterns
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14105962
+END=14504839
+title=Intrusion, Rick Barranco - The Changing of the Guard
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14504840
+END=14736101
+title=Grateful Dead - Dark Hollow
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14736102
+END=14953587
+title=Takako Minekawa - Telstar (Mark Borthwick & Trevorholland Remix)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14953588
+END=15208081
+title=Culture - Good Times
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15208082
+END=15523079
+title=Bohannon - Disco Stomp
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15523080
+END=15768093
+title=Con Funk Shun - Tears In My Eyes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15768094
+END=15937411
+title=The Bar-Kays - Theme from Hell's Angels
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15937412
+END=16269785
+title=Yarbrough & Peoples - Don't Stop The Music
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16269786
+END=16528791
+title=Audience - I Had A Dream
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16528792
+END=17141245
+title=Indian Ocean - School Bell Treehouse (Mixed with Love by Walter Gibbons)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17141246
+END=17144171
+title=Outro
+
+[STREAM]
+title=024 by Uhh Yeah Dude - Intros & Outros 2021 (part 1 of 2)

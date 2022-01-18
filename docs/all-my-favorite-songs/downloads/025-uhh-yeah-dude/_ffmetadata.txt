@@ -1,0 +1,357 @@
+;FFMETADATA1
+title=025 by Uhh Yeah Dude - Intros & Outros 2021 (part 2 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30285
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30286
+END=326698
+title=Con Funk Shun - Indian Summer Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=326699
+END=571496
+title=Con Funk Shun - Secrets
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=571497
+END=760624
+title=Leo Kottke - Watermelon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=760625
+END=942302
+title=The KLF - Madrugada Eterna - Club Mix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=942303
+END=1242156
+title=Ted Greene - Send In The Clowns
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1242157
+END=1400314
+title=Felbm - Filatelie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1400315
+END=1566296
+title=Felbm - Brunnengasse
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1566297
+END=1865790
+title=Holger Czukay - Cool in the Pool
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1865791
+END=2243620
+title=J4soul Musique - Awuvale Imilenze
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2243621
+END=2586338
+title=Gina X Performance - No G.D.M. - Psychonauts Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2586339
+END=2785272
+title=Joseph Spence - Down by the Riverside
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2785273
+END=2986342
+title=Erkin Koray - Sen Yoksun Diye
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2986343
+END=3232172
+title=Barış Manço - Alla Beni Pulla Beni
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3232173
+END=3564042
+title=Soft Machine - Why Are We Sleeping
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3564043
+END=3823720
+title=Grateful Dead - Scarlet Begonias - 2013 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3823721
+END=4015694
+title=Felbm - Herfstzon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4015695
+END=4429908
+title=NEU! - Seeland
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4429909
+END=4740226
+title=Max Romeo, The Upsetters - One Step Forward
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4740227
+END=4946528
+title=The Upsetters, Prince Jazzbo - Croaking Lizard
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4946529
+END=5264526
+title=Les Sins - Grind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5264527
+END=5559268
+title=Prince Jazzbo - Natty Pass Through Rome
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5559269
+END=5731754
+title=Ariel Kalma - Enuej Elleiv
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5731755
+END=6002784
+title=SFV Acid - New_West_Coast- 818(BEAT)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6002785
+END=6271006
+title=SFV Acid - Corner Bakery
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6271007
+END=6691196
+title=Touché - Wrap It Up
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6691197
+END=7067442
+title=Yomano - Aircreep! - Music Mosaic Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7067443
+END=7408576
+title=Moodymann - Sunshine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7408577
+END=7916534
+title=Curved Light - Dream Sequence
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7916535
+END=8351196
+title=The Horn - Villager
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8351197
+END=8768674
+title=Gwen Guthrie - Padlock - Larry Levan Mix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8768675
+END=9195104
+title=Moderna, Theus Mago - Dog Is Calling You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9195105
+END=9579894
+title=Charlie Haden Quartet West - Everything Happens To Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9579895
+END=9672628
+title=Cienfuegos - Phaedra
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9672629
+END=10094618
+title=Cienfuegos - Faceless
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10094619
+END=10362192
+title=El Gran Combo De Puerto Rico, Andy Montañez - Las Tres Marias
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10362193
+END=10670878
+title=King Sunny AdŽ - Ma Jaiye Oni
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10670879
+END=10921700
+title=Azymuth - Duro de Roer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10921701
+END=11240346
+title=Lijadu Sisters - Come on Home
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11240347
+END=11516632
+title=Bill Frisell - 1968
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11516633
+END=11939222
+title=Imagination - So Good, so Right
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11939223
+END=12473892
+title=Pat Martino - Mardi Gras
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12473893
+END=12861754
+title=Imagination - Just an Illusion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12861755
+END=13123304
+title=Three 6 Mafia - Break Da Law '95'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13123305
+END=13335246
+title=Maxo Kream - Grannies
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13335247
+END=13580956
+title=Black Brothers - Saman Doye
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13580957
+END=13928834
+title=The Outlaw Blues Band - Deep Gully
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13928835
+END=14116776
+title=Gábor Szabó - Funny Face
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14116777
+END=14567086
+title=Gábor Szabó - Keep Smilin'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14567087
+END=14798252
+title=João Gilberto - Rosinha
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14798253
+END=14976066
+title=Frijid Pink - Go Now
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14976067
+END=15225664
+title=Patrick Cowley - Cycle Tuff
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15225665
+END=15547646
+title=The Beginning Of The End - Trip To Nowhere
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15547647
+END=16111236
+title=Sonny Clark - Cool Struttin'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16111237
+END=16526146
+title=Jim Hall, Ron Carter - Autumn Leaves - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16526147
+END=16694480
+title=Instrumental Group Cabas - Cry in the Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16694481
+END=17051598
+title=WAHM (FR) - Nothing Changes If Nothing Changes - Extended Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17051599
+END=17054524
+title=Outro
+
+[STREAM]
+title=025 by Uhh Yeah Dude - Intros & Outros 2021 (part 2 of 2)
