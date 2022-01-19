@@ -1,5 +1,5 @@
 ;FFMETADATA1
-title=025 by Uhh Yeah Dude - Intros & Outros 2021 (part 2 of 2)
+title=025 by Uhh Yeah Dude - Intros &amp\; Outros 2021 (part 2 of 2)
 artist=All My Favorite Songs
 comment=allmyfavoritesongs.com
 description=allmyfavoritesongs.com
@@ -354,4 +354,4 @@ END=17054524
 title=Outro
 
 [STREAM]
-title=025 by Uhh Yeah Dude - Intros & Outros 2021 (part 2 of 2)
+title=025 by Uhh Yeah Dude - Intros &amp\; Outros 2021 (part 2 of 2)
