@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Tue, 18 Jan 2022 22:47:57 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jan 2022 16:02:50 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 025 by Uhh Yeah Dude - Intros &amp; Outros 2021 (part 2 of 2)</title>
+                <link>https://allmyfavoritesongs.com#025</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-025-uhh-yeah-dude</guid>
+                <enclosure url="https://archive.org/download/all-my-favorite-songs-025-uhh-yeah-dude/all-my-favorite-songs-025-uhh-yeah-dude.mp3" length="409497393" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-025-uhh-yeah-dude/all-my-favorite-songs-025-uhh-yeah-dude.jpg' />
+                <description> Uhh Yeah Dude is a comedy podcast hosted by Seth Romatelli (born September 20, 1973) and Jonathan Larroquette (born August 7, 1977). Episodes have generally aired once a week since 2006, and run about an hour long. The podcast is described as &#39;A weekly roundup of America through the eyes of two American-Americans&#39;.  &lt;br /&gt; &lt;br /&gt; In this episode, part two of a series of two, all intro and outro songs from the 2021 episodes (#867 to #898) of Uhh Yeah Dude.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Con Funk Shun, Leo Kottke, The KLF, Ted Greene, Felbm, Holger Czukay, J4soul Musique, Gina X Performance, Joseph Spence, Erkin Koray, Barış Manço, Soft Machine, Grateful Dead, NEU!, Max Romeo, The Upsetters, Prince Jazzbo, Les Sins, Ariel Kalma, SFV Acid, Touché, Yomano, Moodymann, Curved Light, The Horn, Gwen Guthrie, Moderna, Theus Mago, Charlie Haden Quartet West, Cienfuegos, El Gran Combo De Puerto Rico, Andy Montañez, King Sunny AdŽ, Azymuth, Lijadu Sisters, Bill Frisell, Imagination, Pat Martino, Three 6 Mafia, Maxo Kream, Black Brothers, The Outlaw Blues Band, Gábor Szabó, João Gilberto, Frijid Pink, Patrick Cowley, The Beginning Of The End, Sonny Clark, Jim Hall, Ron Carter, Instrumental Group Cabas, WAHM (FR)</description>
+                <pubDate>Wed, 19 Jan 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 024 by Uhh Yeah Dude - Intros &amp; Outros 2021 (part 1 of 2)</title>
