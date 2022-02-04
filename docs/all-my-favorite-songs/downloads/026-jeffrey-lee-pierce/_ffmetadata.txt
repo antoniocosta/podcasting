@@ -1,0 +1,135 @@
+;FFMETADATA1
+title=026 by Jeffrey Lee Pierce - Ballads, Train Songs, Rural South and Delta Blues
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=29805
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29806
+END=172627
+title=Marvin Rainwater - My Brand Of Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=172628
+END=325985
+title=Buck Griffin - Watchin' the 7- 10 Roll By
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=325986
+END=457191
+title=Lonesome Lee - Cry over Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=457192
+END=616405
+title=Mack Self - Willie Brown
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=616406
+END=852131
+title=Marty Robbins - Big Iron
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=852132
+END=1034793
+title=Johnny Cash - Don't Take Your Guns to Town
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1034794
+END=1219207
+title=Hank Williams, Drifting Cowboys - Ramblin' Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1219208
+END=1479725
+title=Leo Kottke - Hear The Wind HowlUp Tempo - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1479726
+END=1650243
+title=The Rolling Stones - Prodigal Son - 50th Anniversary Edition
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1650244
+END=1851793
+title=Big Bill Broonzy - Take This Hammer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1851794
+END=2026775
+title=Waylon Jennings - Are You Sure Hank Done It This Way
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2026776
+END=2383029
+title=Bob Dylan - Tombstone Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2383030
+END=2506363
+title=Johnny Horton - I'm Coming Home
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2506364
+END=2645153
+title=Conway Twitty - Born to Sing the Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2645154
+END=2786967
+title=Lonesome Lee - Lonely Travelin´
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2786968
+END=2985421
+title=The Count Bishops - Train Train
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2985422
+END=3125435
+title=Slim Rhodes - Take and Give
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3125436
+END=3427737
+title=Bob Dylan - Ballad of Hollis Brown
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3427738
+END=3574591
+title=Howlin' Wolf - Somebody In My Home
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3574592
+END=3577517
+title=Outro
+
+[STREAM]
+title=026 by Jeffrey Lee Pierce - Ballads, Train Songs, Rural South and Delta Blues
