@@ -1,0 +1,369 @@
+;FFMETADATA1
+title=027 by METZ - Nuggetz (part 1 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27333
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27334
+END=434059
+title=Simply Saucer - Here Come the Cyborgs (Live)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=434060
+END=714017
+title=Hawkwind - Silver Machine - Live at the Roundhouse London\; 1996 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=714018
+END=840135
+title=Void - Explode - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=840136
+END=1727029
+title=Fela Kuti - Mistake (Live At The Berlin Jazz Festival - 1978)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1727030
+END=2005619
+title=The Fall - Rowche Rumble - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2005620
+END=2577345
+title=CAN - Stuttgart 75 Fünf - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2577346
+END=2903599
+title=Sam Cooke - Bring It on Home to Me - Live at the Harlem Square Club, Miami, FL - January 1963
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2903600
+END=3146189
+title=Portishead - All Mine - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3146190
+END=3402171
+title=Neil Young - Helpless - Live at Massey Hall 1971
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3402172
+END=3723985
+title=MC5 - Come Together - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3723986
+END=4168991
+title=The Stooges - Search and Destroy - (Georgia Peaches) [Live at Richards, Atlanta, GA, October 1973]
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4168992
+END=4643325
+title=Nick Cave & The Bad Seeds - Jubilee Street - Live in Copenhagen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4643326
+END=4738891
+title=Ramones - Gimme Gimme Shock Treatment - Live at Rainbow Theatre, London, 123177\; 2019 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4738892
+END=4928273
+title=Donny Hathaway - Jealous Guy - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4928274
+END=5534511
+title=Bob Dylan - Idiot Wind - Live at Hughes Stadium, Ft. Collins, CO - May 1976
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5534512
+END=5796037
+title=Aretha Franklin - Love the One You're With - Live at Fillmore West, San Francisco, February 5, 1971
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5796038
+END=6266699
+title=Sly & The Family Stone - Medley- HigherMusic Lover - Live at The Woodstock Music & Art Fair, August 17, 1969
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6266700
+END=6539841
+title=Earth, Wind & Fire - Fantasy - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6539842
+END=6667831
+title=Soul Glo - (Quietly) Do the Right Thing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6667832
+END=7078661
+title=Daniel Romano - Amaretto and Coke
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7078662
+END=7306227
+title=Joe Wong - Dreams Wash Away
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7306228
+END=7489777
+title=FACS - Teenage Hive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7489778
+END=7604591
+title=Adulkt Life - Jnr Showtime
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7604592
+END=7752453
+title=Special Interest - Disco III
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7752454
+END=7860571
+title=Cold Meat - Piscies Crisies
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7860572
+END=7970849
+title=Dog Day - Inner Space
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7970850
+END=8169399
+title=Nape Neck - You Stand, You Sit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8169400
+END=8310373
+title=Sweeping Promises - Hunger for a Way Out
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8310374
+END=8421947
+title=Wax Chattels - Cede
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8421948
+END=8621457
+title=3Ds - Outer Space
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8621458
+END=8880631
+title=Jesu - Alone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8880632
+END=9029813
+title=Adulkt Life - County Pride
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9029814
+END=9353979
+title=Nels Cline - Headdress
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9353980
+END=9530233
+title=Napalm Death - Backlash Just Because
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9530234
+END=9671639
+title=Crack Cloud - Ouster Stew
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9671640
+END=9818925
+title=The Pretty Things - L.S.D.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9818926
+END=10095763
+title=Protomartyr - June 21
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10095764
+END=10352585
+title=The Flaming Lips - Pilot Can at the Queer of God
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10352586
+END=10495191
+title=The Monks - Complication
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10495192
+END=10660765
+title=Suicide - Love You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10660766
+END=10837619
+title=Pink Floyd - Arnold Layne
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10837620
+END=11003745
+title=Elevator To Hell - VeinsGreen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11003746
+END=11263735
+title=Purple Mountains - All My Happiness is Gone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11263736
+END=11452445
+title=IDLES - Grounds
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11452446
+END=11714019
+title=Mount Eerie - House Shape - Pre-Human Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11714020
+END=11918665
+title=Polvo - Sure Shot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11918666
+END=12049415
+title=Wire - Two People In a Room - 2006 Remastered Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12049416
+END=12213789
+title=Sebadoh - Careful - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12213790
+END=12447979
+title=Palace Music - New Partner
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12447980
+END=12732257
+title=Bedhead - Bedside Table
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12732258
+END=12993783
+title=The Sound - Contact the Fact
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12993784
+END=13194901
+title=Vector Seven - Breach
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13194902
+END=13275419
+title=Spray Paint - Entry Level Human
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13275420
+END=13540953
+title=Martin Rev - Mari
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13540954
+END=13710127
+title=Echo & the Bunnymen - Do It Clean
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13710128
+END=13899173
+title=Silver Apples - I Don't Care What the People Say
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13899174
+END=14043075
+title=Swell Maps - International Rescue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14043076
+END=14203993
+title=Bikini Kill - Double Dare Ya
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14203994
+END=14206919
+title=Outro
+
+[STREAM]
+title=027 by METZ - Nuggetz (part 1 of 2)

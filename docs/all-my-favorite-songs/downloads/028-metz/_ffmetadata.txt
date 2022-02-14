@@ -1,0 +1,441 @@
+;FFMETADATA1
+title=028 by METZ - Nuggetz (part 2 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27381
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27382
+END=186163
+title=Captain Beefheart & His Magic Band - Zig Zag Wanderer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=186164
+END=347585
+title=Porter Wagoner - The Rubber Room - Single (Remaster)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=347586
+END=531471
+title=Josef K - Sorry for Laughing - Crepuscule Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=531472
+END=643765
+title=XBXRX - Gold Cross
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=643766
+END=1072835
+title=Hoover - Electrolux
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1072836
+END=1266225
+title=Les Savy Fav - Scout's Honor
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1266226
+END=1469335
+title=Institute - Powerstation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1469336
+END=1705709
+title=Liars - Plaster Casts Of Everything
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1705710
+END=1890675
+title=Mekons - Bomb Train
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1890676
+END=1946017
+title=Wrangler Brutes - Adjust It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1946018
+END=2105519
+title=Head Wound City - Scraper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2105520
+END=2308437
+title=A Place To Bury Strangers - Straight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2308438
+END=2469187
+title=U.S. Maple - Magic Job
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2469188
+END=2656073
+title=Oneida - Black Chamber
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2656074
+END=2818383
+title=Metz - Landfill
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2818384
+END=3131533
+title=Freak Heat Waves - Soothing Limbo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3131534
+END=3450899
+title=Mimico - Astroblade
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3450900
+END=3701241
+title=Pere Ubu - Golden Surf II
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3701242
+END=3965647
+title=Suicide - Touch Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3965648
+END=4153301
+title=The Gories - There But for the Grace of God Go I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4153302
+END=4442331
+title=Public Image Ltd. - Banging the Door
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4442332
+END=4576177
+title=Cherubs - Orange Julius
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4576178
+END=4790759
+title=Plasmalab - Stalker
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4790760
+END=4955301
+title=Cindy Lee - Always Lovers
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4955302
+END=5103067
+title=Tales Of Terror - Possession
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5103068
+END=5206313
+title=New Fries - Water & Water
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5206314
+END=5286423
+title=Career Suicide - Distractions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5286424
+END=5417173
+title=Wire - Two People In A Room - 2006 Remastered Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5417174
+END=5570699
+title=The Monorchid - X Marks the Spot- Something Dull Happened Here
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5570700
+END=5956041
+title=Women - Eyesore
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5956042
+END=6136855
+title=Mission Of Burma - Max Ernst
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6136856
+END=6364565
+title=Holy Fuck - Tom Tom
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6364566
+END=6499923
+title=Playthings - Sit Down
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6499924
+END=6607825
+title=Wipers - Mystery
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6607826
+END=6798863
+title=Brian Eno - Needles In The Camel's Eye - 2004 Digital Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6798864
+END=7158741
+title=Tall Dwarfs - Crush
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7158742
+END=7354123
+title=Uniform - Tabloid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7354124
+END=7479545
+title=Angel Olsen - Unfucktheworld
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7479546
+END=7912215
+title=Beak - Wulfstan II
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7912216
+END=8079901
+title=Brainiac - Hot Metal Doberman's
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8079902
+END=8384339
+title=Grouper - Headache
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8384340
+END=8501505
+title=Unwound - New Energy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8501506
+END=8655559
+title=Sic Alps - Message From the Law
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8655560
+END=8793221
+title=Swell Maps - Real Shocks
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8793222
+END=9028611
+title=MX-80 - Man On The Move
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9028612
+END=9166681
+title=Television Personalities - 14th Floor
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9166682
+END=9352463
+title=Six Finger Satellite - Parlour Games
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9352464
+END=9510045
+title=Flesh World - To Lose Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9510046
+END=9660739
+title=Hot Snakes - No Hands
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9660740
+END=9878321
+title=Chad VanGaalen - Old Heads
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9878322
+END=10453647
+title=Horse Lords - Toward the Omega Point
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10453648
+END=10541917
+title=Spray Paint - Don't Get Sick
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10541918
+END=10750643
+title=Sparklehorse - Ghost In The Sky
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10750644
+END=10902153
+title=Suburban Lawns - Janitor
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10902154
+END=11061655
+title=Head Wound City - Scraper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11061656
+END=11211533
+title=Protomartyr - Want Remover
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11211534
+END=11508987
+title=SUUNS - Translate
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11508988
+END=11796409
+title=Raspberry Bulbs - I Was Wrong
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11796410
+END=12008111
+title=The Cleaners From Venus - Only a Shadow
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12008112
+END=12163365
+title=Mudhoney - Let It Slide
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12163366
+END=12582355
+title=Neil Young - On the Beach - 2016 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12582356
+END=12792473
+title=The Dream Syndicate - Definitely Clean
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12792474
+END=12926895
+title=Elevator To Hell - Why I Didn't Like August 93
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12926896
+END=13064053
+title=Metz - Call of the Wighat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13064054
+END=13207739
+title=Converge - I Can Tell You About Pain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13207740
+END=13434561
+title=Liars - Cred Woes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13434562
+END=13611751
+title=Guided By Voices - Skin Parade
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13611752
+END=14182805
+title=Bitch Magnet - Dragoon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14182806
+END=14396451
+title=Lungfish - Black Helicopters
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14396452
+END=14611561
+title=Liars - The Grand Delusional
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14611562
+END=14614487
+title=Outro
+
+[STREAM]
+title=028 by METZ - Nuggetz (part 2 of 2)
