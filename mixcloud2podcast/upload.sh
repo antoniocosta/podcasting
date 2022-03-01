@@ -44,7 +44,7 @@ fi
 IA_IDENTIFIER=$(jq --raw-output '.id' $json) # get data from json
 IA_TITLE=$(jq --raw-output '.title' $json) # get data from json
 IA_DESCRIPTION=$(jq --raw-output '.description' $json) # get data from json
-IA_DESCRIPTION=${IA_DESCRIPTION//$'\n'/ <br />} # convert newlines /n to html <br />
+IA_DESCRIPTION=${IA_DESCRIPTION//$'\n'/ <br>} # convert newlines /n to html <br>
 IA_DESCRIPTION=$(echo $IA_DESCRIPTION | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g') # convert special characters to HTML entities
 IA_ARTIST=$(jq --raw-output '.artist' $json) # get data from json
 IA_DATE=$(jq --raw-output '.timestamp' $json) # get data from json
