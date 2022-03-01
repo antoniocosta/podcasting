@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Mon, 14 Feb 2022 14:39:53 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 01 Mar 2022 11:45:53 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 028 by METZ - Nuggetz (part 2 of 2)</title>
+                <link>https://allmyfavoritesongs.com#028</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-028-metz</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-028-metz/all-my-favorite-songs-028-metz.mp3" length="350976538" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-028-metz/all-my-favorite-songs-028-metz.jpg' />
+                <description>METZ is a Canadian noise punk band formed in 2008 in Ottawa and currently based in Toronto. The band consists of guitarist and vocalist Alex Edkins, bassist Chris Slorach and drummer Hayden Menzies. &lt;br /&gt; &lt;br /&gt; In this episode, part two of a series of two, all songs selected by METZ and published as a playlist with a popular audio streaming provider (that shall remain unnamed), between Oct 2017 and Aug 2021.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Captain Beefheart &amp; His Magic Band, Porter Wagoner, Josef K, XBXRX, Hoover, Les Savy Fav, Institute, Liars, Mekons, Wrangler Brutes, Head Wound City, A Place To Bury Strangers, U.S. Maple, Oneida, Metz, Freak Heat Waves, Mimico, Pere Ubu, Suicide, The Gories, Public Image Ltd., Cherubs, Plasmalab, Cindy Lee, Tales Of Terror, New Fries, Career Suicide, Wire, The Monorchid, Women, Mission Of Burma, Holy Fuck, Playthings, Wipers, Brian Eno, Tall Dwarfs, Uniform, Angel Olsen, Beak, Brainiac, Grouper, Unwound, Sic Alps, Swell Maps, MX-80, Television Personalities, Six Finger Satellite, Flesh World, Hot Snakes, Chad VanGaalen, Horse Lords, Spray Paint, Sparklehorse, Suburban Lawns, Protomartyr, SUUNS, Raspberry Bulbs, The Cleaners From Venus, Mudhoney, Neil Young, The Dream Syndicate, Elevator To Hell, Converge, Guided By Voices, Bitch Magnet, Lungfish</description>
+                <pubDate>Tue, 01 Mar 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 027 by METZ - Nuggetz (part 1 of 2)</title>
