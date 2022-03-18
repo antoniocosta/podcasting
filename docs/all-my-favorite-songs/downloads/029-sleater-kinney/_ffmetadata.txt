@@ -1,0 +1,177 @@
+;FFMETADATA1
+title=029 by Sleater Kinney - Selects
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27405
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27406
+END=259171
+title=Sleater-Kinney - Worry With You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=259172
+END=546185
+title=Bruce Springsteen - The Rising
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=546186
+END=812343
+title=Genesis - That's All - 2007 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=812344
+END=1049773
+title=Tom Petty and the Heartbreakers - Nightwatchman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1049774
+END=1255139
+title=Patti Smith - Because the Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1255140
+END=1451265
+title=Pretenders - Night in My Veins
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1451266
+END=1688911
+title=Rufus, Chaka Khan - Circles
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1688912
+END=1868933
+title=Glen Campbell - Southern Nights
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1868934
+END=2099139
+title=Joni Mitchell - California
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2099140
+END=2502049
+title=Heart - Mistral Wind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2502050
+END=2852903
+title=Grateful Dead - Touch of Grey - 2013 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2852904
+END=3049029
+title=Stevie Wonder - We Can Work It Out
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3049030
+END=3234883
+title=The Band - We Can Talk - Remixed 2018
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3234884
+END=3527873
+title=Jackson Browne - Tender Is the Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3527874
+END=3725175
+title=Emmylou Harris - Bluebird Wine - 2003 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3725176
+END=4018789
+title=Lucinda Williams - Prove My Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4018790
+END=4248275
+title=Wilco - Random Name Generator
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4248276
+END=4404081
+title=The Equals - Hold Me Closer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4404082
+END=4623991
+title=Joan Armatrading - Drop The Pilot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4623992
+END=4850621
+title=Fleetwood Mac - Everywhere - 2017 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4850622
+END=5076147
+title=Prince - When You Were Mine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5076148
+END=5218273
+title=Big Joanie - It's You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5218274
+END=5514407
+title=Talking Heads - This Must Be the Place (Naive Melody) - 2005 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5514408
+END=5709237
+title=Rosanne Cash - Seven Year Ache
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5709238
+END=5963515
+title=Thin Lizzy - Return Of The Farmer's Son
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5963516
+END=6200945
+title=Bruce Springsteen - Prove It All Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6200946
+END=6203871
+title=Outro
+
+[STREAM]
+title=029 by Sleater Kinney - Selects
