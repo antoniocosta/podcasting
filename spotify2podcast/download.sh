@@ -75,8 +75,8 @@ function download_playlist {
 			${options[0]})
 				echo "You chose $REPLY: $opt"
 				echo "Downloading all playlist's songs with SpotDL..."
-				# pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
-				spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+				pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+				# spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u  # Use locally installed version instead
 
 				break
 				;;

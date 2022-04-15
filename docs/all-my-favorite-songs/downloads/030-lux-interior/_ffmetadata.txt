@@ -1,0 +1,165 @@
+;FFMETADATA1
+title=030 by Lux Interior - The Purple Knif Show
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27981
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27982
+END=168051
+title=One Way Streets - Jack The Ripper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=168052
+END=365041
+title=Bob Hocko, Swamprats - Louie Louie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=365042
+END=515012
+title=June Jackson - Oh Mah Liddy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=515013
+END=683922
+title=The Trashmen - Bird '65
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=683923
+END=837863
+title=The Sparkles – Oh, Girls, Girls
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=837864
+END=998857
+title=Link Wray - The Fuzz
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=998858
+END=1133711
+title=Bill Carter And The Rovin' Gamblers - Baby Brother
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1133712
+END=1281261
+title=The Tides - Midnight Limbo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1281262
+END=1418876
+title=Earl Hagan & The Interns - New Interns Watusi
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1418877
+END=1516266
+title=Mad Mike And The Maniacs - The Hunch
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1516267
+END=1650256
+title=Billy Strange - 007 Theme
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1650257
+END=1810358
+title=Ted Weems & His Orchestra - Heartaches
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1810359
+END=1982652
+title=Ray Anthony & His Orchestra - Dragnet
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1982653
+END=2138866
+title=Gradie O'Neal - Turkey Neck Stretch
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2138867
+END=2276072
+title=The Enchanters - Cafe Bohemian
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2276073
+END=2386686
+title=Sam Space, The Cadettes - Take Me to Your Leader Chachacha
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2386687
+END=2539420
+title=Archie Bleyer - Hernando's Hideway
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2539421
+END=2679266
+title=Vic Mizzy - The Addams Family Theme - De 'La Familia Addams'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2679267
+END=2792472
+title=The Spark Plugs - Chicken
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2792473
+END=2899462
+title=The Frantics - The Whip
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2899463
+END=3060404
+title=The Five Blobs - The Blob
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3060405
+END=3125163
+title=The Troggs - Miller Beer Commercial If You've Got the Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3125164
+END=3271659
+title=Ward Darby And The Raves - Safari
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3271660
+END=3486913
+title=Cozy Cole - Topsy II
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3486914
+END=3615599
+title=The Deadly Ones - Monster Surfing Time
+
+[STREAM]
+title=030 by Lux Interior - The Purple Knif Show

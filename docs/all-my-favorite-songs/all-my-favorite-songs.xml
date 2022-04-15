@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 20 Mar 2022 15:30:01 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 15 Apr 2022 14:52:51 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 030 by Lux Interior - The Purple Knif Show</title>
+                <link>https://allmyfavoritesongs.com#030</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-030-lux-interior</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-030-lux-interior/all-my-favorite-songs-030-lux-interior.mp3" length="115940947" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-030-lux-interior/all-my-favorite-songs-030-lux-interior.jpg' />
+                <description>Erick Lee Purkhiser (October 21, 1946 – February 4, 2009), better known by the stage name Lux Interior, was an American singer and a founding member of the American band The Cramps - exponents of trash culture and &#39;psychobilly&#39; music - from 1972 until his death in 2009 at age 62.  &lt;br /&gt; &lt;br /&gt; In this episode Lux Interior&#39;s favorite and obscure 7 inch records, as played by himself in a much sought-after, classic Hollywood radio show he hosted in July of 1984.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; One Way Streets, Bob Hocko, Swamprats, June Jackson, The Trashmen, Link Wray, Bill Carter And The Rovin&#39; Gamblers, The Tides, Earl Hagan &amp; The Interns, Mad Mike And The Maniacs, Billy Strange, Ted Weems &amp; His Orchestra, Ray Anthony &amp; His Orchestra, Gradie O&#39;Neal, The Enchanters, Sam Space, The Cadettes, Archie Bleyer, Vic Mizzy, The Spark Plugs, The Frantics, The Five Blobs, The Troggs, Ward Darby And The Raves, Cozy Cole, The Deadly Ones</description>
+                <pubDate>Fri, 15 Apr 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 029 by Sleater Kinney - Selects</title>
