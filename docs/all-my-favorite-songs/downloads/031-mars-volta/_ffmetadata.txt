@@ -1,0 +1,225 @@
+;FFMETADATA1
+title=031 by The Mars Volta - Rage Guest
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27285
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27286
+END=445075
+title=Sonic Youth - Teen Age Riot (Album Version)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=445076
+END=684089
+title=Butthole Surfers - The Hurdy Gurdy Man - From 'Piouhgd'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=684090
+END=1006719
+title=The Black Crowes - Remedy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1006720
+END=1197229
+title=The Go-Betweens - Was There Anything I Could Do - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1197230
+END=1379699
+title=The Jesus and Mary Chain - Just Like Honey
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1379700
+END=1611201
+title=Carpenters - Superstar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1611202
+END=1844527
+title=Tom Waits - Temptation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1844528
+END=2001317
+title=Cliff Richard & The Shadows - Living Doll
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2001318
+END=2196891
+title=Glen Campbell - Rhinestone Cowboy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2196892
+END=2418145
+title=Thomas Dolby - She Blinded Me With Science
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2418146
+END=2657039
+title=Gary Numan - Cars
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2657040
+END=2955957
+title=Kate Bush - Running Up That Hill (A Deal With God)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2955958
+END=3179280
+title=Ciccone Youth - Addicted To Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3179281
+END=3492430
+title=Animal Collective - Peacebone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3492431
+END=3788036
+title=Dungen - Panda
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3788037
+END=4012962
+title=Sweet - Love Is Like Oxygen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4012963
+END=4246072
+title=Cheap Trick - Dream Police
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4246073
+END=4476014
+title=Suicidal Tendencies - Institutionalized
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4476015
+END=4686876
+title=Hüsker Dü - Don't Want to Know If You Are Lonely
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4686877
+END=4841002
+title=Suicidal Tendencies - Possessed To Skate
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4841003
+END=5089976
+title=Frank Black - Los Angeles
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5089977
+END=5319774
+title=Galaxie 500 - Blue Thunder
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5319775
+END=5617228
+title=Primal Scream - Kill All Hippies
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5617229
+END=5812898
+title=Grinderman - Electric Alice
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5812899
+END=5988792
+title=Siouxsie and the Banshees - Hong Kong Garden
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5988793
+END=6256235
+title=The Fall - Wings
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6256236
+END=6519009
+title=Eric B. & Rakim - Don't Sweat The Technique
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6519010
+END=6766159
+title=Tin Machine - Under the God - 1999 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6766160
+END=6933869
+title=Black Sabbath - Paranoid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6933870
+END=7195491
+title=Jimi Hendrix - Dolly Dagger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7195492
+END=7451833
+title=Public Image Ltd. - Death Disco - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7451834
+END=7738343
+title=High On Fire - Devilution
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7738344
+END=8049093
+title=Einstürzende Neubauten - The Garden
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8049094
+END=8282515
+title=At the Drive-In - Hostage Stamps
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8282516
+END=8285441
+title=Outro
+
+[STREAM]
+title=031 by The Mars Volta - Rage Guest

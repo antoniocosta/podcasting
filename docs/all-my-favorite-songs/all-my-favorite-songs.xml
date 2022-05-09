@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Fri, 15 Apr 2022 14:53:14 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 10 May 2022 01:47:03 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 031 by The Mars Volta - Rage Guest</title>
+                <link>https://allmyfavoritesongs.com#031</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-031-mars-volta</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-031-mars-volta/all-my-favorite-songs-031-mars-volta.mp3" length="265413484" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-031-mars-volta/all-my-favorite-songs-031-mars-volta.jpg' />
+                <description>The Mars Volta is an American progressive rock band from El Paso, Texas, formed in 2001. The band&#39;s final live lineup consisted of Omar Rodríguez-López (guitar, producer, direction), Cedric Bixler-Zavala (vocals, lyrics), Juan Alderete (bass), Marcel Rodríguez-López (keyboards, percussion), and Deantoni Parks (drums). The band formed following the break-up of Rodríguez-López and Bixler-Zavala&#39;s previous band, At the Drive-In. They are known for their energetic live shows and their concept albums.  &lt;br /&gt; &lt;br /&gt; In this episode, all songs selected by The Mars Volta as guests for Australian TV show Rage, on August 23 2008 (and reaired on April 3 2021).  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Sonic Youth, Butthole Surfers, The Black Crowes, The Go-Betweens, The Jesus and Mary Chain, Carpenters, Tom Waits, Cliff Richard &amp; The Shadows, Glen Campbell, Thomas Dolby, Gary Numan, Kate Bush, Ciccone Youth, Animal Collective, Dungen, Sweet, Cheap Trick, Suicidal Tendencies, Hüsker Dü, Frank Black, Galaxie 500, Primal Scream, Grinderman, Siouxsie and the Banshees, The Fall, Eric B. &amp; Rakim, Tin Machine, Black Sabbath, Jimi Hendrix, Public Image Ltd., High On Fire, Einstürzende Neubauten, At the Drive-In</description>
+                <pubDate>Mon, 09 May 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 030 by Lux Interior - The Purple Knif Show</title>
