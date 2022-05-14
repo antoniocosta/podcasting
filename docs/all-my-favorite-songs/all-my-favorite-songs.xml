@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Tue, 10 May 2022 01:47:51 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 14 May 2022 04:18:52 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 032 by Quentin Tarantino - Film & TV Favorites</title>
+                <link>https://allmyfavoritesongs.com#032</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-032-quentin-tarantino</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-032-quentin-tarantino/all-my-favorite-songs-032-quentin-tarantino.mp3" length="375875405" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-032-quentin-tarantino/all-my-favorite-songs-032-quentin-tarantino.jpg' />
+                <description>Quentin Jerome Tarantino (born March 27, 1963) is an American filmmaker, actor, film critic and author. His films are characterized by frequent references to popular culture and film history, nonlinear storylines, dark humor, stylized violence, extended dialogue, pervasive use of profanity, cameos and ensemble casts. Tarantino is also known for his choice of music in his films, including soundtracks that often use songs from the 1960s and 70s.  &lt;br /&gt; &lt;br /&gt; This episode features 70 tracks curated by Tarantino and that he has used within his work. It was originally published as a playlist with a popular audio streaming provider (that shall remain unnamed) in July 2019.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Nancy Sinatra, Harry Nilsson, Isaac Hayes, Luis Bacalov, Rocky Roberts, Edda Dell&#39;Orso, Dusty Springfield, Jennifer Jason Leigh, Kurt Russell, Samuel L. Jackson, Chuck Berry, Bernard Herrmann, Randy Crawford, The Tornadoes, Santa Esmeralda, T. Rex, Al Hirt, Charlie Feathers, Chris Isaak, The Statler Brothers, David Hess, The Delfonics, The Mavericks, Peggy Simms, George Baker Selection, Joe Tex, Soundgarden, Jerome Patrick Hoban, Johnny Cash, Ennio Morricone, Dave Dee, Dozy, Beaky, Mick &amp; Tich, The Lively Ones, Buddy Guy, HOTEI, ZZ Top, Dick Dale, Al Green, The Brothers Johnson, Meiko Kaji, Kim Circle, Malcolm McLaren, Roy Orbison, Alex Orbison, Chuck Turner, Elisa Toffoli, Ricky Nelson, Shivaree, The Soundtrack Singers, Ann O&#39;Day, David Bowie, Smith, The Robins, Jim Croce, The Marketts, The White Stripes, Bill Withers, The Blasters, James Russo, The 5.6.7.8&#39;s, James Brown, 2Pac, Stealers Wheel, Lole Y Manuel, Bloodstone, Brother Dege, Nymphomania, Bobby Womack, Léo Delibes, Kool &amp; The Gang, Robert Palmer, Pacific Gas &amp; Electric</description>
+                <pubDate>Sat, 14 May 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 031 by The Mars Volta - Rage Guest</title>

@@ -1,0 +1,441 @@
+;FFMETADATA1
+title=032 by Quentin Tarantino - Film & TV Favorites
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=29565
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29566
+END=191995
+title=Nancy Sinatra - Bang Bang - My Baby Shot Me Down
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=191996
+END=423713
+title=Harry Nilsson - Coconut
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=423714
+END=590487
+title=Isaac Hayes - Run Fay Run
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=590488
+END=764173
+title=Luis Bacalov, Rocky Roberts - Django
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=764174
+END=882107
+title=Luis Bacalov, Edda Dell'Orso - Lo Chiamavano King (His Name Is King)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=882108
+END=1028217
+title=Dusty Springfield - Son Of A Preacher Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1028218
+END=1247575
+title=Luis Bacalov - Summertime Killer - Ricatto Alla Malla
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1247576
+END=1280525
+title=Jennifer Jason Leigh, Kurt Russell, Samuel L. Jackson - 'Major Warren Meet Daisy Domergue' - From 'The Hateful Eight' Soundtrack
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1280526
+END=1437507
+title=Chuck Berry - You Never Can Tell - 1964 Single Version Mono
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1437508
+END=1525153
+title=Bernard Herrmann - Twisted Nerve
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1525154
+END=1781759
+title=Randy Crawford - Street Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1781760
+END=1927821
+title=The Tornadoes - Bustin' Surfboards
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1927822
+END=2556355
+title=Santa Esmeralda - Don't Let Me Be Misunderstood
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2556356
+END=2804105
+title=T. Rex - Jeepster - 2003 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2804106
+END=2942319
+title=Al Hirt - Green Hornet
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2942320
+END=3110461
+title=Charlie Feathers - Can't Hardly Stand It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3110462
+END=3323723
+title=Chris Isaak - Two Hearts
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3323724
+END=3462513
+title=The Statler Brothers - Flowers On the Wall
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3462514
+END=3552055
+title=David Hess - Now You're All Alone - From 'The Hateful Eight' Soundtrack
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3552056
+END=3749789
+title=The Delfonics - Didn't I Blow Your Mind This Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3749790
+END=3967059
+title=The Mavericks - Foolish Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3967060
+END=4160545
+title=Peggy Simms - Spooky
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4160546
+END=4355855
+title=George Baker Selection - Little Green Bag
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4355856
+END=4484277
+title=Joe Tex - I Gotcha
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4484278
+END=4796491
+title=Soundgarden - Outshined
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4796492
+END=4828721
+title=Jerome Patrick Hoban - Jack Rabbit Slims Twist Contest
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4828722
+END=5003343
+title=Johnny Cash - Tennessee Stud - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5003344
+END=5194501
+title=Ennio Morricone - Overture - From 'The Hateful Eight' Soundtrack
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5194502
+END=5363651
+title=Johnny Cash - Satisfied Mind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5363652
+END=5530881
+title=Dave Dee, Dozy, Beaky, Mick & Tich - Hold Tight!
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5530882
+END=5729143
+title=The Lively Ones - Surf Rider
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5729144
+END=5881733
+title=Buddy Guy - Mary Had A Little Lamb
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5881734
+END=6030555
+title=HOTEI - Battle Without Honor Or Humanity
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6030556
+END=6327481
+title=ZZ Top - She's Just Killing Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6327482
+END=6464903
+title=Dick Dale - Miserlou
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6464904
+END=6664293
+title=Al Green - Let's Stay Together
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6664294
+END=6965251
+title=The Brothers Johnson - Strawberry Letter 23
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6965252
+END=7143257
+title=Joe Tex - The Love You Save (May Be Your Own)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7143258
+END=7375599
+title=Meiko Kaji - The Flower Of Carnage
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7375600
+END=7532629
+title=Kim Circle - I Put A Spell On You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7532630
+END=7822595
+title=Malcolm McLaren - About Her
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7822596
+END=7988697
+title=Roy Orbison, Alex Orbison, Chuck Turner - There Won't Be Many Coming Home - Remastered 2015
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7988698
+END=8298415
+title=Elisa Toffoli - Ancora Qui
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8298416
+END=8434229
+title=Ricky Nelson - Lonesome Town - 1990 Digital Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8434230
+END=8605083
+title=Ennio Morricone - The Surrender (La resa)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8605084
+END=8848849
+title=Shivaree - Goodnight Moon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8848850
+END=9038134
+title=The Soundtrack Singers - Girl You'll Be a Woman Soon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9038135
+END=9245996
+title=Ann O'Day - Fever
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9245997
+END=9493458
+title=David Bowie - Cat People (Putting Out The Fire)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9493459
+END=9701056
+title=Smith - Baby It's You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9701057
+END=9841814
+title=The Robins - Since I First Met You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9841815
+END=10036284
+title=Jim Croce - I Got A Name
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10036285
+END=10165570
+title=The Marketts - Out of Limits
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10165571
+END=10298696
+title=The White Stripes - Apple Blossom - From 'The Hateful Eight' Soundtrack
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10298697
+END=10492710
+title=Bill Withers - Who Is He - And What Is He To You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10492711
+END=10724164
+title=The Blasters - Dark Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10724165
+END=10732730
+title=James Russo - Winged
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10732731
+END=10914000
+title=Charlie Feathers - That Certain Female
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10914001
+END=11033374
+title=The 5.6.7.8's - Woo Hoo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11033375
+END=11204924
+title=James Brown, 2Pac - Unchained (The Payback Untouchable)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11204925
+END=11407914
+title=Stealers Wheel - Stuck In The Middle With You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11407915
+END=11647360
+title=Lole Y Manuel - Tu Mira - Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11647361
+END=11896430
+title=Bloodstone - Natural High - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11896431
+END=12119628
+title=Brother Dege - Too Old To Die Young
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12119629
+END=12377698
+title=Nymphomania - I Want Your Body
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12377699
+END=12605120
+title=Bobby Womack - Across 110th Street
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12605121
+END=12841614
+title=Léo Delibes - Viens Mallika Sous Le Dome Edais From Lakme
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12841615
+END=13028140
+title=Kool & The Gang - Jungle Boogie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13028141
+END=13185218
+title=Robert Palmer - Love Is The Tender Trap
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13185219
+END=13413960
+title=Pacific Gas & Electric - Staggolee
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13413961
+END=13416886
+title=Outro
+
+[STREAM]
+title=032 by Quentin Tarantino - Film & TV Favorites
