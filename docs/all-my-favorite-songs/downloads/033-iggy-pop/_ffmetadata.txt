@@ -1,0 +1,123 @@
+;FFMETADATA1
+title=033 by Iggy Pop - Influential Songs &amp\; Favorite Albums
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28557
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28558
+END=203011
+title=Frank Sinatra - Young At Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=203012
+END=364457
+title=The Ronettes - Be My Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=364458
+END=502575
+title=The Shangri-Las - Remember (Walking In the Sand)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=502576
+END=688357
+title=Muddy Waters with Orchestra - Rolling Stone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=688358
+END=834875
+title=Link Wray - Rumble
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=834876
+END=976161
+title=Bob Dylan - Subterranean Homesick Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=976162
+END=1126303
+title=The Rolling Stones - Good Times, Bad Times - Mono Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1126304
+END=1492637
+title=David Bowie - Wild Is the Wind - 2016 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1492638
+END=1673547
+title=Frank Sinatra - In The Wee Small Hours Of The Morning - Remastered 1998
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1673548
+END=1931713
+title=Traffic - Feelin' Alright
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1931714
+END=2191007
+title=Marty Robbins - El Paso
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2191008
+END=2357949
+title=James Brown & The Famous Flames - Please, Please, Please
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2357950
+END=2556043
+title=Jimi Hendrix - The Wind Cries Mary
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2556044
+END=2720225
+title=The Beatles - Nowhere Man - Remastered 2009
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2720226
+END=3007791
+title=John Coltrane - Giant Steps
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3007792
+END=3191197
+title=Louis Armstrong & His Hot Five - Lonesome Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3191198
+END=3443003
+title=R.L. Burnside - Old Black Mattie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3443004
+END=3445929
+title=Outro
+
+[STREAM]
+title=033 by Iggy Pop - Influential Songs &amp\; Favorite Albums
