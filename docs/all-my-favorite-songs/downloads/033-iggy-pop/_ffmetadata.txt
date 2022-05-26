@@ -1,5 +1,5 @@
 ;FFMETADATA1
-title=033 by Iggy Pop - Influential Songs &amp\; Favorite Albums
+title=033 by Iggy Pop - Most Influential Songs &amp\; Favorite Albums
 artist=All My Favorite Songs
 comment=allmyfavoritesongs.com
 description=allmyfavoritesongs.com
@@ -120,4 +120,4 @@ END=3445929
 title=Outro
 
 [STREAM]
-title=033 by Iggy Pop - Influential Songs &amp\; Favorite Albums
+title=033 by Iggy Pop - Most Influential Songs &amp\; Favorite Albums
