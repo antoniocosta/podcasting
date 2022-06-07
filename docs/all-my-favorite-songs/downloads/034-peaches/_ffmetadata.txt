@@ -1,0 +1,177 @@
+;FFMETADATA1
+title=034 by Peaches - Wise Women Playlist
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28173
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28174
+END=366283
+title=A Taste Of Honey - Boogie Oogie Oogie - Single Version 2 Remastered 1999
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=366284
+END=619721
+title=Björk - Declare Independence
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=619722
+END=903471
+title=David Bowie - Five Years - 2012 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=903472
+END=1127365
+title=Missy Elliott - Slide
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1127366
+END=1323659
+title=PJ Harvey - Man-Size
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1323660
+END=1486089
+title=L7 - Wargasm
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1486090
+END=1682359
+title=L'Trimm - Drop That Bottom
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1682360
+END=1838669
+title=Krisma - Black Silk Stocking
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1838670
+END=2095419
+title=Suicide - Rocket Usa
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2095420
+END=2362417
+title=Light Asylum - Knights And Weekends
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2362418
+END=2790287
+title=Laurie Anderson - From the Air
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2790288
+END=2968917
+title=Kate Bush - Army Dreamers
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2968918
+END=3244987
+title=Planningtorock - The Breaks
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3244988
+END=3505649
+title=Roberta Flack - The First Time Ever I Saw Your Face
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3505650
+END=3757431
+title=M.I.A. - Borders
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3757432
+END=3969421
+title=Nire, Maluca, Nani Castle - Commie Mommie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3969422
+END=4196483
+title=Lafawndah - Tan
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4196484
+END=4421169
+title=Kim Carnes - Bette Davis Eyes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4421170
+END=4591279
+title=Savages - Husbands
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4591280
+END=4904525
+title=Lizzy Mercier Descloux - Fire
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4904526
+END=5054667
+title=Sinéad O'Connor - Jackie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5054668
+END=5200417
+title=Yma Sumac - Birds
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5200418
+END=5436095
+title=Diamanda Galás - My Love Will Never Die - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5436096
+END=5570829
+title=The Regrettes - A Living Human Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5570830
+END=5762539
+title=TT The Artist - New New
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5762540
+END=5991689
+title=Althea And Donna - Uptown Top Ranking
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5991690
+END=5994615
+title=Outro
+
+[STREAM]
+title=034 by Peaches - Wise Women Playlist

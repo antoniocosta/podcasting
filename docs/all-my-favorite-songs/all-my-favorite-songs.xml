@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 26 May 2022 03:47:59 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jun 2022 23:51:47 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 034 by Peaches - Wise Women Playlist</title>
+                <link>https://allmyfavoritesongs.com#034</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-034-peaches</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-034-peaches/all-my-favorite-songs-034-peaches.mp3" length="192077425" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-034-peaches/all-my-favorite-songs-034-peaches.jpg' />
+                <description>Merrill Nisker (born 11 November 1966), better known by her stage name Peaches, is a Canadian electroclash musician and producer who burst into transcontinental favor with her very particular brand of cocksure rapping and groovebox beats. Peaches was an unlikely success story, making her musical mark after the age of 30 in a genre not commonly known for recognizing its female or its aging participants. Her unique rapping style and stage show brought her great popularity first in Europe and then in North America. Some of her lyrics and performances have been rejected due to them being potentially offensive, and a lot of her songs are themed on gender identity. Her work propagates sexual freedom and reversal of gender roles. &lt;br /&gt; &lt;br /&gt; In this episode Peaches selecting some of her favourite music for her Wise Women BBC Radio 6 Music takeover on December 2015.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; A Taste Of Honey, Björk, David Bowie, Missy Elliott, PJ Harvey, L7, L&#39;Trimm, Krisma, Suicide, Light Asylum, Laurie Anderson, Kate Bush, Planningtorock, Roberta Flack, M.I.A., Nire, Maluca, Nani Castle, Lafawndah, Kim Carnes, Savages, Lizzy Mercier Descloux, Sinéad O&#39;Connor, Yma Sumac, Diamanda Galás, The Regrettes, TT The Artist, Althea And Donna</description>
+                <pubDate>Tue, 07 Jun 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 033 by Iggy Pop - Most Influential Songs &amp; Favorite Albums</title>
