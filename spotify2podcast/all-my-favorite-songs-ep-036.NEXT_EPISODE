@@ -1,0 +1,393 @@
+#
+# spotify2podcast episode config file
+#
+
+# --- Episode ---------------------------------------------------------------------
+
+EP_NUM='036' # Episode number (with leading zeros: 001)
+# A Spotify playlist URL (https://open.spotify.com/playlist/[id])
+SPOTIFY_PLAYLIST_URL='https://open.spotify.com/playlist/3yYFCvtfhi6hIwj5vpkp5z'
+# Episode publish date for info.json and RSS. User format: 2021/10/19 12:34:56
+EP_PUBDATE='2022/06/20 12:34:56'
+# Unique episode id, used for dir and mp3
+EP_SUBDIR="$EP_NUM-frank-zappa" 
+# Episode's id3 title
+ID3_TITLE="$EP_NUM by Frank Zappa - Fraudulent DJ (part 2 of 2)" 
+# Episode's id3 year
+ID3_YEAR='2022'
+# Unique part of the audio intro to be generated with ttsmp3.com
+TTS_INTRO=$TTS_INTRO' This is episode number 36.<break time="0.4s"/>All songs curated by American musician, singer, composer, songwriter and bandleader, Frank Zappa.<break time="3s"/>'
+# Episode's description. List of playlist bands will be appended. Do not use any linebreaks! If using tags/links convert to HTMl entitites!
+EP_DESCRIPTION="Frank Vincent Zappa (December 21, 1940 – December 4, 1993) was an American musician, singer, composer, songwriter and bandleader. His work is characterized by nonconformity, free-form improvisation, sound experiments, musical virtuosity and satire of American culture. In a career spanning more than 30 years, Zappa composed rock, pop, jazz, jazz fusion, orchestral and musique concrète works, and produced almost all of the 60-plus albums that he released with his band the Mothers of Invention and as a solo artist. Zappa also directed feature-length films and music videos, and designed album covers. He is considered one of the most innovative and stylistically diverse musicians of his generation.\n\n On a number of occasions Zappa appeared in radio show slots, airing and generally discussing his favored music, or occasionally guesting on a 'club turntable', describing himself as a 'Fraudulent DJ'. In this episode, part two of a series of two, all the tracks in chronological order and as selected by Zappa (with exception of most of his own) on all these &lt;a href='https://wiki.killuglyradio.com/wiki/Fraudulent_DJ'&gt;known appearances&lt;/a&gt;, that took place between 1968 and 1984."
+# Episode's mp3 filename. Don't change...
+EP_FILE="all-my-favorite-songs-$EP_SUBDIR.mp3" # merged podcast mp3 filename
+# Default bitrate: 256 (115.2 Mb/h). Overwite in episode.conf with 224 (100.8 Mb/h) or 192 (86.4 Mb/h) 
+BITRATE=192  # total file <= 200 MB is better
+
+#
+# Source: 
+# https://wiki.killuglyradio.com/wiki/Fraudulent_DJ
+# 
+# DL--- Manually downloaded.added songs that don't exist on Spotify.
+# N/A--- Could not be found anywhere
+# ---FZ--- Frank Zappa track (most removed)
+# ---DUPE--- Duplicated
+# 
+# 
+# ######## #35: Part 1 of 2 #############################################
+# 
+# 
+# FZ as DJ: KSAN, San Francisco, Nov 1968
+# 
+# ---FZ--- America Goes Home Intro/Agency Man - (Studio Version)
+# Handsome Cabin Boy - Ewan MacColl and A.L. Lloyd
+# DL--- Grunion Run - The Hollywood Persuaders
+# Le Marteau Sans Maître - Pierre Boulez
+# When We Get Married - The Dreamlovers
+# Memories Of El Monte - The Penguins
+# Goodbye Pork Pie Hat - Charlie Mingus
+# Lucy Mae Blues - Frankie Lee Simms
+# The Letter - Vernon Green & The Medallions
+# Daddy, Daddy - Richard Berry & The Dreamers
+# Twilight - The Paragons
+# Florence - The Paragons (Winley 215)
+# Florence, Don't Leave Me - The Paragons
+# ---FZ--- Later That Night - (Cruising With Ruben & The Jets version)
+# 
+# 
+# FZ as DJ: KPPC, Pasadena, Nov 1968
+# 
+# Ramblin' Woman - Big Moose
+# No No Cherry - The Turbans
+# DL--- Guitar Player (Play Those Blues For Me) - Johnny "Guitar" Watson
+# Tick Tock A Woo - The Turbans
+# Doo-Wah - The Spaniels
+# Mama, Talk To Your Daughter - J.B. Lenoir
+# Eisenhower Blues - J.B Lenoir
+# Mama, Your Daughter Is Gonna Miss Me - J.B. Lenoir
+# I'm In Korea - J.B Lenoir
+# 1959 Volvo - Vernon Greene & The Medallions
+# Edna - Vernon Greene & The Medallions
+# Speedin' - Vernon Greene & The Medallions
+# Rock Around The Clock - Bill Haley & His Comets
+# Rubber Biscuits - The Chips
+# N/A--- It's Hot - Johnny "Guitar" Watson
+# I - The Velvets
+# Louie Louie - Richard Berry & The Pharaohs
+# ---DUPE--- Memories Of El Monte - The Penguins
+# Three Hours Past Midnight - Johnny "Guitar" Watson
+# DL--- Crashing The Party - The Feathers
+# Miss Sue - Don & Dewey
+# Little Love - Don & Dewey
+# DL--- Soul Motion - Don & Dewey
+# Angel In My Life - The Jewels
+# Guided Missile - The Cuff Links
+# ---FZ--- Cruising With Ruben & The Jets - FZ trailer
+# Pledging My Love? - Johnny Ace
+# DL--- P.B Baby - Wilbur Whitfield
+# Work With Me Annie - Hank Ballard & The Midniters
+# Annie Had A Baby - Hank Ballard & The Midniters
+# Sexy Ways - Hank Ballard & The Midniters
+# Stingy Little Thing - Hank Ballard & The Midniters
+# Valarie - Jackie & The Starlites
+# Rang Tang Ding Dong - The Cellos
+# DL--- Home In Alcatraz - Rolling Crew
+# I Put A Spell On You - Screamin' Jay Hawkins
+# Swing Low, Sweet Chariot - Paul Robeson
+# Don't You Know Yockomo - Huey "Piano" Smith & The Clowns
+# Okie Dokie Stomp - Clarence "Gatemouth" Brown
+# A Casual Look - The Six Teens
+# N/A--- The Day The Town Cried - Cliff Gleaves
+# DL--- Dixie Danny - The Laurie Sisters
+# 
+# 
+# FZ as DJ: Dr. Demento, KMET, Dec 1973
+# Playlist:
+# 
+# Bang Bang Lulu - Lloyd Tyrell
+# Earth To Buffalo - Ruben And The Jets
+# Joe The Grinder - The Hawks
+# --DUPE-- Earth To Buffalo - Ruben And The Jets
+# I Wanna Know - Ruben And The Jets
+# Well - The Olympics
+# Low Ridin' Cruiser - Ruben And The Jets
+# Going Down To Tijuana - Andre Williams
+# Tell Me Darling - The Gaylarks
+# DL--- Lou Ann - Little Sunny Day & The Clouds
+# Your Cash Ain't Nothing But Trash - The Clovers
+# Life Is But A Dream - The Harptones
+# How's Your Bird? - Baby Ray & The Ferns
+# Louisiana Blues - Muddy Waters
+# My Pal Foot Foot - The Shaggs
+# It's Halloween - The Shaggs
+# Next Time - Richard Berry
+# ---DUPE--- When We Get Married - The Dreamlovers
+# The Big Break - Richard Berry
+# Smokey Joe's Cafe - The Robins
+# Cherokee Dance - Bob "Froggy" Landers (With Willie Joe And His Unitar)
+# Nite Owl - Tony Allen
+# Anymore - Johnny Ace
+# I Got Loaded - Peppermint Harris
+# I'll Be Forever Loving You - The El Dorados
+# Twilight - The Paragons
+# Morrine - The Five Campbells
+# It Hurts Me Too - Elmore James & The Broomdusters
+# Shoo Doo Be Doo - Bobby Lester & The Moonlighters
+# Lonely Lonely Nights - Johnny "Guitar" Watson
+# The Jerk - Don Julian & The Larks
+# The World's Greatest Sinner - Baby Ray & The Ferns
+# ---DUPE--- Memories Of El Monte - The Penguins
+# DL--- Nona - The Feathers
+# So Long - Lloyd Price
+# The Wedding - The Solitaires
+# I Can't Be Satisfied - Muddy Waters
+# Hot And Nasty - Black Oak Arkansas
+# I'm Your Hoochie Coochie Man - Muddy Waters
+# Let's Start All Over Again - The Paragons
+# Still Love You So - Johnny Ace
+# 
+# 
+# 
+# 
+# 
+# FZ as DJ: "Musik Für Junge Leute", NDR, Hamburg
+# During the show FZ promoted and played tracks from Roxy & Elsewhere. In addition, he # also aired the following recordings;
+# 
+# Octandre - Edgard Varèse
+# Strophe/Antistrophe from "Chronochromie" - Olivier Messiaen
+# ---DUPE--- Hoochie Coochie Man - Muddy Waters
+# Royal March From L' Histoire Du Soldat - Igor Stravinsky
+# Five Pieces FNona - The Feathersor Orchestra - Anton Webern
+# 
+# 
+# 
+# ######## #36: Part 2 of 2 #############################################
+# 
+# 
+# 
+# FZ as DJ: WSTM, Chicago, Nov 1974
+# 
+# ---FZ--- Peaches En Regalia - (version not yet identified)
+# Manic Depression - Jimi Hendrix
+# Refrigerator Heaven - Alice Cooper
+# When The Levy Breaks -Led Zeppelin
+# ---DUPE--- Tell Me Darling - The Gaylarks
+# Your Tender Lips - The Clovers
+# --- DUPE --- Your Cash Ain't Nothing But Trash - The Clovers
+# Bebop Wino - Lamplighters
+# --- (Piece as yet unidentified) - Pierre Boulez
+# The Eric Dolphy Memorial Barbecue - FZ Weasels Ripped My Flesh
+# ---DUPE--- Let's Start All Over Again - The Paragons
+# ---DUPE--- Hot And Nasty - Black Oak Arkansas
+# Beatle Bones n' Smoking Stones - Captain Beefheart (From Strictly Personal)
+# ---FZ--- Stink-Foot - Apostrophe (')
+# ---DUPE--- Going Down To Tijuana - Andre Williams
+# Berceuse - Igor Stravinsky (Cradle song from The Firebird Suite)
+# Dimples - John Lee Hooker
+# Uncle Meat - FZ (Album selections)
+# Paint It Black - The Rolling Stones
+# I Ain't Gonna Eat My Heart Out Anymore - The Rascals
+# Zig Zag Wanderer - Captain Beefheart (From Safe As Milk)
+# Going Down Slow - Howlin' Wolf
+# Roll On - Lamplighters
+# My Guitar Wants To Kill Your Mama
+# Can I Come Over Tonight? - The Velours
+# ---FZ--- Uncle Remus - FZ
+# N/A--- Song Of The Big Guns from The Threepenny Opera - Kurt Weill
+# Black Dog - Led Zeppelin
+# ---DUPE--- Royal March from L'Histoire Du Soldat - Igor Stravinsky
+# The Closer You Are - The Channels
+# DL--- All I Want - Joni Mitchell
+# ---FZ--- Little Umbrellas- FZ
+# Flash Gordon's Ape - Captain Beefheart
+# Rolling Stone - Muddy Waters
+# Ain't That Loving You, Baby? - Jimmy Reed
+# ---FZ--- Pygmy Twylyte- FZ
+# 
+# 
+# 
+# FZ as DJ: WIOQ, Philadelphia, Oct 1977
+# Playlist:
+# 
+# ---FZ---Filthy Habits
+# ---FZ---Regyptian Strut
+# ---FZ---The Ocean Is The Ultimate Solution
+# ---FZ---A Little Green Rosetta
+# ---FZ---Duck Duck Goose
+# ---FZ---Down In De Dew
+# ---FZ---For The Young Sophisticate
+# ---FZ---Lemme Take You To The Beach
+# ---FZ---Revised Music For Guitar & Low Budget Orchestra
+# X Offender- Blondie
+# 
+# 
+# 
+# 
+# FZ as DJ: WPIX, NYC, Nov 19, 1979
+# Playlist:
+# 
+# Gangsters - The Specials
+# Jerry & The Holograms - Gerry And The Holograms
+# ---FZ--- Lemme Take You To The Beach - FZ
+# Rangehn - Nina Hagen
+# TV Drink - The Jets
+# N/A--- Tough On You - The Plastics
+# Unbeschreiblich Weiblich - Nina Hagen
+# I Live In A Car - UK Subs
+# ---FZ--- Bamboozled By Love - FZ (Warts 'n All version)
+# ---FZ--- I Ain't Got No Heart- FZ (Freak Out! version)
+# ---FZ--- Easy Meat - FZ
+# He's The Groove - Snuky Tate
+# ---FZ--- Catholic Girls - FZ
+# Marry Me - Robert & Johnny
+# Summertime Blues - The Flying Lizards
+# I'm The Man - Joe Jackson
+# Cars - Gary Numan
+# DL--- Heiss - Nina Hagen
+# ---FZ--- He Used To Cut The Grass - FZ
+# Money - The Flying Lizards
+# DL--- Naturträne - Nina Hagen
+# ---FZ--- Regyptian Strut - FZ
+# 
+# 
+# FZ as DJ: WPIX, NYC, Nov 20, 1979
+# Playlist:
+# 
+# Bed's Too Big Without You - The Police
+# So Lonely - The Police
+# Meet The Creeper - Destroy All Monsters
+# November 22nd - Destroy All Monsters
+# Messin' With The Kid - The Saints
+# Story Of Love - The Saints
+# Summertime Blues - The Flying Lizards
+# Money - The Flying Lizards
+# ---FZ--- Keep It Greasey - FZ
+# ---FZ--- A Little Green Rosetta - FZ
+# ---DUPE--- Jerry & The Holograms - Gerry And The Holograms
+# 
+# 
+# FZ as DJ: WPIX, NYC, Nov 21, 1979
+# Playlist:
+# 
+# DL--- Touch Me There - L. Shankar
+# Don't Touch Me There - The Tubes
+# DL--- My Boyfriend - Suburban Lawns
+# ---FZ--- Watermelon In Easter Hay - FZ
+# N/A--- Jersey City - Steel Tips
+# Owed T'Alex - Captain Beefheart
+# ---FZ--- A Token Of My Extreme - FZ
+# 
+# 
+# FZ as DJ: WPIX, NYC, Nov 22, 1979
+# Playlist:
+# 
+# Psycle Sluts - John Cooper Clarke
+# ---FZ--- The Deathless Horsie - FZ
+# ---DUPE--- Rangehn - Nina Hagen
+# ---FZ--- Carolina Hard-Core Ecstasy - FZ
+# ---FZ--- Jumbo Go Away - FZ
+# ---FZ--- Yo' Mama - FZ
+# ---FZ--- The Purple Lagoon (first part) - FZ
+# ---FZ--- Summertime Blues - Flying Lizards
+# ---FZ--- The Purple Lagoon (continued) - FZ
+# ---FZ--- Disco Boy - FZ
+# Death Disco - Public Image Ltd
+# ---FZ--- The Meek Shall Inherit Nothing - FZ
+# ---FZ--- For The Young Sophisticate - FZ
+# ---FZ--- Shut Up 'n Play Yer Guitar - FZ
+# ---FZ--- Thirteen - FZ
+# ---FZ--- Peaches III (Tinseltown Rebellion) - FZ
+# 
+# 
+# FZ as DJ: WLIR, Long Island, Dec 20, 1979
+# Playlist:
+# 
+# ---DUPE--- Memories Of El Monte - The Penguins
+# ---DUPE MISSING--- Nona - The Feathers
+# ---DUPE--- So Long - Lloyd Price
+# ---DUPE--- The Wedding - The Solitaires
+# ---DUPE--- I Can't Be Satisfied - Muddy Waters
+# ---DUPE--- Hot And Nasty - Black Oak Arkansas
+# ---DUPE--- I'm Your Hoochie Coochie Man - Muddy Waters
+# ---DUPE--- Let's Start All Over Again - The Paragons
+# ---DUPE--- Meet The Creeper - Destroy All Monsters
+# DL--- Jocko Bozo - The Firemen
+# ---FZ--- You're Probably Wondering Why I'm Here - FZ
+# DL--- Mongoloid - The Deadliners
+# ---FZ--- Wind Up Workin' In A Gas Station - FZ
+# 
+# 
+# Zappa performed at the club on the 8th May 1980
+# 
+# [FZ playlist, Track 18: "Robot" - by The Plastics, was then played]
+# 
+# 
+# 
+# 
+# 
+# 
+# FZ as DJ: BBC Radio 1 'Star Special' Transcript
+# Playlist:
+# 
+# I'm In The Music Business - Jeff Simmons
+# Straight Lines - New Musik
+# The Closer You Are - The Channels
+# Hyperprism - Edgard Varèse
+# Jesus Just Left Chicago - ZZ Top
+# Golden Birdies - Captain Beefheart
+# I Live In A Car - UK Subs
+# ---DUPE--- Soul Motion - Don Harris
+# All Tomorrow's Parties - The Velvet Underground & Nico
+# Royal March from "A Soldier's Tale" - Igor Stravinsky
+# Iron Man - Black Sabbath
+# Lucky Number - Lena Lovitch
+# DL--- Eureka Springs Garbage Lady - GTO's
+# Killer Queen - Queen
+# Mannish Boy - Muddy Waters & Johnny Winter
+# Gerry And The Holograms - Gerry And The Holograms
+# Sweet Home Alabama - Lynyrd Skynyrd
+# ---DUPE--- Robot - The Plastics
+# Desiree - The Charts
+# I Am The Walrus - The Beatles
+# Soldier Soldier - Spizzenergi
+# Heaven Is In Your Mind - Traffic
+# DL--- I'm Working For The Federal Bureau Of Narcotics - Wild Man Fischer
+# Paint It Black - The Rolling Stones
+# Caravan Man - Lew Lewis
+# Psycle Sluts - John Cooper Clarke
+# I Asked Her For Water And She Brought Me Gasoline - Howlin' Wolf
+# Summertime Blues - The Flying Lizards
+# My White Bicycle - Tomorrow
+# Grease - Frankie Valli
+# ---FZ--- Watermelon In Easter Hay - Frank Zappa
+# 
+# 
+# FZ as DJ: KSJO, San Jose, Apr 1980
+# Playlist:
+# 
+# Born To Be Wild - Blue Öyster Cult (Live version)
+# Cheap Sun Glasses - ZZ Top
+# ---FZ--- I Don't Wanna Get Drafted - FZ (The single)
+# Concrete Jungle - The Specials
+# Hot Blooded - Foreigner
+# Rock 'N Roll Damnation - AC/DC
+# Gimme Love, Gimme Pain - Sue Saad & The Next
+# Everybody Want Some - Van Halen
+# Orgasm Addict - The Buzzcocks
+# Heatwave - The Jam
+# Gangsters - The Specials
+# Another Brick In The Wall Pt II - Pink Floyd
+# ---FZ--- Penguin In Bondage - FZ Roxy & Elsewhere
+# Lucky Number - Lene Lovich
+# Any Way You Want It - Journey
+# ---FZ--- The Torture Never Stops - FZ Zoot Allures
+# 
+# 
+# FZ as DJ: KUNM, Albuquerque, Oct 1980
+# 
+# ---DUPE--- Memories Of El Monte - The Penguins
+# Pachuco Cadaver - Captain Beefheart (from Trout Mask Replica)
+# DL--- Pena - Captain Beefheart (from Trout Mask Replica)
+# ---DUPE--- Golden Birdies (Singabus)- Captain Beefheart (from Clear Spot)
+# 
+

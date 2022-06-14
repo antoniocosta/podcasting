@@ -1,0 +1,573 @@
+;FFMETADATA1
+title=035 by Frank Zappa - Fraudulent DJ (part 1 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30573
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30574
+END=199003
+title=Frank Zappa, The Mothers Of Invention - America Drinks & Goes Home
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=199004
+END=479321
+title=Ewan MacColl - Handsome Cabin Boy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=479322
+END=624183
+title=The Hollywood Persuaders - Grunion Run
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=624184
+END=739093
+title=Pierre Boulez, Hilary Summers, Ensemble Intercontemporain - Le marteau sans maître - Avant 'l'Artisanat furieux'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=739094
+END=888107
+title=The Dreamlovers - When We Get Married
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=888108
+END=1053849
+title=The Penguins - Memories Of El Monte
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1053850
+END=1396207
+title=Charles Mingus - Goodbye Pork Pie Hat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1396208
+END=1548389
+title=Frankie Lee Sims - Lucy Mae Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1548390
+END=1721499
+title=Vernon Green & The Medallions - The Letter
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1721500
+END=1891489
+title=Richard Berry & The Dreamers - Daddy Daddy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1891490
+END=2060543
+title=The Paragons - Twilight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2060544
+END=2248461
+title=The Paragons - Florence Don't Leave Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2248462
+END=2428987
+title=Frank Zappa - Later That Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2428988
+END=2638985
+title=Big Moose - Ramblin Woman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2638986
+END=2794983
+title=The Turbans - No No Cherry
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2794984
+END=2917159
+title=Johnny Guitar Watson - Guitar Player
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2917160
+END=3046613
+title=The Turbans - Tick Tock a Woo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3046614
+END=3211029
+title=The Spaniels - Doo Wah
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3211030
+END=3354979
+title=J.B. Lenoir - Mama Talk To Your Daughter
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3354980
+END=3530225
+title=J.B. Lenoir - Eisenhower Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3530226
+END=3653247
+title=J.B. Lenoir - Mama, Your Daughter Is Gonna Miss Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3653248
+END=3835909
+title=J.B. Lenoir - I'm In Korea
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3835910
+END=3973883
+title=Vernon Green, The Medallions - '59 Volvo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3973884
+END=4121217
+title=Vernon Green, The Medallions - Edna
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4121218
+END=4252879
+title=Vernon Green, The Medallions - Speedin'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4252880
+END=4389869
+title=Bill Haley & His Comets - Rock Around The Clock
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4389870
+END=4531995
+title=The Chips - Rubber Biscuit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4531996
+END=4732417
+title=The Velvets - I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4732418
+END=4863503
+title=Richard Berry & The Pharaohs - Louie Louie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4863504
+END=5069229
+title=Johnny 'Guitar' Watson - Three Hours Past Midnight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5069230
+END=5209325
+title=The Feathers - Crashing The Party
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5209326
+END=5348883
+title=Don & Dewey - Miss Sue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5348884
+END=5485561
+title=Don & Dewey - A Little Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5485562
+END=5651806
+title=Don & Dewey - Soul Motion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5651807
+END=5783660
+title=The Jewels - Angel in My Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5783661
+END=5951106
+title=The Cufflinks - Guided Missiles
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5951107
+END=6097600
+title=Johnny Ace - Pledging My Love - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6097601
+END=6237749
+title=Wilbur Whitfield & The Pleasers - P.B. Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6237750
+END=6402051
+title=Hank Ballard & The Midnighters - Work With Me Annie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6402052
+END=6563569
+title=Hank Ballard & The Midnighters - Annie Had A Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6563570
+END=6717383
+title=Hank Ballard & The Midnighters - Sexy Ways
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6717384
+END=6898389
+title=Hank Ballard & The Midnighters - Stingy Little Thing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6898390
+END=7042531
+title=Jackie & The Starlites - Valerie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7042532
+END=7216553
+title=The Cellos - Rang Tang Ding Dong
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7216554
+END=7346671
+title=The Rolling Crew - Home On Alcatraz
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7346672
+END=7495925
+title=Screamin' Jay Hawkins - I Put a Spell on You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7495926
+END=7660491
+title=Paul Robeson - Swing Low, Sweet Chariot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7660492
+END=7803361
+title=Huey 'Piano' Smith - Don't You Know Yockomo - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7803362
+END=7957847
+title=Clarence 'Gatemouth' Brown - Okie Dokie Stomp
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7957848
+END=8105397
+title=The Six Teens - A Casual Look
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8105398
+END=8229794
+title=The Laurie Sisters - Dixie Danny
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8229795
+END=8406816
+title=Lloyd Terrell - Bang Bang Lulu
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8406817
+END=8475046
+title=Ruben And The Jets - Earth To Buffalo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8475047
+END=8631428
+title=The Hawks - Joe The Grinder
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8631429
+END=8821146
+title=Ruben And The Jets - I Wanna Know
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8821147
+END=8941720
+title=The Olympics - Well
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8941721
+END=9146414
+title=Ruben And The Jets - Low Ridin' Cruiser
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9146415
+END=9324900
+title=Andre Williams - Im Going Down to Tijuana
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9324901
+END=9508042
+title=The Gaylarks - Tell Me, Darling
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9508043
+END=9678179
+title=Little Sunny Day and the Clouds - Lou Ann
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9678180
+END=9853905
+title=The Clovers - Your Cash Ain't Nothin' but Trash
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9853906
+END=10017631
+title=The Harptones - Life Is but a Dream
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10017632
+END=10150013
+title=Baby Ray And The Ferns - How's Your Bird
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10150014
+END=10324203
+title=Muddy Waters - Louisiana Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10324204
+END=10477873
+title=The Shaggs - My Pal Foot Foot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10477874
+END=10623335
+title=The Shaggs - It's Halloween
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10623336
+END=10799877
+title=Richard Berry - Next Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10799878
+END=10982371
+title=Richard Berry - The Big Break
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10982372
+END=11146361
+title=The Robins - Smokey Joe's Cafe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11146362
+END=11300175
+title=Bob Landers, Willie Joe - Cherokee Dance
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11300176
+END=11464789
+title=Tony Allen - Nite Owl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11464790
+END=11644763
+title=Johnny Ace - Anymore
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11644764
+END=11791545
+title=Peppermint Harris - I Got Loaded
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11791546
+END=11943055
+title=The El Dorados - I'll Be Forever Loving You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11943056
+END=12072941
+title=The 5 Campbells - Morrine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12072942
+END=12273171
+title=Elmore James - It Hurts Me Too
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12273172
+END=12440737
+title=The Moonlighters - Shoo Doo Be Doo (My Loving Baby)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12440738
+END=12614543
+title=Johnny 'Guitar' Watson - Those Lonely, Lonely Nights
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12614544
+END=12782805
+title=Don Julian, The Larks - Do the Jerk
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12782806
+END=12932059
+title=Baby Ray And The Ferns - World's Greatest Sinner
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12932060
+END=13071685
+title=The Feathers - Nona
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13071686
+END=13222499
+title=Lloyd Price - So Long
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13222500
+END=13382673
+title=The Solitaires - The Wedding
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13382674
+END=13544863
+title=Muddy Waters - I Can't Be Satisfied
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13544864
+END=13720445
+title=Black Oak Arkansas - Hot And Nasty
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13720446
+END=13890555
+title=Muddy Waters - (I'm Your) Hoochie Coochie Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13890556
+END=14053369
+title=The Paragons - Let's Start All Over Again
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14053370
+END=14219279
+title=Johnny Ace - Still Love You So
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14219280
+END=14676189
+title=Edgard Varèse, Frederic Waldman, NY Wind Ensemble - Octandre
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14676190
+END=14770795
+title=Olivier Messiaen, BBC Symphony OrchestraAntal Dorati, Antal Doráti, BBC Symphony Orchestra - Chronochromie - Strophe I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14770796
+END=14956217
+title=Olivier Messiaen, BBC Symphony OrchestraAntal Dorati, Antal Doráti, BBC Symphony Orchestra - Chronochromie - Antistrophe I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14956218
+END=15210543
+title=Anton Webern, Nürnberg Symphony Orchestra, Othmar Maga - 5 Pieces for Orchestra, Op. 10
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15210544
+END=15213469
+title=Outro
+
+[STREAM]
+title=035 by Frank Zappa - Fraudulent DJ (part 1 of 2)

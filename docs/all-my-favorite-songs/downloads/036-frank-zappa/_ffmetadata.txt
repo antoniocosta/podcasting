@@ -1,0 +1,30 @@
+;FFMETADATA1
+title=036 by Frank Zappa - Fraudulent DJ (part 2 of 2)
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30597
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30598
+END=249475
+title=Frank Zappa - Peaches En Regalia
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=249476
+END=470969
+title=Jimi Hendrix - Manic Depression
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=470970
+END=592287
+title=Alice Cooper - Refrigerator Heaven
