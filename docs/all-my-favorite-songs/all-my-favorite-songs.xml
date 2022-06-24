@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 16 Jun 2022 13:54:08 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jun 2022 01:45:15 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 036 by Frank Zappa - Fraudulent DJ (part 2 of 2)</title>
+                <link>https://allmyfavoritesongs.com#036</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-036-frank-zappa</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-036-frank-zappa/all-my-favorite-songs-036-frank-zappa.mp3" length="504840537" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-036-frank-zappa/all-my-favorite-songs-036-frank-zappa.jpg' />
+                <description>Frank Vincent Zappa (December 21, 1940 – December 4, 1993) was an American musician, singer, composer, songwriter and bandleader. His work is characterized by nonconformity, free-form improvisation, sound experiments, musical virtuosity and satire of American culture. In a career spanning more than 30 years, Zappa composed rock, pop, jazz, jazz fusion, orchestral and musique concrète works, and produced almost all of the 60-plus albums that he released with his band the Mothers of Invention and as a solo artist. Zappa also directed feature-length films and music videos, and designed album covers. He is considered one of the most innovative and stylistically diverse musicians of his generation. &lt;br /&gt; &lt;br /&gt; On a number of occasions Zappa appeared in radio show slots, airing and generally discussing his favored music, or occasionally guesting on a &#39;club turntable&#39;, describing himself as a &#39;Fraudulent DJ&#39;. In this episode, part two of a series of two, all the tracks in chronological order as selected by Zappa (with exception of most of his own tracks) for all his DJ appearances that have been documented, and that took place between 1968 and 1984.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Frank Zappa, Jimi Hendrix, Alice Cooper, Led Zeppelin, The Clovers, The Lamplighters, The Mothers Of Invention, Captain Beefheart &amp; His Magic Band, Igor Stravinsky, Columbia Symphony Orchestra, John Lee Hooker, The Rolling Stones, The Young Rascals, Howlin&#39; Wolf, The Velours, The Channels, Earl Lewis, Joni Mitchell, Muddy Waters, Jimmy Reed, Blondie, The Specials, Gerry &amp; The Holograms, Nina Hagen, The Jets, Konrad Koselleck Big Band, Ellen Ten Damme, U.K. Subs, Snuky Tate, Robert &amp; Johnny, The Flying Lizards, Joe Jackson, Gary Numan, The Police, Destroy All Monsters, The Saints, L Shankar, The Tubes, Suburban Lawns, Captain Beefheart, John Cooper Clarke, Public Image Ltd., The Firemen, The Deadliners, Plastics, Jeff Simmons, New Musik, Edgard Varèse, Polish National Radio Symphony Orchestra, Christopher Lyndon-Gee, ZZ Top, The Velvet Underground, Nico, Black Sabbath, Lene Lovich, The GTOs, Queen, Lynyrd Skynyrd, The Top Charts D.J., The Beatles, SpizzEnergi, Traffic, Wild Man Fischer, Lew Lewis, Tomorrow, Frankie Valli, Blue Öyster Cult, Foreigner, ACDC, Sue Saad &amp; the Next, Van Halen, Buzzcocks, The Jam, Pink Floyd, Journey</description>
+                <pubDate>Sat, 25 Jun 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 035 by Frank Zappa - Fraudulent DJ (part 1 of 2)</title>

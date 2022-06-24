@@ -8,23 +8,572 @@ date=2022
 [CHAPTER]
 TIMEBASE=1/1000
 START=0
-END=30597
+END=30549
 title=Intro
 
 [CHAPTER]
 TIMEBASE=1/1000
-START=30598
-END=249475
+START=30550
+END=249427
 title=Frank Zappa - Peaches En Regalia
 
 [CHAPTER]
 TIMEBASE=1/1000
-START=249476
-END=470969
+START=249428
+END=470921
 title=Jimi Hendrix - Manic Depression
 
 [CHAPTER]
 TIMEBASE=1/1000
-START=470970
-END=592287
+START=470922
+END=592239
 title=Alice Cooper - Refrigerator Heaven
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=592240
+END=1021069
+title=Led Zeppelin - When the Levee Breaks - Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1021070
+END=1196915
+title=The Clovers - Your Tender Lips
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1196916
+END=1342473
+title=The Lamplighters - Be Bop Wino
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1342474
+END=1754383
+title=The Mothers Of Invention - The Eric Dolphy Memorial Barbecue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1754384
+END=1952093
+title=Captain Beefheart & His Magic Band - Beatle Bones 'N Smokin' Stones
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1952094
+END=2352771
+title=Frank Zappa - Stink-Foot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2352772
+END=2505241
+title=Igor Stravinsky, Columbia Symphony Orchestra - Berceuse (L'Oiseau de feu) - 1910 version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2505242
+END=2638727
+title=John Lee Hooker - Dimples
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2638728
+END=2840973
+title=The Rolling Stones - Paint It, Black
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2840974
+END=3004147
+title=The Young Rascals - I Ain't Gonna Eat out My Heart Anymore - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3004148
+END=3162929
+title=Captain Beefheart & His Magic Band - Zig Zag Wanderer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3162930
+END=3370239
+title=Howlin' Wolf - Goin' Down Slow
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3370240
+END=3560485
+title=The Lamplighters - Roll On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3560486
+END=3776483
+title=The Mothers Of Invention - My Guitar Wants To Kill Your Mama
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3776484
+END=3918321
+title=The Velours - Can I Come Over Tonight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3918322
+END=4213687
+title=Led Zeppelin - Black Dog - Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4213688
+END=4391669
+title=The Channels, Earl Lewis - The Closer You Are
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4391670
+END=4605849
+title=Joni Mitchell - All I Want
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4605850
+END=4794535
+title=Frank Zappa - Little Umbrellas
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4794536
+END=5050037
+title=Captain Beefheart & His Magic Band - Flash Gordon's Ape
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5050038
+END=5234619
+title=Muddy Waters - Rollin' Stone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5234620
+END=5369617
+title=Jimmy Reed - Ain't That Lovin' You Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5369618
+END=5564135
+title=Blondie - X Offender - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5564136
+END=5731125
+title=The Specials - Gangsters
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5731126
+END=5982427
+title=Gerry & The Holograms - Gerry And The Holograms
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5982428
+END=6238361
+title=Nina Hagen - Rangehn
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6238362
+END=6410607
+title=The Jets - TV Drink (Live)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6410608
+END=6623317
+title=Konrad Koselleck Big Band, Ellen Ten Damme - Unbeschreiblich Weiblich
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6623318
+END=6719699
+title=U.K. Subs - I Live in a Car
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6719700
+END=6952521
+title=Snuky Tate - He's the Groove (12' Part I)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6952522
+END=7119079
+title=Robert & Johnny - Marry Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7119080
+END=7333229
+title=The Flying Lizards - Summertime Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7333230
+END=7571475
+title=Joe Jackson - I'm The Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7571476
+END=7810369
+title=Gary Numan - Cars
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7810370
+END=8059683
+title=Nina Hagen - Heiss
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8059684
+END=8397745
+title=The Flying Lizards - Money
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8397746
+END=8644735
+title=Nina Hagen - Naturtrane
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8644736
+END=8897741
+title=Frank Zappa - Regyptian Strut
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8897742
+END=9162819
+title=The Police - The Bed's Too Big Without You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9162820
+END=9452401
+title=The Police - So Lonely
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9452402
+END=9747575
+title=Destroy All Monsters - Meet the Creeper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9747576
+END=10008981
+title=Destroy All Monsters - November 22nd 1963
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10008982
+END=10364059
+title=The Saints - Messin' With The Kid - 2004 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10364060
+END=10555721
+title=The Saints - Story Of Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10555722
+END=10738763
+title=L Shankar - Touch Me There
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10738764
+END=10945977
+title=The Tubes - Don't Touch Me There
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10945978
+END=11046916
+title=Suburban Lawns - My Boyfriend
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11046917
+END=11252042
+title=Captain Beefheart - Owed T'Alex
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11252043
+END=11444736
+title=John Cooper Clarke - Psycle Sluts
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11444737
+END=11825806
+title=Frank Zappa - The Deathless Horsie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11825807
+END=12080684
+title=Public Image Ltd. - Death Disco - 7' Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12080685
+END=12277858
+title=The Firemen - Jocko Bozo
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12277859
+END=12400034
+title=The Deadliners - Mongoloid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12400035
+END=12574464
+title=Plastics - ROBOT
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12574465
+END=12824254
+title=Jeff Simmons - I'm in the Music Business
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12824255
+END=13136420
+title=New Musik - Straight Lines
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13136421
+END=13363122
+title=Edgard Varèse, Polish National Radio Symphony Orchestra, Christopher Lyndon-Gee - Hyperprism
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13363123
+END=13573360
+title=ZZ Top - Jesus Just Left Chicago - 2006 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13573361
+END=13670246
+title=Captain Beefheart & His Magic Band - Golden Birdies
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13670247
+END=14029908
+title=The Velvet Underground, Nico - All Tomorrow's Parties
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14029909
+END=14185402
+title=Igor Stravinsky - The Soldier's Tale, Part Two Royal March
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14185403
+END=14541416
+title=Black Sabbath - Iron Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14541417
+END=14712486
+title=Lene Lovich - Lucky Number
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14712487
+END=14937245
+title=The GTOs - The Eureka Springs Garbage Lady
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14937246
+END=15116835
+title=Queen - Killer Queen - Remastered 2011
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15116836
+END=15441505
+title=Muddy Waters - Mannish Boy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15441506
+END=15725279
+title=Lynyrd Skynyrd - Sweet Home Alabama
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15725280
+END=15892173
+title=The Top Charts D.J. - Desiree
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15892174
+END=16168027
+title=The Beatles - I Am The Walrus - Remastered 2009
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16168028
+END=16398377
+title=SpizzEnergi - Soldier Soldier
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16398378
+END=16657191
+title=Traffic - Heaven Is In Your Mind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16657192
+END=16750293
+title=Wild Man Fischer - The Federal Bureau Of Narcotics
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16750294
+END=17037619
+title=Lew Lewis - Caravan Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17037620
+END=17211617
+title=Howlin' Wolf - I Asked For Water
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17211618
+END=17409927
+title=Tomorrow - My White Bicycle - 1999 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17409928
+END=17611789
+title=Frankie Valli - Grease
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17611790
+END=18201491
+title=Blue Öyster Cult - Born To Be Wild - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18201492
+END=18489873
+title=ZZ Top - Cheap Sunglasses
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18489874
+END=18694711
+title=Frank Zappa - I Don't Wanna Get Drafted
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18694712
+END=18894701
+title=The Specials - Concrete Jungle - 2015 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18894702
+END=19163379
+title=Foreigner - Hot Blooded
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19163380
+END=19381009
+title=ACDC - Rock 'N' Roll Damnation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19381010
+END=19576943
+title=Sue Saad & the Next - Gimme Love Gimme Pain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19576944
+END=19882989
+title=Van Halen - Everybody Wants Some!! - 2015 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19882990
+END=20005651
+title=Buzzcocks - Orgasm Addict
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20005652
+END=20150345
+title=The Jam - Heatwave
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20150346
+END=20389215
+title=Pink Floyd - Another Brick In The Wall, Pt. 2 - 2011 Remastered Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20389216
+END=20590885
+title=Journey - Any Way You Want It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20590886
+END=20870291
+title=Captain Beefheart & His Magic Band - Pachuco Cadaver
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20870292
+END=21024363
+title=Captain Beefheart - Pena
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=21024364
+END=21027289
+title=Outro
+
+[STREAM]
+title=036 by Frank Zappa - Fraudulent DJ (part 2 of 2)
