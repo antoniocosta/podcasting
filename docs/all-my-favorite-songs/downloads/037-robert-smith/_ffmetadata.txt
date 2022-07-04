@@ -1,0 +1,201 @@
+;FFMETADATA1
+title=037 by Robert Smith - Top 30 Favorite Songs From The 80s
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30069
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30070
+END=240355
+title=ABC - The Look Of Love, Pt.1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=240356
+END=511433
+title=The Associates - Tell Me Easter's on Friday - 2015 Remaster\;Single Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=511434
+END=680295
+title=Fun Boy Three, Bananarama - It Ain't What You Do It's the Way That You Do It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=680296
+END=930757
+title=David Bowie - Let's Dance - 2002 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=930758
+END=1240715
+title=Kate Bush - Cloudbusting - 2018 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1240716
+END=1501137
+title=Cocteau Twins - Persephone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1501138
+END=1774111
+title=Cristina - Things Fall Apart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1774112
+END=1959461
+title=DAF - Sex Unter Wasser
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1959462
+END=2254227
+title=Depeche Mode - Personal Jesus - 2006 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2254228
+END=2471161
+title=Dinosaur Jr. - Freak Scene
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2471162
+END=2819447
+title=Echo & the Bunnymen - The Killing Moon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2819448
+END=3160269
+title=Peter Gabriel - Red Rain - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3160270
+END=3389419
+title=The Human League - Human - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3389420
+END=3587801
+title=The Jesus and Mary Chain - Some Candy Talking
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3587802
+END=3952071
+title=Joy Division - The Eternal - 2007 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3952072
+END=4295461
+title=Chaka Khan - I Feel for You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4295462
+END=4418987
+title=Madness - Return of the Los Palmas 7
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4418988
+END=4621617
+title=Mel & Kim - Respectable
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4621618
+END=4839607
+title=my bloody valentine - Lose My Breath
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4839608
+END=5098877
+title=New Order - Everything's Gone Green - 7' Version\; 2015 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5098878
+END=5268411
+title=Yoko Ono, Danny Tenaglia - Walking On Thin Ice
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5268412
+END=5504113
+title=Pixies - Gigantic
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5504114
+END=5730167
+title=Pretenders - Don't Get Me Wrong - 2007 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5730168
+END=5900661
+title=Prince - Starfish and Coffee
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5900662
+END=6106651
+title=The Psychedelic Furs - Heaven
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6106652
+END=6334841
+title=Siouxsie and the Banshees - Dear Prudence
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6334842
+END=6488631
+title=Soft Cell - Tainted Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6488632
+END=6727237
+title=The Sugarcubes - Birthday
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6727238
+END=6961883
+title=Suzanne Vega - Small Blue Thing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6961884
+END=7149201
+title=Tom Waits - In The Neighbourhood
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7149202
+END=7152127
+title=Outro
+
+[STREAM]
+title=037 by Robert Smith - Top 30 Favorite Songs From The 80s
