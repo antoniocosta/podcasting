@@ -1,0 +1,621 @@
+;FFMETADATA1
+title=038 by Lou Reed - 100 Favorite Songs Of All Time
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=29109
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29110
+END=328603
+title=Ornette Coleman - Lonely Woman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=328604
+END=515249
+title=Eddie & Ernie - Outcast
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=515250
+END=952023
+title=Rahsaan Roland Kirk - Old Rugged Cross
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=952024
+END=1159597
+title=Ray Charles - Night Time Is the Right Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1159598
+END=1312163
+title=Little Richard - The Girl Can't Help It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1312164
+END=1442097
+title=The Excellents - Coney Island Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1442098
+END=1651615
+title=Lorraine Ellison - Stay with Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1651616
+END=1796549
+title=Elvis Presley - Mystery Train
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1796550
+END=1967931
+title=Carl Perkins - Honey Don't
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1967932
+END=2131705
+title=Chuck Berry - Little Queenie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2131706
+END=2284391
+title=Billy Lee Riley - Red Hot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2284392
+END=2415573
+title=Wanda Jackson - Let's Have A Party
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2415574
+END=2591755
+title=Nolan Strong & The Diablos - The Wind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2591756
+END=2758217
+title=Roy Orbison - Crying
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2758218
+END=2888703
+title=Roy Orbison - Ooby Dooby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2888704
+END=3021877
+title=Musical Creations Studio Musicians (Karaoke) - That's Alright Mama - In the Style of Elvis Presley (Karaoke Version Teaching Vocal)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3021878
+END=3178547
+title=Fats Domino - The Fat Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3178548
+END=3318825
+title=Dion & The Belmonts - I Wonder Why
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3318826
+END=3487591
+title=Hank Williams - I'm So Lonesome I Could Cry - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3487592
+END=3635501
+title=Bo Diddley - Bring It To Jerome
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3635502
+END=3784491
+title=Bo Diddley - Bo Diddley
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3784492
+END=4041265
+title=Chris Connor - When Sunny Gets Blue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4041266
+END=4182383
+title=Chet Baker - My Funny Valentine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4182384
+END=4392405
+title=Jimmy Scott - Someone To Watch Over Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4392406
+END=4538179
+title=The Mellows - Smoke From Your Cigarette
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4538180
+END=4681985
+title=Little Richard - Lucille
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4681986
+END=4863639
+title=Otis Redding - I've Been Loving You Too Long
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4863640
+END=5117869
+title=Jimi Hendrix - Are You Experienced
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5117870
+END=5301203
+title=Ike & Tina Turner - It's Gonna Work Out Fine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5301204
+END=5516073
+title=Ike & Tina Turner - River Deep - Mountain High
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5516074
+END=5741959
+title=Sam Cooke - Mean Old World
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5741960
+END=5943677
+title=Otis Redding - Try a Little Tenderness
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5943678
+END=6113523
+title=Jerry Lee Lewis - Whole Lotta Shakin' Going On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6113524
+END=6256369
+title=J.J. Cale - Crazy Mama
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6256370
+END=6488831
+title=Ry Cooder - Little Sister
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6488832
+END=6666237
+title=(question mark) & The Mysterians - 96 Tears
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6666238
+END=6799027
+title=Ameritz Top Tracks - Land of a Thousand Dances (1000) [In the Style of Cannibal and the Headhunters] [Karaoke Version]
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6799028
+END=6954209
+title=Huey 'Piano' Smith, His Clowns - Don't You Just Know It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6954210
+END=7126767
+title=Bobby Charles - See You Later Alligator
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7126768
+END=7268629
+title=Clarence 'Frogman' Henry - Ain't Got No Home
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7268630
+END=7439075
+title=Jimmy Reed - Big Boss Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7439076
+END=7588329
+title=Jimmy Reed - Hush, Hush
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7588330
+END=7746367
+title=John Lee Hooker - Boogie Chillun
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7746368
+END=7916357
+title=Albert King - Born Under A Bad Sign - Mono Mix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7916358
+END=8092635
+title=Booker T. & the M.G.'s - Green Onions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8092636
+END=8250505
+title=Wilson Pickett - Ninety-Nine and One-Half (Won't Do)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8250506
+END=8409479
+title=Sam & Dave - Soul Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8409480
+END=8597037
+title=The Youngbloods - Sunlight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8597038
+END=8761843
+title=The Left Banke - Walk Away Renee
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8761844
+END=8920577
+title=The Left Banke - Pretty Ballerina
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8920578
+END=9066639
+title=The Students - I'm so Young
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9066640
+END=9211381
+title=Jackie & The Starlites - Valerie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9211382
+END=9389435
+title=The Easybeats - Falling Off The Edge Of The World
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9389436
+END=9565401
+title=The Cadillacs - Gloria
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9565402
+END=9732463
+title=Hank Ballard & The Midnighters - Work with Me Annie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9732464
+END=9890333
+title=Hank Ballard & The Midnighters - Annie Had a Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9890334
+END=10037139
+title=Little Richard - Tutti Frutti
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10037140
+END=10217233
+title=B.B. King - Rock Me Baby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10217234
+END=10506647
+title=Al Green - Belle
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10506648
+END=10926981
+title=Al Green - Georgia Boy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10926982
+END=11050867
+title=Ricky Nelson - My Bucket's Got A Hole In It - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11050868
+END=11190137
+title=Ricky Nelson - Hello Mary Lou (Goodbye Heart)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11190138
+END=11518215
+title=James Brown & The Famous Flames - There Was A Time - Kenny Dope Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11518216
+END=12023341
+title=Laurie Anderson - O Superman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12023342
+END=12292259
+title=Kate Bush - Wuthering Heights
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12292260
+END=12465273
+title=The Beach Boys - God Only Knows - Mono 1997 Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12465274
+END=12611791
+title=Link Wray - Rumble
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12611792
+END=12762173
+title=Ann Peebles - I Can't Stand the Rain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12762174
+END=12921555
+title=Skeeter Davis - The End of the World
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12921556
+END=13062841
+title=Bob Dylan - Subterranean Homesick Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13062842
+END=13511927
+title=Bob Dylan - It's Alright, Ma (I'm Only Bleeding)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13511928
+END=13867989
+title=Bob Dylan - Foot of Pride - Studio Outtake - 1983
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13867990
+END=14129539
+title=Peter Gabriel - Solsbury Hill
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14129540
+END=14357393
+title=Carpenters - Superstar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14357394
+END=14584383
+title=Charlie Dore - Pilot Of The Airwaves
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14584384
+END=14797429
+title=The Rolling Stones - Start Me Up - Remastered 2009
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14797430
+END=14956739
+title=Bobby 'Blue' Bland - Turn On Your Love Light
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14956740
+END=15161289
+title=Solomon Burke - Keep a Light In the Window
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15161290
+END=15333367
+title=James Brown & The Famous Flames - Think
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15333368
+END=15473261
+title=Sly & The Family Stone - Everyday People
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15473262
+END=15661107
+title=Sly & The Family Stone - Everybody Is a Star - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15661108
+END=15817753
+title=Etta James - I'd Rather Go Blind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15817754
+END=15959567
+title=Carla Thomas - Gee Whiz, Look at His Eyes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15959568
+END=16266885
+title=Clarence Carter - Making Love (At the Dark End of the Street)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16266886
+END=16438651
+title=Aretha Franklin - I Never Loved a Man (The Way I Love You)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16438652
+END=16618505
+title=Ameritz Karaoke Entertainment - Who's Making Love (In the Style of Johnny Taylor) [Karaoke Version]
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16618506
+END=16797471
+title=James & Bobby Purify - I'm Your Puppet
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16797472
+END=16963405
+title=Aaron Neville - Tell It Like It Is
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16963406
+END=17109659
+title=Lee Dorsey - Get out of My Life Woman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17109660
+END=17261265
+title=Fats Domino - Ain't That A Shame
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17261266
+END=17389495
+title=James & Bobby Purify - Shake a Tail Feather
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17389496
+END=17785661
+title=Detroit - Rock 'n' Roll
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17785662
+END=18059115
+title=U2 - Stuck In A Moment You Can't Get Out Of
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18059116
+END=18395401
+title=John Lennon - Mother - Remastered 2010
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18395402
+END=18653183
+title=John Lennon - Jealous Guy - Remastered 2010
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18653184
+END=18979341
+title=Moe Tucker - Spam Again
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18979342
+END=19198627
+title=Stevie Wonder - Living For The City
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19198628
+END=19431617
+title=Marvin Gaye - What's Going On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19431618
+END=19709583
+title=Ameritz Top Tracks - Night Shift (In the Style of Commodores) [Karaoke Version]
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19709584
+END=19822093
+title=The Chiffons - He's So Fine - Remastered 2000
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19822094
+END=19825019
+title=Outro
+
+[STREAM]
+title=038 by Lou Reed - 100 Favorite Songs Of All Time
