@@ -1,0 +1,183 @@
+;FFMETADATA1
+title=039 by Lou Reed - What I'm Listening To
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=29277
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29278
+END=214531
+title=Nicki Minaj - Come On A Cone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=214532
+END=477305
+title=Albert Ayler - Spiritual Rebirth - Live At The Village Theatre1967
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=477306
+END=620679
+title=Roy Orbison - Ooby Dooby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=620680
+END=846901
+title=Prince - Kiss
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=846902
+END=1125323
+title=Fucked Up - Life In Paper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1125324
+END=1315713
+title=The King Khan & BBQ Show - I’ll Be Loving You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1315714
+END=1476535
+title=Waylon Jennings - Waymore's Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1476536
+END=1689533
+title=Georgia Anne Muldrow - Kali Yuga
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1689534
+END=1750227
+title=Captain Beefheart & His Magic Band - Flavor Bud Living - 2006 Digital Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1750228
+END=1968217
+title=of Montreal - Spiteful Intervention
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1968218
+END=2106935
+title=Ricky Nelson - Hello Mary Lou (Goodbye Heart) - 2005 Digital Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2106936
+END=2297325
+title=Tom Waits - Bad As Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2297326
+END=2465827
+title=Miles Davis - Générique
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2465828
+END=2602241
+title=Deerhoof - No One Asked to Dance
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2602242
+END=2889399
+title=Antony and the Johnsons - Crazy In Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2889400
+END=3059437
+title=Howlin' Wolf - I Asked For Water (She Gave Me Gasoline)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3059438
+END=3262355
+title=Lonnie Johnson - That Lonesome Road
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3262356
+END=3422337
+title=Otis Redding - Shake - Mono\; 2008 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3422338
+END=3623791
+title=Emily Haines & The Soft Skeleton - The Maid Needs a Maid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3623792
+END=3813197
+title=Perfume Genius - Dark Parts
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3813198
+END=3945771
+title=Ty Segall - Melted
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3945772
+END=4231441
+title=Leonard Cohen - Lullaby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4231442
+END=4429871
+title=Dr. Dog - Lonesome
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4429872
+END=4559253
+title=Napalm Death - Circumspect
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4559254
+END=4696123
+title=Eddy Current Suppression Ring - You Don't Care
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4696124
+END=4947737
+title=Daughter - Youth
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4947738
+END=5208519
+title=Robyn - Hang With Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5208520
+END=5211445
+title=Outro
+
+[STREAM]
+title=039 by Lou Reed - What I'm Listening To

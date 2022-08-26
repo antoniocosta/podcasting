@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Thu, 14 Jul 2022 22:27:37 +0200</lastBuildDate>
+        <lastBuildDate>Sat, 27 Aug 2022 01:27:18 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 039 by Lou Reed - What I'm Listening To</title>
+                <link>https://allmyfavoritesongs.com#039</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-039-lou-reed</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-039-lou-reed/all-my-favorite-songs-039-lou-reed.mp3" length="166863481" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-039-lou-reed/all-my-favorite-songs-039-lou-reed.jpg' />
+                <description>Lewis Allan Reed (March 2, 1942 - October 27, 2013) was an American musician, singer, songwriter, and poet. He was the guitarist, singer, and principal songwriter for the rock band the Velvet Underground and had a solo career that spanned five decades. Although not commercially successful during its existence, the Velvet Underground became regarded as one of the most influential bands in the history of underground and alternative rock music. Reed&#39;s distinctive deadpan voice, poetic and transgressive lyrics, and experimental guitar playing were trademarks throughout his long career. &lt;br /&gt; &lt;br /&gt; In this episode a compilation of Reed&#39;s final two playlists curated by himself (for a popular online music streaming platform that shall remain unnamed), before he passed in 2013, revealing what he was listening to in his final days.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Nicki Minaj, Albert Ayler, Roy Orbison, Prince, Fucked Up, The King Khan &amp; BBQ Show, Waylon Jennings, Georgia Anne Muldrow, Captain Beefheart &amp; His Magic Band, of Montreal, Ricky Nelson, Tom Waits, Miles Davis, Deerhoof, Antony and the Johnsons, Howlin&#39; Wolf, Lonnie Johnson, Otis Redding, Emily Haines &amp; The Soft Skeleton, Perfume Genius, Ty Segall, Leonard Cohen, Dr. Dog, Napalm Death, Eddy Current Suppression Ring, Daughter, Robyn</description>
+                <pubDate>Fri, 26 Aug 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 038 by Lou Reed - 100 Favorite Songs Of All Time</title>
