@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sat, 27 Aug 2022 01:27:44 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 13 Sep 2022 22:16:37 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 040 by Anthony Bourdain - 25 favorite songs to cook to</title>
+                <link>https://allmyfavoritesongs.com#040</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-040-anthony-bourdain</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-040-anthony-bourdain/all-my-favorite-songs-040-anthony-bourdain.mp3" length="201007156" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-040-anthony-bourdain/all-my-favorite-songs-040-anthony-bourdain.jpg' />
+                <description>Anthony Michael Bourdain (June 25, 1956 – June 8, 2018) was an American celebrity chef, author, and travel documentarian who starred in programs focusing on the exploration of international culture, cuisine, and the human condition. Bourdain was a figure who became synonymous with non-conformity and a determination to forge his own path, regardless of the hurdles in front of him. Whether through his progressive food, his dedication to the dive bar and all its inhabitants, or his adoration of all things punk, Anthony Bourdain was a bastion of anti-establishment splendour and he was determined to integrate his two passions. &lt;br /&gt; &lt;br /&gt; In this episode the list of perfect songs to cook to, created by Bourdain for his PBS show The Mind of a Chef, that aired in 6 seasons from 2012 to 2017.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Bobby Womack, Curtis Mayfield, Mark Lanegan, Bill Withers, Bob Dylan, Roxy Music, Bush Tetras, Johnny Thunders, The Chambers Brothers, Pretenders, The Velvet Underground, A Tribe Called Quest, Tony! Toni! Toné!, The Brian Jonestown Massacre, Stevie Ray Vaughan, Sly &amp; The Family Stone, Ryuichi Sakamoto, The Rolling Stones, Randy Crawford, Porno for Pyros, Jacques Dutronc, Ennio Morricone, John Barry, Elvis Costello &amp; The Attractions, Earth, Wind &amp; Fire</description>
+                <pubDate>Tue, 13 Sep 2022 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 039 by Lou Reed - What I'm Listening To</title>

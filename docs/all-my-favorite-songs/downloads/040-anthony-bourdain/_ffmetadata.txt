@@ -1,0 +1,171 @@
+;FFMETADATA1
+title=040 by Anthony Bourdain - 25 favorite songs to cook to
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=29877
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29878
+END=260371
+title=Bobby Womack - Across 110th Street
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=260372
+END=694625
+title=Curtis Mayfield - Pusher Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=694626
+END=882543
+title=Mark Lanegan - Wedding Dress
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=882544
+END=1111045
+title=Bill Withers - Use Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1111046
+END=1452659
+title=Bob Dylan - Tangled up in Blue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1452660
+END=1769193
+title=Roxy Music - Both Ends Burning
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1769194
+END=2011015
+title=Bush Tetras - Too Many Creeps
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2011016
+END=2183837
+title=Johnny Thunders - You Can't Put Your Arms Around A Memory
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2183838
+END=2474763
+title=The Chambers Brothers - Time Has Come Today
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2474764
+END=2710393
+title=Pretenders - Hollywood Perfume
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2710394
+END=3031847
+title=The Velvet Underground - Sweet Jane - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3031848
+END=3180549
+title=A Tribe Called Quest - What
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3180550
+END=3422011
+title=Tony! Toni! Toné! - If I Had No Loot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3422012
+END=3756473
+title=The Brian Jonestown Massacre - Anemone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3756474
+END=3997239
+title=Stevie Ray Vaughan - Cold Shot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3997240
+END=4182757
+title=Sly & The Family Stone - Family Affair - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4182758
+END=4469219
+title=Ryuichi Sakamoto - Merry Christmas Mr. Lawrence
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4469220
+END=4708065
+title=The Rolling Stones - Plundered My Soul
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4708066
+END=4964671
+title=Randy Crawford - Street Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4964672
+END=5181389
+title=Porno for Pyros - Pets
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5181390
+END=5356851
+title=Jacques Dutronc - Et moi, et moi, et moi
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5356852
+END=5503870
+title=Ennio Morricone - Main Titles (Violent City)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5503871
+END=5713820
+title=John Barry - You Only Live Twice
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5713821
+END=5929818
+title=Elvis Costello & The Attractions - Riot Act
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5929819
+END=6275320
+title=Earth, Wind & Fire - That's The Way Of The World
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6275321
+END=6278246
+title=Outro
+
+[STREAM]
+title=040 by Anthony Bourdain - 25 favorite songs to cook to
