@@ -75,8 +75,12 @@ function download_playlist {
 			${options[0]})
 				echo "You chose $REPLY: $opt"
 				echo "Downloading all playlist's songs with SpotDL..."
-				pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
-				# spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u  # Use locally installed version instead
+				# Use (old)locally installed version:
+ 				# spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u  
+ 				# Use remote version:
+				#pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
+				# Nov 6 '22: new version changed command syntax. See: https://spotdl.readthedocs.io/en/latest/usage/
+				pipx run spotdl download $SPOTIFY_PLAYLIST_URL --m3u --save-file "./_save_file.spotdl" --preload --print-errors 
 
 				break
 				;;

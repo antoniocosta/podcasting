@@ -1,0 +1,189 @@
+;FFMETADATA1
+title=041 by Josh Homme - Fill in for Jarvis Cocker
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28869
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28870
+END=211075
+title=Screamin' Jay Hawkins - Alligator Wine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=211076
+END=516329
+title=WhoMadeWho - Space for Rent
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=516330
+END=727383
+title=The Cramps - Garbageman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=727384
+END=888493
+title=The Damned - Neat Neat Neat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=888494
+END=1125467
+title=Björk - Enjoy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1125468
+END=1273185
+title=Primal Scream - Miss Lucifer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1273186
+END=1485991
+title=The Saints - I'm Stranded
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1485992
+END=1720421
+title=The Doors - Not to Touch the Earth
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1720422
+END=1869171
+title=Iceage - Ecstasy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1869172
+END=2097481
+title=Bill Withers - Use Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2097482
+END=2290487
+title=Bauhaus - Ziggy Stardust
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2290488
+END=2553837
+title=Roky Erickson - Anthem (I Promise)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2553838
+END=2876179
+title=Sly & The Family Stone - I Want to Take You Higher
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2876180
+END=3091961
+title=Savages - No Face
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3091962
+END=3405015
+title=Komeda - Disko
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3405016
+END=3487333
+title=Misfits, Glenn Danzig - She
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3487334
+END=3722315
+title=Gnonnas Pedro et ses Dadjes - Dadje Von O Von Non
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3722316
+END=3892041
+title=Eagles Of Death Metal - Speaking In Tongues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3892042
+END=4143295
+title=Grimes - Oblivion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4143296
+END=4354445
+title=Beck - Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4354446
+END=4719963
+title=Blonde Redhead - In Particular
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4719964
+END=4965241
+title=Cat Power - Werewolf
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4965242
+END=5135135
+title=Ramones - Sheena Is a Punk Rocker - 2017 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5135136
+END=5367045
+title=ACDC - Dirty Deeds Done Dirt Cheap
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5367046
+END=5513155
+title=Iggy Pop - Sixteen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5513156
+END=5768969
+title=Iggy Pop - Nightclubbing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5768970
+END=5978199
+title=Arctic Monkeys - Do Me a Favour
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5978200
+END=6169693
+title=Bobby 'Boris' Pickett - Monster Mash
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6169694
+END=6172619
+title=Outro
+
+[STREAM]
+title=041 by Josh Homme - Fill in for Jarvis Cocker

@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Tue, 13 Sep 2022 22:29:27 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 06 Nov 2022 21:23:01 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 041 by Josh Homme - Fill in for Jarvis Cocker</title>
+                <link>https://allmyfavoritesongs.com#041</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-041-josh-homme</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-041-josh-homme/all-my-favorite-songs-041-josh-homme.mp3" length="197710596" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-041-josh-homme/all-my-favorite-songs-041-josh-homme.jpg' />
+                <description>Joshua Michael Homme (born May 17, 1973) is an American musician, singer, and songwriter. Homme has been part of two of the most acclaimed stoner rock/metal bands of the late &#39;90s and early 2000s, Kyuss and Queens of the Stone Age. He is best known as the founder, primary songwriter, and only continuous member of the rock band Queens of the Stone Age, which he formed in 1996 and in which he sings lead vocals and plays guitar, as well as occasionally playing bass and drums. He also co-founded Eagles of Death Metal in 1998, playing drums and bass for their studio recordings and occasionally performing live with them. &lt;br /&gt; &lt;br /&gt; In this episode the full collection of songs played by Homme on Jan 2nd 2014, when filling in for Jarvis Cocker on his BBC Radio 6 radio show called Sunday Service (aired from 2010 to 2017). An eclectic two-hour mix of music from Homme&#39;s record collection, with a definite nod towards the darkside and the downright dirty.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Screamin&#39; Jay Hawkins, WhoMadeWho, The Cramps, The Damned, Björk, Primal Scream, The Saints, The Doors, Iceage, Bill Withers, Bauhaus, Roky Erickson, Sly &amp; The Family Stone, Savages, Komeda, Misfits, Glenn Danzig, Gnonnas Pedro et ses Dadjes, Eagles Of Death Metal, Grimes, Beck, Blonde Redhead, Cat Power, Ramones, ACDC, Iggy Pop, Arctic Monkeys, Bobby &#39;Boris&#39; Pickett</description>
+                <pubDate>Sun, 06 Nov 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 040 by Anthony Bourdain - 25 Favorite Songs To Cook To</title>
