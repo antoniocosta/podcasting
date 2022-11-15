@@ -1,0 +1,531 @@
+;FFMETADATA1
+title=042 by Stephen King - Favorite songs of all time
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=26613
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=26614
+END=262147
+title=Spoon - I Summon You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=262148
+END=469961
+title=Alejandro Escovedo - Castanets
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=469962
+END=771255
+title=Slobberbone - Gimme Back My Dog
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=771256
+END=1034485
+title=James McMurtry - See the Elephant
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1034486
+END=1277195
+title=Alan Jackson - Drive (For Daddy Gene)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1277196
+END=1447113
+title=The Beach Boys - Don't Worry Baby - Remastered 2001
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1447114
+END=1627231
+title=Chuck Prophet - Rise
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1627232
+END=1754405
+title=Henry Mancini - Peter Gunn
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1754406
+END=1938915
+title=The Inmates - Turn Back The Hands Of Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1938916
+END=2110489
+title=The Raveonettes - Love In a Trashcan
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2110490
+END=2424791
+title=Michael McDermott - Dance With Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2424792
+END=2717949
+title=Ollabelle - All Is Well
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2717950
+END=2957323
+title=Diesel Doug & the Long Haul Truckers - If I'd Shot Her When I Met Her (I'd be Out of Jail by now)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2957324
+END=3234473
+title=Tim Easton - Carry Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3234474
+END=3532983
+title=Billy Bragg, Wilco - California Stars
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3532984
+END=3717637
+title=Ryan Adams - To Be Young (Is to Be Sad, Is to Be High)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3717638
+END=3818771
+title=The Gothic Archies - City of the Damned
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3818772
+END=4031145
+title=Rhett Miller - Our Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4031146
+END=4210615
+title=The Beatles - The Ballad Of John And Yoko - Remastered 2015
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4210616
+END=4414133
+title=Judas Priest - Diamonds and Rust
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4414134
+END=4548579
+title=Ramones - Blitzkrieg Bop - 2016 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4548580
+END=4879153
+title=Kenny Wayne Shepherd - Blue on Black
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4879154
+END=5067527
+title=Shooter Jennings - Manifesto No. 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5067528
+END=5269053
+title=Flogging Molly - If I Ever Leave This World Alive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5269054
+END=5393035
+title=Ricky Nelson - My Bucket's Got A Hole In It - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5393036
+END=5644385
+title=Al Kooper, Jimmy Vivino - Downtime
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5644386
+END=5863287
+title=Thelma Houston - Don't Leave Me This Way - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5863288
+END=6048373
+title=KC & The Sunshine Band - That's the Way (I Like It) - 2004 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6048374
+END=6714602
+title=LCD Soundsystem - Yeah - Pretentious Mix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6714603
+END=7098144
+title=Wilco - Handshake Drugs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7098145
+END=7381798
+title=John Mellencamp - Pink Houses
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7381799
+END=7596332
+title=ACDC - Stiff Upper Lip
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7596333
+END=7747194
+title=Danny & The Juniors - At The Hop
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7747195
+END=7894528
+title=Jan & Dean - The New Girl In School
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7894529
+END=8146214
+title=The Rolling Stones - Dance Little Sister - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8146215
+END=8313444
+title=The Standells - Dirty Water
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8313445
+END=8478754
+title=The Kingsmen - Louie Louie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8478755
+END=8654408
+title=Creedence Clearwater Revival - It Came Out Of The Sky
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8654409
+END=8942190
+title=Johnny Rivers - Secret Agent Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8942191
+END=9075820
+title=The Searchers - Needles and Pins - Mono
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9075821
+END=9323426
+title=Nathaniel Rateliff & The Night Sweats - S.O.B.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9323427
+END=9618816
+title=The Knack - My Sharona
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9618817
+END=9792790
+title=Iron Butterfly - In-A-Gadda-Da-Vida - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9792791
+END=10037300
+title=The Rolling Stones - Dead Flowers - 2009 Mix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10037301
+END=10171674
+title=The Beach Boys - I Get Around (Mono)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10171675
+END=10284424
+title=John Cafferty & the Beaver Brown Band - On The Dark Side
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10284425
+END=10447478
+title=Chuck Berry - You Never Can Tell - 1964 Single Version Mono
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10447479
+END=10597260
+title=Lyres - I Want To Help You Ann
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10597261
+END=10795186
+title=The Hollies - Long Cool Woman (In a Black Dress) - 2003 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10795187
+END=11209208
+title=ACDC - Ain't No Fun (Waiting Round to Be a Millionaire)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11209209
+END=11606190
+title=Metallica - Ride The Lightning (Remastered)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11606191
+END=11923036
+title=Anthrax - Among The Living
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11923037
+END=12160370
+title=Pantera - Mouth for War
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12160371
+END=12372840
+title=Sex Pistols - Anarchy in the U.K.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12372841
+END=12523030
+title=Little Richard - The Girl Can't Help It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12523031
+END=12671732
+title=The Dominoes And Billie Wand - Sixty Minute Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12671733
+END=12813162
+title=Elvis Presley - A Big Hunk o' Love - with The Royal Philharmonic Orchestra
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12813163
+END=12909376
+title=Mickey Hawks - Bip Bop Boom
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12909377
+END=13040558
+title=Wanda Jackson - Let's Have A Party
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13040559
+END=13213692
+title=Gary U.S. Bonds - New Orleans
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13213693
+END=13457938
+title=Bruce Springsteen - Ramrod
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13457939
+END=13576160
+title=Eddie Cochran - C’Mon Everybody
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13576161
+END=13707150
+title=Connie Francis - Stupid Cupid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13707151
+END=13803004
+title=Elvis Costello - Mystery Dance
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13803005
+END=13974410
+title=Elvis Presley - Burning Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13974411
+END=14118720
+title=Rancid - Time Bomb
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14118721
+END=14290606
+title=Langhorne Slim - Worries
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14290607
+END=14594396
+title=The Tractors - Fast Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14594397
+END=14843898
+title=Shawn Mullins - Beautiful Wreck
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14843899
+END=14981584
+title=The Rockin' Rebels - Wild Weekend
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14981585
+END=15143606
+title=Janis Ian - Mrs. McKenzie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15143607
+END=15283812
+title=Alvin 'Youngblood' Hart & Teenie Hodges - Step It up & Go
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15283813
+END=15457402
+title=Sam Cooke - Shake
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15457403
+END=15654176
+title=Jimmy Buffett - Stars On The Water
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15654177
+END=15900390
+title=Phil Vassar - Carlene
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15900391
+END=16058668
+title=Fred Eaglesmith - I Shot Your Dog
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16058669
+END=16370426
+title=Bruce Springsteen - Seeds - Live at LA Coliseum, Los Angeles, CA - September 1985
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16370427
+END=16690176
+title=Tom Rush - Galveston Flood
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16690177
+END=16973662
+title=Richard Thompson - 1952 Vincent Black Lightning
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16973663
+END=17176268
+title=The Cramps - Can Your Pussy Do the Dog
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17176269
+END=17467098
+title=James McMurtry - Bayou Tortous
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17467099
+END=17643184
+title=The Manhattan Transfer - Baby Come Back To Me (The Morse Code Of Love)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17643185
+END=17930006
+title=Tift Merritt - Diamond Shoes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17930007
+END=18277932
+title=Bright Eyes - Land Locked Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18277933
+END=18513706
+title=Mavis Staples - If All I Was Was Black
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18513707
+END=18516632
+title=Outro
+
+[STREAM]
+title=042 by Stephen King - Favorite songs of all time

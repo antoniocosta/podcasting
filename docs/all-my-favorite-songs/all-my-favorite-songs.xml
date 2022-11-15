@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 06 Nov 2022 21:23:51 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 15 Nov 2022 01:09:30 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 042 by Stephen King - Favorite songs of all time</title>
+                <link>https://allmyfavoritesongs.com#042</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-042-stephen-king</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-042-stephen-king/all-my-favorite-songs-042-stephen-king.mp3" length="444787702" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-042-stephen-king/all-my-favorite-songs-042-stephen-king.jpg' />
+                <description>Stephen Edwin King (born September 21, 1947) is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels. Described as the &#39;King of Horror&#39;, a play on his surname and a reference to his high standing in pop culture, his books have sold more than 350 million copies, and many have been adapted into films, television series, miniseries, and comic books. &lt;br /&gt; &lt;br /&gt; In this episode a list gathered from the many bands and artists Stephen King has professed his love for over the years.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Spoon, Alejandro Escovedo, Slobberbone, James McMurtry, Alan Jackson, The Beach Boys, Chuck Prophet, Henry Mancini, The Inmates, The Raveonettes, Michael McDermott, Ollabelle, Diesel Doug &amp; the Long Haul Truckers, Tim Easton, Billy Bragg, Wilco, Ryan Adams, The Gothic Archies, Rhett Miller, The Beatles, Judas Priest, Ramones, Kenny Wayne Shepherd, Shooter Jennings, Flogging Molly, Ricky Nelson, Al Kooper, Jimmy Vivino, Thelma Houston, KC &amp; The Sunshine Band, LCD Soundsystem, John Mellencamp, ACDC, Danny &amp; The Juniors, Jan &amp; Dean, The Rolling Stones, The Standells, The Kingsmen, Creedence Clearwater Revival, Johnny Rivers, The Searchers, Nathaniel Rateliff &amp; The Night Sweats, The Knack, Iron Butterfly, John Cafferty &amp; the Beaver Brown Band, Chuck Berry, Lyres, The Hollies, Metallica, Anthrax, Pantera, Sex Pistols, Little Richard, The Dominoes And Billie Wand, Elvis Presley, Mickey Hawks, Wanda Jackson, Gary U.S. Bonds, Bruce Springsteen, Eddie Cochran, Connie Francis, Elvis Costello, Rancid, Langhorne Slim, The Tractors, Shawn Mullins, The Rockin&#39; Rebels, Janis Ian, Alvin &#39;Youngblood&#39; Hart &amp; Teenie Hodges, Sam Cooke, Jimmy Buffett, Phil Vassar, Fred Eaglesmith, Tom Rush, Richard Thompson, The Cramps, The Manhattan Transfer, Tift Merritt, Bright Eyes, Mavis Staples</description>
+                <pubDate>Tue, 15 Nov 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 041 by Josh Homme - Fill in for Jarvis Cocker</title>
