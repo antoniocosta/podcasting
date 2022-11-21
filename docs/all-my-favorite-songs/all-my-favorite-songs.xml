@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Tue, 15 Nov 2022 01:12:43 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 21 Nov 2022 15:51:07 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 043 by Kim Gordon - Sit in for Iggy Pop</title>
+                <link>https://allmyfavoritesongs.com#043</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-043-kim-gordon</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-043-kim-gordon/all-my-favorite-songs-043-kim-gordon.mp3" length="228118993" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-043-kim-gordon/all-my-favorite-songs-043-kim-gordon.jpg' />
+                <description>Kim Althea Gordon (born April 28, 1953) is an American musician, singer, and songwriter, best known as the bassist, guitarist, and vocalist of alternative rock band Sonic Youth. During her time with that band, her smoky, half-spoken, half-sung vocals and feminist viewpoint added depth to their experimental rock and made her a major figure on the American indie rock scene from the &#39;80s onward. &lt;br /&gt; &lt;br /&gt; In this episode the full playlist of songs played by Gordon on April 3rd 2020, when sitting in for Iggy Pop on his BBC Radio 6 show.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; The Fall, Nina Simone, Alice Coltrane, Pharoah Sanders, The Stooges, DNA, J Mascis, Heron Oblivion, Missy Elliott, PJ Harvey, Gold Dime, Television, Talk Normal, Neil Young, Crazy Horse, Brigitte Fontaine, Eleanor Friedberger, Linda Ronstadt, Stina Nordenstam, Aimee Mann, Nas, Nico, Karen Dalton, Mira, Islaja, Mazzy Star, Abbey Lincoln, Cardi B, Charli XCX, Patty Waters</description>
+                <pubDate>Mon, 21 Nov 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 042 by Stephen King - Favorite songs of all time</title>

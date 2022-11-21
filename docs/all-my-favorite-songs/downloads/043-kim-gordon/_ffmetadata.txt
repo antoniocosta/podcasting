@@ -1,0 +1,189 @@
+;FFMETADATA1
+title=043 by Kim Gordon - Sit in for Iggy Pop
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28485
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28486
+END=343987
+title=The Fall - Gut of the Quantifier
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=343988
+END=603521
+title=Nina Simone - Suzanne
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=603522
+END=999567
+title=Alice Coltrane, Pharoah Sanders - Journey In Satchidananda
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=999568
+END=1179349
+title=The Stooges - Ann
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1179350
+END=1289531
+title=DNA - Blonde Redhead
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1289532
+END=1491633
+title=J Mascis - See You At The Movies
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1491634
+END=1865047
+title=Heron Oblivion - Your Hollows
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1865048
+END=2128253
+title=Missy Elliott - Work It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2128254
+END=2279955
+title=PJ Harvey - Shame
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2279956
+END=2448265
+title=Gold Dime - Hindsight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2448266
+END=2677271
+title=Television - Venus
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2677272
+END=2886045
+title=Talk Normal - In a Strangeland
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2886046
+END=3335995
+title=Neil Young, Crazy Horse - Cortez the Killer - 2016 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3335996
+END=3586337
+title=Brigitte Fontaine - Le goudron
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3586338
+END=3805479
+title=Eleanor Friedberger - I Won't Fall Apart on You Tonight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3805480
+END=3967933
+title=Linda Ronstadt - Different Drum - 2015 Remastered Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3967934
+END=4200467
+title=Stina Nordenstam - Purple Rain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4200468
+END=4474953
+title=Aimee Mann - Save Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4474954
+END=4768903
+title=Nas - N.Y. State of Mind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4768904
+END=5251133
+title=Nico - It Was A Pleasure Then
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5251134
+END=5454459
+title=Karen Dalton - Something On Your Mind
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5454460
+END=5739313
+title=Mira - When You Sleep (My Bloody Valentine cover)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5739314
+END=5916119
+title=Islaja - Laivat saapuu
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5916120
+END=6211701
+title=Mazzy Star - Fade Into You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6211702
+END=6536275
+title=Abbey Lincoln - Straight Ahead
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6536276
+END=6759977
+title=Cardi B - Bodak Yellow
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6759978
+END=7034991
+title=Charli XCX - Shake It (feat. Big Freedia, CupcakKe, Brooke Candy and Pabllo Vittar)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7034992
+END=7117141
+title=Patty Waters - You Thrill Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7117142
+END=7120067
+title=Outro
+
+[STREAM]
+title=043 by Kim Gordon - Sit in for Iggy Pop
