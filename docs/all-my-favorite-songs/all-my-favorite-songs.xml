@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Mon, 21 Nov 2022 15:51:07 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 18 Dec 2022 14:41:12 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2022 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 044 by Busy P - On My Stereo</title>
+                <link>https://allmyfavoritesongs.com#044</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-044-busy-p</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-044-busy-p/all-my-favorite-songs-044-busy-p.mp3" length="306207323" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-044-busy-p/all-my-favorite-songs-044-busy-p.jpg' />
+                <description>Pedro Winter (born Pierre Winter; 21 April 1975), also known by the stage name Busy P, is a French record producer, DJ, record label owner, and former artist manager. After being the manager of Daft Punk from 1996 to 2008, he founded the electronic music label Ed Banger Records, in which he signed artists like Justice, Breakbot, SebastiAn, Cassius, Mr. Oizo, DJ Mehdi and Myd among others. &lt;br /&gt; &lt;br /&gt; In this episode all time favourites as released by Winter as a playlist on a popular music streaming platform (that shall remain unnamed), between May and December 2017.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Vladimir Cauchemar, Myd, Red Axes, Post Malone, 21 Savage, Nosaj Thing, Charlotte Gainsbourg, Siriusmo, Justice, LCD Soundsystem, Arnaud Rebotini, London Grammar, Busy P, Boston Bun, Royal Blood, Soulwax, Feist, Pépite, Parcels, Thundercat, Pharrell Williams, Kendrick Lamar, Madlib, Jeff Mills, Mr Flash, Brodinski, JAY-Z, Kanye West, Lucien Kimono, Tepr, DJ Hell, Corine, Dopplereffekt, Hugues Rey, DJ Mehdi, 10LEC6, Mary J. Blige, KAYTRANADA, BADBADNOTGOOD, Future, Amber Mark, Cashmere Cat</description>
+                <pubDate>Sun, 18 Dec 2022 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 043 by Kim Gordon - Sit in for Iggy Pop</title>

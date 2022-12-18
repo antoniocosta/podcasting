@@ -1,0 +1,261 @@
+;FFMETADATA1
+title=044 by Busy P - On My Stereo
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2022
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=31461
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=31462
+END=217411
+title=Vladimir Cauchemar - Aulos
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=217412
+END=426353
+title=Myd - The Sun
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=426354
+END=607431
+title=Red Axes - What Is In Your Head
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=607432
+END=825565
+title=Post Malone, 21 Savage - rockstar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=825566
+END=1086995
+title=Nosaj Thing - U G
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1086996
+END=1279449
+title=Myd - All Inclusive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1279450
+END=1512583
+title=Charlotte Gainsbourg - Deadly Valentine - Radio Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1512584
+END=1715069
+title=Siriusmo - Comic
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1715070
+END=1937043
+title=Justice - Pleasure - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1937044
+END=2284369
+title=LCD Soundsystem - tonite
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2284370
+END=2604191
+title=Arnaud Rebotini - 120 Battements Par Minute
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2604192
+END=3008181
+title=London Grammar - Non Believer - Richy Ahmed Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3008182
+END=3275851
+title=Busy P - Genie (feat. Mayer Hawthorne)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3275852
+END=3483113
+title=Boston Bun - Missing You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3483114
+END=3709191
+title=Royal Blood - Hole in Your Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3709192
+END=3901141
+title=Soulwax - Conditions Of A Shared Belief
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3901142
+END=4186283
+title=Feist - Pleasure
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4186284
+END=4373241
+title=Pépite - Les bateaux
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4373242
+END=4588663
+title=Parcels - Myenemy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4588664
+END=4737725
+title=Thundercat, Pharrell Williams - The Turn Down
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4737726
+END=4914699
+title=Kendrick Lamar - HUMBLE.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4914700
+END=5028289
+title=Madlib - The Payback (Gotta)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5028290
+END=5317463
+title=Jeff Mills - The Bells
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5317464
+END=5511237
+title=Mr Flash - Champions - TV Track
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5511238
+END=5784235
+title=Brodinski - Bad Runner
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5784236
+END=6035561
+title=JAY-Z, Kanye West - Nias In Paris
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6035562
+END=6120375
+title=JAY-Z - Izzo (H.O.V.A.) - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6120376
+END=6388909
+title=Lucien Kimono - Sp2500
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6388910
+END=6705299
+title=Tepr - Inquisifunk (feat. Kiddy Smile)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6705300
+END=6930249
+title=DJ Hell - I Want U - Video Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6930250
+END=7168327
+title=Corine - Pluie fine - Polo & Pan Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7168328
+END=7420181
+title=Dopplereffekt - Ulams Spiral
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7420182
+END=7667643
+title=Hugues Rey - Crashed
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7667644
+END=8112745
+title=DJ Mehdi - Breakaway dj mehdi remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8112746
+END=8522015
+title=Busy P - Genie (feat. Mayer Hawthorne) - Joe Goddard Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8522016
+END=8720733
+title=10LEC6 - Bedjem Mebok - DJ Bebedera Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8720734
+END=8957803
+title=Mary J. Blige, KAYTRANADA, BADBADNOTGOOD - Telling The Truth
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8957804
+END=9162377
+title=Future - Mask Off
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9162378
+END=9365895
+title=Amber Mark - Regret
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9365896
+END=9562117
+title=Cashmere Cat - Victoria's Veil
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9562118
+END=9565043
+title=Outro
+
+[STREAM]
+title=044 by Busy P - On My Stereo
