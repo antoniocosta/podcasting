@@ -6,9 +6,9 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 18 Dec 2022 14:42:08 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jan 2023 19:47:17 +0100</lastBuildDate>
         <language>en-us</language>
-        <copyright>&#xA9; 2022 A Bee MC</copyright>
+        <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
         <image>
                 <link>https://allmyfavoritesongs.com</link>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 045 by The Chats - Rage Guest</title>
+                <link>https://allmyfavoritesongs.com#045</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-045-the-chats</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-045-the-chats/all-my-favorite-songs-045-the-chats.mp3" length="315134408" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-045-the-chats/all-my-favorite-songs-045-the-chats.jpg' />
+                <description>The Chats are an Australian punk rock band that formed in 2016 in the Sunshine Coast, Queensland. They describe their sound as &#39;shed rock&#39;. The current band lineup is composed of guitarist Josh Hardy, drummer Matt Boggis, and bassist and vocalist Eamon Sandwith. The Chats make rambunctious old-school punk peppered with their cheeky, irreverent sense of humor. More interested in beer, smokes, and fast cars than the state of the world, the Chats follow in the tradition of Australian bands like the Cosmic Psychos, the Hard-Ons, and Dune Rats in cranking out raw, energetic punk with a smirking sense of fun and a regular-guy attitude. &lt;br /&gt; &lt;br /&gt; In this episode all songs selected by The Chats as guests for Australian TV show Rage, on September 14 2019.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; The Stooges, Frenzal Rhomb, Tony Dork, BadDreems, Tenacious D, Sex Pistols, LES LULLIES, Boing Boing, The Clash, The Unknowns, Tommy and the Commies, The Cavemen., Cosmic Psychos, Drunk Mums, C.O.F.F.I.N, Flight To Dubai, Pist Idiots, IDLES, The Living Eyes, STORK, WOD, Peter Bibby, Clowns, The Clean, XTC, DEVO, Black Eyed Peas, ACDC, The Angels, Deep Purple, Bob Dylan, Cold Chisel, Midnight Oil, J.J. Cale, Daryl Hall &amp; John Oates, Hello Sailor, The Bats, Mötley Crüe, Def Leppard, The Chats</description>
+                <pubDate>Mon, 02 Jan 2023 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 044 by Busy P - On My Stereo</title>

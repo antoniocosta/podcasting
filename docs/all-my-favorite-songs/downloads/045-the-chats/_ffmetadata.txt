@@ -1,0 +1,321 @@
+;FFMETADATA1
+title=045 by The Chats - Rage Guest
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27525
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27526
+END=180427
+title=The Stooges - Real Cool Time - 2019 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=180428
+END=498881
+title=The Stooges - No Fun - 2019 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=498882
+END=691191
+title=The Stooges - I Wanna Be Your Dog - 2019 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=691192
+END=829573
+title=Frenzal Rhomb - We're Going out Tonight
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=829574
+END=1013339
+title=Tony Dork - Quarter Life Crisis
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1013340
+END=1206273
+title=BadDreems - Feeling Remains
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1206274
+END=1454311
+title=Tenacious D - Tribute
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1454312
+END=1653749
+title=Sex Pistols - God Save The Queen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1653750
+END=1821699
+title=LES LULLIES - Night Klub
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1821700
+END=2024089
+title=Boing Boing - Smbyfp
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2024090
+END=2221511
+title=The Clash - Tommy Gun - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2221512
+END=2414349
+title=The Clash - Complete Control
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2414350
+END=2608435
+title=The Unknowns - I Feel Alright
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2608436
+END=2720729
+title=Tommy and the Commies - Permanent Fixture
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2720730
+END=2877807
+title=The Cavemen. - Janey
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2877808
+END=3090781
+title=Cosmic Psychos - Lost Cause
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3090782
+END=3296147
+title=Cosmic Psychos - Better, Not Bitter
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3296148
+END=3406137
+title=Drunk Mums - Nanganator
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3406138
+END=3485695
+title=C.O.F.F.I.N - Nails
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3485696
+END=3738869
+title=Flight To Dubai - Fearlings
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3738870
+END=3989067
+title=Pist Idiots - Motor Runnin
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3989068
+END=4193905
+title=IDLES - Danny Nedelko
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4193906
+END=4318655
+title=The Living Eyes - Spring
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4318656
+END=4483149
+title=STORK - Cane Toad
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4483150
+END=4626547
+title=STORK - Congrats
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4626548
+END=4890473
+title=WOD - What A Drag
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4890474
+END=5153919
+title=Peter Bibby - Hates My Boozin
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5153920
+END=5415133
+title=Clowns - I Wanna Feel Again
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5415134
+END=5572187
+title=The Clean - Anything Could Happen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5572188
+END=5688249
+title=The Clean - Beatnik
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5688250
+END=5871895
+title=XTC - Are You Receiving Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5871896
+END=6032021
+title=XTC - This Is Pop
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6032022
+END=6209187
+title=DEVO - Girl U Want
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6209188
+END=6422233
+title=Black Eyed Peas - Pump It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6422234
+END=6696455
+title=ACDC - If You Want Blood (You've Got It)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6696456
+END=6886485
+title=The Angels - Am I Ever Gonna See Your Face Again
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6886486
+END=7254427
+title=Deep Purple - Highway Star
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7254428
+END=7395713
+title=Bob Dylan - Subterranean Homesick Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7395714
+END=7663767
+title=Cold Chisel - Forever Now - 2011 Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7663768
+END=7919437
+title=Midnight Oil - Beds Are Burning - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7919438
+END=8088563
+title=J.J. Cale - Cocaine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8088564
+END=8231337
+title=Daryl Hall & John Oates - Rich Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8231338
+END=8408359
+title=Hello Sailor - Gutter Black
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8408360
+END=8647733
+title=The Bats - Made up in Blue
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8647734
+END=8930379
+title=Mötley Crüe - Kickstart My Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8930380
+END=9197665
+title=Def Leppard - Pour Some Sugar On Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9197666
+END=9343487
+title=The Chats - Pub Feed
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9343488
+END=9506421
+title=The Chats - Identity Theft
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9506422
+END=9685939
+title=The Chats - Smoko
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9685940
+END=9836825
+title=The Chats - Bus Money
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9836826
+END=9839751
+title=Outro
+
+[STREAM]
+title=045 by The Chats - Rage Guest
