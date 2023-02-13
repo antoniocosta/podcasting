@@ -82,7 +82,7 @@ function download_playlist {
  				# Use remote version:
 				#pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
 				# Nov 6 '22: new version changed command syntax. See: https://spotdl.readthedocs.io/en/latest/usage/
-				pipx run spotdl download $SPOTIFY_PLAYLIST_URL --m3u --save-file "./_save_file.spotdl" --preload --print-errors 
+				pipx run spotdl download $SPOTIFY_PLAYLIST_URL --m3u --save-file "./_save_file.spotdl" --preload --print-errors --bitrate 256k
 
 				break
 				;;
@@ -206,17 +206,19 @@ function add_metadata {
 
 	# Add id3 chapters
 
-	./m3u2chapters.sh $1 $2
+	./m3u2chapters.sh $1 $2 ####### DEBUGGING Feb 10
 
 	local mp3_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'$EP_FILE # The mp3 file without any metadata (full path)
 	local tmp_mp3_file_with_chapters=$ARCHIVE_DIR'/'$EP_SUBDIR'/_ffmetadata-'$EP_FILE # tmp output mp3 file (full path)
-	local metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/'_ffmetadata.txt # The temp metadata file itself
+	local metadata_file=$ARCHIVE_DIR'/'$EP_SUBDIR'/_ffmetadata.txt' # The temp metadata file itself
 	echo "Adding chapter metadata from _ffmetadata.txt to $EP_FILE"
-	# -loglevel info is the default
-	ffmpeg -hide_banner -loglevel warning \
+	# -loglevel info is the default. Other levels: warning, debug, trace
+	ffmpeg -hide_banner -loglevel trace \
 	-i $mp3_file -i "$metadata_file" \
 	-map_metadata 1 -codec copy \
 	$tmp_mp3_file_with_chapters
+
+	###### exit ###### DEBUGGING Feb 10
 
 	# Add id3 image cover
 
@@ -243,7 +245,7 @@ function add_metadata {
 	# Add image cover with ffmpeg
 	# See: https://stackoverflow.com/questions/18710992/how-to-add-album-art-with-ffmpeg
 	# See: http://www.ffmpeg.org/ffmpeg-all.html#mp3
-	# -loglevel info is the default
+	# -loglevel info is the default. Other levels: warning, debug, trace
 	ffmpeg -hide_banner -loglevel warning \
 	-i $tmp_mp3_file_with_chapters -i $tmp_cover \
 	-map 0:0 -map 1:0 -c copy -id3v2_version 3 \
@@ -273,7 +275,7 @@ download_playlist
 ### 2. Generate intro and outro mp3 files and add to playlist (only if not already done)
 intro_outro 
 ### 3. Merge all mp3s in a m3u playlist to one big mp3
-merge_audio
+merge_audio ###### DEBUGGING Feb 10
 
 cd '../../../../spotify2podcast' ### Change back from episode subdir to our project main dir TODO: get rid of this changing dir stuff
 

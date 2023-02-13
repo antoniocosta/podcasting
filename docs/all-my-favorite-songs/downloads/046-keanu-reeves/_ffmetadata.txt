@@ -1,0 +1,321 @@
+;FFMETADATA1
+title=046 by Keanu Reeves - Favorite bands of all time
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27189
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27190
+END=200443
+title=Fugazi - Waiting Room
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=200444
+END=319361
+title=Fugazi - I'm So Tired
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=319362
+END=407919
+title=Fugazi - Afterthought
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=407920
+END=692053
+title=Fugazi - Suggestion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=692054
+END=924971
+title=Fugazi - Blueprint
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=924972
+END=1057689
+title=Ramones - Blitzkrieg Bop - 2001 Remastered Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1057690
+END=1207303
+title=Ramones - I Wanna Be Sedated - 2002 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1207304
+END=1360877
+title=Ramones - I Just Wanna Have Something to Do - Live at The Civic Center, SF 1979
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1360878
+END=1476387
+title=Ramones - I Don't Wanna Walk Around With You (Demo)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1476388
+END=1603729
+title=Ramones - I'm Against It - 2005 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1603730
+END=1864775
+title=The Exploited - Beat the Bastards
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1864776
+END=2170965
+title=The Exploited - Sex and Violence
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2170966
+END=2302291
+title=The Exploited - Chaos Is My Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2302292
+END=2504513
+title=The Exploited - (Fuck The) U.S.A.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2504514
+END=2704503
+title=The Exploited - Law for the Rich
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2704504
+END=2837725
+title=Discharge - Protest and Survive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2837726
+END=3021611
+title=Discharge - New World Order
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3021612
+END=3112161
+title=Discharge - Ain't No Feeble Bastard
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3112162
+END=3252055
+title=Discharge - Never Again
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3252056
+END=3342437
+title=Discharge - Hear Nothing See Nothing Say Nothing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3342438
+END=3568467
+title=Elvis Costello - Watching The Detectives - Single Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3568468
+END=3780073
+title=Elvis Costello & The Attractions - (What's So Funny 'Bout) Peace, Love And Understanding
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3780074
+END=3974879
+title=Elvis Costello & The Attractions - Pump It Up
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3974880
+END=4179405
+title=Elvis Costello - Alison
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4179406
+END=4367107
+title=Elvis Costello - She
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4367108
+END=4567577
+title=The Clash - London Calling - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4567578
+END=4789983
+title=The Clash - Rock the Casbah - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4789984
+END=4978957
+title=The Clash - Should I Stay or Should I Go - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4978958
+END=5342315
+title=The Clash - Police & Thieves - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5342316
+END=5458737
+title=The Clash - White Riot - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5458738
+END=5604439
+title=Violent Femmes - Blister In The Sun
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5604440
+END=5781149
+title=Violent Femmes - Kiss Off
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5781150
+END=6065475
+title=Violent Femmes - Add It Up
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6065476
+END=6251521
+title=Violent Femmes - Gone Daddy Gone
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6251522
+END=6482087
+title=Violent Femmes - American Music
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6482088
+END=6691101
+title=Joy Division - Disorder - 2007 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6691102
+END=6899539
+title=Joy Division - Love Will Tear Us Apart - 2020 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6899540
+END=7117961
+title=Joy Division - Transmission - 2020 Digital Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7117962
+END=7251375
+title=Joy Division - Warsaw - 2010 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7251376
+END=7488373
+title=Joy Division - She's Lost Control - 2007 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7488374
+END=7577507
+title=Minor Threat - Minor Threat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7577508
+END=7743609
+title=Minor Threat - Salad Days
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7743610
+END=7928191
+title=Minor Threat - Betray
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7928192
+END=8015885
+title=Minor Threat - I Don't Want to Hear It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8015886
+END=8061027
+title=Minor Threat - Straight Edge
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8061028
+END=8193793
+title=Bad Brains - Banned in D.C.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8193794
+END=8364479
+title=Bad Brains - I Against I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8364480
+END=8521365
+title=Bad Brains - Don't Bother Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8521366
+END=8657683
+title=Bad Brains - At the Movies
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8657684
+END=8772713
+title=Bad Brains - Sailin' On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8772714
+END=8775639
+title=Outro
+
+[STREAM]
+title=046 by Keanu Reeves - Favorite bands of all time

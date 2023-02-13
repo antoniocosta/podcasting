@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Mon, 02 Jan 2023 19:47:17 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 13 Feb 2023 13:44:04 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 046 by Keanu Reeves - Favorite bands of all time</title>
+                <link>https://allmyfavoritesongs.com#046</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-046-keanu-reeves</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-046-keanu-reeves/all-my-favorite-songs-046-keanu-reeves.mp3" length="281049375" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-046-keanu-reeves/all-my-favorite-songs-046-keanu-reeves.jpg' />
+                <description>Keanu Charles Reeves (born September 2, 1964), whose first name means &#39;cool breeze over the mountains&#39; in Hawaiian, is a Canadian actor who found his greatest success in comedy, science-fiction, and action movies. Born in Beirut. Lebanon and raised in Toronto, Canada, Reeves began acting in theatre productions and in television films before making his feature film debut in Youngblood (1986). He had his breakthrough role in the science fiction comedy Bill &amp; Ted&#39;s Excellent Adventure (1989), and he reprised his role in its sequels. He gained praise for playing a hustler in the independent drama My Own Private Idaho (1991) and established himself as an action hero with leading roles in Point Break (1991) and Speed (1994). Greater stardom came for playing Neo in the science fiction series The Matrix, beginning in 1999.  &lt;br /&gt; &lt;br /&gt;In addition to acting, Reeves has directed the film Man of Tai Chi (2013). He has played bass guitar for the band Dogstar and pursued other endeavours such as writing and philanthropy.  &lt;br /&gt; &lt;br /&gt;This episode features 5 songs by each of the 10 ands that Reeves named his all-time favorites. Taken from a 1996 interview to Entertainment Weekly, but also from additional subsequent interviews during his Dogstar days two decades later, and up to 2014.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Fugazi, Ramones, The Exploited, Discharge, Elvis Costello, Elvis Costello &amp; The Attractions, The Clash, Violent Femmes, Joy Division, Minor Threat, Bad Brains</description>
+                <pubDate>Fri, 10 Feb 2023 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 045 by The Chats - Rage Guest</title>
