@@ -6,7 +6,7 @@
         <title>Just A Blip</title>
         <link>https://listen.dublindigitalradio.com/resident/just-a-blip</link>
         <description>A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!</description>
-        <lastBuildDate>Wed, 18 Jan 2023 12:02:54 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 12:02:21 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 Glenn O'Brien</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>Just A Blip 093 - DDR - 11th March 2023</title>
+                <link>https://www.mixcloud.com/DublinDigitalRadio/just-a-blip-11th-march-2023/</link>
+                <guid>https://archive.org/details/DublinDigitalRadio_just-a-blip-11th-march-2023</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/DublinDigitalRadio_just-a-blip-11th-march-2023/DublinDigitalRadio_just-a-blip-11th-march-2023.m4a" length="59443214" type="audio/x-m4a" />
+                
+                <description>Just A Blip / Saturday 11.03.23 / 14.00 - 16.00 &lt;br /&gt;Third EYヨ Foundation &lt;br /&gt;Like what you hear? Become a member of ddr: https://listen.dublindigitalradio.com/donate &lt;br /&gt; &lt;br /&gt;Horvitz Morris Previte Trio - Todos Santos  &lt;br /&gt;The Yardleys - Just Remember  &lt;br /&gt;The Newports - Feelin low &lt;br /&gt;Alva Noto feat. Martin L. Gore &amp; William Basinski - Subterraneans &lt;br /&gt;Tully - I Feel The Sun &lt;br /&gt;Ben Bertrand - Delayed Monologue &lt;br /&gt;The Savage Young Taterbug - Taxi Fantasma &lt;br /&gt;The Bohemians - Say It &lt;br /&gt;Kate Bush - 50 Words For Snow &lt;br /&gt;Oren Ambarchi - IV &lt;br /&gt;Boredoms - Seadrum &lt;br /&gt;Miguel Atwood Ferguson - Fall In Love &lt;br /&gt;Billy Woods - Wharves  &lt;br /&gt;Time is Away - Edit 4 &lt;br /&gt;Hi Tech - All A Vibe &lt;br /&gt;Hudson Mohawke - Bicstan &lt;br /&gt;Nikki Nair -  Step 2 &lt;br /&gt;Dwarde &amp; Tim Reaper - Aquatics &lt;br /&gt;NIA Archives - Forbiddn Feelingz  &lt;br /&gt;Soft Cell - Say Hello, Wave Goodbye</description>
+                <pubDate>Sun, 12 Mar 2023 10:00:00 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>Just A Blip 092 - DDR - 14th January 2023</title>
