@@ -1,0 +1,111 @@
+;FFMETADATA1
+title=047 by Snoop Dogg - Snoop Lion
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27261
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27262
+END=234787
+title=Snoop Lion - La La La (Prod. by Major Lazer)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=234788
+END=479033
+title=Peter Tosh, John Benitez - Johnny B. Goode - 2002 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=479034
+END=677967
+title=Bob Marley & The Wailers - Soul Rebel
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=677968
+END=848581
+title=Bob Marley & The Wailers - Rat Race
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=848582
+END=1094939
+title=Gregory Isaacs - Night Nurse
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1094940
+END=1466649
+title=Buju Banton, General Echo, Tenor Saw - Stalag Y2k
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1466650
+END=1678207
+title=Dawn Penn - You Don't Love Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1678208
+END=1889189
+title=Bob Marley & The Wailers - Jamming
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1889190
+END=2092515
+title=The Abyssinians - There Is No End
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2092516
+END=2308729
+title=The Abyssinians - I and I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2308730
+END=2512607
+title=Burning Spear - Marcus Garvey
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2512608
+END=2893893
+title=Black Uhuru - Guess Whos Coming to Dinner
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2893894
+END=3064531
+title=Burning Spear - Social Living
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3064532
+END=3291233
+title=Snoop Lion - Lighters Up (feat. Mavado & Popcaan)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3291234
+END=3495687
+title=Snoop Lion - Here Comes the King (feat. Angela Hunte)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3495688
+END=3498613
+title=Outro
+
+[STREAM]
+title=047 by Snoop Dogg - Snoop Lion
