@@ -1,0 +1,261 @@
+;FFMETADATA1
+title=048 by Pixies - Where is my mixtape?
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27717
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27718
+END=335827
+title=Blue Öyster Cult - (Don't Fear) The Reaper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=335828
+END=559433
+title=Fleetwood Mac - Go Your Own Way - 2004 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=559434
+END=689583
+title=The Doors - People Are Strange
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=689584
+END=1055749
+title=Black Sabbath - N.I.B.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1055750
+END=1235363
+title=Stevie Ray Vaughan, Dick Dale - Pipeline
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1235364
+END=1476153
+title=Jimi Hendrix - All Along the Watchtower
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1476154
+END=1692967
+title=T. Rex - Mambo Sun
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1692968
+END=1890389
+title=Teenage Fanclub - Sparky's Dream
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1890390
+END=2156643
+title=ACDC - Touch Too Much
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2156644
+END=2382289
+title=Baxter Dury - Isabel
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2382290
+END=2800991
+title=The Velvet Underground - Foggy Notion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2800992
+END=3027309
+title=The Rolling Stones - Tumbling Dice
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3027310
+END=3329179
+title=Sugar - Changes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3329180
+END=3578129
+title=The Cure - Lullaby
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3578130
+END=3772815
+title=Eels - Souljacker Part I
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3772816
+END=4106317
+title=The Clash - The Magnificent Seven - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4106318
+END=4320275
+title=The Psychedelic Furs - Love My Way
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4320276
+END=4502721
+title=Alabama Shakes - Sound & Color
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4502722
+END=5246815
+title=Andrew Norman, Boston Modern Orchestra Project, Gil Rose - Play- Level 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5246816
+END=5443085
+title=Ty Segall - Fist Heart Mighty Dawn Dart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5443086
+END=5657307
+title=Surf Friends - Holiday
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5657308
+END=5851273
+title=David Bowie - Oh! You Pretty Things - 2015 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5851274
+END=6008255
+title=Mose Allison - Your Mind Is on Vacation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6008256
+END=6282933
+title=Throwing Muses - Two Step
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6282934
+END=6598099
+title=The Cure - Fascination Street - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6598100
+END=6760481
+title=Teenage Fanclub - Mellow Doubt
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6760482
+END=6883023
+title=Hüsker Dü - Something I Learned Today
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6883024
+END=7090237
+title=Peter, Paul and Mary - Leaving on a Jet Plane
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7090238
+END=7778363
+title=Thelonious Monk - Straight, No Chaser
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7778364
+END=8155665
+title=Explosions In The Sky - Landing Cliffs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8155666
+END=8448535
+title=ACDC - Thunderstruck
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8448536
+END=8594861
+title=The Beatles - In My Life - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8594862
+END=8789523
+title=The Clash - Train in Vain (Stand by Me) - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8789524
+END=8940553
+title=Buzzcocks - Fast Cars
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8940554
+END=9145919
+title=The Fall - Totally Wired
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9145920
+END=9451437
+title=Weezer - Undone - The Sweater Song
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9451438
+END=9712267
+title=Baxter Dury - Palm Trees
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9712268
+END=9980777
+title=Moondog - High On A Rocky Ledge
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9980778
+END=10209399
+title=Suicide - Surrender
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10209400
+END=10521637
+title=The Velvet Underground, Nico - Venus In Furs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10521638
+END=10524563
+title=Outro
+
+[STREAM]
+title=048 by Pixies - Where is my mixtape?
