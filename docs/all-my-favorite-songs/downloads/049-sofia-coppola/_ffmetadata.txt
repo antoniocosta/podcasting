@@ -1,0 +1,165 @@
+;FFMETADATA1
+title=049 by Sofia Coppola - 12 Favorite Albums
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28077
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28078
+END=285115
+title=my bloody valentine - only shallow
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=285116
+END=536969
+title=my bloody valentine - when you sleep
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=536970
+END=734919
+title=Phoenix - Too Young
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=734920
+END=1035445
+title=Phoenix - Honeymoon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1035446
+END=1350755
+title=New Order - Age of Consent - 2015 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1350756
+END=1632513
+title=New Order - Leave Me Alone - 2015 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1632514
+END=1819255
+title=Gang Of Four - Natural's Not in It
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1819256
+END=2026445
+title=Gang Of Four - Damaged Goods
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2026446
+END=2297091
+title=Roxy Music - More Than This
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2297092
+END=2553817
+title=Roxy Music - To Turn You On
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2553818
+END=2816951
+title=N.E.R.D, Kelis, Pusha T - Truth Or Dare
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2816952
+END=3076437
+title=N.E.R.D - Rockstar
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3076438
+END=3358651
+title=Zoot Woman - Nobody Knows, Pt. 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3358652
+END=3607745
+title=Zoot Woman - Living in a Magazine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3607746
+END=3860535
+title=Bill Evans - What Are You Doing The Rest Of Your Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3860536
+END=4164541
+title=Bill Evans - Why Did I Choose You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4164542
+END=4337603
+title=Nirvana - Dumb
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4337604
+END=4643577
+title=Nirvana - Where Did You Sleep Last Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4643578
+END=4887415
+title=Schneider TM, KPT.Michi.Gan - The Light 3000
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4887416
+END=5066045
+title=To Rococo Rot - Cars
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5066046
+END=5331819
+title=Tom Waits - I Beg Your Pardon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5331820
+END=5675977
+title=Tom Waits, Crystal Gayle - This One's From The Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5675978
+END=5881151
+title=Prince - I Feel for You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5881152
+END=6208773
+title=Prince - It's Gonna Be Lonely
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6208774
+END=6211699
+title=Outro
+
+[STREAM]
+title=049 by Sofia Coppola - 12 Favorite Albums
