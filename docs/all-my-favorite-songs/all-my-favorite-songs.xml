@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sat, 29 Apr 2023 02:19:06 +0200</lastBuildDate>
+        <lastBuildDate>Thu, 04 May 2023 18:02:19 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 050 by IDLES - Rage Guest</title>
+                <link>https://allmyfavoritesongs.com#050</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-050-idles</guid>
+                <enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-050-idles/all-my-favorite-songs-050-idles.mp3" length="391374060" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-050-idles/all-my-favorite-songs-050-idles.jpg' />
+                <description>IDLES are a British rock band formed in Bristol in 2009. The band consists of Joe Talbot (vocals), Mark Bowen (guitar), Lee Kiernan (guitar), Adam Devonshire (bass) and Jon Beavis (drums). &lt;br /&gt; &lt;br /&gt; A self-proclaimed &#39;angry band&#39; from Bristol in Southwest England, IDLES take the fury of punk rock and wed it to a muscular but moody instrumental attack that matches the literate, purposeful menace of their lyrics. Lead singer and lyricist Joe Talbot&#39;s full-bodied ranting, in which he offers his vehement opinions on the state of British culture and his own personal issues, is matched by the rich, angular blast of the musicians, who can swing from melodic to brutally hard at a moment&#39;s notice. &lt;br /&gt; &lt;br /&gt; In this episode all songs selected by IDLES as guests for Australian TV show Rage, on Saturday June 8, 2019.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Crows, Nick Cave &amp; The Bad Seeds, Grinderman, The Stooges, Yeah Yeah Yeahs, Heavy Lungs, Spiritualized, Queens of the Stone Age, LCD Soundsystem, Grimes, Fuck Buttons, BAMBARA, Parquet Courts, Preoccupations, Gilla Band, Death Grips, Tyler, The Creator, Pusha T, Ginuwine, Velcro Hooks, Turbowolf, Pulled Apart By Horses, Cold War Kids, LIFE, Death From Above 1979, Foals, The Futureheads, Archie Bronson Outfit, Spring King, Fontaines D.C., Metz, The Walkmen, LICE, SOFT PLAY, A Place To Bury Strangers, Beak, Death In Vegas, Arab Strap, SUUNS, TV On The Radio, Arcade Fire, Radiohead, Spectres, Mogwai, Q Lazzarus, IDLES, Fugazi, DEN, Future Islands, Iggy Pop, Talking Heads, Tears For Fears, The Cure, The National, Einstürzende Neubauten, To Rococo Rot</description>
+                <pubDate>Fri, 05 May 2023 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 049 by Sofia Coppola - 12 Favorite Albums</title>

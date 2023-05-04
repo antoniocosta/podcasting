@@ -1,0 +1,411 @@
+;FFMETADATA1
+title=050 by IDLES - Rage Guest
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=26373
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=26374
+END=302755
+title=Crows - Whisper
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=302756
+END=698705
+title=Nick Cave & The Bad Seeds - Jubilee Street
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=698706
+END=963831
+title=Nick Cave & The Bad Seeds - The Weeping Song - 2010 Remastered Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=963832
+END=1223413
+title=Grinderman - No Pussy Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1223414
+END=1546235
+title=The Stooges - I Wanna Be Your Dog - Live in Sydney
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1546236
+END=1786977
+title=Yeah Yeah Yeahs - Y Control
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1786978
+END=1926463
+title=Heavy Lungs - Jealous
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1926464
+END=2207021
+title=Spiritualized - Come Together
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2207022
+END=2370627
+title=Queens of the Stone Age - Feel Good Hit Of The Summer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2370628
+END=2843689
+title=LCD Soundsystem - Losing My Edge
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2843690
+END=3098999
+title=Grimes - Genesis
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3099000
+END=3320517
+title=Fuck Buttons - Surf Solar - 7' Edit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3320518
+END=3445915
+title=BAMBARA - All the Ugly Things
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3445916
+END=3647153
+title=Parquet Courts - Bodies Made Of
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3647154
+END=4003119
+title=Preoccupations - Bunker Buster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4003120
+END=4376965
+title=Gilla Band - Lawman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4376966
+END=4592219
+title=Gilla Band - Pears For Lunch
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4592220
+END=5069625
+title=Gilla Band - Why They Hide Their Bodies Under My Garage
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5069626
+END=5292967
+title=Death Grips - Guillotine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5292968
+END=5542277
+title=Tyler, The Creator - Yonkers
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5542278
+END=5705859
+title=Pusha T - Numbers On The Boards
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5705860
+END=6030649
+title=Ginuwine - Pony
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6030650
+END=6154367
+title=Velcro Hooks - Chinchilla Woman
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6154368
+END=6318549
+title=Turbowolf - Rabbits Foot
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6318550
+END=6492787
+title=Pulled Apart By Horses - High Five, Swan Dive, Nose Dive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6492788
+END=6711569
+title=Cold War Kids - Hang Me Up to Dry
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6711570
+END=6914487
+title=LIFE - Euromillions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6914488
+END=7109581
+title=Death From Above 1979 - Romantic Rights
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7109582
+END=7339091
+title=Foals - Cassius
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7339092
+END=7491681
+title=The Futureheads - Decent Days and Nights
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7491682
+END=7749127
+title=Archie Bronson Outfit - Cherry Lips
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7749128
+END=7956509
+title=Spring King - Rectifier
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7956510
+END=8204907
+title=Fontaines D.C. - Too Real
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8204908
+END=8347537
+title=Metz - Get Off
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8347538
+END=8609759
+title=The Walkmen - The Rat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8609760
+END=8781621
+title=LICE - Stammering Bill
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8781622
+END=8943571
+title=SOFT PLAY - Spit It Out
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8943572
+END=9145169
+title=A Place To Bury Strangers - Supermaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9145170
+END=9376527
+title=Beak - Brean Down
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9376528
+END=9729901
+title=Death In Vegas - Aisha
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9729902
+END=10029443
+title=Arab Strap - Cherubs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10029444
+END=10282689
+title=SUUNS - 2020
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10282690
+END=10523887
+title=TV On The Radio - Staring at the Sun
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10523888
+END=10867493
+title=Arcade Fire - No Cars Go
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10867494
+END=11132307
+title=Radiohead - Idioteque - Live in Oxford
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11132308
+END=11600641
+title=Spectres - Dissolve
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11600642
+END=11925167
+title=Mogwai - Batcat
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11925168
+END=12112869
+title=Q Lazzarus - Goodbye Horses
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12112870
+END=12317707
+title=IDLES - Danny Nedelko
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12317708
+END=12601841
+title=Fugazi - Suggestion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12601842
+END=12815007
+title=DEN - Inertia
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12815008
+END=13141573
+title=DEN - Eclipse
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13141574
+END=13392827
+title=Grimes - Oblivion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13392828
+END=13619241
+title=Future Islands - Seasons (Waiting on You)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13619242
+END=13824823
+title=Future Islands - Ran
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13824824
+END=14011949
+title=Yeah Yeah Yeahs - Gold Lion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14011950
+END=14295291
+title=Iggy Pop - The Passenger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14295292
+END=14556697
+title=Talking Heads - Psycho Killer - 2005 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14556698
+END=14812823
+title=Tears For Fears - Head Over Heels
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14812824
+END=15019725
+title=The Cure - Lovesong
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15019726
+END=15295099
+title=The National - Graceless
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15295100
+END=15556265
+title=SUUNS - Edie's Dream
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15556266
+END=15810111
+title=Radiohead - Street Spirit (Fade Out)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15810112
+END=16120861
+title=Einstürzende Neubauten - The Garden
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16120862
+END=16299491
+title=To Rococo Rot - Cars
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16299492
+END=16302417
+title=Outro
+
+[STREAM]
+title=050 by IDLES - Rage Guest
