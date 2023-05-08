@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>All My Favorite Songs</title>
+
+<meta charset="utf-8">
+<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="index,follow">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website">
+
+<link rel="alternate" type="application/rss+xml" title="All My Favorite Songs" href="http://feeds.feedburner.com/all-my-favorite-songs" />
+<meta name="description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta name="twitter:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+<meta property="og:description" content="All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others.">
+
+<meta name="twitter:title" content="All My Favorite Songs">
+<meta property="og:title" content="All My Favorite Songs">
+
+<meta property="og:url" content="http://allmyfavoritesongs.com">
+<meta name="twitter:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
+<meta property="og:image" content="http://allmyfavoritesongs.com/img/all-my-favorite-songs.jpg">
+
+<script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+<script>
+	jQuery(function($) {
+		
+		var rssurl="all-my-favorite-songs.xml";
+		const imageList = []
+
+		$.get(rssurl, function (data) {
+			$(data).find("item").each(function (index) { // or "item" or whatever suits your feed
+
+				var el = $(this);
+				var item = {
+					enclosure_url:  el.find("enclosure").attr('url')
+				}
+				item.id=item.enclosure_url.substring(item.enclosure_url.lastIndexOf("/")+1).replace(/\.[^/.]+$/, ""); // remove everything from start to last last / then remove extension
+				imageList.push( 'https://archive.org/services/img/'+item.id+'/full/pct:120/0/default.jpg') // pct 100 = 180px,
+
+			});
+		});
+
+	    const imageElement = document.getElementById('animatedImage');
+	    let imageIndex = 0;
+	    let loadingImage = new Image();
+
+	    function updateImage() {
+	        imageIndex = (imageIndex + 1) % imageList.length;
+	        loadingImage.src = imageList[imageIndex];
+	    }
+
+	    loadingImage.onload = function () {
+	        imageElement.src = this.src;
+	        setTimeout(updateImage, 300);
+	    };
+
+	    setTimeout(updateImage, 300);
+
+	});
+</script>
+
+<style>
+    img {
+        width: 200px;
+        height: 200px;
+    }
+</style>
+
+</head>
+<body>
+    <img id="animatedImage" src="img/all-my-favorite-songs.jpg" alt="Animated Image">
+
+</body>
+</html>

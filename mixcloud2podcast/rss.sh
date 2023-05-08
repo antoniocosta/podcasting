@@ -174,9 +174,11 @@ for json in "${arr_json[@]}"; do
         item_link=$(jq --raw-output '.webpage_url' $json) # get data from json
         item_guid='https://archive.org/details/'$item_id # use archive.org permalink
 
-        # Added podtrac prefix to get stats:
         #item_enclosure='https://archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
-        item_enclosure='https://dts.podtrac.com/redirect.mp3/archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
+        # Added podtrac prefix to get stats:
+        # item_enclosure='https://dts.podtrac.com/redirect.mp3/archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
+        # (May 2023) Added op3.dev prefix to get stats (there can be multiple analytics prefixes)
+        item_enclosure='https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/'$item_id'/'$item_id'.'$RSS_AUDIO_FORMAT
 
         #item_enclosure_length=$(stat -f%z $audio_file) # get file size in bytes
         item_enclosure_length=$(jq --raw-output '.length' $json) # get file size in bytes (we added this data to the json above)
