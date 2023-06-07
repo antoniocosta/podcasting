@@ -6,7 +6,7 @@
         <title>Just A Blip</title>
         <link>https://listen.dublindigitalradio.com/resident/just-a-blip</link>
         <description>A fortnightly voyage through oceans of sound. Sometimes calm with clear skies, sometimes the lifeboats have to be deployed. All aboard!</description>
-        <lastBuildDate>Wed, 10 May 2023 12:03:37 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jun 2023 12:02:49 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 Glenn O'Brien</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>Just A Blip 096 - DDR - 3rd June 2023</title>
+                <link>https://www.mixcloud.com/DublinDigitalRadio/just-a-blip-096-ddr-3rd-june-2023/</link>
+                <guid>https://archive.org/details/DublinDigitalRadio_just-a-blip-096-ddr-3rd-june-2023</guid>
+                <enclosure url="https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/DublinDigitalRadio_just-a-blip-096-ddr-3rd-june-2023/DublinDigitalRadio_just-a-blip-096-ddr-3rd-june-2023.m4a" length="58498337" type="audio/x-m4a" />
+                
+                <description>Just A Blip / Saturday 04.06.23 / 14.00 - 16.00 &lt;br /&gt;Like what you hear? Become a member of ddr: https://listen.dublindigitalradio.com/donate &lt;br /&gt;JAB Archive: https://www.mixcloud.com/glennobrien/ &lt;br /&gt; &lt;br /&gt;Horace Ferguson - Sensi Adict &lt;br /&gt;Melody Beecher - Movie Star &lt;br /&gt;Gregory Isaacs - Two to make a Quarrel &lt;br /&gt;Delmighty Sounds - Sufi Dub &lt;br /&gt;Yabby You - Run Dub Carry &lt;br /&gt;Elizabeth Archer and the Equators - Feel Like Making Love  &lt;br /&gt;Prince Jazzbo - 333 (Version) &lt;br /&gt;Autechre - Lowride  &lt;br /&gt;Nazan S&#39;orey - Hatuney (Fattish Edit) &lt;br /&gt;Objekt - Bad Apples  &lt;br /&gt;Squarepusher - Port Rhombus &lt;br /&gt;Untitled - Time Is Away Edit &lt;br /&gt;King Milo - All A Vibe  &lt;br /&gt;Lumukanda - Sunday St Kilda Setdown   &lt;br /&gt;Kid Machine - Back In Flight (Allesandro Parisi Remix) &lt;br /&gt;DJ Bert &amp; Eagle - I Am Your Master (Savino DJ &amp; DJ Peet Need Edit) &lt;br /&gt;Joe - MPH  &lt;br /&gt;Native Soul - The journey &lt;br /&gt;Black Bones - Punghi &lt;br /&gt;KZA - Troublant Acid &lt;br /&gt;Mr Ho &amp; Heap - Collision Resistance &lt;br /&gt;Nikolajev - Neck Talk &lt;br /&gt;Emmanuel Top - Spherique &lt;br /&gt;Anthony Naples - Zitronen &lt;br /&gt;Jamal Moss - The Lust Within  &lt;br /&gt;Eli Escobar - Take It From Me</description>
+                <pubDate>Mon, 05 Jun 2023 22:21:24 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>Just A Blip 095 - DDR - 7th May 2023</title>
