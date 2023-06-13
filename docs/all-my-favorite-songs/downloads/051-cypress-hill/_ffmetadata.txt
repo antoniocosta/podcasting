@@ -1,0 +1,261 @@
+;FFMETADATA1
+title=051 by Cypress Hill - Smoking Joints Stoner Favorites
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27261
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27262
+END=189595
+title=T-mo Goodie - Top of the Ayea
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=189596
+END=471977
+title=Warren G - I Need a Light
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=471978
+END=693471
+title=Collie Buddz - Come Around
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=693472
+END=975805
+title=Crown Royale - Say What feat. Eric Bobo from Cypress Hill
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=975806
+END=1221995
+title=Eric Burdon, War - Spill The Wine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1221996
+END=1549641
+title=T.I. - Swagga Like Us - T.I. and Jay-Z feat. Kanye West and Lil' Wayne
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1549642
+END=1764895
+title=Control Machete - Comprendes, Mendes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1764896
+END=1939469
+title=Cypress Hill - I Wanna Get High
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1939470
+END=2131947
+title=Sango, McClenney - Na Hora (feat. Faktiss & Chris MC Clenney)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2131948
+END=2385337
+title=Pete Rock & C.L. Smooth - Straighten It Out
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2385338
+END=2730215
+title=Parliament - Dr. Funkenstein
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2730216
+END=2913309
+title=Onyx - Onyx Is Here
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2913310
+END=3258691
+title=Steel Pulse - Wild Goose Chase
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3258692
+END=3568553
+title=Outkast - Crumblin' Erb
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3568554
+END=3752799
+title=Naughty By Nature - Uptown Anthem
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3752800
+END=3977869
+title=Zapp - Doo Wa Ditty (Blow That Thing)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3977870
+END=4190507
+title=Kendrick Lamar - Backseat Freestyle
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4190508
+END=4449729
+title=Talking Heads - Once in a Lifetime - 2003 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4449730
+END=4668871
+title=Beastie Boys - So What'Cha Want
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4668872
+END=4903613
+title=House Of Pain - Jump Around - Pete Rock Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4903614
+END=5088723
+title=Kool & The Gang - Funky Stuff
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5088724
+END=5314849
+title=A Tribe Called Quest - Electric Relaxation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5314850
+END=5529671
+title=Kendrick Lamar - FEEL.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5529672
+END=5758917
+title=Sonic Youth, Cypress Hill - I Love You Mary Jane
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5758918
+END=5955403
+title=Sister Nancy - Bam Bam
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5955404
+END=6127409
+title=A Tribe Called Quest - We The People....
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6127410
+END=6422895
+title=Rick James - Mary Jane
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6422896
+END=6596317
+title=Sublime - Smoke Two Joints
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6596318
+END=6917171
+title=Cheech And Chong with Alice Bowie, Alice Bowie - Earache My Eye
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6917172
+END=7130361
+title=Damian Marley - Welcome To Jamrock
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7130362
+END=7553023
+title=Led Zeppelin - No Quarter - Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7553024
+END=7789709
+title=Snoop Dogg, Daz Dillinger - Gin And Juice (feat. Dat Nigga Daz)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7789710
+END=8102211
+title=Zapp - More Bounce to the Ounce
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8102212
+END=8317729
+title=KISS - Detroit Rock City
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8317730
+END=8536007
+title=Stone Temple Pilots - Sex Type Thing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8536008
+END=8788605
+title=Slipknot - Duality
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8788606
+END=9080323
+title=EPMD - Head Banger
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9080324
+END=9314417
+title=Nirvana - Dive - Smart Sessions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9314418
+END=9482967
+title=Johnny Cash - Folsom Prison Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9482968
+END=9856213
+title=Guns N' Roses - Rocket Queen
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9856214
+END=9859139
+title=Outro
+
+[STREAM]
+title=051 by Cypress Hill - Smoking Joints Stoner Favorites

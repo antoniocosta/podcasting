@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Mon, 08 May 2023 13:29:41 +0200</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jun 2023 01:29:42 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 051 by Cypress Hill - Smoking Joints Stoner Favorites</title>
+                <link>https://allmyfavoritesongs.com#051</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-051-cypress-hill</guid>
+                <enclosure url="https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-051-cypress-hill/all-my-favorite-songs-051-cypress-hill.mp3" length="276250021" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-051-cypress-hill/all-my-favorite-songs-051-cypress-hill.jpg' />
+                <description>Cypress Hill is an American hip hop group from South Gate, California. They have sold over 20 million albums worldwide, and they have obtained multi-platinum and platinum certifications. The group has been critically acclaimed for their first five albums. They are considered to be among the main progenitors of West Coast and 1990s hip hop. All of the group members advocate for medical and recreational use of cannabis in the United States. In 2019, Cypress Hill became the first hip hop group to have a star on the Hollywood Walk of Fame. &lt;br /&gt; &lt;br /&gt; In this episode, all songs selected by Eric Bobo and Sen Dog and published as two separate playlists with a popular audio streaming provider (that shall remain unnamed), between April 19 2016 and August 30 2017.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; T-mo Goodie, Warren G, Collie Buddz, Crown Royale, Eric Burdon, War, T.I., Control Machete, Cypress Hill, Sango, McClenney, Pete Rock &amp; C.L. Smooth, Parliament, Onyx, Steel Pulse, Outkast, Naughty By Nature, Zapp, Kendrick Lamar, Talking Heads, Beastie Boys, House Of Pain, Kool &amp; The Gang, A Tribe Called Quest, Sonic Youth, Sister Nancy, Rick James, Sublime, Cheech And Chong with Alice Bowie, Alice Bowie, Damian Marley, Led Zeppelin, Snoop Dogg, Daz Dillinger, KISS, Stone Temple Pilots, Slipknot, EPMD, Nirvana, Johnny Cash, Guns N&#39; Roses</description>
+                <pubDate>Tue, 13 Jun 2023 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 050 by IDLES - Rage Guest</title>
