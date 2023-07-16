@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Wed, 14 Jun 2023 01:29:42 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 16 Jul 2023 03:12:05 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 052 by DITZ - Coronoviriffs 2k20</title>
+                <link>https://allmyfavoritesongs.com#052</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-052-ditz</guid>
+                <enclosure url="https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-052-ditz/all-my-favorite-songs-052-ditz.mp3" length="438186324" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-052-ditz/all-my-favorite-songs-052-ditz.jpg' />
+                <description>DITZ is an English noise rock/post-punk band that formed in Brighton in 2016. The band is most well known for an erratic live show influenced by the hardcore punk and noise rock of the 80s and 90s, which sets them apart from their peers in the UK post-punk scene. DITZ consists of Cal Francis (vocals), Anton Mocock (Guitar), Sam Evans (Drums), Jack Looker (Guitar) and Caleb Remnant (bass). &lt;br /&gt; &lt;br /&gt; In this episode, a compilation of the five playlists created by each member of the band during the COVID lockdown, and published with a popular audio streaming provider (that shall remain unnamed), in May 2020.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Polevaulter, Home Counties, Our Family Dog, Self Defense Family, Modest Mouse, Orville Peck, Johnny Cash, The Wants, Fugazi, Famous, Drive Like Jehu, Thank, Comadre, Red House Painters, Dionne Warwick, Blood, Interpol, DIIV, Porridge Radio, Lime Garden, Silverbacks, Black Kids, Julia Jacklin, Amelia Caesar, Bicep, Grimes, BABii, Tzusing, clipping., The Rita, Elcamino, Benny The Butcher, Kills Birds, LIFE, Death Grips, Metz, Fontaines D.C., The Jesus Lizard, IDLES, Autolux, CLT DRP, ScHoolboy Q, Freddie Gibbs, Madlib, LICE, Heavy Lungs, Gilla Band, Danny Brown, Kendrick Lamar, Ab-Soul, Earl Sweatshirt, Pure Adult, Nina Hagen, Egyptian Blue, HMLTD, Velvet Revolver, Kesha, Sick Joy, Pom Poko, PROJECTOR, Chris Isaak, Polvo, At the Drive-In, Q And Not U, Crack Cloud, Test Icicles, Faraquet, Thundercat, LCD Soundsystem, Die! Die! Die!, Lightning Bolt, Refused, The Blood Brothers, Daughters, Black Eyes, Tyler, The Creator, toe</description>
+                <pubDate>Sat, 15 Jul 2023 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 051 by Cypress Hill - Smoking Joints Stoner Favorites</title>

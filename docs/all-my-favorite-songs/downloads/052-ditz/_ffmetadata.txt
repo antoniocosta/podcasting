@@ -1,0 +1,459 @@
+;FFMETADATA1
+title=052 by DITZ - Coronoviriffs 2k20
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=26901
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=26902
+END=270233
+title=Polevaulter - How I Learnt to Stop Chewing the Wasp and Face the Bulldog
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=270234
+END=445527
+title=Home Counties - Redevelopment
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=445528
+END=557605
+title=Our Family Dog - Mouldy Stick
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=557606
+END=983963
+title=Self Defense Family - Brittany Murphy in 8 Mile
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=983964
+END=1397265
+title=Modest Mouse - Teeth Like God's Shoeshine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1397266
+END=1636255
+title=Orville Peck - Dead of Night
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1636256
+END=1902965
+title=Johnny Cash - The Man Comes Around
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1902966
+END=2098083
+title=The Wants - Container
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2098084
+END=2310313
+title=Fugazi - Target
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2310314
+END=2572559
+title=Famous - Forever
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2572560
+END=3140253
+title=Drive Like Jehu - Luau
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3140254
+END=3402028
+title=Thank - Punching Bag
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3402029
+END=3479930
+title=Comadre - Breakfast of Champions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3479931
+END=3982776
+title=Red House Painters - Katy Song
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3982777
+END=4163302
+title=Dionne Warwick - Always Something There To Remind Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4163303
+END=4313300
+title=Blood - Primitive Priest
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4313301
+END=4613058
+title=Interpol - PDA
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4613059
+END=4832608
+title=DIIV - For the Guilty
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4832609
+END=5055422
+title=Porridge Radio - Sweet
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5055423
+END=5244924
+title=Lime Garden - Surf N Turf
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5244925
+END=5434522
+title=Silverbacks - Dunkirk
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5434523
+END=5652248
+title=Black Kids - I'm Not Gonna Teach Your Boyfriend How To Dance With You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5652249
+END=5985222
+title=Julia Jacklin - Don't Know How To Keep Loving You
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5985223
+END=6235228
+title=Amelia Caesar - I Think We're Home
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6235229
+END=6583514
+title=Bicep - Atlas
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6583515
+END=6815328
+title=Grimes - So Heavy I Fell Through the Earth - Algorithm Mix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6815329
+END=7085782
+title=BABii - BEAST
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7085783
+END=7391468
+title=Tzusing - 4 Floors of Whores
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7391469
+END=7737594
+title=clipping., The Rita, Elcamino, Benny The Butcher - La Mala Ordina
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7737595
+END=7864144
+title=Kills Birds - Jesus Did
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7864145
+END=8079278
+title=LIFE - Bum Hour
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8079279
+END=8253540
+title=Death Grips - Warping
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8253541
+END=8438410
+title=Metz - Drained Lake
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8438411
+END=8729168
+title=Fontaines D.C. - Hurricane Laughter
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8729169
+END=8891022
+title=The Jesus Lizard - Lady Shoes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8891023
+END=9130420
+title=IDLES - Exeter
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9130421
+END=9378338
+title=Autolux - Headless Sky
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9378339
+END=9636792
+title=CLT DRP - Where the Boys Are
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9636793
+END=9837814
+title=ScHoolboy Q - Attention
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9837815
+END=10036700
+title=Freddie Gibbs, Madlib - Giannis (feat. Anderson .Paak)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10036701
+END=10204074
+title=LICE - Conveyor
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10204075
+END=10432984
+title=Heavy Lungs - (A Bit of a) Birthday
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10432985
+END=10813526
+title=Gilla Band - Salmon of Knowledge
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10813527
+END=11132940
+title=Danny Brown, Kendrick Lamar, Ab-Soul, Earl Sweatshirt - Really Doe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11132941
+END=11489122
+title=Gilla Band - Laggard
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11489123
+END=11840480
+title=Pure Adult - Can Not Wait
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11840481
+END=12157134
+title=Nina Hagen - Smack Jack
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12157135
+END=12376300
+title=Thank - Think Less
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12376301
+END=12596234
+title=Egyptian Blue - Collateral
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12596235
+END=12871824
+title=HMLTD - Kinkaku-Ji
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12871825
+END=13140598
+title=HMLTD - Is This What You Wanted
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13140599
+END=13388900
+title=Velvet Revolver - Slither
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13388901
+END=13589082
+title=Kesha - TiK ToK
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13589083
+END=13759048
+title=Sick Joy - Shoot Your Lover
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13759049
+END=13937318
+title=Pom Poko - Leg Day
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13937319
+END=14163372
+title=PROJECTOR - I Am Shamed
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14163373
+END=14450242
+title=Chris Isaak - Wicked Game - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14450243
+END=14651144
+title=Polvo - Tragic Carpet Ride
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14651145
+END=14892054
+title=At the Drive-In - Metronome Arthritis
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14892055
+END=15168388
+title=Q And Not U - We Heart Our Hive
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15168389
+END=15448682
+title=Crack Cloud - Drab Measure
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15448683
+END=15635592
+title=Test Icicles - Circle. Square. Triangle.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15635593
+END=15809854
+title=Faraquet - Cut Self Not
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15809855
+END=16036916
+title=Thundercat - Oh Sheit it's X
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16036917
+END=16573362
+title=LCD Soundsystem - Dance Yrself Clean
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16573363
+END=16672672
+title=Die! Die! Die! - Franz - 17 Die! Die! Die! Fans Can't Be Wrong
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16672673
+END=16983614
+title=Lightning Bolt - Dracula Mountain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16983615
+END=17291748
+title=Refused - The Shape Of Punk To Come
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17291749
+END=17449474
+title=The Blood Brothers - Trash Flavored Trash
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17449475
+END=17655848
+title=Daughters - Recorded Inside a Pyramid
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17655849
+END=17803470
+title=Black Eyes - Deformative
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=17803471
+END=18009724
+title=Tyler, The Creator - I Ain't Got Time!
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18009725
+END=18248882
+title=toe - My Little Wish
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18248883
+END=18251808
+title=Outro
+
+[STREAM]
+title=052 by DITZ - Coronoviriffs 2k20
