@@ -1,0 +1,273 @@
+;FFMETADATA1
+title=053 by Marc Rebillet - Suggestions
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27597
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27598
+END=349939
+title=Sly & The Family Stone - I Want to Take You Higher
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=349940
+END=746393
+title=Mary Lou Williams - St. Martin de Porres
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=746394
+END=995319
+title=Little Beaver - Get into the Party Life
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=995320
+END=1246645
+title=Ross from Friends - Crystal Catcher (weed)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1246646
+END=1473275
+title=JIMMY EDGAR - Hydrant
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1473276
+END=1609617
+title=Dirty Projectors, Björk - Beautiful Mother
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1609618
+END=1850047
+title=The Beatles - Yer Blues - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1850048
+END=2145869
+title=Pescado Rabioso - Cementerio Club
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2145870
+END=2516139
+title=James Holden - Lump
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2516140
+END=2724241
+title=Sibylle Baier - I Lost Something in the Hills
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2724242
+END=3076655
+title=Gustav Mahler - Symphony No. 8 in E flat - 'Symphony of a Thousand' - Part Two- Final scene from Goethe's 'Faust'- 'Alles Vergängliche'
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3076656
+END=3375549
+title=Gabriel Garzón-Montano - 6 8
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3375550
+END=3524323
+title=TEK.LUN - Play ('Shut Up!')
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3524324
+END=3723641
+title=Bastien Keb - Pork Belly
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3723642
+END=3907527
+title=Big Thief - Paul
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3907528
+END=4210837
+title=Roberta Flack, Donny Hathaway - I (Who Have Nothing)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4210838
+END=4289003
+title=Mndsgn - Bweyy (feat. Swarvy)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4289004
+END=4426689
+title=Mose Allison - I Don't Worry About a Thing
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4426690
+END=5075503
+title=Aretha Franklin - Amazing Grace - Live at New Temple Missionary Baptist Church, Los Angeles, CA, 011372
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5075504
+END=5193893
+title=Steve Lacy - Some
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5193894
+END=5436747
+title=Department Of Eagles - In Ear Park
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5436748
+END=6009313
+title=The Temptations - Runaway Child, Running Wild
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6009314
+END=6095963
+title=Hus Kingpin - Is It a Crime (feat. Ghostra Nostra) Remix
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6095964
+END=6305409
+title=Allen Toussaint - From A Whisper To A Scream
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6305410
+END=6756007
+title=Serge Gainsbourg - Melody
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6756008
+END=6963221
+title=Royce Wood Junior - Jodie
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6963222
+END=7179963
+title=Matmos - Ultimate Care II Excerpt Nine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7179964
+END=7452673
+title=Amnesty - We Have Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7452674
+END=7777367
+title=Bill Callahan - Drover
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7777368
+END=8006589
+title=Viola James - I'm Going Home to Live With Jesus - Previously Unreleased
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8006590
+END=8186011
+title=Yann Kesz - Low Frequency
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8186012
+END=8428649
+title=James Blake - My Willing Heart
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8428650
+END=8627439
+title=Andy Bey - Celestial Blues
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8627440
+END=8903749
+title=Photay - Off-Piste
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8903750
+END=9105635
+title=J.J. Cale - Cherry
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9105636
+END=9382905
+title=Tom Waits - Gun Street Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9382906
+END=9533623
+title=Curren$y - Game Tapes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9533624
+END=9704405
+title=Bonnie Raitt - Thank You - 2008 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9704406
+END=9949731
+title=Emily King - Remind Me
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9949732
+END=10210321
+title=Bobby Wright - Blood Of An American
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10210322
+END=10476047
+title=Agar Agar - Sorry About the Carpet
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10476048
+END=10858677
+title=Prince - 17 Days - Piano & A Microphone 1983 Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10858678
+END=10861603
+title=Outro
+
+[STREAM]
+title=053 by Marc Rebillet - Suggestions

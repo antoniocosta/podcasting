@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 16 Jul 2023 03:12:37 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 23 Jul 2023 01:20:52 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 053 by Marc Rebillet - Suggestions</title>
+                <link>https://allmyfavoritesongs.com#053</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-053-marc-rebillet</guid>
+                <enclosure url="https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-053-marc-rebillet/all-my-favorite-songs-053-marc-rebillet.mp3" length="304317260" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-053-marc-rebillet/all-my-favorite-songs-053-marc-rebillet.jpg' />
+                <description>Marc Rebillet (born December 15, 1988) is an American electronic musician and YouTuber from Dallas, Texas, currently based in New York City. Rebillet is known for his improvised funk and hip-hop electronic music with free flowing, humorous lyrics. Rebillet distributes his work primarily through YouTube videos and Twitch live streams using a loop station, keyboard, vocals and percussion instruments to produce his songs in his apartment. &lt;br /&gt; &lt;br /&gt; In this episode, a playlist published by Rebillet with a popular audio streaming platform (that shall remain unnamed), between Dec 2017 and Feb 2019.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Sly &amp; The Family Stone, Mary Lou Williams, Little Beaver, Ross from Friends, JIMMY EDGAR, Dirty Projectors, Björk, The Beatles, Pescado Rabioso, James Holden, Sibylle Baier, Gustav Mahler, Gabriel Garzón-Montano, TEK.LUN, Bastien Keb, Big Thief, Roberta Flack, Donny Hathaway, Mndsgn, Mose Allison, Aretha Franklin, Steve Lacy, Department Of Eagles, The Temptations, Hus Kingpin, Allen Toussaint, Serge Gainsbourg, Royce Wood Junior, Matmos, Amnesty, Bill Callahan, Viola James, Yann Kesz, James Blake, Andy Bey, Photay, J.J. Cale, Tom Waits, Curren$y, Bonnie Raitt, Emily King, Bobby Wright, Agar Agar, Prince</description>
+                <pubDate>Tue, 18 Jul 2023 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 052 by DITZ - Coronoviriffs 2k20</title>

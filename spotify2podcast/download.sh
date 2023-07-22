@@ -9,6 +9,9 @@
 # Usage: ./download.sh podcast.conf episode.conf
 # Requires:
 # python3 -m pip install --user pipx && python3 -m pipx ensurepath
+# OR
+# pip install spotdl
+#
 # brew install ffmpeg
 # brew install internetarchive (Internet Archive's command line interface)
 # ia configure (configure ia with your credentials)
@@ -83,6 +86,10 @@ function download_playlist {
 				#pipx run spotdl $SPOTIFY_PLAYLIST_URL -o . --m3u
 				# Nov 6 '22: new version changed command syntax. See: https://spotdl.readthedocs.io/en/latest/usage/
 				pipx run spotdl download $SPOTIFY_PLAYLIST_URL --m3u {list[0]} --save-file "./_save_file.spotdl" --preload --print-errors --bitrate 256k
+
+				# Jul 18 '23: pipx stopped working. using installed version isntead.
+				# spotdl download $SPOTIFY_PLAYLIST_URL --m3u {list[0]} --save-file "./_save_file.spotdl" --preload --print-errors --bitrate 256k
+
 				# May '23: spotdl now uses .m3u8 extension for the plauylist name so we need to rename to .m3u 
 				#Rename all *.m3u8 to *.m3u
 				for file in *.m3u8; do
