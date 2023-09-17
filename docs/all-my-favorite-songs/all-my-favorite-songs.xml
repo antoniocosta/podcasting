@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 23 Jul 2023 01:20:52 +0200</lastBuildDate>
+        <lastBuildDate>Sun, 17 Sep 2023 22:29:02 +0200</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 054 by Benicio Del Toro - Awesome Mixtape Volume 1</title>
+                <link>https://allmyfavoritesongs.com#054</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-054-benicio-del-toro</guid>
+                <enclosure url="https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-054-benicio-del-toro/all-my-favorite-songs-054-benicio-del-toro.mp3" length="170262655" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-054-benicio-del-toro/all-my-favorite-songs-054-benicio-del-toro.jpg' />
+                <description>Benicio Monserrate Rafael del Toro Sanchez (born February 19, 1967) is a Puerto Rican actor and producer who emerged in the 1990s as a compelling character actor with a flair for oddball roles. Del Toro has garnered critical acclaim and numerous accolades, including an Academy Award, a BAFTA Award, a Golden Globe Award, two Screen Actors Guild Awards and a Silver Bear for his portrayal of the jaded but morally upright police officer Javier Rodriguez in the film Traffic (2000). Del Toro&#39;s performance as an ex-con turned zealot in despair Jack Jordan, in Alejandro González Inarritu&#39;s 21 Grams (2003), earned him a second nomination for the Academy Award for Best Supporting Actor. &lt;br /&gt; &lt;br /&gt; In this episode, a playlist of Del Toro&#39;s favorite music artists, as shared by him during an interview with The Nerdist&#39;s Dan Casey in Aug 2014.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Jimi Hendrix, Bruce Springsteen, Creedence Clearwater Revival, The Clash, The Rolling Stones, The Replacements, Guns N&#39; Roses, Barry White, John Lee Hooker, Miles Davis, Eric Clapton, Genesis, Nina Simone, Willie Colón, Danny Rivera, Los Lobos, Elvis Presley, Johnny Cash, Hank Williams, Lefty Frizzell, Charlie Parker, Morrissey</description>
+                <pubDate>Sun, 17 Sep 2023 12:34:56 +0200</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 053 by Marc Rebillet - Suggestions</title>

@@ -1,0 +1,153 @@
+;FFMETADATA1
+title=054 by Benicio Del Toro - Awesome Mixtape Volume 1
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=28149
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28150
+END=238387
+title=Jimi Hendrix - Hey Joe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=238388
+END=428849
+title=Bruce Springsteen - Tenth Avenue Freeze-Out
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=428850
+END=645951
+title=Creedence Clearwater Revival - Ninety-Nine And A Half (Won't Do)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=645952
+END=844813
+title=The Clash - Spanish Bombs - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=844814
+END=1067795
+title=The Rolling Stones - (I Can't Get No) Satisfaction - Mono Version
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1067796
+END=1309449
+title=The Replacements - Unsatisfied
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1309450
+END=1715023
+title=Guns N' Roses - Paradise City
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1715024
+END=1989005
+title=Barry White - Can't Get Enough Of Your Love, Babe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1989006
+END=2171427
+title=John Lee Hooker - One Bourbon, One Scotch, One Beer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2171428
+END=2734057
+title=Miles Davis - So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2734058
+END=2949911
+title=Eric Clapton - Cocaine
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2949912
+END=3293493
+title=Genesis - Behind the Lines
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3293494
+END=3508003
+title=Nina Simone - Ne Me Quitte Pas
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3508004
+END=3866537
+title=Willie Colón - Segun El Color (Willie Colon Presents Ruben Blades)
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3866538
+END=4038951
+title=Danny Rivera - Madrigal
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4038952
+END=4254493
+title=Los Lobos - Kiko and the Lavender Moon
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4254494
+END=4373675
+title=Elvis Presley - Blue Suede Shoes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4373676
+END=4536321
+title=Johnny Cash - Folsom Prison Blues - Live at Folsom State Prison, Folsom, CA - January 1968
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4536322
+END=4719583
+title=Hank Williams - Ramblin' Man
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4719584
+END=4907933
+title=Lefty Frizzell - The Long Black Veil
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4907934
+END=5092251
+title=Charlie Parker - Parker's Mood
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5092252
+END=5314705
+title=Morrissey - Suedehead - 2010 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5314706
+END=5317631
+title=Outro
+
+[STREAM]
+title=054 by Benicio Del Toro - Awesome Mixtape Volume 1
