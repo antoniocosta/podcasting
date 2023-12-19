@@ -6,7 +6,7 @@
         <title>All My Favorite Songs</title>
         <link>https://allmyfavoritesongs.com</link>
         <description>Have you ever been curious, as to what music others listen to? All My Favorite Songs is a podcast of uninterrupted music, exclusively curated by others, and dug up from hidden unexpected places.</description>
-        <lastBuildDate>Sun, 17 Sep 2023 22:29:02 +0200</lastBuildDate>
+        <lastBuildDate>Tue, 19 Dec 2023 01:45:37 +0100</lastBuildDate>
         <language>en-us</language>
         <copyright>&#xA9; 2023 A Bee MC</copyright>
         <ttl>60</ttl>
@@ -29,6 +29,17 @@
         <itunes:type>episodic</itunes:type>
 
 
+
+        <item>
+                <title>All My Favorite Songs 055 by It It Anita - Inspiration Playlist</title>
+                <link>https://allmyfavoritesongs.com#055</link>
+                <guid>https://archive.org/details/all-my-favorite-songs-055-it-it-anita</guid>
+                <enclosure url="https://op3.dev/e/dts.podtrac.com/redirect.mp3/archive.org/download/all-my-favorite-songs-055-it-it-anita/all-my-favorite-songs-055-it-it-anita.mp3" length="355545809" type="audio/mpeg" />
+                <itunes:image href='https://archive.org/download/all-my-favorite-songs-055-it-it-anita/all-my-favorite-songs-055-it-it-anita.jpg' />
+                <description>It It Anita is a noise rock band formed in 2012 originating from Liège, Belgium. Strongly anchored in 1990s rock, the group mixes influences from bands such as Sonic Youth, Fugazi and Pavement. &lt;br /&gt; &lt;br /&gt; In this episode a playlist as shared by band member Michael Goffard in a popular music streaming platform (that shall remain unnamed) between April and May 2021.  &lt;br /&gt; &lt;br /&gt; Lineup: &lt;br /&gt; Sebadoh, Pavement, Sonic Youth, Grandaddy, The New Year, Fugazi, Nirvana, Weezer, Ramones, Hot Snakes, The Cars, Gojira, WHY, Dinosaur Jr., Mogwai, Future Of The Left, Motorpsycho, The Thermals, TRAAMS, Dead Boys, Black Sabbath, Sleep, USA Nails, Silver Jews, Cloud Nothings, Thurston Moore, Queens of the Stone Age, Polvo, Melvins, Mudhoney, Bikini Kill, Preoccupations, Sloy, Ex Models, Godspeed You! Black Emperor, The Hellacopters, Explosions In The Sky, Deftones, Gorillaz, Bedhead, Wipers, Part Chimp, At the Drive-In, Guided By Voices</description>
+                <pubDate>Mon, 18 Dec 2023 12:34:56 +0100</pubDate>
+        </item>
+        
 
         <item>
                 <title>All My Favorite Songs 054 by Benicio Del Toro - Awesome Mixtape Volume 1</title>

@@ -1,0 +1,285 @@
+;FFMETADATA1
+title=055 by It It Anita - Inspiration Playlist
+artist=All My Favorite Songs
+comment=allmyfavoritesongs.com
+description=allmyfavoritesongs.com
+date=2023
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=27645
+title=Intro
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27646
+END=282955
+title=Sebadoh - Not Too Amused - Remastered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=282956
+END=545681
+title=Pavement - Fight This Generation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=545682
+END=816207
+title=Sonic Youth - Self-Obsessed And Sexxee
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=816208
+END=1242205
+title=Grandaddy - Levitz
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1242206
+END=1717595
+title=The New Year - 18
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1717596
+END=1890849
+title=Fugazi - Waiting Room
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1890850
+END=2162455
+title=Nirvana - Aneurysm - Live In Del Mar, California1991
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2162456
+END=2344157
+title=Weezer - Tired Of Sex
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2344158
+END=2479203
+title=Ramones - Loudmouth - 2016 Remaster
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2479204
+END=2631889
+title=Hot Snakes - If Credit's What Matters I'll Take Credit
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2631890
+END=2856959
+title=The Cars - Just What I Needed
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=2856960
+END=3126477
+title=Gojira - Stranded
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3126478
+END=3372571
+title=WHY - The Vowels, Pt. 2
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3372572
+END=3632153
+title=Dinosaur Jr. - Feel the Pain
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3632154
+END=3947055
+title=Mogwai - Rano Pano
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3947056
+END=4225381
+title=Future Of The Left - How To Spot A Record Company
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4225382
+END=5566043
+title=Motorpsycho - Kill Devil Hills - Live
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5566044
+END=5707497
+title=The Thermals - No Culture Icons
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5707498
+END=6228991
+title=TRAAMS - A House on Fire
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6228992
+END=6418301
+title=Dead Boys - Sonic Reducer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6418302
+END=6721539
+title=Black Sabbath - Sweet Leaf
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6721540
+END=7109233
+title=Sleep - The Botanist
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7109234
+END=7266023
+title=USA Nails - Smile
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7266024
+END=7403109
+title=Silver Jews - Night Society
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7403110
+END=8299579
+title=Cloud Nothings - Wasted Days
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8299580
+END=8808953
+title=Thurston Moore - Speak to the Wild
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8808954
+END=9086751
+title=Queens of the Stone Age - Regular John
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9086752
+END=9487933
+title=Polvo - Fast Canoe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9487934
+END=9703883
+title=Melvins - Joan of Arc
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9703884
+END=9921297
+title=Mudhoney - If I Think
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9921298
+END=10078615
+title=Bikini Kill - Rebel Girl
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10078616
+END=10755797
+title=Preoccupations - Death
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10755798
+END=10956819
+title=Sloy - Idolize
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10956820
+END=11046481
+title=Ex Models - Sex Automata
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11046482
+END=12245999
+title=Godspeed You! Black Emperor - Mladic
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12246000
+END=12499317
+title=The Hellacopters - Born Broke
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12499318
+END=12938755
+title=Explosions In The Sky - Greet Death
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12938756
+END=13251689
+title=Deftones - Headup
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13251690
+END=13485543
+title=Gorillaz - On Melancholy Hill
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13485544
+END=13744405
+title=Bedhead - More Than Ever
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13744406
+END=13923851
+title=Wipers - Window Shop for Love
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13923852
+END=14209113
+title=Part Chimp - Punishment Ride
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14209114
+END=14574367
+title=At the Drive-In - Invalid Litter Dept.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14574368
+END=14805365
+title=Guided By Voices - Chain Gang Island
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14805366
+END=14808291
+title=Outro
+
+[STREAM]
+title=055 by It It Anita - Inspiration Playlist
