@@ -52,8 +52,10 @@ archive_file_count=$(ls -1q $ARCHIVE_DIR | wc -l | sed 's/ //g')
 
 # Download and upload each file
 #youtube-dl --simulate \
-youtube-dl \
+#youtube-dl \ # deprecated Apr 1, 2024
+yt-dlp \
 --audio-format best \
+-f 'bestaudio[ext=m4a]' \
 --download-archive $ARCHIVE_FILE \
 -o $ARCHIVE_DIR/'%(id)s.%(ext)s' \
 --write-info-json \
