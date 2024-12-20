@@ -4,7 +4,7 @@
   "formats": [
     {
       "format_id": "http",
-      "url": "https://stream17.mixcloud.com/secure/c/m4a/64/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4.m4a?sig=e5lrTPde67MdPwa2rHZvAQ",
+      "url": "https://stream7.mixcloud.com/secure/c/m4a/64/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4.m4a?sig=e5lrTPde67MdPwa2rHZvAQ",
       "vcodec": "none",
       "downloader_options": {
         "http_chunk_size": 5242880
@@ -12,9 +12,9 @@
       "ext": "m4a",
       "protocol": "https",
       "resolution": "audio only",
-      "cookies": "csrftoken=lBZEQUyWv1IPjtYxaz80Il0rxMI4S2WJ; Domain=.mixcloud.com; Path=/; Secure; Expires=1766163305; mx_t=c68ce355_3f91_4762_a74d_a21b60bd18f7; Domain=.mixcloud.com; Path=/; Secure; Expires=1769273705",
+      "cookies": "csrftoken=mqFtvMJ63ytgx5k4M1oqbJkroXEIvuxP; Domain=.mixcloud.com; Path=/; Secure; Expires=1766164199; mx_t=c2bcbc39_b2af_4d75_ad51_e5c8ca8dceb3; Domain=.mixcloud.com; Path=/; Secure; Expires=1769274599",
       "http_headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-us,en;q=0.5",
         "Sec-Fetch-Mode": "navigate"
@@ -26,8 +26,8 @@
     },
     {
       "format_id": "hls-64",
-      "url": "https://audio15.mixcloud.com/secure/hls/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4.m4a/streamindex-a1.m3u8",
-      "manifest_url": "https://audio15.mixcloud.com/secure/hls/,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4-192K,.m4a.urlset/index.m3u8",
+      "url": "https://audio6.mixcloud.com/secure/hls/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4.m4a/streamindex-a1.m3u8",
+      "manifest_url": "https://audio6.mixcloud.com/secure/hls/,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4-192K,.m4a.urlset/index.m3u8",
       "tbr": 64,
       "ext": "mp4",
       "protocol": "m3u8_native",
@@ -35,9 +35,9 @@
       "vcodec": "none",
       "acodec": "mp4a.40.2",
       "resolution": "audio only",
-      "cookies": "csrftoken=lBZEQUyWv1IPjtYxaz80Il0rxMI4S2WJ; Domain=.mixcloud.com; Path=/; Secure; Expires=1766163305; mx_t=c68ce355_3f91_4762_a74d_a21b60bd18f7; Domain=.mixcloud.com; Path=/; Secure; Expires=1769273705",
+      "cookies": "csrftoken=mqFtvMJ63ytgx5k4M1oqbJkroXEIvuxP; Domain=.mixcloud.com; Path=/; Secure; Expires=1766164199; mx_t=c2bcbc39_b2af_4d75_ad51_e5c8ca8dceb3; Domain=.mixcloud.com; Path=/; Secure; Expires=1769274599",
       "http_headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-us,en;q=0.5",
         "Sec-Fetch-Mode": "navigate"
@@ -50,8 +50,8 @@
     },
     {
       "format_id": "hls-192",
-      "url": "https://audio15.mixcloud.com/secure/hls/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4-192K.m4a/streamindex-a1.m3u8",
-      "manifest_url": "https://audio15.mixcloud.com/secure/hls/,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4-192K,.m4a.urlset/index.m3u8",
+      "url": "https://audio6.mixcloud.com/secure/hls/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4-192K.m4a/streamindex-a1.m3u8",
+      "manifest_url": "https://audio6.mixcloud.com/secure/hls/,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4,2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4-192K,.m4a.urlset/index.m3u8",
       "tbr": 192,
       "ext": "mp4",
       "protocol": "m3u8_native",
@@ -59,9 +59,9 @@
       "vcodec": "none",
       "acodec": "mp4a.40.2",
       "resolution": "audio only",
-      "cookies": "csrftoken=lBZEQUyWv1IPjtYxaz80Il0rxMI4S2WJ; Domain=.mixcloud.com; Path=/; Secure; Expires=1766163305; mx_t=c68ce355_3f91_4762_a74d_a21b60bd18f7; Domain=.mixcloud.com; Path=/; Secure; Expires=1769273705",
+      "cookies": "csrftoken=mqFtvMJ63ytgx5k4M1oqbJkroXEIvuxP; Domain=.mixcloud.com; Path=/; Secure; Expires=1766164199; mx_t=c2bcbc39_b2af_4d75_ad51_e5c8ca8dceb3; Domain=.mixcloud.com; Path=/; Secure; Expires=1769274599",
       "http_headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-us,en;q=0.5",
         "Sec-Fetch-Mode": "navigate"
@@ -4497,9 +4497,9 @@
       "manifest_stream_number": 0,
       "is_dash_periods": true,
       "resolution": "audio only",
-      "cookies": "csrftoken=lBZEQUyWv1IPjtYxaz80Il0rxMI4S2WJ; Domain=.mixcloud.com; Path=/; Secure; Expires=1766163305; mx_t=c68ce355_3f91_4762_a74d_a21b60bd18f7; Domain=.mixcloud.com; Path=/; Secure; Expires=1769273705",
+      "cookies": "csrftoken=mqFtvMJ63ytgx5k4M1oqbJkroXEIvuxP; Domain=.mixcloud.com; Path=/; Secure; Expires=1766164199; mx_t=c2bcbc39_b2af_4d75_ad51_e5c8ca8dceb3; Domain=.mixcloud.com; Path=/; Secure; Expires=1769274599",
       "http_headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-us,en;q=0.5",
         "Sec-Fetch-Mode": "navigate"
@@ -8935,9 +8935,9 @@
       "manifest_stream_number": 1,
       "is_dash_periods": true,
       "resolution": "audio only",
-      "cookies": "csrftoken=lBZEQUyWv1IPjtYxaz80Il0rxMI4S2WJ; Domain=.mixcloud.com; Path=/; Secure; Expires=1766163305; mx_t=c68ce355_3f91_4762_a74d_a21b60bd18f7; Domain=.mixcloud.com; Path=/; Secure; Expires=1769273705",
+      "cookies": "csrftoken=mqFtvMJ63ytgx5k4M1oqbJkroXEIvuxP; Domain=.mixcloud.com; Path=/; Secure; Expires=1766164199; mx_t=c2bcbc39_b2af_4d75_ad51_e5c8ca8dceb3; Domain=.mixcloud.com; Path=/; Secure; Expires=1769274599",
       "http_headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-us,en;q=0.5",
         "Sec-Fetch-Mode": "navigate"
@@ -8990,9 +8990,9 @@
     "Denaji",
     "Call Super & Beatrice Dillon"
   ],
-  "epoch": 1734713706,
+  "epoch": 1734714600,
   "format_id": "http",
-  "url": "https://stream17.mixcloud.com/secure/c/m4a/64/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4.m4a?sig=e5lrTPde67MdPwa2rHZvAQ",
+  "url": "https://stream7.mixcloud.com/secure/c/m4a/64/2/6/b/3/de43-8751-48fb-9f70-5d0e3a0c47a4.m4a?sig=e5lrTPde67MdPwa2rHZvAQ",
   "vcodec": "none",
   "downloader_options": {
     "http_chunk_size": 5242880
@@ -9000,9 +9000,9 @@
   "ext": "m4a",
   "protocol": "https",
   "resolution": "audio only",
-  "cookies": "csrftoken=lBZEQUyWv1IPjtYxaz80Il0rxMI4S2WJ; Domain=.mixcloud.com; Path=/; Secure; Expires=1766163305; mx_t=c68ce355_3f91_4762_a74d_a21b60bd18f7; Domain=.mixcloud.com; Path=/; Secure; Expires=1769273705",
+  "cookies": "csrftoken=mqFtvMJ63ytgx5k4M1oqbJkroXEIvuxP; Domain=.mixcloud.com; Path=/; Secure; Expires=1766164199; mx_t=c2bcbc39_b2af_4d75_ad51_e5c8ca8dceb3; Domain=.mixcloud.com; Path=/; Secure; Expires=1769274599",
   "http_headers": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.74 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-us,en;q=0.5",
     "Sec-Fetch-Mode": "navigate"
